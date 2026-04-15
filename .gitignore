@@ -1,0 +1,10 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# macOS metadata
+.DS_Store
+._*
+
+# Editor
+.vscode/
