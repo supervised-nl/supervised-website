@@ -162,7 +162,7 @@ hr {border: none; border-top: 1px solid rgba(255,255,197,0.15); margin: 1.618em 
 .small.date {margin: 1rem 0 0.146rem; display: inline-block; opacity: 0.65;}
 
 
-.home #content {max-width: none; text-align: left; width: 100%; padding: 0;}
+.home #content, .over #content {max-width: none; text-align: left; width: 100%; padding: 0;}
 
 /* --------------------------- */
 /* clients
@@ -267,6 +267,9 @@ footer {
 }
 .footer-top a:hover { color: rgba(255, 255, 255, 0.7); background-image: none; }
 .footer-nav { display: flex; gap: clamp(0.618rem, 1.618vw, 1.618rem); }
+.footer-right { display: flex; align-items: center; gap: 1.236rem; }
+.footer-right a { color: rgba(255,255,255,0.35); background-image: none; transition: color 0.2s ease; }
+.footer-right a:hover { color: rgba(255,255,255,0.55); background-image: none; }
 .footer-wordmark {
   font-size: clamp(2rem, 17vw, 14rem);
   font-weight: 300;

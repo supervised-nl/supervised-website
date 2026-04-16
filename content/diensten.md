@@ -7,6 +7,18 @@ Geen standaardpakketten. We kijken eerst wat jouw situatie vraagt, en dan pas wa
 
 ---
 
+## Hoe we werken
+
+Elke opdracht volgt dezelfde drie stappen.
+
+**Analyseren.** We kijken samen naar je dagelijkse werkprocessen. Waar zit het meeste handwerk? Waar verlies je onnodig tijd? Dit gesprek duurt een uur en levert al direct inzicht op.
+
+**Plannen.** Je krijgt een helder overzicht: wat pakken we aan, in welke volgorde, met welk resultaat. Geen vaagheden, geen IT-jargon. Gewoon: dit gaan we doen.
+
+**Implementeren.** We bouwen en testen. Soms met tools als Make of n8n, soms met maatwerksoftware. Het hangt af van wat jouw proces nodig heeft. Jij houdt de regie.
+
+---
+
 ## Procesanalyse en strategie
 
 Voordat er iets gebouwd wordt, begrijpen we je werkproces. We brengen in kaart waar tijd verloren gaat, welke stappen handmatig zijn en waar automatisering echt iets toevoegt.

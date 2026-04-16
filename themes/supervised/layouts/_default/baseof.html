@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}" class="{{ if .IsHome }}home {{ end }}{{ if eq .Section "blog" }}posts {{ end }}{{ if .IsPage }}single {{ end }}{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.LanguageCode }}" class="{{ if .IsHome }}home {{ end }}{{ if eq .Section "blog" }}posts {{ end }}{{ if .IsPage }}single {{ end }}{{ .Site.LanguageCode }}{{ with .Params.bodyClass }} {{ . }}{{ end }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#021602">
   <title>{{ if .IsHome }}{{ .Site.Params.headline | default .Site.Title }} | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="author" content="{{ if eq .Section "blog" }}Jeroen Gijselaar{{ else }}{{ .Site.Title }}{{ end }}">
   <link rel="icon" type="image/svg+xml" href="/img/logo-dark.svg" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/svg+xml" href="/img/logo-light.svg" media="(prefers-color-scheme: light)">
   <link rel="icon" href="/favicon.ico">
@@ -16,7 +17,20 @@
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
   <meta property="og:locale" content="{{ .Site.Params.locale | default .Site.LanguageCode }}" />
-  <meta property="og:image" content="{{ .Site.BaseURL }}img/hero.png" />
+  {{ if eq .Section "blog" -}}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
+  {{- end }}
+  {{ $ogImg := resources.Get (.Params.ogImage | default "img/hero.png") }}
+  {{ if $ogImg }}
+  <meta property="og:image" content="{{ $ogImg.Permalink }}" />
+  <meta property="og:image:width" content="{{ $ogImg.Width }}" />
+  <meta property="og:image:height" content="{{ $ogImg.Height }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Params.headline | default .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+  <meta name="twitter:image" content="{{ $ogImg.Permalink }}" />
+  {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
   <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}blog/index.xml" title="{{ .Site.Title }} — Blog">
@@ -25,7 +39,7 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "ProfessionalService",
     "name": "{{ .Site.Title }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
@@ -41,7 +55,15 @@
       "addressLocality": "Oldenzaal",
       "postalCode": "7577 KH",
       "addressCountry": "NL"
-    }
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Nederland"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/supervised-nl/",
+      "https://www.linkedin.com/in/jeroengijselaar/"
+    ]
   }
   </script>
   <script type="application/ld+json">
@@ -53,7 +75,7 @@
     "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}",
     "datePublished": "{{ .Date.Format "2006-01-02" }}",
     "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-    "author": { "@type": "Organization", "name": "{{ .Site.Title }}" },
+    "author": { "@type": "Person", "name": "Jeroen Gijselaar", "url": "{{ .Site.BaseURL }}over/", "sameAs": "https://www.linkedin.com/in/jeroengijselaar/" },
     "publisher": { "@type": "Organization", "name": "{{ .Site.Title }}", "url": "{{ .Site.BaseURL }}" }
   }
   {{- else if .Params.faq -}}
@@ -80,6 +102,23 @@
   }
   {{- end }}
   </script>
+  {{ if not .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ .Site.BaseURL }}" }
+      {{- if and (eq .Section "blog") .IsPage }},
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ .Site.BaseURL }}blog/" },
+      { "@type": "ListItem", "position": 3, "name": "{{ .Title }}", "item": "{{ .Permalink }}" }
+      {{- else }},
+      { "@type": "ListItem", "position": 2, "name": "{{ .Title }}", "item": "{{ .Permalink }}" }
+      {{- end }}
+    ]
+  }
+  </script>
+  {{ end }}
 </head>
 <body id="top">
 <div class="page">
@@ -118,7 +157,11 @@
         <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
       </nav>
-      <span>{{ now.Format "2006" }}</span>
+      <div class="footer-right">
+        <a href="/privacy/">Privacyverklaring</a>
+        <a href="/algemene-voorwaarden/">Algemene voorwaarden</a>
+        <span>{{ now.Format "2006" }}</span>
+      </div>
     </div>
     <div class="footer-wordmark" aria-hidden="true">supervised</div>
   </footer>

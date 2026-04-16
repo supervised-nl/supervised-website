@@ -1,26 +1,41 @@
 # Supervised
 
 ## About
-Supervised is een AI-consultancy uit Oldenzaal die MKB-bedrijven helpt om werkprocessen te automatiseren. We beginnen altijd bij het proces, niet bij de technologie. Van procesanalyse tot maatwerksoftware.
+Supervised is een AI-consultancy uit Oldenzaal, Nederland. Opgericht door Jeroen Gijselaar. We helpen MKB-bedrijven om werkprocessen te automatiseren. De aanpak: eerst het proces begrijpen, dan pas technologie inzetten.
 
-## Services
-- Procesanalyse en strategie: we brengen werkprocessen in kaart en maken een concreet actieplan
-- Automatisering en AI-implementatie: van no-code koppelingen (Make, n8n) tot maatwerksoftware
-- Training en doorontwikkeling: documentatie, training, en langdurige ondersteuning
+## Dienstverlening
+- **Procesanalyse en strategie**: werkprocessen in kaart brengen, knelpunten identificeren, concreet actieplan opstellen
+- **Automatisering en AI-implementatie**: van no-code koppelingen (Make, n8n, Zapier) tot maatwerksoftware en AI-integraties
+- **Training en doorontwikkeling**: documentatie, training voor medewerkers, langdurige ondersteuning
+
+## Doelgroep
+Nederlandse MKB-bedrijven met 5 tot 100 medewerkers. Sectoren: zakelijke dienstverlening, productie, zorg, techniek. Typische klant: directeur of eigenaar die herhalende handmatige processen wil aanpakken zonder afhankelijk te worden van een grote IT-afdeling.
+
+## Aanpak
+Supervised werkt proces-first: we beginnen niet bij de technologie maar bij de vraag wat er daadwerkelijk mis gaat in het werkproces. Veelvoorkomende use cases: e-mailverwerking, orderverwerking, rapportage-automatisering, datavalidatie, formulierkoppelingen.
+
+## Oprichter
+Jeroen Gijselaar — eigenaar en consultant. Achtergrond in software en AI. Werkt samen met Tech42 (partners Chris, Wouter en Tom) voor aanvullende capaciteit.
+
+## Kernwaarden
+- Eenvoud boven complexiteit
+- Eigendom bij de klant, geen afhankelijkheid
+- Procesverbetering eerst, automatisering daarna
+- Privacy by default: EU-hosting, AVG-proof, geen data buiten Europa
+
+## Technologie
+Make, n8n, Zapier, Python, Next.js, Supabase, en maatwerksoftware waar standaard tools tekortschieten. Geen voorkeur voor een specifiek platform — de keuze volgt het probleem.
 
 ## Key facts
-- Focus: MKB-bedrijven (5-50 medewerkers)
-- Aanpak: procesdenken eerst, dan pas technologie
-- Privacy: EU-hosting, AVG-proof, geen data buiten Europa
-- Locatie: Oldenzaal (kantoor in Enschede), Nederland
-- Tools: Make, n8n, Zapier, en maatwerksoftware waar nodig
+- KVK: 97664472
+- Kantooradres: Rigtersbleek-Zandvoort 10, Enschede
 - Website: https://www.supervised.nl
 - Contact: info@supervised.nl | +31 6 44 83 56 56
-- KVK: 97664472
+- Taal: Nederlands (primair), Engels op verzoek
 
 ## Content
 - Homepage: /
-- Over ons: /over/
+- Over ons en aanpak: /over/
 - Diensten: /diensten/
 - Veelgestelde vragen: /faq/
 - Blog: /blog/

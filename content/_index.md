@@ -1,5 +1,5 @@
 ---
-title: "AI automatisering voor het MKB — Supervised"
+title: "AI automatisering voor het MKB"
 description: "Supervised helpt MKB-bedrijven om werkprocessen te automatiseren met AI. Geen IT-project, wel direct resultaat. Bekijk onze aanpak."
 clients:
   - name: "Ergonad"

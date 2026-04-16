@@ -3,7 +3,7 @@
 {{ .Content }}
 {{ range .Pages }}
 <p>
-  <span class="small date">{{ .Date.Format "2 January 2006" }}</span><br>
+  <span class="small date">{{ .Date | time.Format ":date_long" }}</span><br>
   <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 </p>
 {{ end }}

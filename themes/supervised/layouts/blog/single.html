@@ -1,5 +1,5 @@
 {{ define "main" }}
-<span class="small date">{{ .Date.Format "2 January 2006" }}</span>
+<span class="small date">{{ .Date | time.Format ":date_long" }}</span>
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ with .NextInSection }}
