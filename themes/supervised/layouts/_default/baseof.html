@@ -75,6 +75,8 @@
     "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}",
     "datePublished": "{{ .Date.Format "2006-01-02" }}",
     "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+    "image": { "@type": "ImageObject", "url": "{{ (.Params.ogImage | default "img/hero.png") | absURL }}" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" },
     "author": { "@type": "Person", "name": "Jeroen Gijselaar", "url": "{{ .Site.BaseURL }}over/", "sameAs": "https://www.linkedin.com/in/jeroengijselaar/" },
     "publisher": { "@type": "Organization", "name": "{{ .Site.Title }}", "url": "{{ .Site.BaseURL }}" }
   }
