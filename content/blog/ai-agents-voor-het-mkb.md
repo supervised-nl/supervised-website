@@ -39,4 +39,4 @@ Begin klein. Één afgebakende taak, goed gemonitord, met een mens die controlee
 
 ---
 
-Benieuwd of een AI agent past bij een proces in jouw organisatie? [Neem contact op](/contact/) voor een kennismaking.
+Benieuwd of een AI agent past bij een proces in jouw organisatie? [Bekijk AI-implementatie in je werkproces →](/diensten/ai-implementatie/)

@@ -31,4 +31,4 @@ Het maakt duidelijk wat je wel en niet moet automatiseren. Het zorgt dat mensen 
 
 ---
 
-Wil je weten hoe jouw processen eruitzien vóórdat je automatiseert? [Neem contact op](/contact/) voor een kennismaking.
+Wil je weten hoe jouw processen eruitzien vóórdat je automatiseert? [Bekijk procesanalyse op de werkvloer →](/diensten/procesanalyse/)

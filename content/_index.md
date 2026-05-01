@@ -21,4 +21,4 @@ clients:
 
 Supervised helpt MKB-bedrijven om werkprocessen slim in te richten met AI. Geen IT-project, geen hype. Stap voor stap, met resultaat dat je meteen merkt.
 
-[Bekijk hoe we werken →](/diensten/)
+[Bekijk onze diensten →](/diensten/)
