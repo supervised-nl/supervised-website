@@ -5,7 +5,7 @@ date: 2026-05-12
 slug: wie-ik-ben
 ---
 
-Sommige mensen die mij op LinkedIn volgen, ken ik goed. Anderen nauwelijks. Daarom dit stuk. Geen verkoopverhaal, gewoon: wie ik ben en wat ik doe.
+Sommige mensen die hier terechtkomen, kennen mij al. Anderen niet. Daarom dit stuk. Geen verkoopverhaal, gewoon: wie ik ben en wat ik doe.
 
 ## Wie ik ben
 
