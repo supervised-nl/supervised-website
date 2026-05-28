@@ -1,10 +1,14 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-{{ range .Pages }}
-<p>
-  <span class="small date">{{ .Date | time.Format ":date_long" }}</span><br>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</p>
-{{ end }}
+<div class="blog-list">
+  {{ range .Pages }}
+  <article class="blog-item">
+    <span class="small blog-meta">{{ .Date | time.Format ":date_long" }}{{ with .ReadingTime }} · {{ . }} min lezen{{ end }}</span>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    <a href="{{ .RelPermalink }}" class="small read-more">Lees verder →</a>
+  </article>
+  {{ end }}
+</div>
 {{ end }}

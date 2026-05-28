@@ -173,7 +173,8 @@ header {
 header nav {margin-left: auto;}
 #menu {display: flex; align-items: center;}
 #menu li {list-style: none; display: flex; align-items: center;}
-#menu li a {display: block; margin: 0 0 0 clamp(0.618rem, 1.618vw, 1.618rem); padding: 0.382rem 0; color: var(--ink-3); font-size: 0.618rem; line-height: 1; text-transform: lowercase; letter-spacing: 0.02em; background-image: none; transition: color 150ms var(--ease-out);}
+#menu li a {position: relative; display: block; margin: 0 0 0 clamp(0.618rem, 1.618vw, 1.618rem); padding: 0.382rem 0; color: var(--ink-3); font-size: 0.618rem; line-height: 1; text-transform: lowercase; letter-spacing: 0.02em; background-image: none; transition: color 150ms var(--ease-out);}
+#menu li a::before {content: ""; position: absolute; top: -7px; bottom: -7px; left: -4px; right: -4px;}
 #menu li a:hover {color: var(--ink-2); background-image: none;}
 #menu li a.active {color: var(--ink-1); background-image: none;}
 #logo {line-height: 1; display: flex; align-items: center; gap: 0.382rem; opacity: 0.8; background: none;}
@@ -219,6 +220,17 @@ hr {border: none; border-top: 1px solid var(--rule); margin: 1.618em 0;}
 
 .clients {
   padding: 4.236rem clamp(1.236rem, 3vw, 2.618rem) 6.854rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .clients {
+    animation: clients-reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+  }
+  @keyframes clients-reveal {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 }
 .clients > .small {
   display: block;
@@ -270,7 +282,7 @@ hr {border: none; border-top: 1px solid var(--rule); margin: 1.618em 0;}
   object-position: center 25%;
   border-radius: var(--radius-lg);
   box-shadow: 0 24px 80px rgba(0,0,0,0.55);
-  animation: heroIn var(--dur-hero) var(--ease-out) 0.2s both;
+  animation: heroIn var(--dur-hero) linear(0, 0.45, 0.78, 0.95, 1.01, 0.999, 1) 0.2s both;
 }
 @keyframes heroIn {
   from { opacity: 0; transform: rotate(4deg) translateY(16px); filter: blur(4px); }
@@ -314,14 +326,19 @@ footer {
   margin-bottom: 1.618rem;
 }
 .footer-top a {
+  position: relative;
+  display: inline-block;
+  padding: 0.382rem 0;
   color: var(--ink-3);
   background-image: none;
-  transition: color 0.2s ease;
+  transition: color 150ms var(--ease-out);
 }
+.footer-top a::before {content: ""; position: absolute; top: -7px; bottom: -7px; left: -4px; right: -4px;}
 .footer-top a:hover { color: var(--ink-2); background-image: none; }
 .footer-nav { display: flex; gap: clamp(0.618rem, 1.618vw, 1.618rem); }
 .footer-right { display: flex; align-items: center; gap: 1.236rem; }
-.footer-right a { color: var(--ink-4); background-image: none; transition: color 0.2s ease; }
+.footer-right a { position: relative; display: inline-block; padding: 0.382rem 0; color: var(--ink-4); background-image: none; transition: color 150ms var(--ease-out); }
+.footer-right a::before {content: ""; position: absolute; top: -7px; bottom: -7px; left: -4px; right: -4px;}
 .footer-right a:hover { color: var(--ink-3); background-image: none; }
 .footer-wordmark {
   font-size: clamp(2rem, 17vw, 14rem);
@@ -433,6 +450,34 @@ footer {
     letter-spacing: 0.382em;
     color: var(--ink-3);
   }
+}
+
+/* --------------------------- */
+/* blog-list                   */
+/* --------------------------- */
+
+.blog-list { margin-top: 3.236rem; }
+.blog-item {
+  border-top: 1px solid var(--rule);
+  padding-top: 2.618rem;
+  margin-bottom: 2.618rem;
+}
+.blog-item .blog-meta {
+  display: block;
+  margin: 0 0 0.618rem;
+  opacity: 0.65;
+}
+.blog-item h2 {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0.618rem;
+}
+.blog-item p {
+  margin-bottom: 0.618rem;
+}
+.blog-item .read-more {
+  display: inline-block;
+  margin-top: 0.382rem;
 }
 
 /* LENIS */
