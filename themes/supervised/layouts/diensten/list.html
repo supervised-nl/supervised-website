@@ -1,17 +1,24 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-<div class="diensten-cards">
-  {{ range $i, $page := .Pages.ByWeight }}
-  <article class="dienst-card">
-    <span class="dienst-number" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
-    <div>
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <p>{{ .Description }}</p>
-      <a href="{{ .RelPermalink }}" class="small">Meer lezen →</a>
+<div class="page-grid">
+  <div class="page-grid-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+    <p class="page-grid-aside"><a class="small" href="/faq/">Veelgestelde vragen →</a></p>
+  </div>
+  <div class="page-grid-body">
+    {{ .Content }}
+    <div class="diensten-cards">
+      {{ range $i, $page := .Pages.ByWeight }}
+      <article class="dienst-card">
+        <span class="dienst-number" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+        <div>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p>{{ .Description }}</p>
+          <a href="{{ .RelPermalink }}" class="small">Meer lezen →</a>
+        </div>
+      </article>
+      {{ end }}
     </div>
-  </article>
-  {{ end }}
+  </div>
 </div>
-<p class="small" style="margin-top: 3.236rem; opacity: 0.7;"><a href="/faq/">Veelgestelde vragen →</a></p>
 {{ end }}

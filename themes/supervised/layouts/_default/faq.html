@@ -1,8 +1,15 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ range .Params.faq }}
-<h2>{{ .q }}</h2>
-<p>{{ .a }}</p>
-{{ end }}
-{{ .Content }}
+<div class="page-grid">
+  <div class="page-grid-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+  </div>
+  <div class="page-grid-body">
+    {{ range .Params.faq }}
+    <h2>{{ .q }}</h2>
+    <p>{{ .a }}</p>
+    {{ end }}
+    {{ .Content }}
+  </div>
+</div>
 {{ end }}

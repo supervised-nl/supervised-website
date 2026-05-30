@@ -4,6 +4,35 @@ description: "Supervised helpt MKB-bedrijven om werkprocessen te automatiseren m
 sitemap:
   changefreq: weekly
   priority: 1.0
+ctaPrimary:
+  label: "Bekijk diensten"
+  url: "/diensten/"
+ctaSecondary:
+  label: "Plan een kennismaking"
+  url: "/contact/"
+diensten:
+  - number: "01"
+    title: "Workshop op maat"
+    body: "Een halve dag meekijken bij jullie team, dan een workshop op basis van wat ik zie. Geen algemene presentaties."
+    url: "/diensten/ai-workshop/"
+  - number: "02"
+    title: "EU AI Act training"
+    body: "In een halve dag breng je team op het verplichte basisniveau AI-kennis. Praktisch, zonder juridisch jargon."
+    url: "/diensten/eu-ai-act-training/"
+  - number: "03"
+    title: "Prototype in a Day"
+    body: "In één werkdag bouwen we samen een werkend prototype. Geen mockup, wel iets dat draait en wat je kunt testen."
+    url: "/diensten/prototype-in-a-day/"
+werkwijze:
+  - number: "01"
+    title: "Meekijken op de werkvloer"
+    body: "Ik kom langs en zie hoe het werk echt gaat. Niet hoe het op papier staat."
+  - number: "02"
+    title: "Werken op maat"
+    body: "Workshop, training of bouw, op basis van wat ik bij jullie zie. Geen voorbeeld van een ander bedrijf."
+  - number: "03"
+    title: "Werkende oplossing"
+    body: "Werkende AI in je proces, of een team dat ermee aan de slag kan. Zonder afhankelijkheid van mij."
 clients:
   - name: "Ergonad"
     file: "ergonad.svg"
@@ -17,8 +46,11 @@ clients:
     file: "statiegeld_nederland.svg"
   - name: "Happy Spaces"
     file: "happy_spaces.svg"
+closing:
+  question: "Wil je AI praktisch maken voor je team?"
+  cta:
+    label: "Neem contact op"
+    url: "/contact/"
 ---
 
-Supervised helpt MKB-bedrijven werkprocessen slim in te richten met AI. Stap voor stap, direct merkbaar.
-
-[Bekijk onze diensten →](/diensten/)
+Supervised helpt MKB-bedrijven werkprocessen slim in te richten met AI. Spreker, trainer en bouwer. Geen algemeen verhaal over de toekomst, wel werkende oplossingen die je morgen gebruikt.

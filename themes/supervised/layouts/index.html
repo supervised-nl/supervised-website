@@ -1,25 +1,85 @@
 {{ define "main" }}
-{{ $img := resources.Get "img/hero.png" }}
+{{ $img := resources.Get "img/profile_picture.jpg" }}
 <div class="hero-layout">
   <div class="hero-text">
     <h1>{{ .Site.Params.headline | default .Site.Title }}</h1>
     {{ .Content }}
+    {{ if or .Params.ctaPrimary .Params.ctaSecondary }}
+    <div class="hero-ctas">
+      {{ with .Params.ctaPrimary }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
+      {{ with .Params.ctaSecondary }}<a href="{{ .url }}" class="cta cta-secondary">{{ .label }} →</a>{{ end }}
+    </div>
+    {{ end }}
   </div>
   {{ if $img }}
-  {{ $sm := $img.Resize "500x webp q85" }}
+  {{ $sm := $img.Resize "400x webp q85" }}
   {{ $md := $img.Resize "700x webp q85" }}
-  {{ $lg := $img.Resize "900x webp q85" }}
   <div class="hero-image">
-    <img src="{{ $lg.RelPermalink }}"
-      srcset="{{ $sm.RelPermalink }} 500w, {{ $md.RelPermalink }} 700w, {{ $lg.RelPermalink }} 900w"
-      sizes="(max-width: 768px) 60vw, 45vw"
-      alt="Supervised"
-      width="{{ $lg.Width }}" height="{{ $lg.Height }}"
+    <img src="{{ $md.RelPermalink }}"
+      srcset="{{ $sm.RelPermalink }} 400w, {{ $md.RelPermalink }} 700w"
+      sizes="(max-width: 800px) 60vw, 28vw"
+      alt="Jeroen Gijselaar — Supervised"
+      width="{{ $md.Width }}" height="{{ $md.Height }}"
       loading="eager"
       fetchpriority="high">
   </div>
   {{ end }}
 </div>
+
+{{ with .Params.diensten }}
+<section class="page-grid home-diensten">
+  <div class="page-grid-header">
+    <span class="home-eyebrow small">Diensten</span>
+    <h2>Wat ik voor je doe</h2>
+  </div>
+  <div class="page-grid-body">
+    <div class="home-cards">
+      {{ range . }}
+      <article class="home-card">
+        <span class="home-card-number" aria-hidden="true">{{ .number }}</span>
+        <div>
+          <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+          <p>{{ .body }}</p>
+          <a href="{{ .url }}" class="small home-card-link">Meer lezen →</a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.werkwijze }}
+<section class="page-grid home-werkwijze">
+  <div class="page-grid-header">
+    <span class="home-eyebrow small">Werkwijze</span>
+    <h2>In drie stappen naar een werkende oplossing</h2>
+  </div>
+  <div class="page-grid-body">
+    <div class="home-steps">
+      {{ range . }}
+      <div class="home-step">
+        <span class="home-step-number" aria-hidden="true">{{ .number }}</span>
+        <div>
+          <h3>{{ .title }}</h3>
+          <p>{{ .body }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.case }}
+<section class="home-section home-case">
+  {{ with .eyebrow }}<span class="home-eyebrow small">{{ . }}</span>{{ end }}
+  <h2>{{ .title }}</h2>
+  <p>{{ .body }}</p>
+  {{ with .result }}<p class="home-case-result"><strong>{{ . }}</strong></p>{{ end }}
+</section>
+{{ end }}
+
 {{ with .Params.clients }}
 <section class="clients">
   <span class="small">Eerder mee samengewerkt</span>
@@ -28,6 +88,13 @@
     <img src="/img/clients/{{ .file }}" alt="{{ .name }}" loading="lazy">
     {{ end }}
   </div>
+</section>
+{{ end }}
+
+{{ with .Params.closing }}
+<section class="home-section home-closing">
+  <h2>{{ .question }}</h2>
+  {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
 </section>
 {{ end }}
 {{ end }}

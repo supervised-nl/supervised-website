@@ -1,31 +1,38 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-<div class="contact-details">
-  {{ with .Params.email }}
-  <div class="contact-item">
-    <span class="label">E-mail</span>
-    <a href="mailto:{{ . }}">{{ . }}</a>
+<div class="page-grid">
+  <div class="page-grid-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+    <p class="page-grid-aside"><a class="small" href="/faq/">Veelgestelde vragen →</a></p>
   </div>
-  {{ end }}
-  {{ with .Params.phone }}
-  <div class="contact-item">
-    <span class="label">Telefoon</span>
-    <a href="tel:{{ . }}">{{ $.Params.phone_display }}</a>
+  <div class="page-grid-body">
+    {{ .Content }}
+    <div class="contact-details">
+      {{ with .Params.email }}
+      <div class="contact-item">
+        <span class="label">E-mail</span>
+        <a href="mailto:{{ . }}">{{ . }}</a>
+      </div>
+      {{ end }}
+      {{ with .Params.phone }}
+      <div class="contact-item">
+        <span class="label">Telefoon</span>
+        <a href="tel:{{ . }}">{{ $.Params.phone_display }}</a>
+      </div>
+      {{ end }}
+      {{ with .Params.address }}
+      <div class="contact-item">
+        <span class="label">Adres</span>
+        <span>{{ . }}</span>
+      </div>
+      {{ end }}
+      {{ with .Params.kvk }}
+      <div class="contact-item">
+        <span class="label">KVK</span>
+        <span>{{ . }}</span>
+      </div>
+      {{ end }}
+    </div>
   </div>
-  {{ end }}
-  {{ with .Params.address }}
-  <div class="contact-item">
-    <span class="label">Adres</span>
-    <span>{{ . }}</span>
-  </div>
-  {{ end }}
-  {{ with .Params.kvk }}
-  <div class="contact-item">
-    <span class="label">KVK</span>
-    <span>{{ . }}</span>
-  </div>
-  {{ end }}
 </div>
-<p class="small" style="margin-top: 3.236rem; opacity: 0.7;"><a href="/faq/">Veelgestelde vragen →</a></p>
 {{ end }}
