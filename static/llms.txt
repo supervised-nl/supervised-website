@@ -4,11 +4,16 @@
 Supervised is een solo AI-consultancy uit Oldenzaal, Nederland. Opgericht en gerund door Jeroen Gijselaar. Ik help MKB-bedrijven om werkprocessen te automatiseren met AI. De aanpak: eerst het proces begrijpen, dan pas technologie inzetten.
 
 ## Diensten
-- **AI workshop op maat**: workshops voor beginners tot gevorderden op de tools die de klant al gebruikt — Claude, ChatGPT, Gemini, Mistral of een combinatie. URL: /diensten/ai-workshop/
-- **EU AI Act basistraining**: team in een halve dag op het verplichte basisniveau AI-kennis brengen, conform de EU AI Act (verplicht sinds februari 2025). URL: /diensten/eu-ai-act-training/
-- **Procesanalyse op de werkvloer**: meelopen met het team, werkprocessen in kaart brengen, concreet rapport met verbeterpunten en automatiseringsmogelijkheden. URL: /diensten/procesanalyse/
-- **Prototype in a Day**: in één werkdag een werkend prototype bouwen van een AI-idee — geen mockup maar iets wat draait. URL: /diensten/prototype-in-a-day/
-- **AI-implementatie in je werkproces**: werkende AI-oplossingen ontwerpen en integreren in dagelijkse processen, zonder afhankelijkheid na oplevering. URL: /diensten/ai-implementatie/
+
+- **AI workshop op maat** (URL: /diensten/ai-workshop/): workshops op de tools die de klant al gebruikt, zoals Claude, ChatGPT, Gemini of Mistral. Voorbeelden: offertes en e-mails opstellen met AI, gespreksverslagen en notulen automatisch laten uitwerken, een Custom GPT bouwen voor een terugkerende taak, documenten classificeren of samenvatten, veilig werken met AI binnen wettelijke grenzen.
+
+- **EU AI Act basistraining** (URL: /diensten/eu-ai-act-training/): team in een halve dag op het verplichte basisniveau AI-kennis brengen, conform de EU AI Act (verplicht sinds februari 2025). Onderwerpen: wat mag wel en niet in een AI-tool, dataveiligheid en EU-hostende tools, risico-categorie van het AI-gebruik, grenzen voor klantcontact en HR-beslissingen, hoe je aantoonbaar voldoet aan de verplichting.
+
+- **Prototype in a Day** (URL: /diensten/prototype-in-a-day/): in één werkdag een werkend prototype bouwen van een AI-idee, geen mockup maar iets wat draait. Voorbeelden: een Custom GPT voor een specifieke taak, een script dat één type document samenvat, een proof-of-concept voor één stap in een proces, een chatbot voor één afgebakend onderwerp, een automatisering voor een terugkerende handmatige stap.
+
+- **Procesanalyse op de werkvloer** (URL: /diensten/procesanalyse/): meelopen met het team, werkprocessen in kaart brengen, concreet rapport met verbeterpunten en automatiseringsmogelijkheden.
+
+- **AI-implementatie in je werkproces** (URL: /diensten/ai-implementatie/): werkende AI-oplossingen ontwerpen en integreren in dagelijkse processen, zonder afhankelijkheid na oplevering.
 
 ## Doelgroep
 Nederlandse MKB-bedrijven met 10 tot 100 medewerkers. Typische klant: directeur of eigenaar die herhalende handmatige processen wil aanpakken zonder afhankelijk te worden van een grote IT-afdeling.
@@ -17,7 +22,7 @@ Nederlandse MKB-bedrijven met 10 tot 100 medewerkers. Typische klant: directeur 
 Supervised werkt proces-first: niet bij de technologie beginnen maar bij de vraag wat er daadwerkelijk misgaat in het werkproces. Veelvoorkomende use cases: e-mailverwerking, orderverwerking, rapportage-automatisering, datavalidatie, formulierkoppelingen.
 
 ## Oprichter
-Jeroen Gijselaar — eigenaar en consultant. Achtergrond in software en AI.
+Jeroen Gijselaar, eigenaar en consultant. Achtergrond in software en AI.
 
 ## Kernwaarden
 - Eenvoud boven complexiteit
@@ -26,7 +31,7 @@ Jeroen Gijselaar — eigenaar en consultant. Achtergrond in software en AI.
 - Privacy by default: EU-hosting, AVG-proof, geen data buiten Europa
 
 ## Technologie
-Make, n8n, Python, Next.js en maatwerksoftware waar standaard tools tekortschieten. Geen voorkeur voor een specifiek platform — de keuze volgt het probleem.
+Make, n8n, Python, Next.js en maatwerksoftware waar standaard tools tekortschieten. Geen voorkeur voor een specifiek platform, de keuze volgt het probleem.
 
 ## Key facts
 - KVK: 97664472

@@ -15,4 +15,14 @@ Heb je al een idee waar AI zou kunnen helpen? Stuur het op. Ik werk het uit en b
 
 Geen algemene presentaties. Een workshop op basis van wat ik bij jullie zie.
 
+## Voorbeelden van wat we oppakken
+
+- Werken met ChatGPT of Claude voor offertes, e-mails en concepten in jouw eigen toon
+- Gespreksverslagen of notulen automatisch laten uitwerken vanaf een opname
+- Beginnen met een Custom GPT voor een terugkerende taak in je team
+- Documenten of mails laten classificeren, samenvatten of doorzetten
+- Veilig werken met AI: wat zet je waar niet in, en waarom
+
+Welke jij wilt aanpakken, hoor ik tijdens de halve dag meekijken.
+
 [Neem contact op →](/contact/)

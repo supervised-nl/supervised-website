@@ -13,15 +13,15 @@ ctaSecondary:
 diensten:
   - number: "01"
     title: "Workshop op maat"
-    body: "Een halve dag meekijken bij jullie team, dan een workshop op basis van wat ik zie. Geen algemene presentaties."
+    body: "Een halve dag meekijken bij jullie team, dan een workshop op basis van wat ik zie. Denk aan offertes opstellen met AI, gespreksverslagen automatiseren of een Custom GPT voor je team."
     url: "/diensten/ai-workshop/"
   - number: "02"
     title: "EU AI Act training"
-    body: "In een halve dag breng je team op het verplichte basisniveau AI-kennis. Praktisch, zonder juridisch jargon."
+    body: "In een halve dag breng je team op het verplichte basisniveau AI-kennis. Wat mag wel, wat mag niet, en hoe je het aantoonbaar maakt."
     url: "/diensten/eu-ai-act-training/"
   - number: "03"
     title: "Prototype in a Day"
-    body: "In één werkdag bouwen we samen een werkend prototype. Geen mockup, wel iets dat draait en wat je kunt testen."
+    body: "In één werkdag bouwen we samen een werkend prototype. Een Custom GPT, document-analyse of een proof-of-concept voor één stap in je werk."
     url: "/diensten/prototype-in-a-day/"
 werkwijze:
   - number: "01"

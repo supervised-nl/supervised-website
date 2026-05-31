@@ -13,4 +13,14 @@ In een halve dag breng ik je team naar dat niveau. We bespreken wat AI is, welke
 
 Na afloop weet je team waar de grenzen liggen. En je kunt aantonen dat je aan de verplichting voldoet.
 
+## Wat we in de training bespreken
+
+- Wat mag jouw team wel en niet in een AI-tool stoppen
+- Hoe je dataveiligheid waarborgt: welke tools EU-hostend zijn, wat je nooit ergens in plakt
+- Welke risico-categorie jouw AI-gebruik heeft volgens de wet
+- Concrete grenzen voor klantcontact, HR-beslissingen en marketing
+- Hoe je aantoonbaar voldoet aan de verplichting
+
+Na afloop weet je team waar de grens ligt en kun je het ook bewijzen.
+
 [Neem contact op →](/contact/)
