@@ -40,7 +40,7 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "ProfessionalService",
     "name": "{{ .Site.Title }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}",
@@ -51,6 +51,10 @@
       "@type": "ImageObject",
       "url": "{{ .Site.BaseURL }}img/logo-dark.svg"
     },
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}img/hero.png"
+    },
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Elbalaan 6",
@@ -58,10 +62,18 @@
       "postalCode": "7577 KH",
       "addressCountry": "NL"
     },
-    "areaServed": {
-      "@type": "Country",
-      "name": "Nederland"
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
     },
+    "priceRange": "€€",
+    "areaServed": [
+      { "@type": "Country", "name": "Nederland" },
+      { "@type": "AdministrativeArea", "name": "Overijssel" },
+      { "@type": "AdministrativeArea", "name": "Twente" }
+    ],
     "sameAs": [
       "https://www.linkedin.com/company/supervised-nl/",
       "https://www.linkedin.com/in/jeroengijselaar/"
