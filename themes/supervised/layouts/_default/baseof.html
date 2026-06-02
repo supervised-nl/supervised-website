@@ -57,15 +57,15 @@
     },
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Elbalaan 6",
-      "addressLocality": "Oldenzaal",
-      "postalCode": "7577 KH",
+      "streetAddress": "Rigtersbleek-Zandvoort 10",
+      "addressLocality": "Enschede",
+      "postalCode": "7521 BE",
       "addressCountry": "NL"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 52.319126,
-      "longitude": 6.917364
+      "latitude": 52.222753,
+      "longitude": 6.871844
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -79,6 +79,12 @@
       { "@type": "AdministrativeArea", "name": "Overijssel" },
       { "@type": "AdministrativeArea", "name": "Twente" }
     ],
+    "founder": {
+      "@type": "Person",
+      "name": "Jeroen Gijselaar",
+      "url": "{{ .Site.BaseURL }}over/",
+      "sameAs": "https://www.linkedin.com/in/jeroengijselaar/"
+    },
     "sameAs": [
       "https://www.linkedin.com/company/supervised-nl/",
       "https://www.linkedin.com/in/jeroengijselaar/"
@@ -121,6 +127,14 @@
     "url": "{{ .Permalink }}",
     "sameAs": "{{ .Params.linkedin }}",
     "jobTitle": "Eigenaar",
+    "image": "{{ .Site.BaseURL }}img/profile_picture.jpg",
+    "knowsAbout": [
+      "AI-automatisering",
+      "EU AI Act",
+      "Microsoft Copilot",
+      "Procesanalyse",
+      "Generatieve AI voor het MKB"
+    ],
     "worksFor": {
       "@type": "Organization",
       "name": "{{ .Site.Title }}",
@@ -218,6 +232,8 @@
         {{ range .Site.Menus.main }}
         <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
+        <a href="/spreker/">Spreker</a>
+        <a href="/ai-consultant-twente/">AI-consultant Twente</a>
       </nav>
       <div class="footer-right">
         <a href="/privacy/">Privacyverklaring</a>

@@ -1,7 +1,7 @@
 # Supervised
 
 ## Over
-Supervised is een solo AI-consultancy uit Oldenzaal, Nederland. Opgericht en gerund door Jeroen Gijselaar. Ik help MKB-bedrijven om werkprocessen te automatiseren met AI. De aanpak: eerst het proces begrijpen, dan pas technologie inzetten.
+Supervised is een solo AI-consultancy uit Enschede (Twente), Nederland. Opgericht en gerund door Jeroen Gijselaar. Ik help MKB-bedrijven om werkprocessen te automatiseren met AI. De aanpak: eerst het proces begrijpen, dan pas technologie inzetten.
 
 ## Diensten
 
@@ -36,7 +36,7 @@ Make, n8n, Python, Next.js en maatwerksoftware waar standaard tools tekortschiet
 ## Key facts
 - KVK: 97664472
 - BTW: NL005280988B17
-- Adres: Elbalaan 6, 7577 KH Oldenzaal
+- Adres: Rigtersbleek-Zandvoort 10, 7521 BE Enschede
 - Website: https://www.supervised.nl
 - Contact: info@supervised.nl | +31 6 44 83 56 56
 - Taal: Nederlands (primair), Engels op verzoek
