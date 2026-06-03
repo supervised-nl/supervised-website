@@ -1,5 +1,5 @@
 {
-  "buildCommand": "hugo --minify --gc --buildFuture",
+  "buildCommand": "hugo --minify --gc",
   "outputDirectory": "public",
   "framework": "hugo",
   "build": {
