@@ -53,6 +53,8 @@ Make, n8n, Python, Next.js en maatwerksoftware waar standaard tools tekortschiet
 - Procesanalyse op de werkvloer: /diensten/procesanalyse/
 - Prototype in a Day: /diensten/prototype-in-a-day/
 - AI-implementatie in je werkproces: /diensten/ai-implementatie/
+- Spreker en lezingen: /spreker/
+- AI-consultant in Twente en Oost-Nederland: /ai-consultant-twente/
 - Veelgestelde vragen: /faq/
 - Blog: /blog/
 - GEO-check tool: /geo-check/
