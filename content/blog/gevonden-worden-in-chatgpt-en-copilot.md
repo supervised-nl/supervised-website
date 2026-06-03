@@ -43,7 +43,7 @@ Leg vervolgens **per dienst één heldere pagina** aan. Geen verzamelpagina waar
 
 Controleer ten slotte of je **de AI-bots toelaat**. Dat regel je in een klein tekstbestand op je site. Een ontwikkelaar doet dit in tien minuten.
 
-> **Doe de gratis GEO-check.** Voer je domein in en zie in een paar seconden of je technische fundament klopt: laat je de AI-crawlers toe, heb je gestructureerde data, een llms.txt en een sitemap. [Start de check →](/geo-check/)
+*Benieuwd waar je nu staat?* Doe de [GEO-check](/geo-check/) en zie in een paar seconden of je fundament klopt.
 
 ## Werkt dit echt?
 
