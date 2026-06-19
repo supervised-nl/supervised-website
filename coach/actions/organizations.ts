@@ -7,12 +7,16 @@ import { requireRole } from "@/lib/auth";
 import { createServiceClient } from "@/lib/supabase/service";
 import type { OrganizationSize } from "@/lib/types";
 
+// De challenge-send cron draait dagelijks (Vercel Hobby), dus het uur is niet
+// instelbaar — alleen de dag. We zetten een vaste tijd zodat send_at op de
+// juiste dag valt; het exacte uur is verder niet relevant voor de bezorging.
+const CHALLENGE_SEND_TIME = "10:00";
+
 function readOrganizationFields(formData: FormData) {
   const name = formData.get("name");
   const sector = formData.get("sector");
   const size = formData.get("size");
   const sendDay = formData.get("challenge_send_day");
-  const sendTime = formData.get("challenge_send_time");
 
   if (typeof name !== "string" || !name.trim()) {
     throw new Error("Naam is verplicht.");
@@ -28,8 +32,7 @@ function readOrganizationFields(formData: FormData) {
     sector: typeof sector === "string" && sector.trim() ? sector.trim() : null,
     size: typeof size === "string" && size ? (size as OrganizationSize) : null,
     challenge_send_day: Number.isNaN(parsedDay ?? NaN) ? null : parsedDay,
-    challenge_send_time:
-      typeof sendTime === "string" && /^\d{2}:\d{2}$/.test(sendTime) ? sendTime : "10:00",
+    challenge_send_time: CHALLENGE_SEND_TIME,
   };
 }
 

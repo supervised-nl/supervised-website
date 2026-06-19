@@ -31,7 +31,7 @@ export function OrganizationForm({
   submitLabel,
 }: {
   action: (formData: FormData) => void;
-  defaultValues?: Pick<Organization, "name" | "sector" | "size" | "challenge_send_day" | "challenge_send_time">;
+  defaultValues?: Pick<Organization, "name" | "sector" | "size" | "challenge_send_day">;
   submitLabel: string;
 }) {
   return (
@@ -80,18 +80,9 @@ export function OrganizationForm({
             ))}
           </SelectContent>
         </Select>
-      </div>
-      <div className="flex flex-col gap-1.5">
-        <Label htmlFor="challenge_send_time">Tijdstip</Label>
-        <Input
-          id="challenge_send_time"
-          name="challenge_send_time"
-          type="text"
-          inputMode="numeric"
-          pattern="[0-2][0-9]:[0-5][0-9]"
-          placeholder="10:00"
-          defaultValue={defaultValues?.challenge_send_time ?? "10:00"}
-        />
+        <p className="text-supervised-xs text-supervised-ink-4">
+          Uitdagingen gaan op de gekozen dag in de ochtend de deur uit.
+        </p>
       </div>
       <Button type="submit">{submitLabel}</Button>
     </form>
