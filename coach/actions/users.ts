@@ -164,12 +164,15 @@ export async function inviteUser(orgId: string, formData: FormData) {
   const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
     type: "recovery",
     email: email.trim(),
-    options: { redirectTo: `${appUrl}/auth/callback?next=/reset-password` },
   });
 
-  if (linkError || !linkData.properties?.action_link) {
+  if (linkError || !linkData.properties?.hashed_token) {
     throw new Error("Uitnodigingslink kon niet worden aangemaakt.");
   }
+
+  // Eigen confirm-route met token_hash i.p.v. de Supabase action_link: die werkt
+  // server-side zonder PKCE-verifier, dus ook in de browser van de genodigde.
+  const confirmUrl = `${appUrl}/auth/confirm?token_hash=${linkData.properties.hashed_token}&type=recovery&next=/reset-password`;
 
   const { getResend } = await import("@/lib/resend");
   try {
@@ -177,7 +180,7 @@ export async function inviteUser(orgId: string, formData: FormData) {
       from: "Supervised Coach <coach@supervised.nl>",
       to: email.trim(),
       subject: `Je bent uitgenodigd voor Supervised Coach`,
-      text: `Hoi ${name.trim()},\n\nJe bent uitgenodigd voor Supervised Coach van ${org?.name ?? "je organisatie"}.\n\nKlik op de link hieronder om je wachtwoord in te stellen en aan de slag te gaan:\n\n${linkData.properties.action_link}\n\nDe link is 24 uur geldig.\n\nGroeten,\nSupervised Coach`,
+      text: `Hoi ${name.trim()},\n\nJe bent uitgenodigd voor Supervised Coach van ${org?.name ?? "je organisatie"}.\n\nKlik op de link hieronder om je wachtwoord in te stellen en aan de slag te gaan:\n\n${confirmUrl}\n\nDe link is 24 uur geldig.\n\nGroeten,\nSupervised Coach`,
     });
   } catch {
     throw new Error("Uitnodigingsmail kon niet worden verzonden.");
