@@ -272,6 +272,40 @@ export async function activateChallenge(challengeId: string) {
   revalidatePath(`/admin/challenges/${challenge.organization_id}`);
 }
 
+export async function sendChallengeMail(challengeId: string, _formData: FormData) {
+  await requireRole(["super_admin"]);
+  const supabase = createServiceClient();
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://coach.supervised.nl";
+
+  const { data: challenge, error } = await supabase
+    .from("challenges")
+    .select("id, organization_id, title, description")
+    .eq("id", challengeId)
+    .eq("status", "active")
+    .single();
+
+  if (error || !challenge) throw new Error("Alleen actieve uitdagingen kunnen worden verstuurd.");
+
+  const { data: members } = await supabase
+    .from("users")
+    .select("email, name")
+    .eq("organization_id", challenge.organization_id)
+    .eq("role", "member");
+
+  for (const member of members ?? []) {
+    if (!member.email) continue;
+    await getResend().emails.send({
+      from: "Supervised Coach <coach@supervised.nl>",
+      to: member.email,
+      subject: `Nieuwe uitdaging: ${challenge.title}`,
+      text: `Hoi${member.name ? ` ${member.name.split(" ")[0]}` : ""},\n\nEr staat een nieuwe uitdaging voor je klaar.\n\n${challenge.title}\n\n${challenge.description}\n\nGa naar ${appUrl}/dashboard/member om aan de slag te gaan.\n\nGroeten,\nSupervised Coach`,
+    });
+  }
+
+  await supabase.from("challenges").update({ emails_sent: true }).eq("id", challengeId);
+  revalidatePath(`/admin/challenges/${challenge.organization_id}`);
+}
+
 export async function deleteChallenge(challengeId: string) {
   await requireRole(["super_admin"]);
   const supabase = createServiceClient();

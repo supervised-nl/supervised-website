@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-import { activateChallenge, deleteChallenge, generateChallenge, updateChallenge } from "@/actions/challenge";
+import { activateChallenge, deleteChallenge, generateChallenge, sendChallengeMail, updateChallenge } from "@/actions/challenge";
 import { ChallengeEditor } from "@/components/admin/challenge-editor";
 import { GenerateChallengeButton } from "@/components/admin/generate-challenge-button";
 import { BackLink } from "@/components/back-link";
@@ -50,6 +50,7 @@ export default async function ChallengesPage({
               updateAction={updateChallenge.bind(null, challenge.id)}
               activateAction={activateChallenge.bind(null, challenge.id)}
               deleteAction={deleteChallenge.bind(null, challenge.id)}
+              sendMailAction={sendChallengeMail.bind(null, challenge.id)}
             />
           ))
         )}

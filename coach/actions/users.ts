@@ -189,7 +189,135 @@ export async function inviteUser(orgId: string, formData: FormData) {
   revalidatePath(`/admin/organizations/${orgId}`);
 }
 
-export async function deleteUser(userId: string, organizationId: string) {
+export async function bulkInviteUsers(
+  orgId: string,
+  _prevState: { error: string | null; sent: number; failed: string[] } | null,
+  formData: FormData,
+): Promise<{ error: string | null; sent: number; failed: string[] }> {
+  await requireRole(["super_admin"]);
+
+  const raw = formData.get("emails");
+  const role = formData.get("role");
+
+  if (typeof raw !== "string" || !raw.trim()) {
+    return { error: "Voer minimaal één e-mailadres in.", sent: 0, failed: [] };
+  }
+
+  if (role !== "admin" && role !== "member") {
+    return { error: "Kies een geldige rol.", sent: 0, failed: [] };
+  }
+
+  const lines = raw
+    .split("\n")
+    .map((l) => l.trim())
+    .filter(Boolean);
+
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://coach.supervised.nl";
+  const supabase = createServiceClient();
+
+  const { data: org } = await supabase.from("organizations").select("name").eq("id", orgId).single();
+
+  let sent = 0;
+  const failed: string[] = [];
+
+  for (const line of lines) {
+    // Accepteer "Naam <email>" of gewoon "email"
+    const match = line.match(/^(?:(.+?)\s+)?<?([^\s<>]+@[^\s<>]+)>?$/);
+    if (!match) {
+      failed.push(line);
+      continue;
+    }
+
+    const name = (match[1]?.trim() || match[2].split("@")[0]).trim();
+    const email = match[2].trim().toLowerCase();
+
+    try {
+      const { data: created, error: createError } = await supabase.auth.admin.createUser({
+        email,
+        email_confirm: true,
+      });
+
+      if (createError || !created.user) throw new Error(createError?.message);
+
+      const { error: insertError } = await supabase.from("users").insert({
+        id: created.user.id,
+        organization_id: orgId,
+        role: role as UserRole,
+        name,
+        email,
+      });
+
+      if (insertError) {
+        await supabase.auth.admin.deleteUser(created.user.id);
+        throw new Error(insertError.message);
+      }
+
+      const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
+        type: "recovery",
+        email,
+      });
+
+      if (linkError || !linkData.properties?.hashed_token) throw new Error("Link aanmaken mislukt.");
+
+      const confirmUrl = `${appUrl}/auth/confirm?token_hash=${linkData.properties.hashed_token}&type=recovery&next=/reset-password`;
+
+      const { getResend } = await import("@/lib/resend");
+      await getResend().emails.send({
+        from: "Supervised Coach <coach@supervised.nl>",
+        to: email,
+        subject: "Je bent uitgenodigd voor Supervised Coach",
+        text: `Hoi ${name},\n\nJe bent uitgenodigd voor Supervised Coach van ${org?.name ?? "je organisatie"}.\n\nKlik op de link hieronder om je wachtwoord in te stellen:\n\n${confirmUrl}\n\nDe link is 24 uur geldig.\n\nGroeten,\nSupervised Coach`,
+      });
+
+      sent++;
+    } catch {
+      failed.push(email);
+    }
+  }
+
+  revalidatePath(`/admin/organizations/${orgId}/gebruikers`);
+  return { error: null, sent, failed };
+}
+
+export async function resendInvite(userId: string, orgId: string) {
+  await requireRole(["super_admin"]);
+
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://coach.supervised.nl";
+  const supabase = createServiceClient();
+
+  const [{ data: user, error: userError }, { data: org }] = await Promise.all([
+    supabase.from("users").select("name, email").eq("id", userId).single(),
+    supabase.from("organizations").select("name").eq("id", orgId).single(),
+  ]);
+
+  if (userError || !user) throw new Error("Gebruiker niet gevonden.");
+  if (!user.email) throw new Error("Gebruiker heeft geen e-mailadres.");
+
+  const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
+    type: "recovery",
+    email: user.email,
+  });
+
+  if (linkError || !linkData.properties?.hashed_token) {
+    throw new Error("Link kon niet worden aangemaakt.");
+  }
+
+  const confirmUrl = `${appUrl}/auth/confirm?token_hash=${linkData.properties.hashed_token}&type=recovery&next=/reset-password`;
+
+  const { getResend } = await import("@/lib/resend");
+  try {
+    await getResend().emails.send({
+      from: "Supervised Coach <coach@supervised.nl>",
+      to: user.email,
+      subject: "Stel je wachtwoord in voor Supervised Coach",
+      text: `Hoi ${user.name},\n\nJe kunt via onderstaande link je wachtwoord instellen voor Supervised Coach van ${org?.name ?? "je organisatie"}.\n\n${confirmUrl}\n\nDe link is 24 uur geldig.\n\nGroeten,\nSupervised Coach`,
+    });
+  } catch {
+    throw new Error("E-mail kon niet worden verstuurd.");
+  }
+}
+
+export async function deleteUser(userId: string, organizationId: string | null) {
   await requireRole(["super_admin"]);
 
   const supabase = createServiceClient();
@@ -199,6 +327,11 @@ export async function deleteUser(userId: string, organizationId: string) {
     throw new Error(error.message);
   }
 
-  revalidatePath(`/admin/organizations/${organizationId}`);
-  redirect(`/admin/organizations/${organizationId}`);
+  if (organizationId) {
+    revalidatePath(`/admin/organizations/${organizationId}`);
+    redirect(`/admin/organizations/${organizationId}`);
+  } else {
+    revalidatePath("/admin");
+    redirect("/admin");
+  }
 }
