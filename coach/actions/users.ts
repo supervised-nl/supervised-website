@@ -293,8 +293,15 @@ export async function resendInvite(userId: string, orgId: string) {
   if (userError || !user) throw new Error("Gebruiker niet gevonden.");
   if (!user.email) throw new Error("Gebruiker heeft geen e-mailadres.");
 
+  // Stel een willekeurig tijdelijk wachtwoord in zodat de gebruiker niet meer
+  // "passwordless" is. Zonder wachtwoord werkt verifyOtp met type "recovery"
+  // niet voor bestaande accounts — dit zet de account in de juiste staat.
+  const { randomBytes } = await import("crypto");
+  const tempPassword = randomBytes(24).toString("base64url") + "Aa1!";
+  await supabase.auth.admin.updateUserById(userId, { password: tempPassword });
+
   const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
-    type: "magiclink",
+    type: "recovery",
     email: user.email,
   });
 
@@ -302,7 +309,7 @@ export async function resendInvite(userId: string, orgId: string) {
     throw new Error("Link kon niet worden aangemaakt.");
   }
 
-  const confirmUrl = `${appUrl}/auth/confirm?token_hash=${linkData.properties.hashed_token}&type=magiclink&next=/reset-password`;
+  const confirmUrl = `${appUrl}/auth/confirm?token_hash=${linkData.properties.hashed_token}&type=recovery&next=/reset-password`;
 
   const { getResend } = await import("@/lib/resend");
   try {
