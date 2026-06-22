@@ -72,7 +72,11 @@ export default async function OrganizationUsersPage({
                     ) : null}
                     {!hasSignedIn ? (
                       <span className="text-supervised-xs text-amber-600 font-medium">Nooit ingelogd</span>
-                    ) : null}
+                    ) : (
+                      <span className="text-supervised-xs text-supervised-ink-4">
+                        Laatst ingelogd {new Date(lastSignInMap.get(user.id)!).toLocaleDateString("nl-NL", { day: "numeric", month: "short", year: "numeric" })}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
