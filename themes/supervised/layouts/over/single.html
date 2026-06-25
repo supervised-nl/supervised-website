@@ -3,7 +3,7 @@
 <div class="hero-layout">
   <div class="hero-text">
     <h1>{{ .Title }}</h1>
-    {{ with .Params.intro }}{{ . | markdownify }}{{ end }}
+    {{ with .Params.intro }}<p>{{ . | markdownify }}</p>{{ end }}
     {{ with .Params.linkedin }}<p><a href="{{ . }}">LinkedIn →</a></p>{{ end }}
   </div>
   {{ if $img }}

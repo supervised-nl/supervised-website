@@ -52,4 +52,31 @@
       }
     }
   }
+
+  // 4. Theme toggle
+  var themeBtn = document.getElementById('theme-toggle');
+  if (themeBtn) {
+    function isDarkActive() {
+      var t = document.documentElement.getAttribute('data-theme');
+      if (t) return t === 'dark';
+      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    function syncToggle() {
+      var dark = isDarkActive();
+      themeBtn.setAttribute('data-active', dark ? 'dark' : 'light');
+      themeBtn.setAttribute('aria-label', dark ? 'Schakel naar licht' : 'Schakel naar donker');
+    }
+    themeBtn.addEventListener('click', function() {
+      var next = isDarkActive() ? 'light' : 'dark';
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.documentElement.classList.add('theme-transitioning');
+        setTimeout(function() { document.documentElement.classList.remove('theme-transitioning'); }, 400);
+      }
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      syncToggle();
+    });
+    syncToggle();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', syncToggle);
+  }
 })();
