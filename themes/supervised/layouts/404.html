@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="page-grid">
+  <div class="page-grid-header">
+    <h1>Pagina niet gevonden</h1>
+    <p class="page-grid-lead">Deze pagina bestaat niet (meer), of het adres is verkeerd getypt.</p>
+  </div>
+  <div class="page-grid-body">
+    <p>Misschien zoek je een van deze pagina's:</p>
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+    <p><a href="/" class="cta cta-primary">Naar de homepage →</a></p>
+  </div>
+</div>
+{{ end }}

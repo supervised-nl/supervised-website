@@ -40,5 +40,6 @@
     <a class="small" href="/blog/gevonden-worden-in-chatgpt-en-copilot/">Gevonden worden in ChatGPT &rarr;</a>
   </p>
 </div>
-<script defer src="/js/geo-check.js"></script>
+{{ $geoJs := resources.Get "js/geo-check.js" | minify | fingerprint }}
+<script defer src="{{ $geoJs.RelPermalink }}"></script>
 {{ end }}
