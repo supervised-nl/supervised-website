@@ -9,7 +9,7 @@ Minimal Hugo site for supervised.nl. No external dependencies, no npm pipeline, 
 ## Run locally
 
 ```bash
-cd supervised
+cd supervised-website
 hugo server
 ```
 

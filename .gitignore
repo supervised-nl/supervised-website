@@ -10,6 +10,7 @@ resources/_gen/
 # Editor
 .vscode/
 
-# Claude Code
+# Local agent state
 .claude/
 motion-audits/
+.vercel
