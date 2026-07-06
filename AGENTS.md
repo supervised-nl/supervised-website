@@ -30,6 +30,7 @@ Custom Hugo theme: `themes/supervised/`.
 - `themes/supervised/static/fonts/` — één variable font (woff2).
 - `assets/img/` — bronafbeeldingen (hero, profielfoto); Hugo verkleint ze, de originelen worden nooit gepubliceerd.
 - `static/` — root static assets zoals favicon, `llms.txt` en client-logo's (`static/img/clients/`).
+- `static/favicon.svg` — één zelf-aanpassend icoon: de licht/donker-wissel zit als `prefers-color-scheme` media query **in de SVG**. Gebruik nooit `media=`-attributen op `<link rel="icon">` — dat werkt alleen in Firefox. `favicon.ico` is de fallback voor Safari/legacy.
 - `api/geo-check.js` — Vercel serverless function voor de GEO-scan.
 
 ## Performance & Cleanliness Budget
