@@ -1,5 +1,7 @@
 (function(){
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Gefingerprint pad naar lenis, aangeleverd door baseof.html.
+  var lenisSrc = document.currentScript && document.currentScript.dataset.lenis;
 
   // 1. Scroll-state classes , show #scrolltotop after half a viewport scroll
   function updateScrollState(){
@@ -22,9 +24,9 @@
   }
 
   // 2. Lenis smooth-scroll , desktop + reduced-motion-respecting
-  if (window.innerWidth > 1000 && !reduced) {
+  if (lenisSrc && window.innerWidth > 1000 && !reduced) {
     var lenisScript = document.createElement('script');
-    lenisScript.src = '/js/lenis.min.js';
+    lenisScript.src = lenisSrc;
     document.body.append(lenisScript);
   }
 

@@ -5,12 +5,24 @@ theme = 'supervised'
 defaultContentLanguage = 'nl'
 enableRobotsTXT = true
 
+# Tags/categorieën worden niet gebruikt: niet genereren, dan ook geen
+# lege pagina's in de sitemap.
+disableKinds = ['taxonomy', 'term']
+
+# Alleen de blog heeft een feed; geen site-brede RSS op de homepage.
+[outputs]
+  home = ['html']
+
 [params]
   headline = 'Automatiseer wat je dagelijks herhaalt.'
   description = 'Supervised helpt MKB-bedrijven om werkprocessen te automatiseren met AI. Geen IT-project, wel direct resultaat.'
   email = 'info@supervised.nl'
   phone = '+31644835656'
-  address = 'Elbalaan 6, 7577 KH Oldenzaal'
+  # Single source of truth voor het bedrijfsadres (JSON-LD in baseof.html).
+  # Moet gelijk zijn aan contact.md en llms.txt.
+  streetAddress = 'Rigtersbleek-Zandvoort 10'
+  postalCode = '7521 BE'
+  city = 'Enschede'
   author = 'Supervised'
   locale = 'nl_NL'
   rss = true
