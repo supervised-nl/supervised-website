@@ -23,9 +23,7 @@ disableKinds = ['taxonomy', 'term']
   streetAddress = 'Rigtersbleek-Zandvoort 10'
   postalCode = '7521 BE'
   city = 'Enschede'
-  author = 'Supervised'
   locale = 'nl_NL'
-  rss = true
 
 [menu]
   [[menu.main]]

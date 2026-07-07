@@ -5,25 +5,13 @@
   // Gefingerprint pad naar lenis, aangeleverd door baseof.html.
   var lenisSrc = document.currentScript && document.currentScript.dataset.lenis;
 
-  // Scroll-state classes; show #scrolltotop after half a viewport scroll.
+  // Show #scrolltotop after half a viewport scroll.
   function updateScrollState(){
-    var y = window.scrollY;
-    document.documentElement.classList.toggle('scrollstart', y > 0);
-    document.body.classList.toggle('scrolled', y > window.innerHeight * 0.5);
+    document.body.classList.toggle('scrolled', window.scrollY > window.innerHeight * 0.5);
   }
   window.addEventListener('scroll', updateScrollState, { passive: true });
   window.addEventListener('resize', updateScrollState, { passive: true });
   updateScrollState();
-
-  // End-of-page sentinel.
-  var footer = document.querySelector('footer');
-  if (footer && 'IntersectionObserver' in window) {
-    new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        document.body.classList.toggle('scrolledend', e.isIntersecting);
-      });
-    }, { rootMargin: '0px 0px -1px 0px' }).observe(footer);
-  }
 
   // Lenis smooth-scroll: desktop only, reduced-motion respecting.
   if (lenisSrc && window.innerWidth > 1000 && !reduced) {
