@@ -2,13 +2,21 @@
 <div class="page-grid">
   <div class="page-grid-side">
     <div class="page-grid-header">
+      <span class="home-eyebrow small">{{ .Params.eyebrow | default "Dienst" }}</span>
       <h1>{{ .Title }}</h1>
-      {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+      {{ with .Params.lead | default .Description }}<p class="page-grid-lead">{{ . | markdownify }}</p>{{ end }}
     </div>
     <p class="page-grid-aside"><a class="small" href="/diensten/">← Alle diensten</a></p>
   </div>
-  <div class="page-grid-body">
+  <div class="page-grid-body content-sections">
     {{ .Content }}
   </div>
 </div>
+{{ with .Params.closing }}
+<section class="home-section home-closing">
+  <h2>{{ .question }}</h2>
+  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
+  {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
+</section>
+{{ end }}
 {{ end }}

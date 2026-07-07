@@ -21,17 +21,15 @@ Custom Hugo theme: `themes/supervised/`.
 - `themes/supervised/layouts/_default/baseof.html` — base template with header, nav, footer, inline theme script, and JSON-LD.
 - `themes/supervised/layouts/404.html` — 404 page (Vercel serves `public/404.html` automatically).
 - `themes/supervised/layouts/_default/faq.html` — FAQ layout with Schema.org FAQPage structured data.
-- `themes/supervised/layouts/_default/geo-check.html` — GEO-check tool page (frontend for `api/geo-check.js`).
-- `themes/supervised/layouts/blog/list.html` and `themes/supervised/layouts/blog/single.html` — blog overrides.
+- `themes/supervised/layouts/blog/list.html` and `themes/supervised/layouts/blog/single.html` — kennisbank overrides. De sectie heet intern `blog` (templates keyen op `.Section "blog"`), maar publiceert als `/kennisbank/` via een url-override in `content/blog/_index.md` en de permalink-config.
 - `themes/supervised/layouts/contact/single.html` — contact page override.
 - `themes/supervised/layouts/partials/logo.html` — SVG logo partial.
 - `themes/supervised/assets/css/main.css` — single CSS file, via Hugo Pipes geminified en gefingerprint.
-- `themes/supervised/assets/js/` — `site.js`, `geo-check.js` en vendored `lenis.min.js`; alle drie via Hugo Pipes gefingerprint.
+- `themes/supervised/assets/js/` — `site.js` en vendored `lenis.min.js`; beide via Hugo Pipes gefingerprint.
 - `themes/supervised/static/fonts/` — één variable font (woff2).
 - `assets/img/` — bronafbeeldingen (hero, profielfoto); Hugo verkleint ze, de originelen worden nooit gepubliceerd.
 - `static/` — root static assets zoals favicon, `llms.txt` en client-logo's (`static/img/clients/`).
 - `static/favicon.svg` — één zelf-aanpassend icoon: de licht/donker-wissel zit als `prefers-color-scheme` media query **in de SVG**. Gebruik nooit `media=`-attributen op `<link rel="icon">` — dat werkt alleen in Firefox. `favicon.ico` is de fallback voor Safari/legacy.
-- `api/geo-check.js` — Vercel serverless function voor de GEO-scan.
 
 ## Performance & Cleanliness Budget
 
@@ -42,7 +40,7 @@ Deze site is bewust supersnel en clean. Elke wijziging moet binnen deze grenzen 
 3. **Afbeeldingen altijd via Hugo image processing.** Responsive `srcset` + WebP voor content, en og:images door `.Fit` naar jpg (social crawlers zoals WhatsApp weigeren afbeeldingen van ~1 MB). Publiceer nooit een origineel uit `assets/img/`. Geef `<img>` altijd `width`/`height` mee (geen layout shift).
 4. **Paginagewicht bewaken.** Richtlijn: HTML < 20 KB, CSS < 30 KB geminified, eigen JS < 5 KB geminified, first load (HTML+CSS+JS+font) ruim onder 150 KB. Lenis wordt lazy geladen en telt niet mee bij first load.
 5. **Progressive enhancement.** Alles werkt zonder JavaScript. Animaties en smooth-scroll respecteren `prefers-reduced-motion`; pointer-effecten alleen bij `pointer: fine`.
-6. **Alle JS-gedrag blijft in `site.js`** (of een paginagebonden bestand zoals `geo-check.js`). Inline scripts alleen in `baseof.html` als het echt vóór de eerste paint moet (theme), en dan met CSP-hash (zie onder).
+6. **Alle JS-gedrag blijft in `site.js`** (of een paginagebonden, gefingerprint bestand). Inline scripts alleen in `baseof.html` als het echt vóór de eerste paint moet (theme), en dan met CSP-hash (zie onder).
 7. **Structured data uit één bron.** Bedrijfsgegevens (adres e.d.) staan in `[params]` in `hugo.toml` en moeten gelijk zijn aan `content/contact.md` en `static/llms.txt`. Wijzig je er één, wijzig dan alle drie.
 8. **Productiebuild moet schoon zijn**: `hugo --minify --gc` zonder errors of warnings, vóór elke push.
 

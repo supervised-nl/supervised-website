@@ -2,11 +2,11 @@
 <div class="page-grid">
   <div class="page-grid-side">
     <div class="page-grid-header">
-      <span class="small date">{{ .Date | time.Format ":date_long" }}</span>
+      <span class="home-eyebrow small">Kennisbank</span>
       <h1>{{ .Title }}</h1>
       {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
     </div>
-    <p class="page-grid-aside"><a class="small" href="/blog/">← Alle artikelen</a></p>
+    <p class="page-grid-aside"><span class="small date">{{ .Date | time.Format ":date_long" }}</span><br><a class="small" href="/kennisbank/">← Alle artikelen</a></p>
   </div>
   <div class="page-grid-body">
     {{ .Content }}

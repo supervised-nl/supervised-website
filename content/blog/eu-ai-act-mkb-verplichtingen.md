@@ -13,7 +13,7 @@ En de eerste verplichtingen zijn al ingegaan.
 
 Sinds 2 februari 2025 geldt artikel 4 van de EU AI Act. Dat artikel zegt dat elke organisatie die AI inzet, moet zorgen dat medewerkers die met AI werken voldoende AI-geletterd zijn.
 
-Geen certificaat, geen examen. Wel: aantoonbare basiskennis over wat AI is, hoe het werkt, wat de risico's zijn en hoe je er veilig mee omgaat.
+Geen certificaat, geen examen. Wel aantoonbare basiskennis over wat AI is, hoe het werkt, wat de risico's zijn en hoe je er veilig mee omgaat.
 
 Dit geldt voor elk bedrijf. Geen uitzondering voor MKB.
 
@@ -55,4 +55,4 @@ Zorg voor een korte, praktische training. Niet een dag theorie, maar een sessie 
 
 ---
 
-Wil je je team in een halve dag op het verplichte basisniveau brengen? [Bekijk de EU AI Act basistraining →](/diensten/eu-ai-act-training/)
+Wil je je team op het verplichte basisniveau brengen? [Bekijk de AI-geletterdheidstraining →](/ai-geletterdheid-training/)

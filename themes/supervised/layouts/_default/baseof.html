@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FAFAF8">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#021602">
-  <title>{{ if eq .Kind "404" }}Pagina niet gevonden{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}</title>
+  {{/* seoTitle overschrijft de hele browsertitel wanneer H1 + merknaam te lang wordt. */}}
+  <title>{{ if eq .Kind "404" }}Pagina niet gevonden | {{ .Site.Title }}{{ else if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   {{/* Voor de eerste paint, anders flitst het OS-thema even door de handmatige keuze heen. Hash in vercel.json (CSP) bijwerken als dit script wijzigt. */}}
   <script>(function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}());</script>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
@@ -18,11 +19,11 @@
   <link rel="preload" href="/fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:type" content="{{ if eq .Section "blog" }}article{{ else }}website{{ end }}" />
+  <meta property="og:type" content="{{ if and (eq .Section "blog") .IsPage }}article{{ else }}website{{ end }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
   <meta property="og:locale" content="{{ .Site.Params.locale | default .Site.LanguageCode }}" />
-  {{ if eq .Section "blog" -}}
+  {{ if and (eq .Section "blog") .IsPage -}}
   <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
   <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
   {{- end }}
@@ -40,7 +41,7 @@
   {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-  <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}blog/index.xml" title="{{ .Site.Title }}, Blog">
+  <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}kennisbank/index.xml" title="{{ .Site.Title }}, Kennisbank">
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   <script type="application/ld+json">
@@ -83,7 +84,14 @@
     "areaServed": [
       { "@type": "Country", "name": "Nederland" },
       { "@type": "AdministrativeArea", "name": "Overijssel" },
-      { "@type": "AdministrativeArea", "name": "Twente" }
+      { "@type": "AdministrativeArea", "name": "Gelderland" },
+      { "@type": "AdministrativeArea", "name": "Twente" },
+      { "@type": "AdministrativeArea", "name": "Achterhoek" },
+      { "@type": "City", "name": "Enschede" },
+      { "@type": "City", "name": "Deventer" },
+      { "@type": "City", "name": "Zwolle" },
+      { "@type": "City", "name": "Arnhem" },
+      { "@type": "City", "name": "Nijmegen" }
     ],
     "founder": {
       "@type": "Person",
@@ -98,7 +106,7 @@
   }
   </script>
   <script type="application/ld+json">
-  {{ if eq .Section "blog" -}}
+  {{ if and (eq .Section "blog") .IsPage -}}
   {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -111,20 +119,6 @@
     "author": { "@type": "Person", "name": "Jeroen Gijselaar", "url": "{{ .Site.BaseURL }}over/", "sameAs": "https://www.linkedin.com/in/jeroengijselaar/" },
     "publisher": { "@type": "Organization", "name": "{{ .Site.Title }}", "url": "{{ .Site.BaseURL }}" }
   }
-  {{- else if .Params.faq -}}
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {{- range $i, $item := .Params.faq }}{{ if $i }},{{ end }}
-      {
-        "@type": "Question",
-        "name": "{{ $item.q }}",
-        "acceptedAnswer": { "@type": "Answer", "text": "{{ $item.a }}" }
-      }
-      {{- end }}
-    ]
-  }
   {{- else if eq .Params.schema "person" -}}
   {
     "@context": "https://schema.org",
@@ -135,11 +129,11 @@
     "jobTitle": "Eigenaar",
     "image": "{{ .Site.BaseURL }}img/profile_picture.jpg",
     "knowsAbout": [
-      "AI-automatisering",
-      "EU AI Act",
-      "Microsoft Copilot",
-      "Procesanalyse",
-      "Generatieve AI voor het MKB"
+      "Microsoft 365 Copilot",
+      "Copilot-adoptie",
+      "Copilot Chat",
+      "AI-geletterdheid (EU AI Act)",
+      "Copilot-training voor het MKB"
     ],
     "worksFor": {
       "@type": "Organization",
@@ -174,6 +168,24 @@
   }
   {{- end }}
   </script>
+  {{/* FAQPage staat los van de keten hierboven: dienstpagina's krijgen zo Service én FAQPage. */}}
+  {{ with .Params.faq }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{- range $i, $item := . }}{{ if $i }},{{ end }}
+      {
+        "@type": "Question",
+        "name": "{{ $item.q }}",
+        "acceptedAnswer": { "@type": "Answer", "text": "{{ $item.a }}" }
+      }
+      {{- end }}
+    ]
+  }
+  </script>
+  {{ end }}
   {{ if not .IsHome }}
   <script type="application/ld+json">
   {
@@ -182,7 +194,7 @@
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ .Site.BaseURL }}" }
       {{- if and (eq .Section "blog") .IsPage }},
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ .Site.BaseURL }}blog/" },
+      { "@type": "ListItem", "position": 2, "name": "Kennisbank", "item": "{{ .Site.BaseURL }}kennisbank/" },
       { "@type": "ListItem", "position": 3, "name": "{{ .Title }}", "item": "{{ .Permalink }}" }
       {{- else if and .IsPage (ne .Section "") (ne .Section "blog") }},
       { "@type": "ListItem", "position": 2, "name": "{{ .Parent.Title }}", "item": "{{ .Parent.Permalink }}" },
@@ -233,7 +245,7 @@
         {{ end }}
       </ul>
     </nav>
-    <a class="header-cta" href="/contact/">Plan kennismaking</a>
+    <a class="header-cta" href="/copilot-readiness-scan/">Plan de Readiness-scan</a>
     <button id="mobile-menu-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false"><span aria-hidden="true"></span></button>
   </header>
   <div id="nav-backdrop" aria-hidden="true"></div>
@@ -254,7 +266,7 @@
       </section>
       {{ end }}
     </nav>
-    <a class="mobile-menu-cta" href="/contact/">Plan kennismaking →</a>
+    <a class="mobile-menu-cta" href="/copilot-readiness-scan/">Plan de Readiness-scan →</a>
   </div>
 
   <div id="glow" aria-hidden="true"></div>

@@ -14,8 +14,8 @@ disableKinds = ['taxonomy', 'term']
   home = ['html']
 
 [params]
-  headline = 'Automatiseer wat je dagelijks herhaalt.'
-  description = 'Supervised helpt MKB-bedrijven om werkprocessen te automatiseren met AI. Geen IT-project, wel direct resultaat.'
+  headline = 'Zorg dat je team Microsoft 365 Copilot echt gebruikt'
+  description = 'Supervised helpt MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Van Readiness-scan tot adoptietraject, veilig en meetbaar.'
   email = 'info@supervised.nl'
   phone = '+31644835656'
   # Single source of truth voor het bedrijfsadres (JSON-LD in baseof.html).
@@ -29,9 +29,9 @@ disableKinds = ['taxonomy', 'term']
 
 [menu]
   [[menu.main]]
-    name = 'Over'
-    identifier = 'over'
-    url = '/over/'
+    name = 'Readiness-scan'
+    identifier = 'readiness'
+    url = '/copilot-readiness-scan/'
     weight = 1
   [[menu.main]]
     name = 'Diensten'
@@ -39,112 +39,143 @@ disableKinds = ['taxonomy', 'term']
     url = '/diensten/'
     weight = 2
   [[menu.main]]
-    name = 'Blog'
-    identifier = 'blog'
-    url = '/blog/'
+    name = 'Werkwijze'
+    identifier = 'werkwijze'
+    url = '/werkwijze/'
     weight = 3
+  [[menu.main]]
+    name = 'Kennisbank'
+    identifier = 'kennisbank'
+    url = '/kennisbank/'
+    weight = 4
+  [[menu.main]]
+    name = 'Over'
+    identifier = 'over'
+    url = '/over/'
+    weight = 5
   [[menu.main]]
     name = 'Contact'
     identifier = 'contact'
     url = '/contact/'
-    weight = 4
+    weight = 6
 
 [[params.navDropdown]]
-  parent = 'over'
-  eyebrow = 'Over Supervised'
-  title = 'Solo AI-consultancy voor het MKB.'
+  parent = 'readiness'
+  eyebrow = 'Readiness-scan'
+  title = 'Weet waar je staat voordat je Copilot uitrolt.'
   [[params.navDropdown.items]]
-    label = 'Wie ik ben'
-    description = 'Jeroen Gijselaar, spreker, trainer en bouwer.'
-    url = '/over/#top'
+    label = 'Wat je krijgt'
+    description = 'Halve dag op locatie en een concreet plan van aanpak.'
+    url = '/copilot-readiness-scan/#wat-je-krijgt'
   [[params.navDropdown.items]]
-    label = 'Hoe ik werk'
-    description = 'Procesdenken eerst, daarna pas de technologie.'
-    url = '/over/#hoe-ik-werk'
+    label = 'Voor wie'
+    description = 'MKB-teams die willen starten of een vastgelopen pilot willen vlottrekken.'
+    url = '/copilot-readiness-scan/#voor-wie'
   [[params.navDropdown.items]]
-    label = 'Wat me anders maakt'
-    description = 'Geen AI-hype, maar werkende oplossingen.'
-    url = '/over/#wat-me-anders-maakt'
-  [[params.navDropdown.items]]
-    label = 'Achtergrond'
-    description = 'Waarom Supervised tussen MKB en IT-project past.'
-    url = '/over/#achtergrond'
+    label = 'Prijs'
+    description = 'Vaste prijs van € 950 exclusief btw.'
+    url = '/copilot-readiness-scan/#prijs'
 
 [[params.navDropdown]]
   parent = 'diensten'
   eyebrow = 'Diensten'
-  title = 'Van eerste inzicht naar werkende AI.'
+  title = 'Van eerste kennismaking tot dagelijks gebruik.'
   [[params.navDropdown.items]]
-    label = 'AI workshop op maat'
-    description = 'Een workshop op basis van jullie eigen werk.'
-    url = '/diensten/#ai-workshop'
+    label = 'Inspiratiesessie'
+    description = 'Voor directie, MT, team of event.'
+    url = '/copilot-inspiratiesessie/'
   [[params.navDropdown.items]]
-    label = 'EU AI Act training'
-    description = 'Breng je team op het verplichte basisniveau.'
-    url = '/diensten/#eu-ai-act-training'
+    label = 'Readiness-scan'
+    description = 'Het startpunt voor een onderbouwde aanpak.'
+    url = '/copilot-readiness-scan/'
   [[params.navDropdown.items]]
-    label = 'Procesanalyse'
-    description = 'In kaart brengen waar tijd weglekt.'
-    url = '/diensten/#procesanalyse'
+    label = 'Copilot-training'
+    description = 'Oefenen op echte taken in jullie Microsoft-omgeving.'
+    url = '/copilot-training/'
   [[params.navDropdown.items]]
-    label = 'Prototype in a Day'
-    description = 'In een dag weten of je idee werkt.'
-    url = '/diensten/#prototype-in-a-day'
+    label = 'Adoptietraject'
+    description = 'Begeleiding tot gebruik beklijft.'
+    url = '/copilot-adoptietraject/'
   [[params.navDropdown.items]]
-    label = 'AI-implementatie'
-    description = 'AI-oplossingen in je dagelijkse proces.'
-    url = '/diensten/#ai-implementatie'
+    label = '1-op-1-begeleiding'
+    description = 'Persoonlijke begeleiding voor directie, managers en key users.'
+    url = '/copilot-begeleiding/'
   [[params.navDropdown.items]]
-    label = 'Spreker & lezingen'
-    description = 'Een praktisch AI-verhaal voor je event of teamdag.'
-    url = '/spreker/'
+    label = 'AI-geletterdheid'
+    description = 'Praktische training voor EU AI Act artikel 4.'
+    url = '/ai-geletterdheid-training/'
 
 [[params.navDropdown]]
-  parent = 'blog'
-  eyebrow = 'Blog'
-  title = 'Praktische artikelen zonder AI-hype.'
+  parent = 'werkwijze'
+  eyebrow = 'Werkwijze'
+  title = 'Eerst het werk begrijpen, dan pas trainen.'
   [[params.navDropdown.items]]
-    label = 'Laatste artikelen'
-    description = 'Alle publicaties op een rij.'
-    url = '/blog/#artikelen'
+    label = 'Aanpak'
+    description = 'Vier stappen van intake tot meting.'
+    url = '/werkwijze/'
   [[params.navDropdown.items]]
-    label = 'AI agents voor het MKB'
-    description = 'Wanneer agents zinvol worden.'
-    url = '/blog/ai-agents-voor-het-mkb/'
+    label = 'Praktijk'
+    description = 'Klanten, trajecten en hoe resultaat wordt gemeten.'
+    url = '/praktijk/'
+  [[params.navDropdown.items]]
+    label = 'Werkgebied'
+    description = 'Op locatie in Oost-Nederland en net over de grens.'
+    url = '/copilot-specialist-twente/'
+
+[[params.navDropdown]]
+  parent = 'kennisbank'
+  eyebrow = 'Kennisbank'
+  title = 'Nuchtere artikelen over AI en Copilot.'
+  [[params.navDropdown.items]]
+    label = 'Alle artikelen'
+    description = 'De kennisbank op één plek.'
+    url = '/kennisbank/'
   [[params.navDropdown.items]]
     label = 'EU AI Act'
-    description = 'Wat de verplichtingen concreet betekenen.'
-    url = '/blog/eu-ai-act-mkb-verplichtingen/'
+    description = 'Wat AI-geletterdheid concreet vraagt.'
+    url = '/kennisbank/eu-ai-act-mkb-verplichtingen/'
+
+[[params.navDropdown]]
+  parent = 'over'
+  eyebrow = 'Over'
+  title = 'Jeroen Gijselaar, Copilot-specialist uit Enschede.'
   [[params.navDropdown.items]]
-    label = 'Gevonden worden in ChatGPT'
-    description = 'Hoe AI-systemen je bedrijf begrijpen.'
-    url = '/blog/gevonden-worden-in-chatgpt-en-copilot/'
+    label = 'Over Jeroen'
+    description = 'Achtergrond en manier van werken.'
+    url = '/over/'
+  [[params.navDropdown.items]]
+    label = 'In de praktijk'
+    description = 'Eerdere opdrachtgevers en trajecten.'
+    url = '/praktijk/'
+  [[params.navDropdown.items]]
+    label = 'Copilot-specialist Twente'
+    description = 'Training en adoptie in Enschede en Twente.'
+    url = '/copilot-specialist-twente/'
 
 [[params.navDropdown]]
   parent = 'contact'
   eyebrow = 'Contact'
   title = 'Snel naar de juiste volgende stap.'
   [[params.navDropdown.items]]
-    label = 'Kennismaken'
-    description = 'Vertel waar je tegenaan loopt.'
-    url = '/contact/#top'
-  [[params.navDropdown.items]]
-    label = 'Contactgegevens'
+    label = 'Contact opnemen'
     description = 'Mail, telefoon, adres en KVK.'
-    url = '/contact/#gegevens'
+    url = '/contact/'
   [[params.navDropdown.items]]
     label = 'Veelgestelde vragen'
-    description = 'Antwoorden op praktische vragen.'
-    url = '/faq/'
+    description = 'Antwoorden over licenties, privacy, training en adoptie.'
+    url = '/veelgestelde-vragen/'
   [[params.navDropdown.items]]
-    label = 'GEO-check'
-    description = 'Check hoe AI je website leest.'
-    url = '/geo-check/'
+    label = 'Plan de Readiness-scan'
+    description = 'Start met een halve dag op locatie.'
+    url = '/copilot-readiness-scan/'
 
 [sitemap]
   changefreq = 'monthly'
   priority = 0.5
   filename = 'sitemap.xml'
 
+# De sectie heet intern nog 'blog' (templates keyen op .Section), maar
+# publiceert als /kennisbank/. De _index.md heeft een url-override;
+# oude /blog/-URL's krijgen een redirect in vercel.json.
 [permalinks]
-  blog = '/blog/:slug/'
+  blog = '/kennisbank/:slug/'

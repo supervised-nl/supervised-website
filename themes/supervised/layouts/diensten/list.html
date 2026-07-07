@@ -2,10 +2,11 @@
 <div class="page-grid">
   <div class="page-grid-side">
     <div class="page-grid-header">
+      <span class="home-eyebrow small">Diensten</span>
       <h1>{{ .Title }}</h1>
-      {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+      {{ with .Params.lead | default .Description }}<p class="page-grid-lead">{{ . | markdownify }}</p>{{ end }}
     </div>
-    <p class="page-grid-aside"><a class="small" href="/faq/">Veelgestelde vragen →</a></p>
+    <p class="page-grid-aside"><a class="small" href="/veelgestelde-vragen/">Veelgestelde vragen →</a></p>
   </div>
   <div class="page-grid-body">
     {{ .Content }}

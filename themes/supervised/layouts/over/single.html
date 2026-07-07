@@ -26,6 +26,7 @@
 <section id="{{ .title | anchorize }}" class="page-grid">
   <div class="page-grid-side">
     <div class="page-grid-header">
+      <span class="home-eyebrow small">{{ .eyebrow | default "Over" }}</span>
       <h2>{{ .title }}</h2>
     </div>
   </div>
@@ -39,6 +40,7 @@
 {{ with .Params.closing }}
 <section class="home-section home-closing">
   <h2>{{ .question }}</h2>
+  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
   {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
 </section>
 {{ end }}
