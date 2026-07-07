@@ -1,5 +1,7 @@
 # Fase 2 — Kernpagina's
 
+
+> **Achterhaald.** De definitieve teksten staan in `content/` en zijn daar herzien (geen em-dashes, strakker ritme). Dit document is het oorspronkelijke concept.
 *Volledige copy voor Home, Copilot Readiness-scan, Copilot-training, Copilot-adoptietraject en Werkwijze. Status: ter goedkeuring.*
 
 Aannames die Jeroen nog kan bijstellen (gemarkeerd omdat ze niet in het feitenblok staan, maar wel nodig zijn voor complete copy):

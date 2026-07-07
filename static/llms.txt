@@ -1,7 +1,7 @@
 # Supervised
 
 ## Over
-Supervised is de Microsoft 365 Copilot-adoptiespecialist voor het MKB in Oost-Nederland, gevestigd in Enschede (Twente). Opgericht en gerund door Jeroen Gijselaar. Supervised zorgt dat medewerkers van MKB-bedrijven (circa 10 tot 100 medewerkers) Microsoft 365 Copilot echt gaan gebruiken in hun dagelijkse werk: veilig, meetbaar en binnen de Microsoft-omgeving die er al staat. Geen licentieverkoop, geen IT-beheer, geen softwareontwikkeling — daardoor onafhankelijk advies.
+Supervised is de Microsoft 365 Copilot-adoptiespecialist voor het MKB in Oost-Nederland, gevestigd in Enschede (Twente). Opgericht en gerund door Jeroen Gijselaar. Supervised zorgt dat medewerkers van MKB-bedrijven (circa 10 tot 100 medewerkers) Microsoft 365 Copilot echt gaan gebruiken in hun dagelijkse werk: veilig, meetbaar en binnen de Microsoft-omgeving die er al staat. Geen licentieverkoop, geen IT-beheer, geen softwareontwikkeling. Daardoor onafhankelijk advies.
 
 ## Diensten
 

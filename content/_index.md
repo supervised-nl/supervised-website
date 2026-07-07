@@ -15,25 +15,25 @@ introSections:
     body: |
       ### Nog niet gestart met Copilot
 
-      Jullie werken met Teams, Outlook, Word en Excel, maar Copilot-licenties zijn er nog niet. Goed nieuws: je kunt vandaag beginnen. Copilot Chat zit in de Microsoft 365-licenties die je al hebt. Daarmee leert je team veilig werken met AI in de vertrouwde omgeving — en beslis je daarna onderbouwd of betaalde Copilot-licenties de investering waard zijn, en voor wie.
+      Jullie werken met Teams, Outlook, Word en Excel, maar Copilot-licenties zijn er nog niet. Je kunt vandaag beginnen. Copilot Chat zit in de Microsoft 365-licenties die je al hebt. Daarmee leert je team veilig werken met AI in de vertrouwde omgeving. Daarna beslis je onderbouwd of betaalde licenties de investering waard zijn, en voor wie.
 
       ### Gestart, maar het beklijft niet
 
-      Er zijn licenties, er was een demo of een training, en toch doet iedereen het werk drie maanden later weer zoals eerst. Dat ligt zelden aan de techniek. Blijvend gebruik vraagt om werkafspraken, ambassadeurs, opvolging per rol en meten wat het oplevert. Precies daarvoor is het [adoptietraject](/copilot-adoptietraject/).
+      Er zijn licenties en er was een training. Drie maanden later doet iedereen het werk weer zoals eerst. Dat ligt zelden aan de techniek. Blijvend gebruik vraagt om werkafspraken, ambassadeurs, opvolging per rol en meten wat het oplevert. Daarvoor is het [adoptietraject](/copilot-adoptietraject/).
   - title: "Wat Copilot betekent in gewoon werk"
     body: |
-      Geen demo van wat er allemaal kán, maar hulp bij het werk dat er al ligt. Een verkoper maakt in Word een eerste offerteversie op basis van eerdere offertes en het gespreksverslag. Een officemanager laat Outlook een volle mailbox samenvatten en zet conceptantwoorden klaar. Een teamleider die een vergadering miste, leest in Teams de samenvatting met actiepunten per persoon. HR maakt van losse aantekeningen een heldere personeelsmededeling.
+      Geen demo van wat er allemaal kan, maar hulp bij het werk dat er al ligt. Een verkoper maakt in Word een eerste offerteversie op basis van eerdere offertes en het gespreksverslag. Een officemanager laat Outlook een volle mailbox samenvatten en zet conceptantwoorden klaar. Een teamleider die een vergadering miste, leest in Teams de samenvatting met actiepunten per persoon. HR maakt van losse aantekeningen een heldere personeelsmededeling.
 
-      Copilot neemt je bedrijfsprocessen niet over. Het scheelt medewerkers wekelijks tijd op voorbereidend en herhalend werk — als ze weten hoe ze het moeten gebruiken, en als de omgeving eronder op orde is.
+      Copilot neemt je bedrijfsprocessen niet over. Het scheelt medewerkers tijd op voorbereidend en herhalend werk. Dat lukt alleen als mensen weten hoe ze het moeten gebruiken en als de omgeving eronder op orde is.
 dienstenTitle: "Van eerste kennismaking tot dagelijks gebruik"
 diensten:
   - number: "01"
     title: "Inspiratiesessie"
-    body: "Voor directie, MT, team of event: in één sessie zien wat Copilot betekent voor jullie dagelijkse werk. Live, met echte voorbeelden — geen toekomstverhaal."
+    body: "Voor directie, MT, team of event: in één sessie zien wat Copilot betekent voor jullie dagelijkse werk. Live en met echte voorbeelden, geen toekomstverhaal."
     url: "/copilot-inspiratiesessie/"
   - number: "02"
     title: "Readiness-scan"
-    body: "Een halve dag op locatie plus een rapport met plan van aanpak. Weet waar je staat vóór je traint. Het startpunt van elk traject, voor een vaste prijs."
+    body: "Een halve dag op locatie plus een rapport met plan van aanpak. Weet waar je staat voordat je traint. Het startpunt van elk traject, voor een vaste prijs."
     url: "/copilot-readiness-scan/"
   - number: "03"
     title: "Workshops en trainingen"
@@ -50,15 +50,15 @@ diensten:
 sections:
   - title: "Waarom Copilot-adoptie meestal strandt"
     body: |
-      Vrijwel elk MKB-bedrijf vanaf een man of tien werkt al met Microsoft 365, maar minder dan één op de tien gebruikt Copilot structureel in het dagelijkse werk. De drempels zijn zelden technisch: te weinig kennis en ervaring, onzekerheid over privacy en de EU AI Act, een rommelige SharePoint waardoor Copilot matige antwoorden geeft, en onduidelijkheid over wat het nu eigenlijk oplevert.
+      Vrijwel elk MKB-bedrijf vanaf een man of tien werkt al met Microsoft 365. Minder dan één op de tien gebruikt Copilot structureel in het dagelijkse werk. De drempels zijn zelden technisch. Te weinig kennis en ervaring. Onzekerheid over privacy en de EU AI Act. Een rommelige SharePoint, waardoor Copilot matige antwoorden geeft. En onduidelijkheid over wat het oplevert.
 
-      Allemaal oplosbaar — maar niet met nóg een presentatie over AI. De [Readiness-scan](/copilot-readiness-scan/) laat zien waar jullie staan en wat er als eerste moet gebeuren.
+      Dat is allemaal op te lossen, maar niet met nog een presentatie over AI. De [Readiness-scan](/copilot-readiness-scan/) laat zien waar jullie staan en wat er als eerste moet gebeuren.
   - title: "Nuchter, met bewijs"
     body: |
       Supervised is Jeroen Gijselaar, vanuit Enschede. Drie jaar gespecialiseerd in AI op de werkvloer van het MKB, ruim vijftig adoptietrajecten en veel trainingen en workshops gegeven. Eerder werkte Supervised onder meer voor Ergonad, Makoto, Saxion, Skitt, Statiegeld Nederland en Happy Spaces.
   - title: "Werkgebied: Oost-Nederland"
     body: |
-      Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen — en bij Nederlandse bedrijven net over de Duitse grens, zoals in Nordhorn en Gildehaus. Trainen gebeurt bij jullie op de zaak, want daar gebeurt het werk.
+      Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen. Ook bij Nederlandse bedrijven net over de Duitse grens, zoals in Nordhorn en Gildehaus. Trainen gebeurt bij jullie op de zaak, want daar gebeurt het werk.
 clients:
   - name: "Ergonad"
     file: "ergonad.svg"
@@ -80,4 +80,4 @@ closing:
     url: "/copilot-readiness-scan/"
 ---
 
-Jullie betalen al voor Microsoft 365. Maar de AI die erin zit — Copilot — blijft bij de meeste bedrijven liggen. Supervised, dé Microsoft 365 Copilot-adoptiespecialist van Oost-Nederland, zorgt dat medewerkers Copilot gebruiken in hun dagelijkse werk. Veilig, meetbaar en binnen de Microsoft-omgeving die er al staat.
+Je betaalt al voor Microsoft 365, maar de AI die erin zit blijft bij de meeste bedrijven liggen. Supervised is dé Microsoft 365 Copilot-adoptiespecialist van Oost-Nederland en zorgt dat medewerkers Copilot gebruiken in hun dagelijkse werk. Veilig, meetbaar en in de Microsoft-omgeving die er al staat.

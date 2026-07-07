@@ -10,16 +10,16 @@ sitemap:
   priority: 0.9
 faq:
   - q: "Wat houdt de Readiness-scan in en wat krijgen we opgeleverd?"
-    a: "Een halve dag op locatie waarin ik meekijk met het werk, medewerkers spreek en de Microsoft 365-omgeving beoordeel. Je krijgt een rapport met de startsituatie, de punten die eerst geregeld moeten worden, een licentie-advies en de meest kansrijke toepassingen per rol — plus een concreet plan van aanpak."
+    a: "Een halve dag op locatie waarin ik meekijk met het werk, medewerkers spreek en de Microsoft 365-omgeving beoordeel. Je krijgt een rapport met de startsituatie, de punten die eerst geregeld moeten worden, een licentie-advies en de meest kansrijke toepassingen per rol, plus een concreet plan van aanpak."
   - q: "Kunnen we al starten zonder betaalde Copilot-licenties?"
     a: "Ja. Copilot Chat zit in de Microsoft 365-licenties die je al hebt en is een prima startpunt. De scan laat zien wat daarmee kan en wanneer betaalde licenties zinvol worden."
-  - q: "Onze SharePoint is een rommeltje — heeft Copilot dan wel zin?"
-    a: "Juist dan is de scan nuttig. Een rommelige omgeving is de meest voorkomende reden dat Copilot tegenvalt. De scan maakt concreet wat er eerst opgeruimd moet worden — meestal minder dan je vreest, als je weet waar je moet beginnen."
+  - q: "Onze SharePoint is een rommeltje. Heeft Copilot dan wel zin?"
+    a: "Juist dan is de scan nuttig. Een rommelige omgeving is de meest voorkomende reden dat Copilot tegenvalt. De scan maakt concreet wat er eerst opgeruimd moet worden. Dat is meestal minder dan je vreest, als je weet waar je moet beginnen."
   - q: "Verkopen jullie ook licenties of IT-beheer?"
-    a: "Nee. Daardoor is het advies onafhankelijk: als starten met Copilot Chat verstandiger is dan licenties kopen, staat dat gewoon in het rapport."
+    a: "Nee. Daardoor is het advies onafhankelijk. Als starten met Copilot Chat verstandiger is dan licenties kopen, staat dat in het rapport."
 closing:
   question: "Plan de Readiness-scan"
-  body: "Vaste prijs € 950 excl. btw, inclusief de halve dag op locatie en het rapport met plan van aanpak. Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656) — je hoort snel van me. Geen mailinglijst, geen opvolgende belletjes."
+  body: "Vaste prijs € 950 excl. btw, inclusief de halve dag op locatie en het rapport met plan van aanpak. Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656). Je hoort snel van me en je komt niet op een mailinglijst."
   cta:
     label: "Plan de scan"
     url: "/contact/"
@@ -27,45 +27,45 @@ closing:
 
 ## Waarom eerst scannen?
 
-De meeste teleurstellingen met Copilot zijn terug te voeren op een startsituatie die niemand heeft bekeken. Matige antwoorden door een rommelige SharePoint. Twijfel over privacy die nooit is uitgesproken. Licenties gekocht voor mensen die er niets aan hebben, terwijl de rol die er het meest uit zou halen buiten de pilot viel.
+De meeste teleurstellingen met Copilot komen door een startsituatie die niemand heeft bekeken. Matige antwoorden door een rommelige SharePoint. Twijfel over privacy die nooit is uitgesproken. Licenties voor mensen die er weinig mee doen, terwijl de rol die er het meest aan zou hebben buiten de pilot viel.
 
-Daarom begint elk traject van Supervised met deze scan. Geen standaardpakket, maar eerst begrijpen hoe jullie werken — daarna pas een aanpak.
+Daarom begint elk traject van Supervised met deze scan. Geen standaardpakket, maar eerst begrijpen hoe jullie werken.
 
 ## Wat de scan beoordeelt
 
 ### Licenties en instellingen
 
-Welke Microsoft 365-licenties er zijn en wat daarmee vandaag al kan. Vaak meer dan gedacht: Copilot Chat zit in de licenties die je al betaalt. Je krijgt een nuchter advies over of, wanneer en voor wie betaalde Copilot-licenties zinvol zijn.
+Welke Microsoft 365-licenties er zijn en wat daarmee vandaag al kan. Vaak meer dan gedacht, want Copilot Chat zit in de licenties die je al betaalt. Je krijgt een nuchter advies over de vraag of, wanneer en voor wie betaalde Copilot-licenties zinvol zijn.
 
 ### Datahygiëne in SharePoint en Teams
 
-Copilot is zo goed als de documenten waar het bij kan. Staat alles dubbel, verouderd of op de verkeerde plek, dan krijg je matige antwoorden — en soms documenten in beeld die niet voor iedereen bedoeld waren. De scan laat zien wat er eerst opgeruimd of afgeschermd moet worden, en wat gewoon kan blijven zoals het is.
+Copilot is zo goed als de documenten waar het bij kan. Staat alles dubbel, verouderd of op de verkeerde plek, dan krijg je matige antwoorden. Soms komen er ook documenten in beeld die niet voor iedereen bedoeld waren. De scan laat zien wat er eerst opgeruimd of afgeschermd moet worden, en wat kan blijven zoals het is.
 
 ### Privacy en governance-basis
 
-Wie kan waarbij, wat mag er wel en niet in een AI-assistent, en welke werkafspraken ontbreken nog. De AI-geletterdheid die de EU AI Act (artikel 4) van werkgevers vraagt, wordt hierin meegenomen. Nuchter en werkbaar — Supervised geeft geen juridisch advies, maar zorgt dat de basis voor verantwoord gebruik staat.
+Wie kan waarbij, wat mag er wel en niet in een AI-assistent, en welke werkafspraken ontbreken nog. De AI-geletterdheid die de EU AI Act (artikel 4) van werkgevers vraagt, neem ik hierin mee. Supervised geeft geen juridisch advies. Wel zorg ik dat de basis voor verantwoord gebruik staat.
 
 ### De meest kansrijke toepassingen per rol
 
-Waar zit het herhalende werk? De offertes van sales in Word, de volle mailbox van de administratie in Outlook, de vergadervoorbereiding van de directie in Teams, de lijstjes in Excel. Per rol benoemt het rapport de twee of drie taken waar Copilot direct wat oplevert.
+Waar zit het herhalende werk? De offertes van sales in Word, de volle mailbox van de administratie in Outlook, de vergadervoorbereiding van de directie in Teams, de lijstjes in Excel. Per rol benoemt het rapport twee of drie taken waar Copilot direct wat oplevert.
 
 ## Zo gaat het in zijn werk
 
-Ik kom een halve dag naar jullie locatie. Ik kijk mee met het echte werk, spreek een paar medewerkers en degene die over IT of office gaat, en beoordeel de Microsoft 365-omgeving. Kort daarna ligt er een rapport met plan van aanpak, dat we samen doornemen.
+Ik kom een halve dag naar jullie locatie. Ik kijk mee met het echte werk, spreek een paar medewerkers en degene die over IT of office gaat, en beoordeel de Microsoft 365-omgeving. Kort daarna ligt er een rapport met plan van aanpak. Dat nemen we samen door.
 
 ## Wat je krijgt
 
 - Een helder beeld van de startsituatie: licenties, instellingen, datahygiëne, afspraken.
-- De punten die éérst geregeld moeten worden, met prioriteit.
+- De punten die eerst geregeld moeten worden, met prioriteit.
 - Een onderbouwd licentie-advies: starten met Copilot Chat, of betaalde licenties voor specifieke rollen.
 - De meest kansrijke toepassingen per rol.
-- Een concreet vervolgvoorstel — een [workshop](/copilot-training/), een [adoptietraject](/copilot-adoptietraject/), of zelf aan de slag. Het plan is van jullie, ook als je het zonder mij uitvoert.
+- Een concreet vervolgvoorstel: een [workshop](/copilot-training/), een [adoptietraject](/copilot-adoptietraject/) of zelf aan de slag. Het plan is van jullie, ook als je het zonder mij uitvoert.
 
 ## Prijs
 
 De Readiness-scan kost **€ 950 exclusief btw**, inclusief de halve dag op locatie en het rapport met plan van aanpak.
 
-Er bestaan ook gratis Copilot-scans, meestal van partijen die licenties of IT-diensten verkopen. Prima instrumenten, maar het advies is zelden neutraal. Deze scan hoeft niets te verkopen: Supervised levert geen licenties en geen IT-beheer.
+Er bestaan ook gratis Copilot-scans, meestal van partijen die licenties of IT-diensten verkopen. Het advies is dan zelden neutraal. Deze scan hoeft niets te verkopen. Supervised levert geen licenties en geen IT-beheer.
 
 ## Voor wie
 
@@ -75,16 +75,16 @@ MKB-bedrijven in Oost-Nederland met zo'n 10 tot 100 medewerkers die al met Micro
 
 ### Wat houdt de Readiness-scan in en wat krijgen we opgeleverd?
 
-Een halve dag op locatie waarin ik meekijk met het werk, medewerkers spreek en de Microsoft 365-omgeving beoordeel. Je krijgt een rapport met de startsituatie, de punten die eerst geregeld moeten worden, een licentie-advies en de meest kansrijke toepassingen per rol — plus een concreet plan van aanpak.
+Een halve dag op locatie waarin ik meekijk met het werk, medewerkers spreek en de Microsoft 365-omgeving beoordeel. Je krijgt een rapport met de startsituatie, de punten die eerst geregeld moeten worden, een licentie-advies en de meest kansrijke toepassingen per rol, plus een concreet plan van aanpak.
 
 ### Kunnen we al starten zonder betaalde Copilot-licenties?
 
 Ja. Copilot Chat zit in de Microsoft 365-licenties die je al hebt en is een prima startpunt. De scan laat zien wat daarmee kan en wanneer betaalde licenties zinvol worden.
 
-### Onze SharePoint is een rommeltje — heeft Copilot dan wel zin?
+### Onze SharePoint is een rommeltje. Heeft Copilot dan wel zin?
 
-Juist dan is de scan nuttig. Een rommelige omgeving is de meest voorkomende reden dat Copilot tegenvalt. De scan maakt concreet wat er eerst opgeruimd moet worden — meestal minder dan je vreest, als je weet waar je moet beginnen.
+Juist dan is de scan nuttig. Een rommelige omgeving is de meest voorkomende reden dat Copilot tegenvalt. De scan maakt concreet wat er eerst opgeruimd moet worden. Dat is meestal minder dan je vreest, als je weet waar je moet beginnen.
 
 ### Verkopen jullie ook licenties of IT-beheer?
 
-Nee. Daardoor is het advies onafhankelijk: als starten met Copilot Chat verstandiger is dan licenties kopen, staat dat gewoon in het rapport.
+Nee. Daardoor is het advies onafhankelijk. Als starten met Copilot Chat verstandiger is dan licenties kopen, staat dat in het rapport.

@@ -1,5 +1,7 @@
 # Fase 3 — Overige pagina's
 
+
+> **Achterhaald.** De definitieve teksten staan in `content/` en zijn daar herzien (geen em-dashes, strakker ritme). Dit document is het oorspronkelijke concept.
 *Volledige copy voor Inspiratiesessies, 1-op-1-begeleiding, Over, Praktijk/Cases, Contact, FAQ, plus de compacte pagina's AI-geletterdheidstraining en Copilot-specialist Twente. Status: ter goedkeuring.*
 
 Open punten voor Jeroen:

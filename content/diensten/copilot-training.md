@@ -12,12 +12,12 @@ faq:
   - q: "Wat is het verschil tussen een workshop en een adoptietraject?"
     a: "Een workshop is één training: je team leert Copilot gebruiken op eigen taken. Een adoptietraject is structurele begeleiding over langere tijd, met een 0-meting, werkafspraken, ambassadeurs, opvolging en een eindmeting. De workshop is vaak onderdeel van het traject."
   - q: "Wat als medewerkers sceptisch zijn of geen tijd hebben?"
-    a: "Heel normaal, en meestal terecht: mensen hebben vaker een tool voorbij zien komen die niets opleverde. Daarom train ik op hun eigen taken, niet op voorbeelden van anderen. Wie in een uur ziet dat het verslag van vanmorgen zichzelf bijna schrijft, heeft geen overtuiging meer nodig."
+    a: "Heel normaal. Mensen hebben vaker een tool voorbij zien komen die niets opleverde. Daarom train ik op hun eigen taken, niet op voorbeelden van anderen. Dat werkt beter dan overtuigen."
   - q: "Hoe zit het met privacy en onze bedrijfsdata?"
-    a: "Copilot werkt binnen jullie eigen Microsoft 365-omgeving en de afspraken die daar gelden. In de training besteden we expliciet aandacht aan wat er wel en niet in een AI-assistent thuishoort. Twijfel je of jullie omgeving goed staat ingesteld, dan is de Readiness-scan de plek waar dat wordt gecheckt."
+    a: "Copilot werkt binnen jullie eigen Microsoft 365-omgeving en de afspraken die daar gelden. In de training besteden we aandacht aan wat er wel en niet in een AI-assistent thuishoort. Twijfel je of jullie omgeving goed staat ingesteld, dan is de Readiness-scan de plek waar dat wordt gecheckt."
 closing:
   question: "Vraag een voorstel aan"
-  body: "Vertel voor welk team of welke rollen het is, dan krijg je een concreet voorstel met één prijs. Geen offertecarrousel. Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Vertel voor welk team of welke rollen het is. Je krijgt een concreet voorstel met één prijs. Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Vraag een voorstel aan"
     url: "/contact/"
@@ -25,9 +25,9 @@ closing:
 
 ## Zo ziet de training eruit
 
-Vooraf bepalen we samen — het liefst op basis van de [Readiness-scan](/copilot-readiness-scan/) — welke rollen meedoen en welke taken centraal staan. De training zelf is hands-on: iedereen werkt op de eigen laptop, in de eigen Microsoft-omgeving, aan eigen documenten en mail. Ik laat kort zien hoe iets werkt, daarna ga je het zelf doen. Wat schuurt bespreken we meteen, want daar leer je het meest van.
+Vooraf bepalen we samen welke rollen meedoen en welke taken centraal staan, het liefst op basis van de [Readiness-scan](/copilot-readiness-scan/). De training zelf is hands-on. Iedereen werkt op de eigen laptop, in de eigen Microsoft-omgeving, aan eigen documenten en mail. Ik laat kort zien hoe iets werkt, daarna ga je het zelf doen. Wat schuurt bespreken we meteen, want daar leer je het meest van.
 
-Zijn er nog geen betaalde Copilot-licenties? Dan trainen we met Copilot Chat, dat in jullie huidige Microsoft 365-licentie zit. Zo ervaart het team wat AI in het werk betekent vóórdat er geld naar licenties gaat.
+Zijn er nog geen betaalde Copilot-licenties? Dan trainen we met Copilot Chat, dat in jullie huidige Microsoft 365-licentie zit. Zo ervaart het team wat AI in het werk betekent voordat er geld naar licenties gaat.
 
 ## Per rol, want ander werk vraagt andere voorbeelden
 
@@ -35,11 +35,11 @@ Een verkoper heeft niets aan het voorbeeld van de administratie. Daarom is de tr
 
 ### Copilot voor sales
 
-Een eerste offerteversie in Word op basis van eerdere offertes en het gespreksverslag. Een klantgesprek inspreken en er een gestructureerd verslag van laten maken. Opvolgmails in Outlook die klinken als jij, niet als een robot. Vergadervoorbereiding met de samenvattingen uit Teams.
+Een eerste offerteversie in Word op basis van eerdere offertes en het gespreksverslag. Een klantgesprek inspreken en er een gestructureerd verslag van laten maken. Opvolgmails in Outlook in je eigen toon. Vergadervoorbereiding met de samenvattingen uit Teams.
 
 ### Copilot voor HR
 
-Vacatureteksten en personeelscommunicatie die in één keer de juiste toon hebben. Onboardingdocumenten en regelingen samenvatten voor nieuwe medewerkers. Conceptantwoorden op veelgestelde personeelsvragen in Outlook. En duidelijke afspraken over wat er wél en níét in een AI-assistent gaat als het over mensen gaat — dat regelen we vooraf.
+Vacatureteksten en personeelscommunicatie die in één keer de juiste toon hebben. Onboardingdocumenten en regelingen samenvatten voor nieuwe medewerkers. Conceptantwoorden op veelgestelde personeelsvragen in Outlook. En duidelijke afspraken over wat er wel en niet in een AI-assistent gaat als het over mensen gaat. Die maken we vooraf.
 
 ### Copilot voor administratie en office
 
@@ -51,15 +51,15 @@ Lange rapporten en stukken samenvatten vóór de vergadering in plaats van erna.
 
 ## AI-geletterdheid en de EU AI Act
 
-Werkgevers moeten er sinds 2025 voor zorgen dat medewerkers die met AI werken een basisniveau AI-kennis hebben (EU AI Act, artikel 4). In elke Copilot-training zit daarom standaard aandacht voor verantwoord gebruik: wat stop je wel en niet in een AI-assistent, hoe controleer je uitkomsten, en waar liggen de grenzen. Wil je dit onderwerp apart en voor het hele bedrijf regelen, dan kan dat als losse [AI-geletterdheidstraining](/ai-geletterdheid-training/).
+Werkgevers moeten er sinds 2025 voor zorgen dat medewerkers die met AI werken een basisniveau AI-kennis hebben (EU AI Act, artikel 4). In elke Copilot-training zit daarom standaard aandacht voor verantwoord gebruik. Wat stop je wel en niet in een AI-assistent, hoe controleer je uitkomsten, en waar liggen de grenzen. Wil je dit onderwerp apart en voor het hele bedrijf regelen, dan kan dat als losse [AI-geletterdheidstraining](/ai-geletterdheid-training/).
 
-## Wat een training wél en niet doet
+## Wat een training wel en niet doet
 
-Na een goede training weet iedereen hoe Copilot werkt in het eigen werk en heeft iedereen een paar taken waar het direct tijd scheelt. Wat een training níét vanzelf regelt, is blijvend gebruik: zonder opvolging zakt een deel van het geleerde weg zodra de waan van de dag terugkeert. Wil je dat het beklijft, kijk dan naar het [adoptietraject](/copilot-adoptietraject/) — daar is de training één onderdeel van, naast werkafspraken, ambassadeurs en een meting van het resultaat.
+Na een goede training weet iedereen hoe Copilot werkt in het eigen werk en heeft iedereen een paar taken waar het direct tijd scheelt. Wat een training niet vanzelf regelt, is blijvend gebruik. Zonder opvolging zakt een deel van het geleerde weg zodra de waan van de dag terugkeert. Wil je dat het beklijft, kijk dan naar het [adoptietraject](/copilot-adoptietraject/). Daar is de training één onderdeel van, naast werkafspraken, ambassadeurs en een meting van het resultaat.
 
 ## Praktisch
 
-Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem, Nijmegen en de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken; je krijgt vooraf een helder voorstel met één prijs. Werkt met betaalde Copilot-licenties én met Copilot Chat.
+Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem, Nijmegen en de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel met één prijs. De training werkt met betaalde Copilot-licenties én met Copilot Chat.
 
 ## Veelgestelde vragen over de training
 
@@ -69,8 +69,8 @@ Een workshop is één training: je team leert Copilot gebruiken op eigen taken. 
 
 ### Wat als medewerkers sceptisch zijn of geen tijd hebben?
 
-Heel normaal, en meestal terecht: mensen hebben vaker een tool voorbij zien komen die niets opleverde. Daarom train ik op hun eigen taken, niet op voorbeelden van anderen. Wie in een uur ziet dat het verslag van vanmorgen zichzelf bijna schrijft, heeft geen overtuiging meer nodig.
+Heel normaal. Mensen hebben vaker een tool voorbij zien komen die niets opleverde. Daarom train ik op hun eigen taken, niet op voorbeelden van anderen. Dat werkt beter dan overtuigen.
 
 ### Hoe zit het met privacy en onze bedrijfsdata?
 
-Copilot werkt binnen jullie eigen Microsoft 365-omgeving en de afspraken die daar gelden. In de training besteden we expliciet aandacht aan wat er wel en niet in een AI-assistent thuishoort. Twijfel je of jullie omgeving goed staat ingesteld, dan is de [Readiness-scan](/copilot-readiness-scan/) de plek waar dat wordt gecheckt.
+Copilot werkt binnen jullie eigen Microsoft 365-omgeving en de afspraken die daar gelden. In de training besteden we aandacht aan wat er wel en niet in een AI-assistent thuishoort. Twijfel je of jullie omgeving goed staat ingesteld, dan is de [Readiness-scan](/copilot-readiness-scan/) de plek waar dat wordt gecheckt.

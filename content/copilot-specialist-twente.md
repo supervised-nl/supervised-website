@@ -16,11 +16,11 @@ closing:
 
 ## Dichtbij, en dat merk je
 
-Voor een training van een dagdeel wil je geen bureau dat drie uur onderweg is en dat doorberekent. Vanuit Enschede is Supervised overal in Twente snel: van Almelo tot Oldenzaal, van Hengelo tot Haaksbergen. Even terugkomen voor een vervolgsessie of een vraag van een ambassadeur is dan geen project, maar een afspraak. Voor adoptie — dat valt of staat met opvolging — is dat geen detail.
+Voor een training van een dagdeel wil je geen bureau dat drie uur onderweg is en dat doorberekent. Vanuit Enschede is Supervised overal in Twente snel: van Almelo tot Oldenzaal, van Hengelo tot Haaksbergen. Even terugkomen voor een vervolgsessie of een vraag van een ambassadeur is dan geen project, maar een afspraak. Adoptie valt of staat met opvolging, dus dat is geen detail.
 
-## Twents nuchter
+## Nuchter, zoals het hier werkt
 
-Het cliché klopt hier gewoon: niet lullen maar poetsen. Geen AI-vergezichten, maar Copilot aan het werk in de offertes, verslagen en mailboxen die er vandaag liggen. De aanpak is overal hetzelfde: eerst de [Readiness-scan](/copilot-readiness-scan/), dan een [training](/copilot-training/) of [adoptietraject](/copilot-adoptietraject/) dat past bij hoe jullie werken. Onder de eerdere opdrachtgevers zitten Twentse namen als Saxion; en werk je net over de grens, in Nordhorn of Gildehaus, dan kom ik daar net zo makkelijk.
+Geen AI-vergezichten, maar Copilot aan het werk in de offertes, verslagen en mailboxen die er vandaag liggen. De aanpak is overal hetzelfde. Eerst de [Readiness-scan](/copilot-readiness-scan/), dan een [training](/copilot-training/) of [adoptietraject](/copilot-adoptietraject/) dat past bij hoe jullie werken. Onder de eerdere opdrachtgevers zitten Twentse namen als Saxion. En werk je net over de grens, in Nordhorn of Gildehaus, dan kom ik daar ook.
 
 ## Ook buiten Twente
 
