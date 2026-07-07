@@ -1,11 +1,7 @@
 {{ define "main" }}
 <div class="page-grid">
   <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">Veelgestelde vragen</span>
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.lead | default .Description }}<p class="page-grid-lead">{{ . | markdownify }}</p>{{ end }}
-    </div>
+    {{ partial "page-header.html" (dict "eyebrow" "Veelgestelde vragen" "title" .Title "lead" (.Params.lead | default .Description | markdownify)) }}
   </div>
   <div class="page-grid-body faq-list">
     {{ partial "faq-items.html" (dict "faq" .Params.faq "heading" "h2") }}

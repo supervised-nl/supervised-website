@@ -1,11 +1,7 @@
 {{ define "main" }}
 <div class="page-grid">
   <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">{{ .Params.eyebrow | default "Dienst" }}</span>
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.lead | default .Description }}<p class="page-grid-lead">{{ . | markdownify }}</p>{{ end }}
-    </div>
+    {{ partial "page-header.html" (dict "eyebrow" (.Params.eyebrow | default "Dienst") "title" .Title "lead" (.Params.lead | default .Description | markdownify)) }}
     <p class="page-grid-aside"><a class="small" href="/diensten/">← Alle diensten</a></p>
   </div>
   <div class="page-grid-body content-sections">
@@ -15,10 +11,7 @@
 {{ with .Params.faq }}
 <section class="page-grid faq-section">
   <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">FAQ</span>
-      <h2>Veelgestelde vragen</h2>
-    </div>
+    {{ partial "page-header.html" (dict "eyebrow" "FAQ" "title" "Veelgestelde vragen" "level" "h2") }}
   </div>
   <div class="page-grid-body faq-list">
     {{ partial "faq-items.html" (dict "faq" . "heading" "h3") }}

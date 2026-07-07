@@ -1,0 +1,14 @@
+{{- /* Profielfoto in de hero, responsive verkleind via Hugo image processing. */ -}}
+{{ with resources.Get "img/profile_picture.jpg" }}
+{{ $sm := .Resize "400x webp q85" }}
+{{ $md := .Resize "700x webp q85" }}
+<div class="hero-image">
+  <img src="{{ $md.RelPermalink }}"
+    srcset="{{ $sm.RelPermalink }} 400w, {{ $md.RelPermalink }} 700w"
+    sizes="(max-width: 800px) 60vw, 28vw"
+    alt="Jeroen Gijselaar, Supervised"
+    width="{{ $md.Width }}" height="{{ $md.Height }}"
+    loading="eager"
+    fetchpriority="high">
+</div>
+{{ end }}

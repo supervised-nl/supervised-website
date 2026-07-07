@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{ $img := resources.Get "img/profile_picture.jpg" }}
 <div class="hero-layout">
   <div class="hero-text">
     <h1>{{ .Site.Params.headline | default .Site.Title }}</h1>
@@ -11,44 +10,17 @@
     </div>
     {{ end }}
   </div>
-  {{ if $img }}
-  {{ $sm := $img.Resize "400x webp q85" }}
-  {{ $md := $img.Resize "700x webp q85" }}
-  <div class="hero-image">
-    <img src="{{ $md.RelPermalink }}"
-      srcset="{{ $sm.RelPermalink }} 400w, {{ $md.RelPermalink }} 700w"
-      sizes="(max-width: 800px) 60vw, 28vw"
-      alt="Jeroen Gijselaar, Supervised"
-      width="{{ $md.Width }}" height="{{ $md.Height }}"
-      loading="eager"
-      fetchpriority="high">
-  </div>
-  {{ end }}
+  {{ partial "hero-image.html" . }}
 </div>
 
-{{ with .Params.introSections }}
-{{ range . }}
-<section class="page-grid">
-  <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">{{ .eyebrow | default "Copilot-adoptie" }}</span>
-      <h2>{{ .title }}</h2>
-    </div>
-  </div>
-  <div class="page-grid-body">
-    {{ .body | markdownify }}
-  </div>
-</section>
-{{ end }}
+{{ range .Params.introSections }}
+{{ partial "page-section.html" (dict "eyebrow" (.eyebrow | default "Copilot-adoptie") "title" .title "body" (.body | markdownify)) }}
 {{ end }}
 
 {{ with .Params.diensten }}
 <section id="diensten" class="page-grid home-diensten">
   <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">Diensten</span>
-      <h2>{{ $.Params.dienstenTitle | default "Wat ik voor je doe" }}</h2>
-    </div>
+    {{ partial "page-header.html" (dict "eyebrow" "Diensten" "title" ($.Params.dienstenTitle | default "Wat ik voor je doe") "level" "h2") }}
   </div>
   <div class="page-grid-body">
     <div class="home-cards">
@@ -70,10 +42,7 @@
 {{ with .Params.werkwijze }}
 <section id="werkwijze" class="page-grid home-werkwijze">
   <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">Werkwijze</span>
-      <h2>In drie stappen naar een werkende oplossing</h2>
-    </div>
+    {{ partial "page-header.html" (dict "eyebrow" "Werkwijze" "title" "In drie stappen naar een werkende oplossing" "level" "h2") }}
   </div>
   <div class="page-grid-body">
     <div class="home-steps">
@@ -100,20 +69,8 @@
 </section>
 {{ end }}
 
-{{ with .Params.sections }}
-{{ range . }}
-<section class="page-grid">
-  <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">{{ .eyebrow | default "Inzicht" }}</span>
-      <h2>{{ .title }}</h2>
-    </div>
-  </div>
-  <div class="page-grid-body">
-    {{ .body | markdownify }}
-  </div>
-</section>
-{{ end }}
+{{ range .Params.sections }}
+{{ partial "page-section.html" (dict "eyebrow" (.eyebrow | default "Inzicht") "title" .title "body" (.body | markdownify)) }}
 {{ end }}
 
 {{ with .Params.clients }}

@@ -1,0 +1,8 @@
+{{- /* Kopblok van een page-grid kolom.
+     dict: title, eyebrow (optioneel), lead (optioneel, vooraf ge-markdownified
+     indien gewenst), level ("h2" voor sectiekoppen, anders h1). */ -}}
+<div class="page-grid-header">
+  {{ with .eyebrow }}<span class="home-eyebrow small">{{ . }}</span>{{ end }}
+  {{ if eq .level "h2" }}<h2>{{ .title }}</h2>{{ else }}<h1>{{ .title }}</h1>{{ end }}
+  {{ with .lead }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+</div>

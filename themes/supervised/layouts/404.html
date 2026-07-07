@@ -1,10 +1,7 @@
 {{ define "main" }}
 <div class="page-grid">
   <div class="page-grid-side">
-    <div class="page-grid-header">
-      <h1>Pagina niet gevonden</h1>
-      <p class="page-grid-lead">Deze pagina bestaat niet (meer), of het adres is verkeerd getypt.</p>
-    </div>
+    {{ partial "page-header.html" (dict "title" "Pagina niet gevonden" "lead" "Deze pagina bestaat niet (meer), of het adres is verkeerd getypt.") }}
   </div>
   <div class="page-grid-body">
     <p>Misschien zoek je een van deze pagina's:</p>

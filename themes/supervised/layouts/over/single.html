@@ -1,47 +1,16 @@
 {{ define "main" }}
-{{ $img := resources.Get "img/profile_picture.jpg" }}
 <div class="hero-layout">
   <div class="hero-text">
     <h1>{{ .Title }}</h1>
     {{ with .Params.intro }}<p>{{ . | markdownify }}</p>{{ end }}
     {{ with .Params.linkedin }}<p><a href="{{ . }}">LinkedIn →</a></p>{{ end }}
   </div>
-  {{ if $img }}
-  {{ $sm := $img.Resize "400x webp q85" }}
-  {{ $md := $img.Resize "700x webp q85" }}
-  <div class="hero-image">
-    <img src="{{ $md.RelPermalink }}"
-      srcset="{{ $sm.RelPermalink }} 400w, {{ $md.RelPermalink }} 700w"
-      sizes="(max-width: 800px) 60vw, 28vw"
-      alt="Jeroen Gijselaar, Supervised"
-      width="{{ $md.Width }}" height="{{ $md.Height }}"
-      loading="eager"
-      fetchpriority="high">
-  </div>
-  {{ end }}
+  {{ partial "hero-image.html" . }}
 </div>
 
-{{ with .Params.sections }}
-{{ range . }}
-<section id="{{ .title | anchorize }}" class="page-grid">
-  <div class="page-grid-side">
-    <div class="page-grid-header">
-      <span class="home-eyebrow small">{{ .eyebrow | default "Over" }}</span>
-      <h2>{{ .title }}</h2>
-    </div>
-  </div>
-  <div class="page-grid-body">
-    {{ .body | markdownify }}
-  </div>
-</section>
-{{ end }}
+{{ range .Params.sections }}
+{{ partial "page-section.html" (dict "id" (.title | anchorize) "eyebrow" (.eyebrow | default "Over") "title" .title "body" (.body | markdownify)) }}
 {{ end }}
 
-{{ with .Params.closing }}
-<section class="home-section home-closing">
-  <h2>{{ .question }}</h2>
-  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
-  {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
-</section>
-{{ end }}
+{{ partial "closing.html" . }}
 {{ end }}

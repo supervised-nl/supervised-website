@@ -1,0 +1,10 @@
+{{- /* Page-grid sectie met kop links en tekst rechts.
+     dict: title, eyebrow, body (HTML), id (optioneel), class (optioneel). */ -}}
+<section{{ with .id }} id="{{ . }}"{{ end }} class="page-grid{{ with .class }} {{ . }}{{ end }}">
+  <div class="page-grid-side">
+    {{ partial "page-header.html" (dict "eyebrow" .eyebrow "title" .title "level" "h2") }}
+  </div>
+  <div class="page-grid-body">
+    {{ .body }}
+  </div>
+</section>
