@@ -1,8 +1,11 @@
 {{ define "main" }}
 <div class="page-grid">
-  <div class="page-grid-header">
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+  <div class="page-grid-side">
+    <div class="page-grid-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+    </div>
+    <p class="page-grid-aside"><a class="small" href="/faq/">Veelgestelde vragen →</a></p>
   </div>
   <div class="page-grid-body">
     {{ .Content }}
@@ -33,6 +36,5 @@
       {{ end }}
     </div>
   </div>
-  <p class="page-grid-aside"><a class="small" href="/faq/">Veelgestelde vragen →</a></p>
 </div>
 {{ end }}

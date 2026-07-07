@@ -24,8 +24,10 @@
 {{ with .Params.sections }}
 {{ range . }}
 <section id="{{ .title | anchorize }}" class="page-grid">
-  <div class="page-grid-header">
-    <h2>{{ .title }}</h2>
+  <div class="page-grid-side">
+    <div class="page-grid-header">
+      <h2>{{ .title }}</h2>
+    </div>
   </div>
   <div class="page-grid-body">
     {{ .body | markdownify }}

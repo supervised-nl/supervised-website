@@ -1,8 +1,13 @@
 {{ define "main" }}
 <div class="page-grid">
-  <div class="page-grid-header">
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+  <div class="page-grid-side">
+    <div class="page-grid-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+    </div>
+    <p class="page-grid-aside">
+      <a class="small" href="/blog/gevonden-worden-in-chatgpt-en-copilot/">Gevonden worden in ChatGPT &rarr;</a>
+    </p>
   </div>
 
   <div class="page-grid-body">
@@ -35,10 +40,6 @@
       herhaling tussen bronnen, niet één pagina.
     </p>
   </div>
-
-  <p class="page-grid-aside">
-    <a class="small" href="/blog/gevonden-worden-in-chatgpt-en-copilot/">Gevonden worden in ChatGPT &rarr;</a>
-  </p>
 </div>
 {{ $geoJs := resources.Get "js/geo-check.js" | minify | fingerprint }}
 <script defer src="{{ $geoJs.RelPermalink }}"></script>
