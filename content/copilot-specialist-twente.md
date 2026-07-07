@@ -8,7 +8,7 @@ sitemap:
   priority: 0.7
 closing:
   question: "Weten waar jullie staan?"
-  body: "De Readiness-scan is het startpunt. Een halve dag op locatie in Twente, daarna een rapport met een concreet plan van aanpak."
+  body: "De Readiness-scan is het startpunt. Een halve dag op locatie in Twente, daarna een rapport met plan van aanpak."
   cta:
     label: "Plan de Readiness-scan"
     url: "/copilot-readiness-scan/"
@@ -24,4 +24,4 @@ Geen AI-vergezichten, maar Copilot aan het werk in de offertes, verslagen en mai
 
 ## Ook buiten Twente
 
-Supervised werkt in heel Oost-Nederland, van de Achterhoek tot Deventer, Zwolle, Arnhem en Nijmegen. Twente is alleen wel thuis. Meer over de aanpak lees je bij de [werkwijze](/werkwijze/), meer over de persoon erachter bij [over Jeroen](/over/).
+Supervised werkt ook in de Achterhoek en in Deventer, Zwolle, Arnhem en Nijmegen. Twente is alleen wel thuis. Meer over de aanpak lees je bij de [werkwijze](/werkwijze/), meer over de persoon erachter bij [over Jeroen](/over/).

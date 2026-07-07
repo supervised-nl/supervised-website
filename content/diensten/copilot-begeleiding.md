@@ -20,7 +20,7 @@ closing:
 
 Adoptie begint bovenin. Als het MT Copilot zelf niet gebruikt, gelooft de werkvloer het verhaal niet. Andersom werkt het ook. Een directeur die in de vergadering laat zien hoe hij zijn stukken voorbereidt, doet meer voor adoptie dan een campagne.
 
-Maar juist managers zitten zelden in een groepstraining. Te druk, of niet de plek om te laten zien wat je nog niet kunt. Vandaar deze vorm. Persoonlijk, vertrouwelijk en op jouw tempo.
+Maar juist managers zitten zelden in een groepstraining. Te druk, of niet de plek om te laten zien wat je nog niet kunt. Daarom werkt deze vorm beter. Je oefent in vertrouwen, op je eigen tempo.
 
 ## Hoe het werkt
 

@@ -16,7 +16,7 @@ closing:
 
 ## Stap 1. Eerst kijken
 
-Ik kom langs en zie hoe het werk echt gaat. Niet hoe het op papier staat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik de Microsoft 365-omgeving, van licenties tot SharePoint en afspraken. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor zelf niet meer waar de herhaling zit. Dat blootleggen is de helft van het werk.
+Ik kom langs en zie hoe het werk echt gaat. Niet hoe het op papier staat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik de licenties, de SharePoint en de afspraken. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor zelf niet meer waar de herhaling zit. Dat blootleggen is de helft van het werk.
 
 ## Stap 2. Een plan dat past
 
@@ -24,7 +24,7 @@ Op basis van wat ik zie, krijg je een plan van aanpak. Wat moet eerst geregeld w
 
 ## Stap 3. Trainen op echte taken
 
-In de training werkt iedereen in de eigen omgeving aan eigen taken. De offerte in Word, de mailbox in Outlook, het verslag uit Teams, de lijst in Excel. Per rol, want een verkoper leert niets van het voorbeeld van de administratie.
+In de training werkt iedereen in de eigen omgeving aan eigen taken, zoals de offerte in Word of de mailbox in Outlook. Per rol, want een verkoper leert niets van het voorbeeld van de administratie.
 
 ## Stap 4. Borgen en meten
 

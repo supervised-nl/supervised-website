@@ -27,7 +27,7 @@ De EU AI Act verplicht werkgevers ervoor te zorgen dat medewerkers die met AI we
 
 ## Wat je team leert
 
-Hoe AI-assistenten zoals Copilot en Copilot Chat werken en waar ze de mist in gaan. Wat je wel en niet deelt met een AI-tool, aan de hand van echte voorbeelden. De export uit Excel met klantgegevens, het gespreksverslag met persoonsgegevens in Word, de vraag aan Copilot Chat waar net te veel context in zit. En hoe je uitkomsten controleert voordat ze de deur uit gaan. Direct toepasbaar in Outlook, Teams en de rest van jullie Microsoft-omgeving.
+Hoe AI-assistenten zoals Copilot en Copilot Chat werken en waar ze de mist in gaan. Wat je wel en niet deelt met een AI-tool, aan de hand van echte voorbeelden. Denk aan een export uit Excel met klantgegevens, of een gespreksverslag met persoonsgegevens in Word. En hoe je uitkomsten controleert voordat ze de deur uit gaan. Alles direct toepasbaar in Outlook, Teams en de rest van jullie Microsoft-omgeving.
 
 ## Los of geïntegreerd
 

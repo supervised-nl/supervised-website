@@ -10,9 +10,9 @@ sitemap:
   priority: 0.9
 faq:
   - q: "Hoe meten we of Copilot ons echt iets oplevert?"
-    a: "Met de 0-meting vooraf en dezelfde meting achteraf. Wie gebruikt het, voor welke taken, en hoeveel tijd kosten die. Bewust eenvoudig gehouden."
+    a: "Met de 0-meting vooraf en dezelfde meting achteraf. Wie gebruikt het, voor welke taken, en hoeveel tijd kosten die. We houden die metingen bewust eenvoudig."
   - q: "Hoeveel tijd kost een traject en voor welke teamgrootte werkt het?"
-    a: "Enkele maanden, met korte sessies zodat het gewone werk doorgaat. Geschikt voor bedrijven van 10 tot 100 medewerkers. Grotere bedrijven pakken we per team of afdeling aan."
+    a: "Reken op enkele maanden, met korte sessies zodat het gewone werk doorgaat. Het werkt voor bedrijven van 10 tot 100 medewerkers. Grotere bedrijven pakken we per team of afdeling aan."
   - q: "Hebben we betaalde Copilot-licenties nodig om te starten?"
     a: "Nee. Starten kan met Copilot Chat. Het traject laat zien voor welke rollen betaalde licenties zich terugverdienen."
 closing:
@@ -37,11 +37,11 @@ Wie gebruikt er nu wat, waar zit het herhalende werk en wat verwachten mensen er
 
 ### Use cases per rol
 
-Per team kiezen we twee of drie taken waar Copilot direct helpt. Voor sales zijn dat offertes en gespreksverslagen in Word. Voor de administratie mailverwerking in Outlook en lijstwerk in Excel. Voor HR personeelscommunicatie, en voor het management vergadervoorbereiding in Teams en een eerste opzet in PowerPoint. Klein beginnen, met taken die er per rol toe doen.
+Per team kiezen we twee of drie taken waar Copilot direct helpt. Voor sales zijn dat offertes en gespreksverslagen in Word. Voor de administratie mailverwerking in Outlook en lijstwerk in Excel. Voor HR personeelscommunicatie, en voor het management vergadervoorbereiding in Teams en een eerste opzet in PowerPoint. We beginnen klein, met taken die er per rol toe doen.
 
 ### Richtlijnen en werkafspraken
 
-Wat mag er wel en niet in Copilot, hoe ga je om met klant- en persoonsgegevens (AVG), en hoe voldoe je aantoonbaar aan de AI-geletterdheid die de EU AI Act (artikel 4) vraagt. Vastgelegd op één A4 dat mensen echt lezen. Geen juridisch advies, wel werkbare afspraken.
+Wat mag er wel en niet in Copilot, hoe ga je om met klant- en persoonsgegevens (AVG), en hoe voldoe je aantoonbaar aan de AI-geletterdheid die de EU AI Act (artikel 4) vraagt. Dat leggen we vast op één A4 dat mensen echt lezen. Geen juridisch advies, wel werkbare afspraken.
 
 ### Ambassadeurs
 
@@ -57,7 +57,7 @@ Aan het eind meten we wat er veranderd is. Wie gebruikt Copilot structureel, voo
 
 ## Wat het management eruit haalt
 
-Realistische winst, zichtbaar gemaakt. Tijdwinst op herhalend werk, betere voorbereiding van gesprekken en vergaderingen, snellere documentverwerking, en meer waarde uit de Microsoft 365-licenties waar al voor betaald wordt. Ik beloof vooraf geen percentages. Aan het eind laat ik zien wat er bij jullie is veranderd, met de 0-meting als bewijs.
+Het traject levert tijdwinst op herhalend werk op, betere voorbereiding van gesprekken en vergaderingen, snellere documentverwerking en meer waarde uit de Microsoft 365-licenties waar al voor betaald wordt. Ik beloof vooraf geen percentages. Aan het eind laat ik zien wat er bij jullie is veranderd, met de 0-meting als bewijs.
 
 ## Voor wie, en hoe lang
 
@@ -71,11 +71,11 @@ Aan het einde liggen er werkafspraken, getrainde ambassadeurs en een team dat we
 
 ### Hoe meten we of Copilot ons echt iets oplevert?
 
-Met de 0-meting vooraf en dezelfde meting achteraf. Wie gebruikt het, voor welke taken, en hoeveel tijd kosten die. Bewust eenvoudig gehouden.
+Met de 0-meting vooraf en dezelfde meting achteraf. Wie gebruikt het, voor welke taken, en hoeveel tijd kosten die. We houden die metingen bewust eenvoudig.
 
 ### Hoeveel tijd kost een traject en voor welke teamgrootte werkt het?
 
-Enkele maanden, met korte sessies zodat het gewone werk doorgaat. Geschikt voor bedrijven van 10 tot 100 medewerkers. Grotere bedrijven pakken we per team of afdeling aan.
+Reken op enkele maanden, met korte sessies zodat het gewone werk doorgaat. Het werkt voor bedrijven van 10 tot 100 medewerkers. Grotere bedrijven pakken we per team of afdeling aan.
 
 ### Hebben we betaalde Copilot-licenties nodig om te starten?
 

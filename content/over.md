@@ -23,7 +23,7 @@ sections:
       In drie jaar heb ik ruim vijftig adoptietrajecten gedaan en veel trainingen en workshops gegeven, bij MKB-teams van de werkvloer tot de directiekamer. Daarvan heb ik geleerd dat adoptie zelden op techniek strandt en dat enthousiasme zonder opvolging verdampt. Daar is de hele [werkwijze](/werkwijze/) op gebouwd.
   - title: "Rustig over regels"
     body: |
-      Een vast onderdeel van mijn werk is de EU AI Act en alles eromheen, van privacy en AVG tot de vraag wat er wel en niet in een AI-assistent thuishoort. Voor veel MKB-bedrijven is dat een bron van onzekerheid, en soms van paniekverhalen. Ik help er rustig doorheen. Wat moet er echt geregeld zijn, hoe maak je het aantoonbaar, en dan weer door naar het werk. Juridisch advies geef ik niet, werkbare afspraken wel.
+      Een vast onderdeel van mijn werk is de EU AI Act en alles eromheen. Privacy, de AVG, en de vraag wat er wel en niet in een AI-assistent thuishoort. Voor veel MKB-bedrijven is dat een bron van onzekerheid, en soms van paniekverhalen. Ik help er rustig doorheen. Wat moet er echt geregeld zijn, hoe maak je het aantoonbaar, en dan weer door naar het werk. Juridisch advies geef ik niet, werkbare afspraken wel.
   - title: "Achtergrond"
     body: |
       Voordat ik Supervised begon werkte ik vier jaar bij GEA Group. Daar zag ik hoe MKB-bedrijven uren verloren aan werk dat slimmer kan. Te klein voor een IT-project, te groot om zelf op te lossen. Daar past Supervised tussenin. Tegenwoordig met Copilot als gereedschap, omdat vrijwel elk bedrijf de omgeving eromheen al heeft.

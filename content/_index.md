@@ -37,7 +37,7 @@ diensten:
     url: "/copilot-readiness-scan/"
   - number: "03"
     title: "Workshops en trainingen"
-    body: "Hands-on leren op echte taken, in jullie eigen Microsoft-omgeving. Sales, HR, administratie en management krijgen elk hun eigen voorbeelden."
+    body: "Zelf oefenen op echte taken, in jullie eigen Microsoft-omgeving. Sales, HR, administratie en management krijgen elk hun eigen voorbeelden."
     url: "/copilot-training/"
   - number: "04"
     title: "Adoptietraject"
@@ -50,7 +50,7 @@ diensten:
 sections:
   - title: "Waarom Copilot-adoptie meestal strandt"
     body: |
-      Vrijwel elk MKB-bedrijf vanaf een man of tien werkt al met Microsoft 365. Minder dan één op de tien gebruikt Copilot structureel in het dagelijkse werk. De drempels zijn zelden technisch. Te weinig kennis en ervaring. Onzekerheid over privacy en de EU AI Act. Een rommelige SharePoint, waardoor Copilot matige antwoorden geeft. En onduidelijkheid over wat het oplevert.
+      Vrijwel elk MKB-bedrijf vanaf een man of tien werkt al met Microsoft 365. Minder dan één op de tien gebruikt Copilot structureel in het dagelijkse werk. De drempels zijn zelden technisch. Meestal ontbreekt het aan kennis en ervaring, is er onzekerheid over privacy en de EU AI Act, geeft Copilot matige antwoorden door een rommelige SharePoint, of weet niemand wat het nou eigenlijk oplevert.
 
       Dat is allemaal op te lossen, maar niet met nog een presentatie over AI. De [Readiness-scan](/copilot-readiness-scan/) laat zien waar jullie staan en wat er als eerste moet gebeuren.
   - title: "Nuchter, met bewijs"
@@ -74,7 +74,7 @@ clients:
     file: "happy_spaces.svg"
 closing:
   question: "Weten waar jullie staan?"
-  body: "De Readiness-scan is het startpunt. Een halve dag op locatie, daarna een rapport met een concreet plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "De Readiness-scan is het startpunt. Een halve dag op locatie, daarna een rapport met plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Plan de Readiness-scan"
     url: "/copilot-readiness-scan/"

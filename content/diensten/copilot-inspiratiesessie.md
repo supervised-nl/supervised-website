@@ -41,7 +41,7 @@ Een gedeeld, realistisch beeld van Copilot binnen het bedrijf, en meestal een li
 
 ## Praktisch
 
-Op jullie locatie of op je event, overal in Oost-Nederland. Duur en vorm in overleg, van een uur op een personeelsbijeenkomst tot een dagdeel met het MT. Je krijgt vooraf één duidelijke prijs.
+Ik kom naar jullie locatie of je event, overal in Oost-Nederland. Duur en vorm bepalen we in overleg, van een uur op een personeelsbijeenkomst tot een dagdeel met het MT. Je krijgt vooraf één duidelijke prijs.
 
 ## Veelgestelde vragen over de sessie
 

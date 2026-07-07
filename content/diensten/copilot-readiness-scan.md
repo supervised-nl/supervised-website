@@ -12,7 +12,7 @@ faq:
   - q: "Kunnen we al starten zonder betaalde Copilot-licenties?"
     a: "Ja. Copilot Chat zit al in jullie huidige licentie. De scan laat zien wat daarmee kan en wanneer betaalde licenties zinvol worden."
   - q: "Onze SharePoint is een rommeltje. Heeft Copilot dan wel zin?"
-    a: "Juist dan. De scan maakt concreet wat er eerst opgeruimd moet worden en wat kan wachten. Dat is meestal minder dan je vreest."
+    a: "Juist dan. De scan laat zien wat er eerst opgeruimd moet worden en wat kan wachten. Dat is meestal minder dan je vreest."
   - q: "Verkopen jullie ook licenties of IT-beheer?"
     a: "Nee. Daardoor is het advies onafhankelijk. Als Copilot Chat voorlopig volstaat, staat dat in het rapport."
 closing:
@@ -25,7 +25,7 @@ closing:
 
 ## Waarom eerst scannen?
 
-De meeste teleurstellingen met Copilot komen door een startsituatie die niemand heeft bekeken. Matige antwoorden door een rommelige SharePoint. Twijfel over privacy die nooit is uitgesproken. Licenties voor mensen die er weinig mee doen, terwijl de rol die er het meest aan zou hebben buiten de pilot viel.
+De meeste teleurstellingen met Copilot komen door een startsituatie die niemand heeft bekeken. Denk aan matige antwoorden door een rommelige SharePoint, of twijfel over privacy die nooit is uitgesproken. Of licenties voor mensen die er weinig mee doen, terwijl de rol die er het meest aan zou hebben buiten de pilot viel.
 
 Daarom begint elk traject van Supervised met deze scan. Geen standaardpakket, maar eerst begrijpen hoe jullie werken.
 
@@ -53,11 +53,11 @@ Ik kom een halve dag naar jullie locatie. Ik kijk mee met het echte werk, spreek
 
 ## Wat je krijgt
 
-- Een helder beeld van de startsituatie, van licenties en instellingen tot datahygiëne en afspraken.
+- Een helder beeld van je licenties, instellingen, datahygiëne en afspraken.
 - De punten die eerst geregeld moeten worden, met prioriteit.
 - Een onderbouwd licentie-advies. Starten met Copilot Chat, of betaalde licenties voor specifieke rollen.
 - De meest kansrijke toepassingen per rol.
-- Een concreet vervolgvoorstel, bijvoorbeeld een [workshop](/copilot-training/), een [adoptietraject](/copilot-adoptietraject/) of zelf aan de slag. Het plan is van jullie, ook als je het zonder mij uitvoert.
+- Een vervolgvoorstel, bijvoorbeeld een [workshop](/copilot-training/), een [adoptietraject](/copilot-adoptietraject/) of zelf aan de slag. Het plan is van jullie, ook als je het zonder mij uitvoert.
 
 ## Prijs
 
@@ -77,7 +77,7 @@ Ja. Copilot Chat zit al in jullie huidige licentie. De scan laat zien wat daarme
 
 ### Onze SharePoint is een rommeltje. Heeft Copilot dan wel zin?
 
-Juist dan. De scan maakt concreet wat er eerst opgeruimd moet worden en wat kan wachten. Dat is meestal minder dan je vreest.
+Juist dan. De scan laat zien wat er eerst opgeruimd moet worden en wat kan wachten. Dat is meestal minder dan je vreest.
 
 ### Verkopen jullie ook licenties of IT-beheer?
 

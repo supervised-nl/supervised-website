@@ -2,7 +2,7 @@
 title: "Microsoft 365 Copilot-training op jullie eigen werk"
 seoTitle: "Microsoft 365 Copilot-training voor teams | Supervised"
 description: "Copilot-training op locatie voor MKB-teams in Oost-Nederland. Rolgericht voor sales, HR, administratie en management, met taken uit jullie eigen werk."
-lead: "Een Copilot-training van Supervised is een interactieve workshop voor MKB-teams, op locatie in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Geen productdemo, maar oefenen op echte taken. De offerte die eruit moet, het verslag van vanmorgen, de mailbox die volloopt. Na afloop kan iedereen minstens een paar eigen taken sneller met Copilot."
+lead: "Een Copilot-training van Supervised is een interactieve workshop voor MKB-teams, op locatie in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Geen productdemo, maar oefenen op echte taken, zoals de offerte die eruit moet of het verslag van vanmorgen. Na afloop kan iedereen minstens een paar eigen taken sneller met Copilot."
 url: "/copilot-training/"
 weight: 3
 sitemap:
@@ -25,7 +25,7 @@ closing:
 
 ## Zo ziet de training eruit
 
-Vooraf bepalen we samen welke rollen meedoen en welke taken centraal staan, het liefst op basis van de [Readiness-scan](/copilot-readiness-scan/). De training zelf is hands-on. Iedereen werkt op de eigen laptop, in de eigen Microsoft-omgeving, aan eigen documenten en mail. Ik laat kort zien hoe iets werkt, daarna ga je het zelf doen. Wat schuurt bespreken we meteen, want daar leer je het meest van.
+Vooraf bepalen we samen welke rollen meedoen en welke taken centraal staan, het liefst op basis van de [Readiness-scan](/copilot-readiness-scan/). De training zelf is vooral zelf doen. Iedereen werkt op de eigen laptop, in de eigen Microsoft-omgeving, aan eigen documenten en mail. Ik laat kort zien hoe iets werkt, daarna ga je het zelf doen. Wat schuurt bespreken we meteen, want daar leer je het meest van.
 
 Zijn er nog geen betaalde Copilot-licenties? Dan trainen we met Copilot Chat, dat in jullie huidige Microsoft 365-licentie zit. Zo ervaart het team wat AI in het werk betekent voordat er geld naar licenties gaat.
 
@@ -59,7 +59,7 @@ Na een goede training weet iedereen hoe Copilot werkt in het eigen werk en heeft
 
 ## Praktisch
 
-Op locatie, overal in Oost-Nederland en in de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel. De training werkt met betaalde Copilot-licenties én met Copilot Chat.
+De training is op locatie, overal in Oost-Nederland en in de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel. De training werkt met betaalde Copilot-licenties én met Copilot Chat.
 
 ## Veelgestelde vragen over de training
 
