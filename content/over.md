@@ -8,7 +8,6 @@ sitemap:
   changefreq: monthly
   priority: 0.8
 ogImage: "img/profile_picture.jpg"
-intro: "Supervised, dat ben ik. Jeroen Gijselaar, vanuit Enschede. Ik help MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Praktisch voor medewerkers, resultaatgericht voor management."
 linkedin: "https://www.linkedin.com/in/jeroengijselaar/"
 sections:
   - title: "Waarom alleen nog Copilot"
@@ -36,3 +35,7 @@ closing:
     label: "Plan een kennismaking"
     url: "/contact/"
 ---
+
+Supervised, dat ben ik. Jeroen Gijselaar, vanuit Enschede. Ik help MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Praktisch voor medewerkers, resultaatgericht voor management.
+
+[LinkedIn →](https://www.linkedin.com/in/jeroengijselaar/)

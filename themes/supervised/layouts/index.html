@@ -1,17 +1,5 @@
 {{ define "main" }}
-<div class="hero-layout">
-  <div class="hero-text">
-    <h1>{{ .Site.Params.headline | default .Site.Title }}</h1>
-    {{ .Content }}
-    {{ if or .Params.ctaPrimary .Params.ctaSecondary }}
-    <div class="hero-ctas">
-      {{ with .Params.ctaPrimary }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
-      {{ with .Params.ctaSecondary }}<a href="{{ .url }}" class="cta cta-secondary">{{ .label }} →</a>{{ end }}
-    </div>
-    {{ end }}
-  </div>
-  {{ partial "hero-image.html" . }}
-</div>
+{{ partial "hero.html" (dict "page" . "title" (.Site.Params.headline | default .Site.Title)) }}
 
 {{ range .Params.introSections }}
 {{ partial "page-section.html" (dict "eyebrow" (.eyebrow | default "Copilot-adoptie") "title" .title "body" (.body | markdownify)) }}

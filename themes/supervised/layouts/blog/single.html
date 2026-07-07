@@ -11,4 +11,5 @@
 {{ with .NextInSection }}
 <p><a id="nextlink" href="{{ .RelPermalink }}"><span class="mobile">→</span><span class="desktop">{{ .Title }}</span></a></p>
 {{ end }}
+{{ partial "closing.html" . }}
 {{ end }}

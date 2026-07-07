@@ -1,0 +1,16 @@
+{{- /* Hero: kop en pagina-inhoud links, profielfoto rechts (home en over).
+     dict: page (de pagina), title (h1-tekst). CTA's komen uit
+     ctaPrimary/ctaSecondary in de front matter, indien aanwezig. */ -}}
+<div class="hero-layout">
+  <div class="hero-text">
+    <h1>{{ .title }}</h1>
+    {{ .page.Content }}
+    {{ if or .page.Params.ctaPrimary .page.Params.ctaSecondary }}
+    <div class="hero-ctas">
+      {{ with .page.Params.ctaPrimary }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
+      {{ with .page.Params.ctaSecondary }}<a href="{{ .url }}" class="cta cta-secondary">{{ .label }} →</a>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ partial "hero-image.html" . }}
+</div>
