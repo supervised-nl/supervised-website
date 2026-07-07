@@ -1,32 +1,31 @@
-# supervised.nl — Hugo static site
+# supervised.nl - Hugo static site
 
-Minimal Hugo site for supervised.nl. No external dependencies, no npm pipeline, no JavaScript frameworks.
+Minimalistische Hugo-site voor supervised.nl. Bewust geen npm, geen package manager, geen JavaScript-framework en geen CDN's.
 
 ## Requirements
 
 - [Hugo](https://gohugo.io/installation/) v0.147.0 or later (extended edition required)
 
-## Run locally
+## Lokaal draaien
 
 ```bash
-cd supervised-website
 hugo server
 ```
 
-Open http://localhost:1313 in your browser. Hugo watches for file changes and live-reloads.
+Open http://localhost:1313 in je browser. Hugo kijkt mee en live-reloadt wijzigingen.
 
-## Build for production
+## Productiebuild
 
 ```bash
-hugo --minify
+hugo --minify --gc
 ```
 
-Output is written to `/public`. Upload this folder to any static host (Netlify, GitHub Pages, Cloudflare Pages).
+Output komt in `public/`. Vercel draait dezelfde build command uit `vercel.json`.
 
-## Add a new page
+## Nieuwe pagina
 
-1. Create a Markdown file in `content/`, e.g. `content/nieuw.md`
-2. Add front matter at the top:
+1. Maak een Markdown-bestand in `content/`, bijvoorbeeld `content/nieuw.md`.
+2. Voeg front matter toe:
 
 ```markdown
 ---
@@ -34,14 +33,14 @@ title: "Pagina titel"
 description: "Meta description voor SEO"
 ---
 
-Pagina inhoud hier...
+Pagina-inhoud hier...
 ```
 
-3. Optionally add it to the nav in `hugo.toml` under `[[menu.main]]`.
+3. Voeg de pagina alleen aan `[[menu.main]]` in `hugo.toml` toe als hij in de navigatie moet staan.
 
-## Add a page to the navigation
+## Navigatie
 
-Edit `hugo.toml` and add a menu entry:
+Voeg een menu-entry toe in `hugo.toml`:
 
 ```toml
 [[menu.main]]
@@ -53,45 +52,40 @@ Edit `hugo.toml` and add a menu entry:
 ## Folder structure
 
 ```
-supervised/
-├── content/          # Page content (Markdown)
-│   ├── _index.md     # Homepage
-│   ├── diensten.md
-│   ├── over.md
+supervised-website/
+├── content/                 # Nederlandse content in Markdown
+│   ├── _index.md            # Homepage
+│   ├── diensten/            # Dienstpagina's
+│   ├── blog/                # Intern blog, publiceert als /kennisbank/
 │   └── contact.md
+├── assets/img/              # Bronafbeeldingen voor Hugo image processing
+├── static/                  # Root static assets, favicon en client-logo's
 ├── themes/supervised/
-│   ├── layouts/      # HTML templates
-│   │   ├── _default/
-│   │   │   ├── baseof.html   # Base template (header, nav, footer)
-│   │   │   ├── single.html   # Single page template
-│   │   │   └── list.html     # List page template
-│   │   └── index.html        # Homepage template
-│   └── assets/css/
-│       └── main.css          # All styles (single file, no framework)
-├── static/           # Static assets (images, favicon, etc.)
-├── hugo.toml         # Site configuration
+│   ├── layouts/             # Hugo templates en partials
+│   ├── assets/css/main.css  # Enige CSS-bestand, via Hugo Pipes
+│   ├── assets/js/           # site.js en vendored lenis.min.js
+│   └── static/fonts/        # Lokale variable font
+├── hugo.toml                # Siteconfiguratie, menu en bedrijfsgegevens
+├── vercel.json              # Build, redirects, headers en CSP
 └── README.md
 ```
 
-## Deploy to Netlify
+## Deploy
 
-1. Push this folder to a GitHub repository.
-2. Connect the repo in [Netlify](https://app.netlify.com).
-3. Set build command: `hugo --minify`
-4. Set publish directory: `public`
-5. Set environment variable: `HUGO_VERSION = 0.147.0`
+Deployment loopt via Vercel. De relevante instellingen staan in `vercel.json`:
 
-## Replace placeholder content
+- build command: `hugo --minify --gc`
+- output directory: `public`
+- Hugo version: `0.147.0`
 
-All placeholder text is marked with `[PLACEHOLDER ...]`. Search for this string across `content/` to find everything that needs updating before launch.
+## Contentregels
 
-```bash
-grep -r "PLACEHOLDER" content/
-```
+- Publieke copy is Nederlands.
+- Reguliere pagina's hebben `title` en `description` in front matter.
+- Blogposts hebben `title`, `slug`, `date` en `description`.
+- FAQ gebruikt `layout: "faq"` en een `faq:` array.
+- Taxonomieen zijn uitgeschakeld; voeg geen tags of categorieen toe.
 
-## Update site title and email
+## Bedrijfsgegevens
 
-Edit `hugo.toml`:
-- `title` — site name shown in nav and `<title>` tags
-- `params.email` — contact email shown in footer
-- `baseURL` — must match the live domain before deploying
+Adres, telefoon en e-mail staan in `hugo.toml`, `content/contact.md` en `static/llms.txt`. Houd die drie gelijk, omdat structured data uit `hugo.toml` wordt opgebouwd.

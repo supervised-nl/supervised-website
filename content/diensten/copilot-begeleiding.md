@@ -1,5 +1,6 @@
 ---
 title: "1-op-1 Copilot-begeleiding voor wie het voorbeeld geeft"
+eyebrow: "1-op-1-begeleiding"
 seoTitle: "1-op-1 Copilot-begeleiding voor management | Supervised"
 description: "Persoonlijke Copilot-begeleiding voor directieleden, managers en key users. Snel zelf vaardig worden, met je eigen agenda, mail en stukken als oefenmateriaal."
 lead: "1-op-1 Copilot-begeleiding is persoonlijke training voor directieleden, managers en key users die zelf snel goed willen worden met Microsoft 365 Copilot. Korte sessies, in jouw agenda, met jouw echte mail, stukken en vergaderingen als oefenmateriaal."

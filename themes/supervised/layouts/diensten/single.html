@@ -12,11 +12,18 @@
     {{ .Content }}
   </div>
 </div>
-{{ with .Params.closing }}
-<section class="home-section home-closing">
-  <h2>{{ .question }}</h2>
-  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
-  {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
+{{ with .Params.faq }}
+<section class="page-grid faq-section">
+  <div class="page-grid-side">
+    <div class="page-grid-header">
+      <span class="home-eyebrow small">FAQ</span>
+      <h2>Veelgestelde vragen</h2>
+    </div>
+  </div>
+  <div class="page-grid-body faq-list">
+    {{ partial "faq-items.html" (dict "faq" . "heading" "h3") }}
+  </div>
 </section>
 {{ end }}
+{{ partial "closing.html" . }}
 {{ end }}

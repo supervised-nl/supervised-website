@@ -2,20 +2,20 @@
 title: "De EU AI Act geldt ook voor jouw bedrijf"
 slug: "eu-ai-act-mkb-verplichtingen"
 date: 2026-05-01
-description: "Sinds februari 2025 zijn bedrijven verplicht AI-geletterdheid aan te tonen. Wat artikel 4 van de EU AI Act voor het MKB betekent en wat je nu kunt doen."
+description: "Wat artikel 4 van de EU AI Act voor AI-geletterdheid in het MKB betekent en hoe je daar praktisch mee omgaat."
 ---
 
-De EU AI Act is geen ver-van-mijn-bedshow voor grote techbedrijven. Hij raakt elk bedrijf dat AI gebruikt. Ook het kantoor met vijf man dat ChatGPT inzet voor offertes.
+De EU AI Act is geen ver-van-mijn-bedshow voor grote techbedrijven. Ook MKB-bedrijven die AI gebruiken moeten nadenken over kennis, risico's en afspraken.
 
 En de eerste verplichtingen zijn al ingegaan.
 
 ## Wat er sinds februari 2025 verplicht is
 
-Sinds 2 februari 2025 geldt artikel 4 van de EU AI Act. Dat artikel zegt dat elke organisatie die AI inzet, moet zorgen dat medewerkers die met AI werken voldoende AI-geletterd zijn.
+Sinds 2 februari 2025 geldt artikel 4 van de EU AI Act. Dat artikel vraagt dat organisaties passende AI-geletterdheid organiseren voor medewerkers die met AI werken.
 
-Geen certificaat, geen examen. Wel aantoonbare basiskennis over wat AI is, hoe het werkt, wat de risico's zijn en hoe je er veilig mee omgaat.
+Geen certificaat, geen examen. Wel praktische basiskennis over wat AI is, hoe het werkt, wat de risico's zijn en hoe je er zorgvuldig mee omgaat.
 
-Dit geldt voor elk bedrijf. Geen uitzondering voor MKB.
+Ook voor MKB-bedrijven is het verstandig om dit concreet te regelen.
 
 ## Wat AI-geletterdheid in de praktijk betekent
 
@@ -33,15 +33,15 @@ Herkennen wanneer een AI-output verkeerd is. Hallucinaties, bias, fouten. Een me
 
 Veel ondernemers zien dit als papieren verplichting. Tot er iets misgaat.
 
-Een medewerker die klantgegevens in een gratis tool plakt. Een offerte die op basis van een AI-hallucinatie wordt verstuurd. Een advies dat juridisch niet klopt omdat het uit een chatbot komt. In al die gevallen is de werkgever aansprakelijk.
+Een medewerker die klantgegevens in een gratis tool plakt. Een offerte die op basis van een AI-hallucinatie wordt verstuurd. Een advies dat juridisch niet klopt omdat het uit een chatbot komt. In zulke situaties kunnen privacy, kwaliteit en verantwoordelijkheid snel door elkaar gaan lopen.
 
-De boetes onder de AI Act lopen op tot 35 miljoen euro of 7 procent van de jaaromzet. Dat is voor de grote overtredingen. Maar ook kleinere nalatigheid kan leiden tot handhaving, reputatieschade en aansprakelijkheid bij incidenten.
+De zwaarste sancties in de AI Act gaan over grote overtredingen. Voor de meeste MKB-bedrijven is de praktische vraag eenvoudiger: weten medewerkers wat ze wel en niet met AI mogen doen, en is dat vastgelegd?
 
 ## Wat er nog aankomt
 
 Februari 2025 was de eerste deadline. Augustus 2026 volgt de volgende grote stap, met regels voor AI-systemen met hoog risico en aanvullende eisen aan transparantie en documentatie.
 
-Wie nu de basis op orde heeft, hoeft straks niet in paniek alles tegelijk te regelen.
+Wie nu de praktische basis op orde brengt, hoeft later minder tegelijk uit te zoeken.
 
 ## Wat je nu kunt doen
 
@@ -55,4 +55,4 @@ Zorg voor een korte, praktische training. Niet een dag theorie, maar een sessie 
 
 ---
 
-Wil je je team op het verplichte basisniveau brengen? [Bekijk de AI-geletterdheidstraining →](/ai-geletterdheid-training/)
+Wil je AI-geletterdheid praktisch organiseren voor je team? [Bekijk de AI-geletterdheidstraining →](/ai-geletterdheid-training/)

@@ -23,10 +23,10 @@ sections:
       In drie jaar heb ik ruim vijftig adoptietrajecten gedaan en veel trainingen en workshops gegeven, bij MKB-teams van de werkvloer tot de directiekamer. Daarvan heb ik geleerd dat adoptie zelden op techniek strandt en dat enthousiasme zonder opvolging verdampt. Daar is de hele [werkwijze](/werkwijze/) op gebouwd.
   - title: "Rustig over regels"
     body: |
-      Een vast onderdeel van mijn werk is de EU AI Act en alles eromheen. Privacy, de AVG, en de vraag wat er wel en niet in een AI-assistent thuishoort. Voor veel MKB-bedrijven is dat een bron van onzekerheid, en soms van paniekverhalen. Ik help er rustig doorheen. Wat moet er echt geregeld zijn, hoe maak je het aantoonbaar, en dan weer door naar het werk. Juridisch advies geef ik niet, werkbare afspraken wel.
+      Een vast onderdeel van mijn werk is de EU AI Act en alles eromheen. Privacy, de AVG, en de vraag wat er wel en niet in een AI-assistent thuishoort. Voor veel MKB-bedrijven is dat een bron van onzekerheid, en soms van paniekverhalen. Ik help er rustig doorheen met praktische training, bewustwording en werkafspraken. Juridisch advies geef ik niet en Supervised is geen compliance-bureau. Als formele toetsing nodig is, hoort daar een jurist of privacyadviseur bij.
   - title: "Achtergrond"
     body: |
-      Voordat ik Supervised begon werkte ik vier jaar bij GEA Group. Daar zag ik hoe MKB-bedrijven uren verloren aan werk dat slimmer kan. Te klein voor een IT-project, te groot om zelf op te lossen. Daar past Supervised tussenin. Tegenwoordig met Copilot als gereedschap, omdat vrijwel elk bedrijf de omgeving eromheen al heeft.
+      Voordat ik Supervised begon werkte ik vier jaar bij GEA Group. Daar zag ik hoe MKB-bedrijven uren verloren aan werk dat slimmer kan. Te klein voor een IT-project, te groot om zelf op te lossen. Daar past Supervised tussenin. Tegenwoordig met Copilot als gereedschap, omdat veel MKB-bedrijven dagelijks in Microsoft 365 werken.
 
       Ik werk vanuit Enschede, op locatie in heel Oost-Nederland en bij Nederlandse bedrijven net over de grens. Benieuwd voor wie ik eerder werkte? Kijk bij [de praktijk](/praktijk/).
 closing:

@@ -1,5 +1,6 @@
 ---
 title: "Een Copilot-inspiratiesessie over jullie eigen werk"
+eyebrow: "Inspiratiesessie"
 seoTitle: "Copilot-inspiratiesessie voor MT, team of event | Supervised"
 description: "Een Copilot-inspiratiesessie die over jullie werk gaat. Praktisch, nuchter en direct toepasbaar. Voor directie, MT, teams en events in Oost-Nederland."
 lead: "Een Copilot-inspiratiesessie van Supervised laat directie, MT of het hele team in één sessie zien wat Microsoft 365 Copilot betekent voor hun dagelijkse werk. Live en met echte voorbeelden uit Outlook, Teams, Word en Excel, geen toekomstverhaal. Ook boekbaar als spreker voor je event, kickoff of teamdag."
@@ -10,7 +11,7 @@ sitemap:
   priority: 0.8
 faq:
   - q: "Is dit een verkooppraatje voor licenties?"
-    a: "Nee. Supervised verkoopt geen licenties en geen software. Als de conclusie is dat jullie voorlopig genoeg hebben aan Copilot Chat in de huidige licentie, dan hoor je dat."
+    a: "Nee. Supervised verkoopt geen licenties en geen software. Als Copilot Chat voorlopig een passende start is binnen jullie Microsoft-omgeving, dan hoor je dat."
   - q: "Werkt de sessie ook als we nog helemaal niets met AI doen?"
     a: "Juist dan. De sessie veronderstelt geen voorkennis en begint bij het werk dat er al ligt, niet bij de techniek."
 closing:
@@ -48,13 +49,3 @@ Een gedeeld, realistisch beeld van Copilot binnen het bedrijf, en meestal een li
 ## Praktisch
 
 Ik kom naar jullie locatie of je event, overal in Oost-Nederland. Duur en vorm bepalen we in overleg, van een uur op een personeelsbijeenkomst tot een dagdeel met het MT. Je krijgt vooraf één duidelijke prijs.
-
-## Veelgestelde vragen over de sessie
-
-### Is dit een verkooppraatje voor licenties?
-
-Nee. Supervised verkoopt geen licenties en geen software. Als de conclusie is dat jullie voorlopig genoeg hebben aan Copilot Chat in de huidige licentie, dan hoor je dat.
-
-### Werkt de sessie ook als we nog helemaal niets met AI doen?
-
-Juist dan. De sessie veronderstelt geen voorkennis en begint bij het werk dat er al ligt, niet bij de techniek.

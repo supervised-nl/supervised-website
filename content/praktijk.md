@@ -25,8 +25,8 @@ Wil je weten hoe het er bij een vergelijkbaar bedrijf aan toeging? Vraag ernaar 
 
 Elk bedrijf is anders, maar het ritme is herkenbaar. Het begint met de [Readiness-scan](/copilot-readiness-scan/). Een halve dag meekijken, waarna duidelijk is wat er eerst geregeld moet worden. Vaak zijn dat een paar afspraken over SharePoint en een besluit over licenties. Dan volgt per team een [training](/copilot-training/) op eigen taken, waarin sales oefent op offertes, de administratie op de mailbox en het MT op vergaderingen in Teams.
 
-Daarna begint het echte werk. Werkafspraken op één A4, een ambassadeur per team, korte terugkomsessies. En aan het eind een eenvoudige meting tegenover de 0-meting. Wie gebruikt Copilot structureel, voor welke taken, en waar zit de tijdwinst. Soms is de uitkomst ook dat er minder betaalde licenties nodig zijn dan gepland, omdat Copilot Chat voor een deel van het team volstaat. Ook dat is resultaat.
+Daarna begint het echte werk. Werkafspraken op één A4, een ambassadeur per team, korte terugkomsessies. En aan het eind een eenvoudige meting tegenover de 0-meting. Wie gebruikt Copilot structureel, voor welke taken, en waar zit minder tijdverlies. Soms is de uitkomst ook dat er minder betaalde licenties nodig zijn dan gepland, omdat Copilot Chat voor een deel van het team een passende start blijkt. Ook dat is resultaat.
 
 ## Wat opdrachtgevers terugzien
 
-Geen beloofde percentages vooraf, wel zichtbare verandering achteraf. Taken gaan structureel sneller, vergaderingen beginnen beter voorbereid, documenten worden niet meer vanaf nul opgebouwd, en het licentiebesluit is onderbouwd in plaats van een gok. De 0-meting en eindmeting van het [adoptietraject](/copilot-adoptietraject/) laten dat verschil zien voor jullie eigen situatie.
+Geen beloofde percentages vooraf, wel zichtbare verandering achteraf. Taken krijgen beter voorwerk, vergaderingen beginnen beter voorbereid, documenten worden minder vaak vanaf nul opgebouwd, en het licentiebesluit is onderbouwd in plaats van een gok. De 0-meting en eindmeting van het [adoptietraject](/copilot-adoptietraject/) laten dat verschil zien voor jullie eigen situatie.

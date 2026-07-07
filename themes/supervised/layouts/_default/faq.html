@@ -8,10 +8,7 @@
     </div>
   </div>
   <div class="page-grid-body faq-list">
-    {{ range .Params.faq }}
-    <h2>{{ .q }}</h2>
-    <p>{{ .a }}</p>
-    {{ end }}
+    {{ partial "faq-items.html" (dict "faq" .Params.faq "heading" "h2") }}
     {{ .Content }}
   </div>
 </div>

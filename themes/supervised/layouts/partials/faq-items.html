@@ -1,0 +1,7 @@
+{{ $heading := .heading | default "h2" }}
+{{ range .faq }}
+<article class="faq-item">
+  {{ if eq $heading "h3" }}<h3>{{ .q }}</h3>{{ else }}<h2>{{ .q }}</h2>{{ end }}
+  <p>{{ .a }}</p>
+</article>
+{{ end }}

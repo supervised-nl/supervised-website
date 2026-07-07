@@ -29,8 +29,8 @@ In de training werkt iedereen in de eigen omgeving aan eigen taken, zoals de off
 
 ## Borgen en meten
 
-Dit is het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs per team, korte terugkomsessies en een eenvoudige eindmeting tegenover de 0-meting. Aan het eind weet je wat er gebruikt wordt en waar de tijdwinst zit. Het team kan zelfstandig verder. Zonder afhankelijkheid van mij.
+Dit is het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs per team, korte terugkomsessies en een eenvoudige eindmeting tegenover de 0-meting. Aan het eind weet je wat er gebruikt wordt en waar minder tijd verloren gaat. Het team kan zelfstandig verder. Zonder afhankelijkheid van mij.
 
 ## Waar ik niet van ben
 
-Geen hype en geen paniekverhalen, ook niet over de EU AI Act. Die regel je gewoon. Geen licentieverkoop of IT-beheer, dus het advies is onafhankelijk. En geen wildgroei aan losse AI-tools. Veel teams gebruiken al ChatGPT of andere assistenten zonder afspraken. Dat brengen we in veilige banen, binnen de Microsoft-omgeving waar jullie al voor betalen. Meer over de persoon achter Supervised lees je bij [over Jeroen](/over/).
+Geen hype en geen paniekverhalen, ook niet over de EU AI Act. AI-geletterdheid, privacy en werkafspraken horen gewoon bij verantwoorde Copilot-adoptie. Geen licentieverkoop of IT-beheer, dus het advies is onafhankelijk. En geen wildgroei aan losse AI-tools. Veel teams gebruiken al ChatGPT of andere assistenten zonder afspraken. Dat brengen we terug naar duidelijke afspraken en een Microsoft-omgeving die beheersbaar blijft. Meer over de persoon achter Supervised lees je bij [over Jeroen](/over/).

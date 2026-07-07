@@ -9,19 +9,19 @@ Supervised is de Microsoft 365 Copilot-adoptiespecialist voor het MKB in Oost-Ne
 
 - **Copilot-inspiratiesessie** (URL: /copilot-inspiratiesessie/): voor directie, MT, teams of events; praktisch overzicht van wat Copilot betekent voor het dagelijkse werk. Ook boekbaar als spreker voor events, kickoffs en teamdagen.
 
-- **Copilot-workshops en -trainingen** (URL: /copilot-training/): interactieve trainingen voor teams, gericht op echte taken, rolgericht opgebouwd voor sales, HR, administratie/office en directie/management. Werkt met betaalde Copilot-licenties én met Copilot Chat.
+- **Copilot-workshops en -trainingen** (URL: /copilot-training/): interactieve trainingen voor teams, gericht op echte taken, rolgericht opgebouwd voor sales, HR, administratie/office en directie/management. Werkt met betaalde Copilot-licenties en, waar beschikbaar en passend, met Microsoft 365 Copilot Chat.
 
-- **Copilot-adoptietraject** (URL: /copilot-adoptietraject/): structurele begeleiding met 0-meting, use cases per rol, interne richtlijnen en werkafspraken (incl. AVG en AI-geletterdheid volgens de EU AI Act), ambassadeurs, training en opvolging. Afsluiting met een eenvoudige meting: wat wordt er gebruikt en waar zit de tijdwinst.
+- **Copilot-adoptietraject** (URL: /copilot-adoptietraject/): structurele begeleiding met 0-meting, use cases per rol, interne richtlijnen en werkafspraken (incl. privacy en AI-geletterdheid), ambassadeurs, training en opvolging. Afsluiting met een eenvoudige meting: wat wordt er gebruikt en waar gaat minder tijd verloren.
 
 - **1-op-1 Copilot-begeleiding** (URL: /copilot-begeleiding/): persoonlijke begeleiding voor directieleden, managers en key users.
 
-- **AI-geletterdheidstraining** (URL: /ai-geletterdheid-training/): teamtraining die voldoet aan het basisniveau AI-kennis dat de EU AI Act (artikel 4) van werkgevers vraagt. Ook geïntegreerd in de Readiness-scan en adoptietrajecten.
+- **AI-geletterdheidstraining** (URL: /ai-geletterdheid-training/): teamtraining rond basiskennis, bewustwording en werkafspraken voor verantwoord AI-gebruik. Ook geïntegreerd in de Readiness-scan en adoptietrajecten. Supervised geeft geen juridisch advies en is geen compliance-bureau.
 
 ## Doelgroep
-MKB-bedrijven in Oost-Nederland met circa 10 tot 100 medewerkers die al met Microsoft 365 werken (Teams, Outlook, Word, Excel, SharePoint). Beslissers: directie, MT, HR, IT-verantwoordelijken en teamleiders. Twee typische startsituaties: bedrijven zonder Copilot-licenties (die kunnen starten met Copilot Chat binnen hun huidige licentie) en bedrijven waar Copilot-gebruik na een pilot niet beklijft.
+MKB-bedrijven in Oost-Nederland met circa 10 tot 100 medewerkers die al met Microsoft 365 werken (Teams, Outlook, Word, Excel, SharePoint). Beslissers: directie, MT, HR, IT-verantwoordelijken en teamleiders. Twee typische startsituaties: bedrijven zonder betaalde Copilot-licenties, waarbij Microsoft 365 Copilot Chat vaak een eerste stap kan zijn afhankelijk van tenant en licenties, en bedrijven waar Copilot-gebruik na een pilot niet beklijft.
 
 ## Aanpak
-Eerst begrijpen hoe het bedrijf werkt (Readiness-scan op locatie), daarna een passende aanpak: training, adoptietraject of beide. Geen standaardpakketten. Trajecten werken met een 0-meting en eindmeting zodat zichtbaar wordt wat Copilot oplevert. Onderwerpen: Microsoft 365 Copilot, Copilot Chat, Copilot in Teams, Outlook, Word, Excel, PowerPoint, SharePoint en Copilot agents.
+Eerst begrijpen hoe het bedrijf werkt (Readiness-scan op locatie), daarna een passende aanpak: training, adoptietraject of beide. Geen standaardpakketten. Trajecten werken met een 0-meting en eindmeting zodat zichtbaar wordt wat er verandert in gebruik en tijdsbesteding. Onderwerpen: Microsoft 365 Copilot, Copilot Chat, Copilot in Teams, Outlook, Word, Excel, PowerPoint, SharePoint en Copilot agents.
 
 ## Werkgebied
 Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen, en bij Nederlandse bedrijven net over de Duitse grens (Nordhorn, Gildehaus). Vestigingsplaats: Enschede.
@@ -33,7 +33,7 @@ Jeroen Gijselaar, eigenaar. Drie jaar gespecialiseerd in AI op de werkvloer van 
 - Eerst kijken hoe het werk echt gaat, dan pas een aanpak
 - Onafhankelijk: geen licentieverkoop, geen IT-beheer
 - Meetbaar: 0-meting en eindmeting in elk adoptietraject
-- Verantwoord: AVG en EU AI Act als onderdeel van adoptie, zonder paniekverhaal
+- Verantwoord: privacy, AI-geletterdheid en werkafspraken als onderdeel van adoptie, zonder paniekverhaal
 - Zelfstandigheid van de klant: geen afhankelijkheid na afloop
 
 ## Key facts
