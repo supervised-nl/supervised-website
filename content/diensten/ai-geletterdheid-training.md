@@ -1,7 +1,7 @@
 ---
-title: "AI-geletterdheidstraining: voldoe rustig aan de EU AI Act"
+title: "AI-geletterdheidstraining voor de EU AI Act"
 seoTitle: "AI-geletterdheidstraining (EU AI Act) | Supervised"
-description: "Praktische AI-geletterdheidstraining voor MKB-teams: voldoe aantoonbaar aan artikel 4 van de EU AI Act en leer veilig werken met AI en Copilot."
+description: "Praktische AI-geletterdheidstraining voor MKB-teams. Voldoe aantoonbaar aan artikel 4 van de EU AI Act en leer veilig werken met AI en Copilot."
 lead: "De AI-geletterdheidstraining van Supervised brengt je team in één teamtraining op het basisniveau AI-kennis dat de EU AI Act (artikel 4) van werkgevers vraagt. Praktisch, aantoonbaar en zonder paniekverhaal. Voor MKB-bedrijven in Oost-Nederland, op jullie locatie."
 url: "/ai-geletterdheid-training/"
 weight: 6
@@ -23,11 +23,11 @@ closing:
 
 ## Wat de wet vraagt (en wat niet)
 
-De EU AI Act verplicht werkgevers ervoor te zorgen dat medewerkers die met AI werken voldoende AI-geletterd zijn. Ze moeten snappen wat het gereedschap doet, waar het fout kan gaan en hoe je er verantwoord mee omgaat. Wat de wet niet vraagt: dikke handboeken of een complianceafdeling. Voor de meeste MKB-teams volstaat een gerichte training plus een paar vastgelegde werkafspraken.
+De EU AI Act verplicht werkgevers ervoor te zorgen dat medewerkers die met AI werken voldoende AI-geletterd zijn. Ze moeten snappen wat het gereedschap doet, waar het fout kan gaan en hoe je er verantwoord mee omgaat. Dikke handboeken of een complianceafdeling vraagt de wet niet. Voor de meeste MKB-teams volstaat een gerichte training plus een paar vastgelegde werkafspraken.
 
 ## Wat je team leert
 
-Hoe AI-assistenten zoals Copilot en Copilot Chat werken en waar ze de mist in gaan. Wat je wel en niet deelt met een AI-tool, met echte voorbeelden: de export uit Excel met klantgegevens, het gespreksverslag met persoonsgegevens in Word, de vraag aan Copilot Chat waar net te veel context in zit. En hoe je uitkomsten controleert voordat ze de deur uit gaan. Direct toepasbaar in Outlook, Teams en de rest van jullie Microsoft-omgeving.
+Hoe AI-assistenten zoals Copilot en Copilot Chat werken en waar ze de mist in gaan. Wat je wel en niet deelt met een AI-tool, aan de hand van echte voorbeelden. De export uit Excel met klantgegevens, het gespreksverslag met persoonsgegevens in Word, de vraag aan Copilot Chat waar net te veel context in zit. En hoe je uitkomsten controleert voordat ze de deur uit gaan. Direct toepasbaar in Outlook, Teams en de rest van jullie Microsoft-omgeving.
 
 ## Los of geïntegreerd
 

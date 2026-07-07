@@ -1,8 +1,8 @@
 ---
-title: "Microsoft 365 Copilot-training: leren op jullie eigen werk"
+title: "Microsoft 365 Copilot-training op jullie eigen werk"
 seoTitle: "Microsoft 365 Copilot-training voor teams | Supervised"
 description: "Copilot-training op locatie voor MKB-teams in Oost-Nederland. Rolgericht voor sales, HR, administratie en management, met taken uit jullie eigen werk."
-lead: "Een Copilot-training van Supervised is een interactieve workshop voor MKB-teams, op locatie in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Geen productdemo, maar oefenen op echte taken: de offerte die eruit moet, het verslag van vanmorgen, de mailbox die volloopt. Na afloop kan iedereen minstens een paar eigen taken sneller met Copilot."
+lead: "Een Copilot-training van Supervised is een interactieve workshop voor MKB-teams, op locatie in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Geen productdemo, maar oefenen op echte taken. De offerte die eruit moet, het verslag van vanmorgen, de mailbox die volloopt. Na afloop kan iedereen minstens een paar eigen taken sneller met Copilot."
 url: "/copilot-training/"
 weight: 3
 sitemap:
@@ -31,7 +31,7 @@ Zijn er nog geen betaalde Copilot-licenties? Dan trainen we met Copilot Chat, da
 
 ## Per rol, want ander werk vraagt andere voorbeelden
 
-Een verkoper heeft niets aan het voorbeeld van de administratie. Daarom is de training rolgericht opgebouwd. De meest gevraagde varianten:
+Een verkoper heeft niets aan het voorbeeld van de administratie. Daarom is de training rolgericht opgebouwd. Dit zijn de meest gevraagde varianten.
 
 ### Copilot voor sales
 

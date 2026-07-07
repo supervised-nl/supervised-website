@@ -1,8 +1,8 @@
 ---
-title: "Copilot Readiness-scan: weet waar je staat voordat je begint"
+title: "De Copilot Readiness-scan laat zien waar je staat"
 seoTitle: "Copilot Readiness-scan voor het MKB | Supervised"
-description: "De Copilot Readiness-scan: een halve dag op locatie en een rapport met plan van aanpak. Weet waar je staat vóór je traint. Vaste prijs, geen verrassingen."
-lead: "De Copilot Readiness-scan brengt in kaart of jullie Microsoft 365-omgeving en jullie manier van werken klaar zijn voor Copilot. Een halve dag op locatie, daarna een rapport met een concreet plan van aanpak. Voor MKB-bedrijven van 10 tot 100 medewerkers. Vaste prijs: € 950 exclusief btw."
+description: "De Copilot Readiness-scan is een halve dag op locatie plus een rapport met plan van aanpak. Weet waar je staat vóór je traint. Vaste prijs, geen verrassingen."
+lead: "De Copilot Readiness-scan brengt in kaart of jullie Microsoft 365-omgeving en jullie manier van werken klaar zijn voor Copilot. Een halve dag op locatie, daarna een rapport met een concreet plan van aanpak. Voor MKB-bedrijven van 10 tot 100 medewerkers. De vaste prijs is € 950 exclusief btw."
 url: "/copilot-readiness-scan/"
 weight: 2
 sitemap:
@@ -53,11 +53,11 @@ Ik kom een halve dag naar jullie locatie. Ik kijk mee met het echte werk, spreek
 
 ## Wat je krijgt
 
-- Een helder beeld van de startsituatie: licenties, instellingen, datahygiëne, afspraken.
+- Een helder beeld van de startsituatie, van licenties en instellingen tot datahygiëne en afspraken.
 - De punten die eerst geregeld moeten worden, met prioriteit.
-- Een onderbouwd licentie-advies: starten met Copilot Chat, of betaalde licenties voor specifieke rollen.
+- Een onderbouwd licentie-advies. Starten met Copilot Chat, of betaalde licenties voor specifieke rollen.
 - De meest kansrijke toepassingen per rol.
-- Een concreet vervolgvoorstel: een [workshop](/copilot-training/), een [adoptietraject](/copilot-adoptietraject/) of zelf aan de slag. Het plan is van jullie, ook als je het zonder mij uitvoert.
+- Een concreet vervolgvoorstel, bijvoorbeeld een [workshop](/copilot-training/), een [adoptietraject](/copilot-adoptietraject/) of zelf aan de slag. Het plan is van jullie, ook als je het zonder mij uitvoert.
 
 ## Prijs
 

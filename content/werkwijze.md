@@ -1,6 +1,6 @@
 ---
 title: "Zo pakt Supervised Copilot-adoptie aan"
-seoTitle: "Werkwijze: zo pakt Supervised Copilot-adoptie aan"
+seoTitle: "Zo pakt Supervised Copilot-adoptie aan | Werkwijze"
 description: "Eerst kijken hoe het werk echt gaat, dan een aanpak die past. Zo helpt Supervised MKB-bedrijven om Copilot veilig en blijvend in gebruik te krijgen."
 lead: "Copilot-adoptie mislukt als je begint met de tool en eindigt bij het werk. Ik doe het andersom. Eerst zien hoe jullie werken, dan pas bepalen wat Copilot daarin moet doen. Vier stappen."
 sitemap:
@@ -14,19 +14,19 @@ closing:
     url: "/contact/"
 ---
 
-## Stap 1: eerst kijken
+## Stap 1. Eerst kijken
 
-Ik kom langs en zie hoe het werk echt gaat. Niet hoe het op papier staat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik de Microsoft 365-omgeving: licenties, SharePoint, afspraken. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor zelf niet meer waar de herhaling zit. Dat blootleggen is de helft van het werk.
+Ik kom langs en zie hoe het werk echt gaat. Niet hoe het op papier staat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik de Microsoft 365-omgeving, van licenties tot SharePoint en afspraken. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor zelf niet meer waar de herhaling zit. Dat blootleggen is de helft van het werk.
 
-## Stap 2: een plan dat past
+## Stap 2. Een plan dat past
 
-Op basis van wat ik zie, krijg je een plan van aanpak. Wat moet eerst geregeld worden, welke rollen hebben het meest te winnen en welke vorm past daarbij: een [workshop](/copilot-training/), een [adoptietraject](/copilot-adoptietraject/) of eerst een [inspiratiesessie](/copilot-inspiratiesessie/) voor het MT. Er zijn geen standaardpakketten, omdat geen twee bedrijven hetzelfde werken.
+Op basis van wat ik zie, krijg je een plan van aanpak. Wat moet eerst geregeld worden, welke rollen hebben het meest te winnen en welke vorm past daarbij. Dat kan een [workshop](/copilot-training/) zijn, een [adoptietraject](/copilot-adoptietraject/) of eerst een [inspiratiesessie](/copilot-inspiratiesessie/) voor het MT. Er zijn geen standaardpakketten, omdat geen twee bedrijven hetzelfde werken.
 
-## Stap 3: trainen op echte taken
+## Stap 3. Trainen op echte taken
 
 In de training werkt iedereen in de eigen omgeving aan eigen taken. De offerte in Word, de mailbox in Outlook, het verslag uit Teams, de lijst in Excel. Per rol, want een verkoper leert niets van het voorbeeld van de administratie.
 
-## Stap 4: borgen en meten
+## Stap 4. Borgen en meten
 
 Dit is het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs per team, korte terugkomsessies en een eenvoudige eindmeting tegenover de 0-meting. Aan het eind weet je wat er gebruikt wordt en waar de tijdwinst zit. Het team kan zelfstandig verder. Zonder afhankelijkheid van mij.
 

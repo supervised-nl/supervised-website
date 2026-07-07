@@ -1,7 +1,7 @@
 ---
-title: "Copilot-inspiratiesessie: zien wat het voor jullie werk betekent"
+title: "Een Copilot-inspiratiesessie over jullie eigen werk"
 seoTitle: "Copilot-inspiratiesessie voor MT, team of event | Supervised"
-description: "Een Copilot-inspiratiesessie die over jullie werk gaat: praktisch, nuchter en direct toepasbaar. Voor directie, MT, teams en events in Oost-Nederland."
+description: "Een Copilot-inspiratiesessie die over jullie werk gaat. Praktisch, nuchter en direct toepasbaar. Voor directie, MT, teams en events in Oost-Nederland."
 lead: "Een Copilot-inspiratiesessie van Supervised laat directie, MT of het hele team in één sessie zien wat Microsoft 365 Copilot betekent voor hun dagelijkse werk. Live en met echte voorbeelden uit Outlook, Teams, Word en Excel, geen toekomstverhaal. Ook boekbaar als spreker voor je event, kickoff of teamdag."
 url: "/copilot-inspiratiesessie/"
 weight: 1

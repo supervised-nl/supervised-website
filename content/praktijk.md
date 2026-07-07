@@ -1,14 +1,14 @@
 ---
 title: "Copilot-adoptie in de praktijk"
 seoTitle: "Copilot in de praktijk: klanten en resultaten | Supervised"
-description: "Waar Supervised eerder werkte: van Saxion tot Statiegeld Nederland. Zo zien trajecten eruit en zo wordt gemeten wat Copilot-adoptie oplevert."
+description: "Waar Supervised eerder werkte, van Saxion tot Statiegeld Nederland. Zo zien trajecten eruit en zo wordt gemeten wat Copilot-adoptie oplevert."
 lead: "Drie jaar, ruim vijftig adoptietrajecten en veel trainingen bij MKB-teams in Oost-Nederland. Op deze pagina zie je voor wie Supervised werkte en hoe een traject er in de praktijk uitziet, inclusief hoe we meten of het wat oplevert."
 sitemap:
   changefreq: monthly
   priority: 0.7
 closing:
   question: "Benieuwd waar jullie staan?"
-  body: "De Readiness-scan laat het zien: een halve dag op locatie, rapport met plan van aanpak, € 950 excl. btw."
+  body: "De Readiness-scan laat het zien. Een halve dag op locatie en een rapport met plan van aanpak, voor € 950 excl. btw."
   cta:
     label: "Plan de Readiness-scan"
     url: "/copilot-readiness-scan/"
@@ -22,9 +22,9 @@ Wil je weten hoe het er bij een vergelijkbaar bedrijf aan toeging? Vraag ernaar 
 
 ## Zo ziet een traject er in de praktijk uit
 
-Elk bedrijf is anders, maar het ritme is herkenbaar. Het begint met de [Readiness-scan](/copilot-readiness-scan/): een halve dag meekijken, waarna duidelijk is wat er eerst geregeld moet worden. Vaak zijn dat een paar afspraken over SharePoint en een besluit over licenties. Dan volgt per team een [training](/copilot-training/) op eigen taken. De offertes van sales in Word, de mailbox van de administratie in Outlook, de vergaderingen van het MT in Teams.
+Elk bedrijf is anders, maar het ritme is herkenbaar. Het begint met de [Readiness-scan](/copilot-readiness-scan/). Een halve dag meekijken, waarna duidelijk is wat er eerst geregeld moet worden. Vaak zijn dat een paar afspraken over SharePoint en een besluit over licenties. Dan volgt per team een [training](/copilot-training/) op eigen taken. De offertes van sales in Word, de mailbox van de administratie in Outlook, de vergaderingen van het MT in Teams.
 
-Daarna begint het echte werk. Werkafspraken op één A4, een ambassadeur per team, korte terugkomsessies. En aan het eind een eenvoudige meting tegenover de 0-meting: wie gebruikt Copilot structureel, voor welke taken, en waar zit de tijdwinst. Soms is de uitkomst ook dat er minder betaalde licenties nodig zijn dan gepland, omdat Copilot Chat voor een deel van het team volstaat. Ook dat is resultaat.
+Daarna begint het echte werk. Werkafspraken op één A4, een ambassadeur per team, korte terugkomsessies. En aan het eind een eenvoudige meting tegenover de 0-meting. Wie gebruikt Copilot structureel, voor welke taken, en waar zit de tijdwinst. Soms is de uitkomst ook dat er minder betaalde licenties nodig zijn dan gepland, omdat Copilot Chat voor een deel van het team volstaat. Ook dat is resultaat.
 
 ## Wat opdrachtgevers terugzien
 

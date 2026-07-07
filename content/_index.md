@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 Copilot-adoptie voor het MKB"
-description: "Supervised helpt MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Van Readiness-scan tot adoptietraject: veilig, meetbaar."
+description: "Supervised helpt MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Van Readiness-scan tot adoptietraject, veilig en meetbaar."
 sitemap:
   changefreq: weekly
   priority: 1.0
@@ -29,7 +29,7 @@ dienstenTitle: "Van eerste kennismaking tot dagelijks gebruik"
 diensten:
   - number: "01"
     title: "Inspiratiesessie"
-    body: "Voor directie, MT, team of event: in één sessie zien wat Copilot betekent voor jullie dagelijkse werk. Live en met echte voorbeelden, geen toekomstverhaal."
+    body: "Voor directie, MT, team of event. In één sessie zie je wat Copilot betekent voor jullie dagelijkse werk. Live en met echte voorbeelden, geen toekomstverhaal."
     url: "/copilot-inspiratiesessie/"
   - number: "02"
     title: "Readiness-scan"
@@ -37,11 +37,11 @@ diensten:
     url: "/copilot-readiness-scan/"
   - number: "03"
     title: "Workshops en trainingen"
-    body: "Hands-on leren op echte taken, in jullie eigen Microsoft-omgeving. Rolgericht: sales, HR, administratie en management krijgen elk hun eigen voorbeelden."
+    body: "Hands-on leren op echte taken, in jullie eigen Microsoft-omgeving. Sales, HR, administratie en management krijgen elk hun eigen voorbeelden."
     url: "/copilot-training/"
   - number: "04"
     title: "Adoptietraject"
-    body: "Structurele begeleiding: 0-meting, werkafspraken, ambassadeurs, training en opvolging. Afgesloten met een meting van gebruik en tijdwinst."
+    body: "Structurele begeleiding met een 0-meting, werkafspraken, ambassadeurs, training en opvolging. Afgesloten met een meting van gebruik en tijdwinst."
     url: "/copilot-adoptietraject/"
   - number: "05"
     title: "1-op-1-begeleiding"
@@ -56,7 +56,7 @@ sections:
   - title: "Nuchter, met bewijs"
     body: |
       Supervised is Jeroen Gijselaar, vanuit Enschede. Drie jaar gespecialiseerd in AI op de werkvloer van het MKB, ruim vijftig adoptietrajecten en veel trainingen en workshops gegeven. Eerder werkte Supervised onder meer voor Ergonad, Makoto, Saxion, Skitt, Statiegeld Nederland en Happy Spaces.
-  - title: "Werkgebied: Oost-Nederland"
+  - title: "In heel Oost-Nederland"
     body: |
       Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen. Ook bij Nederlandse bedrijven net over de Duitse grens, zoals in Nordhorn en Gildehaus. Trainen gebeurt bij jullie op de zaak, want daar gebeurt het werk.
 clients:
@@ -74,7 +74,7 @@ clients:
     file: "happy_spaces.svg"
 closing:
   question: "Weten waar jullie staan?"
-  body: "De Readiness-scan is het startpunt: een halve dag op locatie en een rapport met een concreet plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "De Readiness-scan is het startpunt. Een halve dag op locatie, daarna een rapport met een concreet plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Plan de Readiness-scan"
     url: "/copilot-readiness-scan/"
