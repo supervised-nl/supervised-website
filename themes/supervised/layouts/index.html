@@ -24,48 +24,11 @@
   </div>
   <div class="page-grid-body">
     <div class="home-cards">
-      {{ range . }}
-      <article class="home-card">
-        <span class="home-card-number" aria-hidden="true">{{ .number }}</span>
-        <div>
-          <h3><a href="{{ .url }}">{{ .title }}</a></h3>
-          <p>{{ .body }}</p>
-          <a href="{{ .url }}" class="small home-card-link">Meer lezen →</a>
-        </div>
-      </article>
+      {{ range $i, $d := . }}
+      {{ partial "card.html" (dict "variant" "home" "number" (printf "%02d" (add $i 1)) "title" $d.title "url" $d.url "body" $d.body) }}
       {{ end }}
     </div>
   </div>
-</section>
-{{ end }}
-
-{{ with .Params.werkwijze }}
-<section id="werkwijze" class="page-grid home-werkwijze">
-  <div class="page-grid-side">
-    {{ partial "page-header.html" (dict "eyebrow" "Werkwijze" "title" "In drie stappen naar een werkende oplossing" "level" "h2") }}
-  </div>
-  <div class="page-grid-body">
-    <div class="home-steps">
-      {{ range . }}
-      <div class="home-step">
-        <span class="home-step-number" aria-hidden="true">{{ .number }}</span>
-        <div>
-          <h3>{{ .title }}</h3>
-          <p>{{ .body }}</p>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{ with .Params.case }}
-<section id="voorbeeld" class="home-section home-case">
-  {{ with .eyebrow }}<span class="home-eyebrow small">{{ . }}</span>{{ end }}
-  <h2>{{ .title }}</h2>
-  <p>{{ .body }}</p>
-  {{ with .result }}<p class="home-case-result"><strong>{{ . }}</strong></p>{{ end }}
 </section>
 {{ end }}
 

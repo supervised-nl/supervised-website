@@ -8,14 +8,7 @@
     {{ .Content }}
     <div class="diensten-cards">
       {{ range $i, $page := .Pages.ByWeight }}
-      <article id="{{ .File.ContentBaseName }}" class="dienst-card">
-        <span class="dienst-number" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
-        <div>
-          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-          <p>{{ .Description }}</p>
-          <a href="{{ .RelPermalink }}" class="small">Meer lezen →</a>
-        </div>
-      </article>
+      {{ partial "card.html" (dict "variant" "dienst" "id" $page.File.ContentBaseName "number" (printf "%02d" (add $i 1)) "title" $page.Title "url" $page.RelPermalink "body" $page.Description) }}
       {{ end }}
     </div>
   </div>

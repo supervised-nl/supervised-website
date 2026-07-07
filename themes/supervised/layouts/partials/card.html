@@ -1,0 +1,13 @@
+{{- /* Genummerde kaart in een divider-lijst (homepage en dienstenoverzicht).
+     dict: variant ("home" of "dienst"), number, title, url, body,
+     id (optioneel, alleen dienst). De twee varianten delen layout en
+     nummerstijl; typografie verschilt bewust (zie main.css). */ -}}
+{{- $home := eq .variant "home" -}}
+<article{{ with .id }} id="{{ . }}"{{ end }} class="{{ if $home }}home-card{{ else }}dienst-card{{ end }}">
+  <span class="{{ if $home }}home-card-number{{ else }}dienst-number{{ end }}" aria-hidden="true">{{ .number }}</span>
+  <div>
+    {{ if $home }}<h3><a href="{{ .url }}">{{ .title }}</a></h3>{{ else }}<h2><a href="{{ .url }}">{{ .title }}</a></h2>{{ end }}
+    <p>{{ .body }}</p>
+    <a href="{{ .url }}" class="small{{ if $home }} home-card-link{{ end }}">Meer lezen →</a>
+  </div>
+</article>

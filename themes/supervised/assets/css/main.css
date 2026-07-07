@@ -965,12 +965,13 @@ footer {
 }
 
 /* --------------------------- */
-/* numbered cards (shared: home-card, dienst-card) */
+/* numbered rows (shared: home-card, dienst-card, content-sections h2) */
 /* --------------------------- */
 
 .diensten-cards { margin-top: 3.236rem; }
 .dienst-card,
-.home-card {
+.home-card,
+.content-sections > h2 {
   position: relative;
   display: grid;
   grid-template-columns: 4rem 1fr;
@@ -978,7 +979,8 @@ footer {
   align-items: baseline;
 }
 .dienst-number,
-.home-card-number {
+.home-card-number,
+.content-sections > h2::before {
   font-size: 1.618rem;
   font-weight: 300;
   color: var(--ink-4);
@@ -994,11 +996,6 @@ footer {
 }
 .content-sections > h2 {
   counter-increment: content-section;
-  position: relative;
-  display: grid;
-  grid-template-columns: 4rem 1fr;
-  gap: clamp(1rem, 2.5vw, 2.618rem);
-  align-items: baseline;
   margin-top: var(--divider-space);
   border-top: 1px solid var(--rule);
   padding-top: var(--divider-space);
@@ -1014,12 +1011,6 @@ footer {
 }
 .content-sections > h2::before {
   content: counter(content-section, decimal-leading-zero);
-  font-size: 1.618rem;
-  font-weight: 300;
-  color: var(--ink-4);
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.05em;
-  line-height: 1;
 }
 .content-sections > h3 {
   display: block;
@@ -1053,40 +1044,6 @@ footer {
     font-size: 0.9rem;
     letter-spacing: 0.382em;
     color: var(--ink-3);
-  }
-}
-
-/* --------------------------- */
-/* werkwijze , editorial typographic, distinct from home-card */
-/* --------------------------- */
-
-.home-step {
-  display: grid;
-  grid-template-columns: clamp(4rem, 8vw, 6rem) 1fr;
-  gap: clamp(1.5rem, 3vw, 2.618rem);
-  align-items: baseline;
-  margin-bottom: clamp(2rem, 4vw, 3.236rem);
-}
-.home-step-number {
-  font-size: clamp(2.618rem, 5vw, 4.236rem);
-  font-weight: 300;
-  color: var(--ink-3);
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0;
-  line-height: 1;
-}
-#content .home-step h3 { padding-top: 0; margin-top: 0; }
-
-@media (max-width: 600px) {
-  .home-step {
-    grid-template-columns: 1fr;
-    gap: 0.618rem;
-    margin-bottom: 2.618rem;
-  }
-  .home-step-number {
-    font-size: 1.618rem;
-    color: var(--accent);
-    letter-spacing: 0.05em;
   }
 }
 
@@ -1189,13 +1146,11 @@ footer {
   margin-bottom: 0.382rem;
 }
 
-/* home: card & step title/body styling (layout shared in numbered cards block above) */
-.home-cards,
-.home-steps {
+/* home: card title/body styling (layout shared in numbered rows block above) */
+.home-cards {
   margin-top: 3.236rem;
 }
-.home-card h3,
-.home-step h3 {
+.home-card h3 {
   font-size: 1.236rem;
   font-weight: 400;
   letter-spacing: 0;
@@ -1214,14 +1169,10 @@ footer {
   color: var(--accent);
   background-image: none;
 }
-.home-card p,
-.home-step p {
+.home-card p {
   color: var(--ink-2);
   padding-bottom: 0;
   margin: 0 0 1.236rem;
-}
-.home-step p {
-  margin: 0;
 }
 .home-card-link {
   display: inline-block;
