@@ -30,20 +30,116 @@ disableKinds = ['taxonomy', 'term']
 [menu]
   [[menu.main]]
     name = 'Over'
+    identifier = 'over'
     url = '/over/'
     weight = 1
   [[menu.main]]
     name = 'Diensten'
+    identifier = 'diensten'
     url = '/diensten/'
     weight = 2
   [[menu.main]]
     name = 'Blog'
+    identifier = 'blog'
     url = '/blog/'
     weight = 3
   [[menu.main]]
     name = 'Contact'
+    identifier = 'contact'
     url = '/contact/'
     weight = 4
+
+[[params.navDropdown]]
+  parent = 'over'
+  eyebrow = 'Over Supervised'
+  title = 'Solo AI-consultancy voor het MKB.'
+  [[params.navDropdown.items]]
+    label = 'Wie ik ben'
+    description = 'Jeroen Gijselaar, spreker, trainer en bouwer.'
+    url = '/over/#top'
+  [[params.navDropdown.items]]
+    label = 'Hoe ik werk'
+    description = 'Procesdenken eerst, daarna pas de technologie.'
+    url = '/over/#hoe-ik-werk'
+  [[params.navDropdown.items]]
+    label = 'Wat me anders maakt'
+    description = 'Geen AI-hype, maar werkende oplossingen.'
+    url = '/over/#wat-me-anders-maakt'
+  [[params.navDropdown.items]]
+    label = 'Achtergrond'
+    description = 'Waarom Supervised tussen MKB en IT-project past.'
+    url = '/over/#achtergrond'
+
+[[params.navDropdown]]
+  parent = 'diensten'
+  eyebrow = 'Diensten'
+  title = 'Van eerste inzicht naar werkende AI.'
+  [[params.navDropdown.items]]
+    label = 'AI workshop op maat'
+    description = 'Een workshop op basis van jullie eigen werk.'
+    url = '/diensten/#ai-workshop'
+  [[params.navDropdown.items]]
+    label = 'EU AI Act training'
+    description = 'Breng je team op het verplichte basisniveau.'
+    url = '/diensten/#eu-ai-act-training'
+  [[params.navDropdown.items]]
+    label = 'Procesanalyse'
+    description = 'In kaart brengen waar tijd weglekt.'
+    url = '/diensten/#procesanalyse'
+  [[params.navDropdown.items]]
+    label = 'Prototype in a Day'
+    description = 'In een dag weten of je idee werkt.'
+    url = '/diensten/#prototype-in-a-day'
+  [[params.navDropdown.items]]
+    label = 'AI-implementatie'
+    description = 'AI-oplossingen in je dagelijkse proces.'
+    url = '/diensten/#ai-implementatie'
+  [[params.navDropdown.items]]
+    label = 'Spreker & lezingen'
+    description = 'Een praktisch AI-verhaal voor je event of teamdag.'
+    url = '/spreker/'
+
+[[params.navDropdown]]
+  parent = 'blog'
+  eyebrow = 'Blog'
+  title = 'Praktische artikelen zonder AI-hype.'
+  [[params.navDropdown.items]]
+    label = 'Laatste artikelen'
+    description = 'Alle publicaties op een rij.'
+    url = '/blog/#artikelen'
+  [[params.navDropdown.items]]
+    label = 'AI agents voor het MKB'
+    description = 'Wanneer agents zinvol worden.'
+    url = '/blog/ai-agents-voor-het-mkb/'
+  [[params.navDropdown.items]]
+    label = 'EU AI Act'
+    description = 'Wat de verplichtingen concreet betekenen.'
+    url = '/blog/eu-ai-act-mkb-verplichtingen/'
+  [[params.navDropdown.items]]
+    label = 'Gevonden worden in ChatGPT'
+    description = 'Hoe AI-systemen je bedrijf begrijpen.'
+    url = '/blog/gevonden-worden-in-chatgpt-en-copilot/'
+
+[[params.navDropdown]]
+  parent = 'contact'
+  eyebrow = 'Contact'
+  title = 'Snel naar de juiste volgende stap.'
+  [[params.navDropdown.items]]
+    label = 'Kennismaken'
+    description = 'Vertel waar je tegenaan loopt.'
+    url = '/contact/#top'
+  [[params.navDropdown.items]]
+    label = 'Contactgegevens'
+    description = 'Mail, telefoon, adres en KVK.'
+    url = '/contact/#gegevens'
+  [[params.navDropdown.items]]
+    label = 'Veelgestelde vragen'
+    description = 'Antwoorden op praktische vragen.'
+    url = '/faq/'
+  [[params.navDropdown.items]]
+    label = 'GEO-check'
+    description = 'Check hoe AI je website leest.'
+    url = '/geo-check/'
 
 [sitemap]
   changefreq = 'monthly'

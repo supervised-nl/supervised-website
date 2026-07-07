@@ -27,7 +27,7 @@
 </div>
 
 {{ with .Params.diensten }}
-<section class="page-grid home-diensten">
+<section id="diensten" class="page-grid home-diensten">
   <div class="page-grid-header">
     <span class="home-eyebrow small">Diensten</span>
     <h2>Wat ik voor je doe</h2>
@@ -50,7 +50,7 @@
 {{ end }}
 
 {{ with .Params.werkwijze }}
-<section class="page-grid home-werkwijze">
+<section id="werkwijze" class="page-grid home-werkwijze">
   <div class="page-grid-header">
     <span class="home-eyebrow small">Werkwijze</span>
     <h2>In drie stappen naar een werkende oplossing</h2>
@@ -72,7 +72,7 @@
 {{ end }}
 
 {{ with .Params.case }}
-<section class="home-section home-case">
+<section id="voorbeeld" class="home-section home-case">
   {{ with .eyebrow }}<span class="home-eyebrow small">{{ . }}</span>{{ end }}
   <h2>{{ .title }}</h2>
   <p>{{ .body }}</p>
@@ -81,7 +81,7 @@
 {{ end }}
 
 {{ with .Params.clients }}
-<section class="clients">
+<section id="klanten" class="clients">
   <span class="small clients-eyebrow">Eerder mee samengewerkt</span>
   <div class="clients-track" aria-label="Logo's van klanten">
     <div class="clients-logos">
@@ -97,7 +97,7 @@
 {{ end }}
 
 {{ with .Params.closing }}
-<section class="home-section home-closing">
+<section id="contact" class="home-section home-closing">
   <h2>{{ .question }}</h2>
   {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
 </section>

@@ -1,4 +1,6 @@
 (function(){
+  document.documentElement.classList.add('js');
+
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   // Gefingerprint pad naar lenis, aangeleverd door baseof.html.
   var lenisSrc = document.currentScript && document.currentScript.dataset.lenis;
@@ -67,6 +69,7 @@
       var dark = isDarkActive();
       themeBtn.setAttribute('data-active', dark ? 'dark' : 'light');
       themeBtn.setAttribute('aria-label', dark ? 'Schakel naar licht' : 'Schakel naar donker');
+      themeBtn.textContent = dark ? 'licht' : 'donker';
     }
     themeBtn.addEventListener('click', function() {
       var next = isDarkActive() ? 'light' : 'dark';
@@ -80,5 +83,83 @@
     });
     syncToggle();
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', syncToggle);
+  }
+
+  // 5. Navigation overlays
+  var panelItems = Array.prototype.slice.call(document.querySelectorAll('#menu .has-panel'));
+  if (panelItems.length) {
+    var closeTimer = null;
+    var mobileToggle = document.getElementById('mobile-menu-toggle');
+    var mobileMenu = document.getElementById('mobile-menu');
+
+    function setOpen(item) {
+      clearTimeout(closeTimer);
+      panelItems.forEach(function(other) {
+        var open = other === item;
+        var link = other.querySelector('.nav-link');
+        other.classList.toggle('is-open', open);
+        if (link) link.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      document.body.classList.add('nav-open');
+    }
+
+    function closePanels() {
+      clearTimeout(closeTimer);
+      panelItems.forEach(function(item) {
+        var link = item.querySelector('.nav-link');
+        item.classList.remove('is-open');
+        if (link) link.setAttribute('aria-expanded', 'false');
+      });
+      document.body.classList.remove('nav-open');
+    }
+
+    function setMobileMenu(open) {
+      if (open) closePanels();
+      document.body.classList.toggle('mobile-nav-open', open);
+      if (mobileToggle) {
+        mobileToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        mobileToggle.setAttribute('aria-label', open ? 'Sluit menu' : 'Open menu');
+      }
+      if (mobileMenu) mobileMenu.setAttribute('aria-hidden', open ? 'false' : 'true');
+    }
+
+    panelItems.forEach(function(item) {
+      item.addEventListener('pointerenter', function(event) {
+        if (event.pointerType !== 'touch') setOpen(item);
+      });
+      item.addEventListener('pointerleave', function() {
+        closeTimer = setTimeout(closePanels, 120);
+      });
+      item.addEventListener('focusin', function() {
+        setOpen(item);
+      });
+      item.addEventListener('focusout', function() {
+        closeTimer = setTimeout(function() {
+          if (!item.contains(document.activeElement)) closePanels();
+        }, 0);
+      });
+    });
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closePanels();
+        setMobileMenu(false);
+      }
+    });
+    document.addEventListener('pointerdown', function(event) {
+      if (document.body.classList.contains('mobile-nav-open') && !event.target.closest('header') && !event.target.closest('#mobile-menu')) {
+        setMobileMenu(false);
+      }
+      if (!event.target.closest('header')) closePanels();
+    }, { passive: true });
+
+    if (mobileToggle && mobileMenu) {
+      mobileToggle.addEventListener('click', function() {
+        setMobileMenu(!document.body.classList.contains('mobile-nav-open'));
+      });
+      mobileMenu.addEventListener('click', function(event) {
+        if (event.target.closest('a')) setMobileMenu(false);
+      });
+    }
   }
 })();

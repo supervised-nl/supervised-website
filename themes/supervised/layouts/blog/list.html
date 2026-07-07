@@ -6,7 +6,7 @@
   </div>
   <div class="page-grid-body">
     {{ .Content }}
-    <div class="blog-list">
+    <div id="artikelen" class="blog-list">
       {{ range .Pages }}
       <article class="blog-item">
         <span class="small blog-meta">{{ .Date | time.Format ":date_long" }}{{ with .ReadingTime }} · {{ . }} min lezen{{ end }}</span>

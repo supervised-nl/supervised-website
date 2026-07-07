@@ -8,7 +8,7 @@
     {{ .Content }}
     <div class="diensten-cards">
       {{ range $i, $page := .Pages.ByWeight }}
-      <article class="dienst-card">
+      <article id="{{ .File.ContentBaseName }}" class="dienst-card">
         <span class="dienst-number" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
         <div>
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
