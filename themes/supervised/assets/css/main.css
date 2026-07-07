@@ -62,7 +62,7 @@ html[data-theme="light"] {
 @media (prefers-color-scheme: light) {
   html:not([data-theme="dark"]) { color-scheme: light; }
 }
-:where(html[data-theme="light"]) {
+html[data-theme="light"] {
   --bg: #FAFAF8;
   --bg-surface: rgba(250, 250, 248, 0.88);
   --ink-1: rgba(10, 26, 10, 1);

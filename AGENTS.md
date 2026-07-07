@@ -17,19 +17,66 @@ Hugo extended edition v0.147.0 of later is required (gepind in `vercel.json`).
 
 Custom Hugo theme: `themes/supervised/`.
 
-- `content/` — Markdown pages with front matter. All copy is Dutch.
+- `content/` — Markdown pages with front matter. All copy is Dutch. **Elke publieke pagina is een `.md`-bestand**; layouts bevatten geen paginaspecifieke content. Enige uitzondering: de 404-pagina (alleen template, standaard Hugo).
 - `themes/supervised/layouts/_default/baseof.html` — base template with header, nav, footer, inline theme script, and JSON-LD.
 - `themes/supervised/layouts/404.html` — 404 page (Vercel serves `public/404.html` automatically).
 - `themes/supervised/layouts/_default/faq.html` — FAQ layout with Schema.org FAQPage structured data.
 - `themes/supervised/layouts/blog/list.html` and `themes/supervised/layouts/blog/single.html` — kennisbank overrides. De sectie heet intern `blog` (templates keyen op `.Section "blog"`), maar publiceert als `/kennisbank/` via een url-override in `content/blog/_index.md` en de permalink-config.
 - `themes/supervised/layouts/contact/single.html` — contact page override.
-- `themes/supervised/layouts/partials/logo.html` — SVG logo partial.
 - `themes/supervised/assets/css/main.css` — single CSS file, via Hugo Pipes geminified en gefingerprint.
 - `themes/supervised/assets/js/` — `site.js` en vendored `lenis.min.js`; beide via Hugo Pipes gefingerprint.
 - `themes/supervised/static/fonts/` — één variable font (woff2).
 - `assets/img/` — bronafbeeldingen (hero, profielfoto); Hugo verkleint ze, de originelen worden nooit gepubliceerd.
 - `static/` — root static assets zoals favicon, `llms.txt` en client-logo's (`static/img/clients/`).
 - `static/favicon.svg` — één zelf-aanpassend icoon: de licht/donker-wissel zit als `prefers-color-scheme` media query **in de SVG**. Gebruik nooit `media=`-attributen op `<link rel="icon">` — dat werkt alleen in Firefox. `favicon.ico` is de fallback voor Safari/legacy.
+
+## Paginastructuur
+
+Er zijn precies **twee paginasoorten**. Elke pagina wordt uit dezelfde partials
+opgebouwd; layouts assembleren alleen, alle herbruikbare markup leeft in
+`themes/supervised/layouts/partials/`:
+
+1. **Verhalend** (home, over): `hero.html` (kop + pagina-body links, profielfoto
+   rechts, optionele CTA's uit `ctaPrimary`/`ctaSecondary`) gevolgd door
+   gestapelde secties via `page-section.html`, gevoed door een `sections:`-array
+   (en op home `introSections:`/`diensten:`) in de front matter. Anker-id's van
+   secties worden automatisch uit de titel afgeleid (`anchorize`).
+2. **Content** (diensten, werkwijze, kennisbank, contact, faq, juridisch): één
+   `page-grid` met `page-header.html` links (eyebrow, titel, lead) en de inhoud
+   rechts. Lange tekstpagina's krijgen `content-sections` op de body-kolom,
+   waardoor markdown-`h2`'s automatisch genummerde rijen met hairlines worden.
+
+Gedeelde partials en hun rol:
+
+- `page-header.html` — kopblok (eyebrow, h1/h2, lead) van elke page-grid kolom.
+- `page-section.html` — volledige verhaal-sectie (kop links, body rechts).
+- `hero.html` + `hero-image.html` — hero met profielfoto.
+- `card.html` — genummerde kaart in een divider-lijst (varianten `home` en
+  `dienst`; nummers worden altijd berekend uit de volgorde, nooit handmatig in
+  front matter gezet).
+- `faq-items.html` — FAQ-lijst uit een `faq:`-array.
+- `closing.html` — afsluitende CTA-sectie; **elk paginatemplate eindigt hierop**,
+  dus een `closing:`-blok in de front matter werkt op iedere pagina.
+- `logo.html` — SVG-logo.
+
+Regels om dit consistent te houden:
+
+- Nieuwe pagina's zijn altijd een `.md` in `content/` die op een van de twee
+  soorten meelift. Geen nieuwe eenmalige layout-markup: past iets niet, breid
+  dan een partial uit zodat álle pagina's het krijgen.
+- Het genummerde-rijen-systeem (kaarten, `content-sections`-h2's, blog- en
+  faq-items) deelt één CSS-blok (“divider lists” / “numbered rows” in
+  `main.css`). Nieuwe lijstvarianten sluiten dáárop aan; geen declaraties
+  kopiëren.
+- CSS gebruikt de tokens uit `:root` (o.a. `--gutter` voor de horizontale
+  paginamarge, `--divider-space`, `--rule`, kleuren, `--dur-*`/`--ease-out`).
+  Geen losse magic values voor iets waar al een token voor bestaat.
+- Licht/donker: alle themabare waarden zijn custom properties. De lichte set
+  staat bewust twee keer in `main.css` (`html[data-theme="light"]` voor de
+  handmatige keuze én `@media (prefers-color-scheme: light)` voor de
+  OS-voorkeur zonder JS) — houd beide blokken gelijk bij elke wijziging. Wrap
+  `html[data-theme="light"]` nooit in `:where()`: dat maakt de specificiteit 0
+  en dan winnen de donkere `:root`-tokens (die bug is al eens gefixt).
 
 ## Performance & Cleanliness Budget
 
@@ -74,7 +121,7 @@ printf '%s' '<script content>' | openssl dgst -sha256 -binary | base64
 
 ## Adding Content
 
-- New page: create `content/<slug>.md` with `title` and `description` front matter. Add it to `[[menu.main]]` in `hugo.toml` if it should appear in nav.
+- New page: create `content/<slug>.md` with `title` and `description` front matter. Optioneel: `eyebrow`, `lead` (introtekst onder de titel) en `closing` (afsluitende CTA-sectie: `question`, `body`, `cta.label`, `cta.url`). Add it to `[[menu.main]]` in `hugo.toml` if it should appear in nav.
 - New blog post: create `content/blog/<slug>.md` with `title`, `slug`, `date`, and `description`.
 - Client logos on homepage: add SVG to `static/img/clients/` and add an entry to `clients:` in `content/_index.md`.
 - Custom og:image voor een pagina: zet de bron in `assets/img/` en verwijs met `ogImage:` in front matter; `baseof.html` verkleint hem automatisch.
