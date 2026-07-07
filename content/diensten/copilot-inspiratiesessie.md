@@ -15,7 +15,7 @@ faq:
     a: "Juist dan. De sessie veronderstelt geen voorkennis en begint bij het werk dat er al ligt, niet bij de techniek."
 closing:
   question: "Vraag een inspiratiesessie aan"
-  body: "Vertel kort voor welke groep en gelegenheid het is. Je krijgt snel een voorstel met één prijs. Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Laat weten voor welke groep en gelegenheid het is, dan stuur ik snel een voorstel. Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Vraag een sessie aan"
     url: "/contact/"
@@ -41,7 +41,7 @@ Een gedeeld, realistisch beeld van Copilot binnen het bedrijf, en meestal een li
 
 ## Praktisch
 
-Op jullie locatie of op je event, in Twente, de Achterhoek, Deventer, Zwolle, Arnhem, Nijmegen of net over de grens. Duur en vorm in overleg, van een uur op een personeelsbijeenkomst tot een dagdeel met het MT. Je krijgt vooraf één duidelijke prijs.
+Op jullie locatie of op je event, overal in Oost-Nederland. Duur en vorm in overleg, van een uur op een personeelsbijeenkomst tot een dagdeel met het MT. Je krijgt vooraf één duidelijke prijs.
 
 ## Veelgestelde vragen over de sessie
 

@@ -10,13 +10,11 @@ sitemap:
   priority: 0.9
 faq:
   - q: "Hoe meten we of Copilot ons echt iets oplevert?"
-    a: "Door vooraf en achteraf hetzelfde te meten: wie gebruikt het, voor welke taken, en hoeveel tijd kosten die taken. De 0-meting en eindmeting van het traject zijn bewust eenvoudig gehouden."
+    a: "Met de 0-meting vooraf en dezelfde meting achteraf: wie gebruikt het, voor welke taken, en hoeveel tijd kosten die. Bewust eenvoudig gehouden."
   - q: "Hoeveel tijd kost een traject en voor welke teamgrootte werkt het?"
-    a: "Reken op enkele maanden doorlooptijd met korte sessies, zodat het gewone werk doorgaat. Het werkt voor bedrijven van zo'n 10 tot 100 medewerkers. Binnen grotere bedrijven pakken we het per team of afdeling aan."
+    a: "Enkele maanden, met korte sessies zodat het gewone werk doorgaat. Geschikt voor bedrijven van 10 tot 100 medewerkers. Grotere bedrijven pakken we per team of afdeling aan."
   - q: "Hebben we betaalde Copilot-licenties nodig om te starten?"
-    a: "Nee. Starten kan met Copilot Chat, dat in jullie huidige Microsoft 365-licentie zit. Het traject laat zien voor welke rollen betaalde licenties zich terugverdienen. Dat besluit neem je onderbouwd, niet vooraf."
-  - q: "Wat als medewerkers sceptisch zijn?"
-    a: "Scepsis is gezond en komt meestal door eerdere ervaringen met tools die niets opleverden. Het traject dwingt niets af. Het begint bij taken waar mensen zelf last van hebben. Wie merkt dat het verslag of de mailbox sneller af is, heeft geen campagne nodig."
+    a: "Nee. Starten kan met Copilot Chat. Het traject laat zien voor welke rollen betaalde licenties zich terugverdienen."
 closing:
   question: "Begin bij het begin"
   body: "Elk adoptietraject start met de Readiness-scan: een halve dag op locatie en een plan van aanpak, voor € 950 excl. btw. Al een scan gedaan of eerst overleggen? Mail [info@supervised.nl](mailto:info@supervised.nl)."
@@ -73,16 +71,12 @@ Aan het einde liggen er werkafspraken, getrainde ambassadeurs en een team dat we
 
 ### Hoe meten we of Copilot ons echt iets oplevert?
 
-Door vooraf en achteraf hetzelfde te meten: wie gebruikt het, voor welke taken, en hoeveel tijd kosten die taken. De 0-meting en eindmeting van het traject zijn bewust eenvoudig gehouden.
+Met de 0-meting vooraf en dezelfde meting achteraf: wie gebruikt het, voor welke taken, en hoeveel tijd kosten die. Bewust eenvoudig gehouden.
 
 ### Hoeveel tijd kost een traject en voor welke teamgrootte werkt het?
 
-Reken op enkele maanden doorlooptijd met korte sessies, zodat het gewone werk doorgaat. Het werkt voor bedrijven van zo'n 10 tot 100 medewerkers. Binnen grotere bedrijven pakken we het per team of afdeling aan.
+Enkele maanden, met korte sessies zodat het gewone werk doorgaat. Geschikt voor bedrijven van 10 tot 100 medewerkers. Grotere bedrijven pakken we per team of afdeling aan.
 
 ### Hebben we betaalde Copilot-licenties nodig om te starten?
 
-Nee. Starten kan met Copilot Chat, dat in jullie huidige Microsoft 365-licentie zit. Het traject laat zien voor welke rollen betaalde licenties zich terugverdienen. Dat besluit neem je onderbouwd, niet vooraf.
-
-### Wat als medewerkers sceptisch zijn?
-
-Scepsis is gezond en komt meestal door eerdere ervaringen met tools die niets opleverden. Het traject dwingt niets af. Het begint bij taken waar mensen zelf last van hebben. Wie merkt dat het verslag of de mailbox sneller af is, heeft geen campagne nodig.
+Nee. Starten kan met Copilot Chat. Het traject laat zien voor welke rollen betaalde licenties zich terugverdienen.

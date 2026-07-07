@@ -2,7 +2,7 @@
 title: "Copilot-specialist in Twente"
 seoTitle: "Copilot-specialist in Twente en Enschede | Supervised"
 description: "Op zoek naar een Microsoft 365 Copilot-specialist in Twente? Supervised werkt vanuit Enschede, op locatie bij MKB-bedrijven in de hele regio."
-lead: "Supervised is de Microsoft 365 Copilot-specialist uit Enschede: trainingen, Readiness-scans en adoptietrajecten voor MKB-bedrijven in heel Twente. Op locatie, want daar gebeurt het werk."
+lead: "Supervised is de Microsoft 365 Copilot-specialist uit Enschede: trainingen, Readiness-scans en adoptietrajecten voor MKB-bedrijven in heel Twente. Altijd op locatie."
 sitemap:
   changefreq: monthly
   priority: 0.7

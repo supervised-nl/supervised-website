@@ -24,7 +24,7 @@ Op basis van wat ik zie, krijg je een plan van aanpak. Wat moet eerst geregeld w
 
 ## Stap 3: trainen op echte taken
 
-In de training werkt iedereen in de eigen omgeving aan eigen taken. De offerte in Word, de mailbox in Outlook, het verslag uit Teams, de lijst in Excel. Per rol, want een verkoper leert niets van het voorbeeld van de administratie. Wat schuurt, bespreken we ter plekke.
+In de training werkt iedereen in de eigen omgeving aan eigen taken. De offerte in Word, de mailbox in Outlook, het verslag uit Teams, de lijst in Excel. Per rol, want een verkoper leert niets van het voorbeeld van de administratie.
 
 ## Stap 4: borgen en meten
 

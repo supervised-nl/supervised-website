@@ -18,7 +18,7 @@ sections:
       Daarom doet Supervised nog één ding, en dat goed: Microsoft 365 Copilot-adoptie voor het MKB. Andere AI-tools ken ik en volg ik, maar ik verkoop ze niet. Die focus maakt me sneller in de analyse en eerlijker in het advies.
   - title: "Hoe ik werk"
     body: |
-      Ik kom eerst kijken voordat ik iets vind. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor zelf niet meer waar de herhaling zit. Op de werkvloer meekijken legt dat bloot. Daarna train ik op jullie taken, niet op die van een voorbeeldbedrijf.
+      Ik kom eerst kijken voordat ik iets vind. Wie jarenlang hetzelfde werk doet, ziet de herhaling zelf niet meer. Meekijken op de werkvloer legt dat bloot. Daarna train ik op jullie taken, niet op die van een voorbeeldbedrijf.
 
       In drie jaar heb ik ruim vijftig adoptietrajecten gedaan en veel trainingen en workshops gegeven, bij MKB-teams van de werkvloer tot de directiekamer. Wat ik daarvan heb geleerd: adoptie strandt zelden op techniek, en enthousiasme zonder opvolging verdampt. Daar is de hele [werkwijze](/werkwijze/) op gebouwd.
   - title: "Rustig over regels"
@@ -28,7 +28,7 @@ sections:
     body: |
       Voordat ik Supervised begon werkte ik vier jaar bij GEA Group. Daar zag ik hoe MKB-bedrijven uren verloren aan werk dat slimmer kan. Te klein voor een IT-project, te groot om zelf op te lossen. Daar past Supervised tussenin. Tegenwoordig met Copilot als gereedschap, omdat vrijwel elk bedrijf de omgeving eromheen al heeft.
 
-      Ik werk vanuit Enschede, op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen, en bij Nederlandse bedrijven net over de grens. Benieuwd voor wie ik eerder werkte? Kijk bij [de praktijk](/praktijk/).
+      Ik werk vanuit Enschede, op locatie in heel Oost-Nederland en bij Nederlandse bedrijven net over de grens. Benieuwd voor wie ik eerder werkte? Kijk bij [de praktijk](/praktijk/).
 closing:
   question: "Eens kennismaken?"
   body: "Een half uur, vrijblijvend, ook om te sparren over waar jullie staan."

@@ -15,7 +15,7 @@ faq:
     a: "Voor het basisniveau ja, mits medewerkers daarna volgens de afspraken werken en nieuwe collega's het ook krijgen. Daarom leggen we het kort vast en kan de training herhaald worden."
 closing:
   question: "Vraag de teamtraining aan"
-  body: "Vertel kort hoe groot het team is. Je krijgt snel een voorstel met één prijs. Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Laat weten hoe groot het team is, dan hoor je snel wat het kost. Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Vraag training aan"
     url: "/contact/"

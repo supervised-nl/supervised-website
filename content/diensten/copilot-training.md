@@ -10,11 +10,11 @@ sitemap:
   priority: 0.9
 faq:
   - q: "Wat is het verschil tussen een workshop en een adoptietraject?"
-    a: "Een workshop is één training: je team leert Copilot gebruiken op eigen taken. Een adoptietraject is structurele begeleiding over langere tijd, met een 0-meting, werkafspraken, ambassadeurs, opvolging en een eindmeting. De workshop is vaak onderdeel van het traject."
+    a: "Een workshop is één training. Een adoptietraject loopt langer en regelt ook werkafspraken, ambassadeurs, opvolging en een eindmeting. De workshop is daar vaak onderdeel van."
   - q: "Wat als medewerkers sceptisch zijn of geen tijd hebben?"
-    a: "Heel normaal. Mensen hebben vaker een tool voorbij zien komen die niets opleverde. Daarom train ik op hun eigen taken, niet op voorbeelden van anderen. Dat werkt beter dan overtuigen."
+    a: "Heel normaal. Daarom oefent iedereen op eigen taken in plaats van op voorbeelden van anderen. Dat doet meer dan overtuigen vooraf."
   - q: "Hoe zit het met privacy en onze bedrijfsdata?"
-    a: "Copilot werkt binnen jullie eigen Microsoft 365-omgeving en de afspraken die daar gelden. In de training besteden we aandacht aan wat er wel en niet in een AI-assistent thuishoort. Twijfel je of jullie omgeving goed staat ingesteld, dan is de Readiness-scan de plek waar dat wordt gecheckt."
+    a: "Copilot volgt de rechten en afspraken van jullie eigen Microsoft 365-omgeving. In de training komt aan bod wat er wel en niet in een AI-assistent thuishoort. Of de omgeving zelf goed staat, checkt de Readiness-scan."
 closing:
   question: "Vraag een voorstel aan"
   body: "Vertel voor welk team of welke rollen het is. Je krijgt een concreet voorstel met één prijs. Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
@@ -59,18 +59,18 @@ Na een goede training weet iedereen hoe Copilot werkt in het eigen werk en heeft
 
 ## Praktisch
 
-Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem, Nijmegen en de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel met één prijs. De training werkt met betaalde Copilot-licenties én met Copilot Chat.
+Op locatie, overal in Oost-Nederland en in de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel. De training werkt met betaalde Copilot-licenties én met Copilot Chat.
 
 ## Veelgestelde vragen over de training
 
 ### Wat is het verschil tussen een workshop en een adoptietraject?
 
-Een workshop is één training: je team leert Copilot gebruiken op eigen taken. Een [adoptietraject](/copilot-adoptietraject/) is structurele begeleiding over langere tijd, met een 0-meting, werkafspraken, ambassadeurs, opvolging en een eindmeting. De workshop is vaak onderdeel van het traject.
+Een workshop is één training. Een [adoptietraject](/copilot-adoptietraject/) loopt langer en regelt ook werkafspraken, ambassadeurs, opvolging en een eindmeting. De workshop is daar vaak onderdeel van.
 
 ### Wat als medewerkers sceptisch zijn of geen tijd hebben?
 
-Heel normaal. Mensen hebben vaker een tool voorbij zien komen die niets opleverde. Daarom train ik op hun eigen taken, niet op voorbeelden van anderen. Dat werkt beter dan overtuigen.
+Heel normaal. Daarom oefent iedereen op eigen taken in plaats van op voorbeelden van anderen. Dat doet meer dan overtuigen vooraf.
 
 ### Hoe zit het met privacy en onze bedrijfsdata?
 
-Copilot werkt binnen jullie eigen Microsoft 365-omgeving en de afspraken die daar gelden. In de training besteden we aandacht aan wat er wel en niet in een AI-assistent thuishoort. Twijfel je of jullie omgeving goed staat ingesteld, dan is de [Readiness-scan](/copilot-readiness-scan/) de plek waar dat wordt gecheckt.
+Copilot volgt de rechten en afspraken van jullie eigen Microsoft 365-omgeving. In de training komt aan bod wat er wel en niet in een AI-assistent thuishoort. Of de omgeving zelf goed staat, checkt de [Readiness-scan](/copilot-readiness-scan/).
