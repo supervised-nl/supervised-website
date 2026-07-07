@@ -2,10 +2,17 @@
 <div class="page-grid">
   <div class="page-grid-header">
     <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="page-grid-lead">{{ . }}</p>{{ end }}
+    {{ with .Params.lead | default .Description }}<p class="page-grid-lead">{{ . | markdownify }}</p>{{ end }}
   </div>
   <div class="page-grid-body">
     {{ .Content }}
   </div>
 </div>
+{{ with .Params.closing }}
+<section class="home-section home-closing">
+  <h2>{{ .question }}</h2>
+  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
+  {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
+</section>
+{{ end }}
 {{ end }}

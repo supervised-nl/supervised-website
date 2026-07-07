@@ -1,40 +1,40 @@
 # Supervised
 
 ## Over
-Supervised is een solo AI-consultancy uit Enschede (Twente), Nederland. Opgericht en gerund door Jeroen Gijselaar. Ik help MKB-bedrijven om werkprocessen te automatiseren met AI. De aanpak: eerst het proces begrijpen, dan pas technologie inzetten.
+Supervised is de Microsoft 365 Copilot-adoptiespecialist voor het MKB in Oost-Nederland, gevestigd in Enschede (Twente). Opgericht en gerund door Jeroen Gijselaar. Supervised zorgt dat medewerkers van MKB-bedrijven (circa 10 tot 100 medewerkers) Microsoft 365 Copilot echt gaan gebruiken in hun dagelijkse werk: veilig, meetbaar en binnen de Microsoft-omgeving die er al staat. Geen licentieverkoop, geen IT-beheer, geen softwareontwikkeling — daardoor onafhankelijk advies.
 
 ## Diensten
 
-- **AI workshop op maat** (URL: /diensten/ai-workshop/): workshops op de tools die de klant al gebruikt, zoals Microsoft Copilot (in Outlook, Word, Teams), ChatGPT, Claude of Gemini. Voorbeelden: offertes en e-mails opstellen met Copilot of ChatGPT, gespreksverslagen en notulen automatisch laten uitwerken, een Custom GPT bouwen voor een terugkerende taak, documenten classificeren of samenvatten, veilig werken met AI binnen wettelijke grenzen.
+- **Copilot Readiness-scan** (URL: /copilot-readiness-scan/): instapproduct en start van elk traject. Een halve dag op locatie plus rapport met plan van aanpak. Beoordeelt licenties en instellingen, datahygiëne in SharePoint en Teams, privacy- en governance-basis (incl. AI-geletterdheid volgens de EU AI Act) en de meest kansrijke toepassingen per rol. Vaste prijs: € 950 exclusief btw.
 
-- **EU AI Act basistraining** (URL: /diensten/eu-ai-act-training/): team in een halve dag op het verplichte basisniveau AI-kennis brengen, conform de EU AI Act (verplicht sinds februari 2025). Onderwerpen: wat mag wel en niet in een AI-tool, dataveiligheid en EU-hostende tools, risico-categorie van het AI-gebruik, grenzen voor klantcontact en HR-beslissingen, hoe je aantoonbaar voldoet aan de verplichting.
+- **Copilot-inspiratiesessie** (URL: /copilot-inspiratiesessie/): voor directie, MT, teams of events; praktisch overzicht van wat Copilot betekent voor het dagelijkse werk. Ook boekbaar als spreker voor events, kickoffs en teamdagen.
 
-- **Prototype in a Day** (URL: /diensten/prototype-in-a-day/): in één werkdag een werkend prototype bouwen van een AI-idee, geen mockup maar iets wat draait. Voorbeelden: een Custom GPT voor een specifieke taak, een script dat één type document samenvat, een proof-of-concept voor één stap in een proces, een chatbot voor één afgebakend onderwerp, een automatisering voor een terugkerende handmatige stap.
+- **Copilot-workshops en -trainingen** (URL: /copilot-training/): interactieve trainingen voor teams, gericht op echte taken, rolgericht opgebouwd voor sales, HR, administratie/office en directie/management. Werkt met betaalde Copilot-licenties én met Copilot Chat.
 
-- **Procesanalyse op de werkvloer** (URL: /diensten/procesanalyse/): meelopen met het team, werkprocessen in kaart brengen, concreet rapport met verbeterpunten en automatiseringsmogelijkheden.
+- **Copilot-adoptietraject** (URL: /copilot-adoptietraject/): structurele begeleiding met 0-meting, use cases per rol, interne richtlijnen en werkafspraken (incl. AVG en AI-geletterdheid volgens de EU AI Act), ambassadeurs, training en opvolging. Afsluiting met een eenvoudige meting: wat wordt er gebruikt en waar zit de tijdwinst.
 
-- **AI-implementatie in je werkproces** (URL: /diensten/ai-implementatie/): werkende AI-oplossingen ontwerpen en integreren in dagelijkse processen, zonder afhankelijkheid na oplevering.
+- **1-op-1 Copilot-begeleiding** (URL: /copilot-begeleiding/): persoonlijke begeleiding voor directieleden, managers en key users.
+
+- **AI-geletterdheidstraining** (URL: /ai-geletterdheid-training/): teamtraining die voldoet aan het basisniveau AI-kennis dat de EU AI Act (artikel 4) van werkgevers vraagt. Ook geïntegreerd in de Readiness-scan en adoptietrajecten.
 
 ## Doelgroep
-Nederlandse MKB-bedrijven met 10 tot 100 medewerkers. Typische klant: directeur of eigenaar die herhalende handmatige processen wil aanpakken zonder afhankelijk te worden van een grote IT-afdeling.
+MKB-bedrijven in Oost-Nederland met circa 10 tot 100 medewerkers die al met Microsoft 365 werken (Teams, Outlook, Word, Excel, SharePoint). Beslissers: directie, MT, HR, IT-verantwoordelijken en teamleiders. Twee typische startsituaties: bedrijven zonder Copilot-licenties (die kunnen starten met Copilot Chat binnen hun huidige licentie) en bedrijven waar Copilot-gebruik na een pilot niet beklijft.
 
 ## Aanpak
-Supervised werkt proces-first: niet bij de technologie beginnen maar bij de vraag wat er daadwerkelijk misgaat in het werkproces. Veelvoorkomende use cases: e-mailverwerking, orderverwerking, rapportage-automatisering, datavalidatie, formulierkoppelingen.
+Eerst begrijpen hoe het bedrijf werkt (Readiness-scan op locatie), daarna een passende aanpak: training, adoptietraject of beide. Geen standaardpakketten. Trajecten werken met een 0-meting en eindmeting zodat zichtbaar wordt wat Copilot oplevert. Onderwerpen: Microsoft 365 Copilot, Copilot Chat, Copilot in Teams, Outlook, Word, Excel, PowerPoint, SharePoint en Copilot agents.
+
+## Werkgebied
+Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen, en bij Nederlandse bedrijven net over de Duitse grens (Nordhorn, Gildehaus). Vestigingsplaats: Enschede.
 
 ## Oprichter
-Jeroen Gijselaar, eigenaar en consultant. Achtergrond in software en AI.
+Jeroen Gijselaar, eigenaar. Drie jaar gespecialiseerd in AI op de werkvloer van het MKB, ruim vijftig adoptietrajecten en veel trainingen en workshops gegeven. Eerdere opdrachtgevers: onder meer Ergonad, Makoto, Saxion, Skitt, Statiegeld Nederland en Happy Spaces.
 
 ## Kernwaarden
-- Eenvoud boven complexiteit
-- Eigendom bij de klant, geen afhankelijkheid
-- Procesverbetering eerst, automatisering daarna
-- Privacy by default: EU-hosting, AVG-proof, geen data buiten Europa
-
-## Technologie
-Make, n8n, Python, Next.js en maatwerksoftware waar standaard tools tekortschieten. Geen voorkeur voor een specifiek platform, de keuze volgt het probleem.
-
-## Tools
-- **GEO-check** (URL: /geo-check/): gratis tool die controleert hoe goed een website leesbaar is voor AI-assistenten zoals ChatGPT en Copilot. Checkt AI-crawler-toegang, gestructureerde data, llms.txt en sitemap, en geeft een GEO-score met verbeterpunten.
+- Eerst kijken hoe het werk echt gaat, dan pas een aanpak
+- Onafhankelijk: geen licentieverkoop, geen IT-beheer
+- Meetbaar: 0-meting en eindmeting in elk adoptietraject
+- Verantwoord: AVG en EU AI Act als onderdeel van adoptie, zonder paniekverhaal
+- Zelfstandigheid van de klant: geen afhankelijkheid na afloop
 
 ## Key facts
 - KVK: 97664472
@@ -42,20 +42,21 @@ Make, n8n, Python, Next.js en maatwerksoftware waar standaard tools tekortschiet
 - Adres: Rigtersbleek-Zandvoort 10, 7521 BE Enschede
 - Website: https://www.supervised.nl
 - Contact: info@supervised.nl | +31 6 44 83 56 56
-- Taal: Nederlands (primair), Engels op verzoek
+- Taal: Nederlands
 
 ## Pagina's
 - Homepage: /
-- Over Jeroen Gijselaar: /over/
+- Copilot Readiness-scan: /copilot-readiness-scan/
 - Diensten overzicht: /diensten/
-- AI workshop op maat: /diensten/ai-workshop/
-- EU AI Act basistraining voor werknemers: /diensten/eu-ai-act-training/
-- Procesanalyse op de werkvloer: /diensten/procesanalyse/
-- Prototype in a Day: /diensten/prototype-in-a-day/
-- AI-implementatie in je werkproces: /diensten/ai-implementatie/
-- Spreker en lezingen: /spreker/
-- AI-consultant in Twente en Oost-Nederland: /ai-consultant-twente/
-- Veelgestelde vragen: /faq/
-- Blog: /blog/
-- GEO-check tool: /geo-check/
+- Copilot-inspiratiesessie: /copilot-inspiratiesessie/
+- Copilot-training en workshops: /copilot-training/
+- Copilot-adoptietraject: /copilot-adoptietraject/
+- 1-op-1 Copilot-begeleiding: /copilot-begeleiding/
+- AI-geletterdheidstraining (EU AI Act): /ai-geletterdheid-training/
+- Werkwijze: /werkwijze/
+- Copilot-specialist in Twente: /copilot-specialist-twente/
+- Praktijk en eerdere opdrachtgevers: /praktijk/
+- Over Jeroen Gijselaar: /over/
+- Veelgestelde vragen: /veelgestelde-vragen/
+- Kennisbank: /kennisbank/
 - Contact: /contact/

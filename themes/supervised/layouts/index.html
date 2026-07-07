@@ -26,11 +26,25 @@
   {{ end }}
 </div>
 
+{{/* Vrije tekstsecties tussen hero en dienstenkaarten (bijv. "Waar sta je nu?"). */}}
+{{ with .Params.introSections }}
+{{ range . }}
+<section class="page-grid">
+  <div class="page-grid-header">
+    <h2>{{ .title }}</h2>
+  </div>
+  <div class="page-grid-body">
+    {{ .body | markdownify }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
 {{ with .Params.diensten }}
 <section class="page-grid home-diensten">
   <div class="page-grid-header">
     <span class="home-eyebrow small">Diensten</span>
-    <h2>Wat ik voor je doe</h2>
+    <h2>{{ $.Params.dienstenTitle | default "Wat ik voor je doe" }}</h2>
   </div>
   <div class="page-grid-body">
     <div class="home-cards">
@@ -80,9 +94,23 @@
 </section>
 {{ end }}
 
+{{/* Vrije tekstsecties na de dienstenkaarten (markt, bewijs, werkgebied). */}}
+{{ with .Params.sections }}
+{{ range . }}
+<section class="page-grid">
+  <div class="page-grid-header">
+    <h2>{{ .title }}</h2>
+  </div>
+  <div class="page-grid-body">
+    {{ .body | markdownify }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
 {{ with .Params.clients }}
 <section class="clients">
-  <span class="small clients-eyebrow">Eerder mee samengewerkt</span>
+  <span class="small clients-eyebrow">Eerdere opdrachtgevers</span>
   <div class="clients-track" aria-label="Logo's van klanten">
     <div class="clients-logos">
       {{ range . }}
@@ -99,6 +127,7 @@
 {{ with .Params.closing }}
 <section class="home-section home-closing">
   <h2>{{ .question }}</h2>
+  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
   {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
 </section>
 {{ end }}

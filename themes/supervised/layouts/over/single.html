@@ -37,6 +37,7 @@
 {{ with .Params.closing }}
 <section class="home-section home-closing">
   <h2>{{ .question }}</h2>
+  {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
   {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
 </section>
 {{ end }}

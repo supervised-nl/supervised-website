@@ -55,4 +55,4 @@ Zorg voor een korte, praktische training. Niet een dag theorie, maar een sessie 
 
 ---
 
-Wil je je team in een halve dag op het verplichte basisniveau brengen? [Bekijk de EU AI Act basistraining →](/diensten/eu-ai-act-training/)
+Wil je je team op het verplichte basisniveau brengen? [Bekijk de AI-geletterdheidstraining →](/ai-geletterdheid-training/)

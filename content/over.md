@@ -1,38 +1,38 @@
 ---
-title: "Jeroen Gijselaar"
-description: "Supervised is Jeroen Gijselaar. Solo AI-consultancy voor Nederlands MKB. Procesdenken eerst, dan pas technologie."
+title: "Jeroen Gijselaar — Copilot-specialist voor het MKB"
+seoTitle: "Over Jeroen Gijselaar — Copilot-specialist | Supervised"
+description: "Supervised is Jeroen Gijselaar uit Enschede: Microsoft 365 Copilot-specialist voor het MKB. Drie jaar ervaring, ruim vijftig adoptietrajecten."
 bodyClass: "over"
 schema: "person"
 sitemap:
   changefreq: monthly
   priority: 0.8
 ogImage: "img/profile_picture.jpg"
-intro: "Eigenaar van Supervised. [Spreker](/spreker/), trainer en bouwer. Ik help MKB-bedrijven om werkprocessen te automatiseren met AI. We beginnen altijd bij het proces, nooit bij de technologie."
+intro: "Supervised, dat ben ik: Jeroen Gijselaar, vanuit Enschede. Ik help MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen — dé Copilot-adoptiespecialist van de regio, als je het mij vraagt. Maar oordeel zelf."
 linkedin: "https://www.linkedin.com/in/jeroengijselaar/"
 sections:
+  - title: "Waarom alleen nog Copilot"
+    body: |
+      Ik ben begonnen als brede AI-consultant: workshops, automatiseringen, van alles gebouwd. Leerzaam, maar ik zag steeds hetzelfde patroon. De bedrijven waar AI écht ging leven, waren de bedrijven die het inzetten in de omgeving waar ze al in werkten — Microsoft 365. Geen nieuwe tool, geen nieuw wachtwoord, gewoon hulp in de Outlook en Teams die er al staan.
+
+      Daarom doet Supervised nog één ding, en dat goed: Microsoft 365 Copilot-adoptie voor het MKB. Andere AI-tools ken ik en volg ik, maar ik verkoop ze niet. Die focus maakt me sneller in de analyse en eerlijker in het advies.
   - title: "Hoe ik werk"
     body: |
-      Ik geef workshops en trainingen die MKB-teams leren wat ze echt met AI kunnen. Geen algemeen verhaal over de toekomst, maar toegepast op het werk dat jullie elke dag doen.
+      Ik kom eerst kijken voordat ik iets vind. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor zelf niet meer waar de herhaling zit. Op de werkvloer meekijken legt dat bloot — en dan train ik op jullie taken, niet op die van een voorbeeldbedrijf uit een slide.
 
-      Daarom kom ik eerst een halve dag meekijken voordat ik iets geef. Dat is waar het interessant wordt. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor niet meer dat het ook automatisch kán. Als je dat samen blootlegt, valt het kwartje. En je krijgt een workshop over jouw processen, niet over die van een willekeurig voorbeeldbedrijf.
-  - title: "Wat me anders maakt"
+      In drie jaar heb ik ruim vijftig adoptietrajecten gedaan en veel trainingen en workshops gegeven, bij MKB-teams van de werkvloer tot de directiekamer. Wat ik daarvan heb geleerd: adoptie strandt zelden op techniek, en enthousiasme zonder opvolging verdampt. Daar is de hele [werkwijze](/werkwijze/) op gebouwd.
+  - title: "Rustig over regels"
     body: |
-      Ik bouw het zelf. Veel mensen praten over AI, ik schrijf de code en bouw de werkende oplossingen. Daardoor vertel ik in een workshop niet wat theoretisch kan, maar laat ik zien wat werkt en waar het in de praktijk schuurt.
-
-      Een voorbeeld: voor een aantal loopbaancoaches automatiseerde ik hun gespreksverslagen. Wat eerst een uur per gesprek kostte, spreken ze nu in. Het verslag komt terug in hun eigen toon en hun eigen sjabloon.
-  - title: "Waarom EU AI Act"
-    body: |
-      Een vast onderwerp in mijn werk is de EU AI Act. Voor het MKB is dat vaak een eye-opener.
-
-      Met dataveiligheid en wetgeving rond AI zijn de meesten niet bezig. Als ze zien wat ze eigenlijk allemaal in een chatbot gooien, schrikken ze. Ik help daar rustig doorheen, zonder paniekverhaal, met een concreet plan.
+      Een vast onderdeel van mijn werk is de EU AI Act en alles eromheen: privacy, AVG, wat er wel en niet in een AI-assistent thuishoort. Voor veel MKB-bedrijven is dat een bron van onzekerheid — en soms van paniekverhalen van anderen. Ik help er rustig doorheen: wat moet er echt geregeld zijn, hoe maak je het aantoonbaar, en dan weer door naar het werk. Juridisch advies geef ik niet; werkbare afspraken wel.
   - title: "Achtergrond"
     body: |
-      Voordat ik Supervised begon werkte ik vier jaar bij GEA Group. Daar zag ik hoe MKB-bedrijven uren verloren aan werk dat te automatiseren is.
+      Voordat ik Supervised begon werkte ik vier jaar bij GEA Group. Daar zag ik hoe MKB-bedrijven uren verloren aan werk dat slimmer kan: te klein voor een IT-project, te groot om zelf op te lossen. Daar past Supervised tussenin — tegenwoordig met Copilot als gereedschap, omdat vrijwel elk bedrijf de omgeving eromheen al heeft.
 
-      Te klein voor een IT-project, te groot voor henzelf. Daar past Supervised tussenin.
+      Ik werk vanuit Enschede, op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen, en bij Nederlandse bedrijven net over de grens. Benieuwd voor wie ik eerder werkte? Kijk bij [de praktijk](/praktijk/).
 closing:
   question: "Eens kennismaken?"
+  body: "Een half uur, vrijblijvend, ook gewoon om te sparren over waar jullie staan."
   cta:
-    label: "Neem contact op"
+    label: "Plan een kennismaking"
     url: "/contact/"
 ---
