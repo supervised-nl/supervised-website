@@ -10,7 +10,8 @@ resources/_gen/
 # Editor
 .vscode/
 
-# Local agent state
-.claude/
+# Local agent state (skills worden wél gedeeld via git)
+.claude/*
+!.claude/skills/
 motion-audits/
 .vercel
