@@ -3,7 +3,7 @@ title: "Zo pakt Supervised Copilot-adoptie aan"
 eyebrow: "Werkwijze"
 seoTitle: "Zo pakt Supervised Copilot-adoptie aan | Werkwijze"
 description: "Eerst kijken hoe het werk echt gaat, dan een aanpak die past. Zo helpt Supervised MKB-bedrijven om Copilot veilig en blijvend in gebruik te krijgen."
-lead: "Copilot-adoptie mislukt als je begint met de tool en eindigt bij het werk. Ik doe het andersom. Eerst zien hoe jullie werken, dan pas bepalen wat Copilot daarin moet doen. Vier stappen."
+lead: "Copilot-adoptie werkt pas als je begint bij het werk. Eerst zien hoe jullie werken, dan bepalen wat Copilot daarin moet doen."
 sitemap:
   changefreq: monthly
   priority: 0.8
@@ -17,11 +17,11 @@ closing:
 
 ## Eerst kijken
 
-Ik kom langs en zie hoe het werk echt gaat. Niet hoe het op papier staat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik de licenties, de SharePoint en de afspraken. Mensen doen de helft van hun werk op de automatische piloot en zien daardoor zelf niet meer waar de herhaling zit. Dat blootleggen is de helft van het werk.
+Ik kom langs en zie hoe het werk echt gaat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik licenties, SharePoint en afspraken. Daar zie je waar herhaling zit en wat Copilot wel of niet kan helpen.
 
 ## Een plan dat past
 
-Op basis van wat ik zie, krijg je een plan van aanpak. Wat moet eerst geregeld worden, welke rollen hebben het meest te winnen en welke vorm past daarbij. Dat kan een [workshop](/copilot-training/) zijn, een [adoptietraject](/copilot-adoptietraject/) of eerst een [inspiratiesessie](/copilot-inspiratiesessie/) voor het MT. Er zijn geen standaardpakketten, omdat geen twee bedrijven hetzelfde werken.
+Op basis daarvan krijg je een plan van aanpak: wat moet eerst, welke rollen hebben het meest te winnen en welke vorm past. Dat kan een [workshop](/copilot-training/), [adoptietraject](/copilot-adoptietraject/) of eerst een [inspiratiesessie](/copilot-inspiratiesessie/) zijn. Geen standaardpakket.
 
 ## Trainen op echte taken
 
@@ -29,8 +29,8 @@ In de training werkt iedereen in de eigen omgeving aan eigen taken, zoals de off
 
 ## Borgen en meten
 
-Dit is het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs per team, korte terugkomsessies en een eenvoudige eindmeting tegenover de 0-meting. Aan het eind weet je wat er gebruikt wordt en waar minder tijd verloren gaat. Het team kan zelfstandig verder. Zonder afhankelijkheid van mij.
+Dit is het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs, korte terugkomsessies en een eenvoudige eindmeting. Aan het eind weet je wat gebruikt wordt en waar minder tijd verloren gaat.
 
 ## Waar ik niet van ben
 
-Geen hype en geen paniekverhalen, ook niet over de EU AI Act. AI-geletterdheid, privacy en werkafspraken horen gewoon bij verantwoorde Copilot-adoptie. Geen licentieverkoop of IT-beheer, dus het advies is onafhankelijk. En geen wildgroei aan losse AI-tools. Veel teams gebruiken al ChatGPT of andere assistenten zonder afspraken. Dat brengen we terug naar duidelijke afspraken en een Microsoft-omgeving die beheersbaar blijft. Meer over de persoon achter Supervised lees je bij [over Jeroen](/over/).
+Geen hype en geen paniekverhalen, ook niet over de EU AI Act. AI-geletterdheid, privacy en werkafspraken horen bij verantwoorde Copilot-adoptie. Geen licentieverkoop of IT-beheer, dus het advies is onafhankelijk. En geen wildgroei aan losse AI-tools: we brengen het terug naar duidelijke afspraken en een Microsoft-omgeving die beheersbaar blijft.

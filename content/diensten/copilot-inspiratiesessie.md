@@ -3,7 +3,7 @@ title: "Een Copilot-inspiratiesessie over jullie eigen werk"
 eyebrow: "Inspiratiesessie"
 seoTitle: "Copilot-inspiratiesessie voor MT, team of event | Supervised"
 description: "Een Copilot-inspiratiesessie die over jullie werk gaat. Praktisch, nuchter en direct toepasbaar. Voor directie, MT, teams en events in Oost-Nederland."
-lead: "Een Copilot-inspiratiesessie van Supervised laat directie, MT of het hele team in één sessie zien wat Microsoft 365 Copilot betekent voor hun dagelijkse werk. Live en met echte voorbeelden uit Outlook, Teams, Word en Excel, geen toekomstverhaal. Ook boekbaar als spreker voor je event, kickoff of teamdag."
+lead: "Een Copilot-inspiratiesessie laat directie, MT of team zien wat Microsoft 365 Copilot betekent in dagelijks werk. Live, nuchter en met voorbeelden uit Outlook, Teams, Word en Excel."
 url: "/copilot-inspiratiesessie/"
 weight: 1
 sitemap:
@@ -26,7 +26,7 @@ closing:
 
 ### Directie en MT
 
-Jullie horen overal over AI en Copilot, maar wat is er voor jullie bedrijf praktisch nuttig? In anderhalf tot twee uur zie je wat Copilot in jullie soort werk doet, waar de risico's zitten en wat er nodig is om er echt iets uit te halen. Daarna kun je een onderbouwd gesprek voeren over de volgende stap.
+Jullie horen overal over AI en Copilot, maar wat is praktisch nuttig? In anderhalf tot twee uur zie je wat Copilot in jullie werk doet, waar de risico's zitten en wat nodig is voor een goede volgende stap.
 
 ### Het hele team
 
@@ -38,13 +38,13 @@ Ik kom spreken op je bijeenkomst. Geen algemeen AI-verhaal, maar toegepast op he
 
 ## Wat er gebeurt in de sessie
 
-Ik laat Copilot live zien in het werk dat jullie herkennen. Een volle mailbox in Outlook samenvatten. Een gemiste vergadering terughalen in Teams. Een eerste offerteversie in Word. Een vraag stellen aan een Excel-bestand zonder één formule te typen. Waar het kan, gebruik ik vooraf aangeleverde voorbeelden uit jullie eigen praktijk, zolang die niet vertrouwelijk zijn.
+Ik laat Copilot live zien in herkenbaar werk: een volle mailbox in Outlook, een gemiste vergadering in Teams, een eerste offerteversie in Word of een vraag aan Excel zonder formules. Waar het kan, gebruik ik vooraf aangeleverde voorbeelden uit jullie praktijk.
 
 Ook wat Copilot niet kan komt aan bod. Het neemt geen processen van je over, het maakt fouten die je moet leren zien, en het is zo goed als de documenten waar het bij kan. Dat hoort bij een eerlijk beeld.
 
 ## Wat het je oplevert
 
-Een gedeeld, realistisch beeld van Copilot binnen het bedrijf, en meestal een lijstje taken waar mensen morgen mee willen beginnen. Veel bedrijven laten op de sessie de [Readiness-scan](/copilot-readiness-scan/) volgen om te bepalen wat er nodig is voordat het team echt aan de slag gaat. De sessie staat op zichzelf en verplicht tot niets.
+Een gedeeld, realistisch beeld van Copilot en meestal een lijstje taken waar mensen morgen mee willen beginnen. Vaak volgt daarna de [Readiness-scan](/copilot-readiness-scan/) om te bepalen wat nodig is voor echte adoptie.
 
 ## Praktisch
 

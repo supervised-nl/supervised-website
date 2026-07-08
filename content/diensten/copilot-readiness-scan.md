@@ -3,7 +3,7 @@ title: "De Copilot Readiness-scan laat zien waar je staat"
 eyebrow: "Readiness-scan"
 seoTitle: "Copilot Readiness-scan voor het MKB | Supervised"
 description: "De Copilot Readiness-scan is een halve dag op locatie plus een rapport met plan van aanpak. Weet waar je staat vóór je traint. Vaste prijs, geen verrassingen."
-lead: "De Copilot Readiness-scan brengt in kaart of jullie Microsoft 365-omgeving en jullie manier van werken klaar zijn voor Copilot. Een halve dag op locatie, daarna een rapport met een concreet plan van aanpak. Voor MKB-bedrijven van 10 tot 100 medewerkers. De vaste prijs is € 950 exclusief btw."
+lead: "De Copilot Readiness-scan laat zien of jullie Microsoft 365-omgeving en manier van werken klaar zijn voor Copilot. Een halve dag op locatie, daarna een concreet plan van aanpak voor € 950 exclusief btw."
 url: "/copilot-readiness-scan/"
 weight: 2
 sitemap:
@@ -26,7 +26,7 @@ closing:
 
 ## Waarom eerst scannen?
 
-De meeste teleurstellingen met Copilot komen door een startsituatie die niemand heeft bekeken. Denk aan matige antwoorden door een rommelige SharePoint, of twijfel over privacy die nooit is uitgesproken. Of licenties voor mensen die er weinig mee doen, terwijl de rol die er het meest aan zou hebben buiten de pilot viel.
+De meeste teleurstellingen met Copilot beginnen vóór de training. Een rommelige SharePoint, onduidelijke privacy-afspraken of licenties voor de verkeerde rollen: als niemand dat vooraf bekijkt, loopt een pilot snel vast.
 
 Daarom begint elk traject van Supervised met deze scan. Geen standaardpakket, maar eerst begrijpen hoe jullie werken.
 
@@ -34,15 +34,15 @@ Daarom begint elk traject van Supervised met deze scan. Geen standaardpakket, ma
 
 ### Licenties en instellingen
 
-Welke Microsoft 365-licenties er zijn, hoe jullie tenant staat ingesteld en wat daarmee al mogelijk is. Vaak is er meer mogelijk dan gedacht, maar dat hangt af van licenties, tenantconfiguratie en Microsoft-wijzigingen. Je krijgt een nuchter advies over de vraag of, wanneer en voor wie betaalde Copilot-licenties zinvol zijn.
+Welke Microsoft 365-licenties er zijn, hoe jullie tenant staat en wat daarmee al kan. Je krijgt nuchter advies over of, wanneer en voor wie betaalde Copilot-licenties zinvol zijn.
 
 ### Datahygiëne in SharePoint en Teams
 
-Copilot is zo goed als de documenten waar het bij kan. Staat alles dubbel, verouderd of op de verkeerde plek, dan krijg je matige antwoorden. Soms komen er ook documenten in beeld die niet voor iedereen bedoeld waren. De scan laat zien wat er eerst opgeruimd of afgeschermd moet worden, en wat kan blijven zoals het is.
+Copilot is zo goed als de documenten waar het bij kan. Staat informatie dubbel, verouderd of te breed gedeeld, dan krijg je matige antwoorden of verkeerde zichtbaarheid. De scan laat zien wat eerst opgeruimd of afgeschermd moet worden.
 
 ### Privacy en governance-basis
 
-Wie kan waarbij, wat mag er wel en niet in een AI-assistent, en welke werkafspraken ontbreken nog. De AI-geletterdheid die de EU AI Act (artikel 4) van werkgevers vraagt, neem ik hierin praktisch mee. Supervised geeft geen juridisch advies en is geen compliance-bureau. Wel help ik om privacy, bewustwording en werkafspraken onderdeel te maken van verantwoord Copilot-gebruik.
+Wie kan waarbij, wat mag er wel en niet in een AI-assistent, en welke werkafspraken ontbreken nog. De AI-geletterdheid uit de EU AI Act neem ik praktisch mee. Geen juridisch advies, wel duidelijke afspraken voor verantwoord Copilot-gebruik.
 
 ### De meest kansrijke toepassingen per rol
 
@@ -50,7 +50,7 @@ Waar zit het herhalende werk? De offertes van sales in Word, de volle mailbox va
 
 ## Zo gaat het in zijn werk
 
-Ik kom een halve dag naar jullie locatie. Ik kijk mee met het echte werk, spreek een paar medewerkers en degene die over IT of office gaat, en beoordeel de Microsoft 365-omgeving. Kort daarna ligt er een rapport met plan van aanpak. Dat nemen we samen door.
+Ik kom een halve dag naar jullie locatie, kijk mee met het werk, spreek een paar medewerkers en beoordeel de Microsoft 365-omgeving. Kort daarna ligt er een plan van aanpak. Dat nemen we samen door.
 
 ## Wat je krijgt
 
@@ -64,13 +64,13 @@ Ik kom een halve dag naar jullie locatie. Ik kijk mee met het echte werk, spreek
 
 ### Wat deze scan wel is
 
-Een praktische startscan voor Copilot-adoptie. Ik ben een halve dag bij jullie op locatie, kijk mee met werkprocessen, spreek relevante medewerkers en beoordeel gericht de Copilot-relevante Microsoft 365-basis.
+Een praktische startscan voor Copilot-adoptie. Ik kijk mee met werkprocessen, spreek relevante medewerkers en beoordeel gericht de Microsoft 365-basis.
 
-Je krijgt advies over rollen, gebruikssituaties, licenties, datahygiëne en werkafspraken. Het resultaat is een concreet plan van aanpak waarmee je weet wat eerst nodig is: starten, opruimen, trainen of adopteren.
+Je krijgt advies over rollen, gebruikssituaties, licenties, datahygiëne en werkafspraken. Daarna weet je wat eerst nodig is: starten, opruimen, trainen of adopteren.
 
 ### Wat deze scan niet is
 
-De Readiness-scan is geen volledige technische security-audit en geen volledige AVG- of compliance-audit. Het is ook geen vervanging van jullie IT-partner, geen licentie- of IT-beheeraanbod en geen verplicht vervolgtraject.
+De Readiness-scan is geen technische security-audit, AVG-audit of vervanging van jullie IT-partner. Ook geen licentie- of beheertraject.
 
 Dat is bewust. De scan moet helder maken wat er nodig is voor verantwoord en praktisch Copilot-gebruik, zonder dat je meteen aan een groot traject vastzit.
 
@@ -78,7 +78,7 @@ Dat is bewust. De scan moet helder maken wat er nodig is voor verantwoord en pra
 
 De Readiness-scan kost € 950 exclusief btw, inclusief de halve dag op locatie en het rapport met plan van aanpak.
 
-Er bestaan ook gratis Copilot-scans, meestal van partijen die licenties of IT-diensten verkopen. Het advies is dan zelden neutraal. Deze scan hoeft niets te verkopen. Supervised levert geen licenties en geen IT-beheer.
+Er bestaan ook gratis Copilot-scans, vaak van partijen die licenties of IT-diensten verkopen. Deze scan hoeft niets te verkopen. Supervised levert geen licenties en geen IT-beheer.
 
 ## Voor wie
 

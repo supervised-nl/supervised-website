@@ -3,7 +3,7 @@ title: "Copilot-adoptietraject voor blijvend gebruik"
 eyebrow: "Adoptietraject"
 seoTitle: "Copilot-adoptietraject voor het MKB | Supervised"
 description: "Structurele Copilot-adoptie voor het MKB, met 0-meting, use cases per rol, werkafspraken, ambassadeurs en een eindmeting van gebruik en tijdsbesteding."
-lead: "Een Copilot-adoptietraject van Supervised is structurele begeleiding voor MKB-bedrijven die willen dat Microsoft 365 Copilot blijvend gebruikt wordt, niet alleen in de week na de training. Het traject combineert een 0-meting, use cases per rol, werkafspraken, ambassadeurs, training en opvolging. Het sluit af met een eenvoudige meting van wat er nu gebruikt wordt en waar minder tijd verloren gaat."
+lead: "Een Copilot-adoptietraject helpt MKB-bedrijven om Microsoft 365 Copilot blijvend te gebruiken. Met 0-meting, use cases per rol, werkafspraken, training, opvolging en een eenvoudige eindmeting."
 url: "/copilot-adoptietraject/"
 weight: 4
 sitemap:
@@ -28,7 +28,7 @@ closing:
 
 Het gaat vaak zo. Er komt een enthousiaste training, twee weken lang probeert iedereen wat, en drie maanden later gebruiken nog twee collega's Copilot. De reflex is dan om nog een training te boeken. Maar het probleem was geen gebrek aan uitleg.
 
-Adoptie strandt zelden op techniek. Het strandt op wat eromheen ontbreekt. Niemand heeft afgesproken waarvoor Copilot wel en niet wordt gebruikt. Er zijn geen voorbeelden per rol. Niemand houdt het levend en niemand meet of het wat oplevert. Dat zijn organisatievragen, en die los je organisatorisch op.
+Adoptie strandt zelden op techniek. Meestal ontbreken afspraken, voorbeelden per rol, opvolging en een eenvoudige meting. Dat zijn organisatievragen, en die los je organisatorisch op.
 
 ## De bouwstenen van het traject
 
@@ -38,11 +38,11 @@ Wie gebruikt er nu wat, waar zit het herhalende werk en wat verwachten mensen er
 
 ### Use cases per rol
 
-Per team kiezen we twee of drie taken waar Copilot direct helpt. Voor sales zijn dat offertes en gespreksverslagen in Word. Voor de administratie mailverwerking in Outlook en lijstwerk in Excel. Voor HR personeelscommunicatie, en voor het management vergadervoorbereiding in Teams en een eerste opzet in PowerPoint. We beginnen klein, met taken die er per rol toe doen.
+Per team kiezen we twee of drie taken waar Copilot direct helpt. Sales werkt aan offertes en gespreksverslagen, administratie aan Outlook en Excel, HR aan personeelscommunicatie en management aan Teams, PowerPoint en voorbereiding.
 
 ### Richtlijnen en werkafspraken
 
-Wat mag er wel en niet in Copilot, hoe ga je om met klant- en persoonsgegevens (AVG), en hoe organiseer je passende AI-geletterdheid zoals de EU AI Act (artikel 4) vraagt. Dat leggen we vast op één A4 dat mensen echt lezen. Geen juridisch advies en geen compliance-garantie, wel werkbare afspraken.
+Wat mag wel en niet in Copilot, hoe ga je om met klant- en persoonsgegevens (AVG), en hoe organiseer je AI-geletterdheid volgens de EU AI Act. Dat leggen we vast op één A4. Geen juridisch advies, wel werkbare afspraken.
 
 ### Ambassadeurs
 
@@ -58,7 +58,7 @@ Aan het eind meten we wat er veranderd is. Wie gebruikt Copilot structureel, voo
 
 ## Wat het management eruit haalt
 
-Het traject richt zich op minder tijdverlies in herhalend werk, betere voorbereiding van gesprekken en vergaderingen, snellere documentverwerking en meer waarde uit de Microsoft 365-omgeving waar al voor betaald wordt. Ik beloof vooraf geen percentages. Aan het eind maken we zichtbaar wat er bij jullie is veranderd, met de 0-meting als vergelijkingspunt.
+Het traject richt zich op minder tijdverlies in herhalend werk, betere voorbereiding en meer waarde uit de Microsoft 365-omgeving. Ik beloof vooraf geen percentages. Aan het eind maken we zichtbaar wat er is veranderd, met de 0-meting als vergelijkingspunt.
 
 ## Voor wie, en hoe lang
 

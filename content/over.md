@@ -1,7 +1,7 @@
 ---
 title: "Jeroen Gijselaar, Copilot-specialist voor het MKB"
 seoTitle: "Over Jeroen Gijselaar, Copilot-specialist | Supervised"
-description: "Supervised is Jeroen Gijselaar uit Enschede, Microsoft 365 Copilot-specialist voor het MKB. Drie jaar ervaring, ruim vijftig adoptietrajecten."
+description: "Supervised is Jeroen Gijselaar uit Enschede, Microsoft 365 Copilot-specialist voor het MKB. Praktische Copilot-adoptie op locatie."
 bodyClass: "over"
 schema: "person"
 sitemap:
@@ -19,7 +19,7 @@ sections:
     body: |
       Ik kom eerst kijken voordat ik iets vind. Wie jarenlang hetzelfde werk doet, ziet de herhaling zelf niet meer. Meekijken op de werkvloer legt dat bloot. Daarna train ik op jullie taken, niet op die van een voorbeeldbedrijf.
 
-      In drie jaar heb ik ruim vijftig adoptietrajecten gedaan en veel trainingen en workshops gegeven, bij MKB-teams van de werkvloer tot de directiekamer. Daarvan heb ik geleerd dat adoptie zelden op techniek strandt en dat enthousiasme zonder opvolging verdampt. Daar is de hele [werkwijze](/werkwijze/) op gebouwd.
+      Ik heb veel adoptietrajecten, trainingen en workshops gedaan, bij MKB-teams van de werkvloer tot de directiekamer. Daarvan heb ik geleerd dat adoptie zelden op techniek strandt en dat enthousiasme zonder opvolging verdampt. Daar is de hele [werkwijze](/werkwijze/) op gebouwd.
   - title: "Rustig over regels"
     body: |
       Een vast onderdeel van mijn werk is de EU AI Act en alles eromheen. Privacy, de AVG, en de vraag wat er wel en niet in een AI-assistent thuishoort. Voor veel MKB-bedrijven is dat een bron van onzekerheid, en soms van paniekverhalen. Ik help er rustig doorheen met praktische training, bewustwording en werkafspraken. Juridisch advies geef ik niet en Supervised is geen compliance-bureau. Als formele toetsing nodig is, hoort daar een jurist of privacyadviseur bij.

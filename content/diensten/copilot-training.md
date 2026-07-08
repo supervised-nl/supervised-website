@@ -3,7 +3,7 @@ title: "Microsoft 365 Copilot-training op jullie eigen werk"
 eyebrow: "Copilot-training"
 seoTitle: "Microsoft 365 Copilot-training voor teams | Supervised"
 description: "Copilot-training op locatie voor MKB-teams in Oost-Nederland. Rolgericht voor sales, HR, administratie en management, met taken uit jullie eigen werk."
-lead: "Een Copilot-training van Supervised is een interactieve workshop voor MKB-teams, op locatie in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Geen productdemo, maar oefenen op echte taken, zoals de offerte die eruit moet of het verslag van vanmorgen. Na afloop heeft iedereen concrete taken waarop Copilot direct kan helpen."
+lead: "Copilot-training op locatie voor MKB-teams in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Geen productdemo, maar oefenen op echte taken die vandaag al op tafel liggen."
 url: "/copilot-training/"
 weight: 3
 sitemap:
@@ -26,13 +26,13 @@ closing:
 
 ## Zo ziet de training eruit
 
-Vooraf bepalen we samen welke rollen meedoen en welke taken centraal staan, het liefst op basis van de [Readiness-scan](/copilot-readiness-scan/). De training zelf is vooral zelf doen. Iedereen werkt op de eigen laptop, in de eigen Microsoft-omgeving, aan eigen documenten en mail. Ik laat kort zien hoe iets werkt, daarna ga je het zelf doen. Wat schuurt bespreken we meteen, want daar leer je het meest van.
+Vooraf bepalen we welke rollen meedoen en welke taken centraal staan, liefst op basis van de [Readiness-scan](/copilot-readiness-scan/). Daarna is het vooral zelf doen: op eigen laptop, in jullie Microsoft-omgeving, met eigen documenten en mail.
 
-Zijn er nog geen betaalde Copilot-licenties? Dan kijken we eerst of Microsoft 365 Copilot Chat in jullie tenant beschikbaar is en passend is voor de training. Zo ervaart het team wat AI in het werk betekent voordat er breed geld naar betaalde Copilot-licenties gaat.
+Zijn er nog geen betaalde Copilot-licenties? Dan kijken we of Microsoft 365 Copilot Chat in jullie tenant beschikbaar is. Zo ervaart het team wat AI in het werk doet voordat er breed licenties worden gekocht.
 
 ## Per rol, want ander werk vraagt andere voorbeelden
 
-Een verkoper heeft niets aan het voorbeeld van de administratie. Daarom is de training rolgericht opgebouwd. Dit zijn de meest gevraagde varianten.
+Een verkoper heeft niets aan het voorbeeld van de administratie. Daarom is de training rolgericht. Dit zijn de meest gevraagde varianten.
 
 ### Copilot voor sales
 
@@ -40,7 +40,7 @@ Een eerste offerteversie in Word op basis van eerdere offertes en het gespreksve
 
 ### Copilot voor HR
 
-Vacatureteksten en personeelscommunicatie die in één keer de juiste toon hebben. Onboardingdocumenten en regelingen samenvatten voor nieuwe medewerkers. Conceptantwoorden op veelgestelde personeelsvragen in Outlook. En duidelijke afspraken over wat er wel en niet in een AI-assistent gaat als het over mensen gaat. Die maken we vooraf.
+Vacatureteksten en personeelscommunicatie in de juiste toon. Onboardingdocumenten en regelingen samenvatten. Conceptantwoorden op HR-vragen in Outlook. En vooraf duidelijke afspraken over wat wel en niet in een AI-assistent gaat.
 
 ### Copilot voor administratie en office
 
@@ -52,11 +52,11 @@ Lange rapporten en stukken samenvatten vóór de vergadering in plaats van erna.
 
 ## AI-geletterdheid en de EU AI Act
 
-Werkgevers moeten passende AI-geletterdheid organiseren voor medewerkers die AI gebruiken (EU AI Act, artikel 4). In elke Copilot-training zit daarom standaard aandacht voor verantwoord gebruik. Wat stop je wel en niet in een AI-assistent, hoe controleer je uitkomsten, en waar liggen de grenzen. Supervised geeft geen juridisch advies en is geen compliance-bureau. Wil je dit onderwerp apart en voor het hele bedrijf praktisch organiseren, dan kan dat als losse [AI-geletterdheidstraining](/ai-geletterdheid-training/).
+Werkgevers moeten passende AI-geletterdheid organiseren voor medewerkers die AI gebruiken (EU AI Act, artikel 4). Daarom zit verantwoord gebruik standaard in elke Copilot-training: wat deel je wel en niet, hoe controleer je uitkomsten, waar liggen de grenzen. Voor een losse aanpak is er de [AI-geletterdheidstraining](/ai-geletterdheid-training/).
 
 ## Wat een training wel en niet doet
 
-Na een goede training weet iedereen hoe Copilot werkt in het eigen werk en heeft iedereen concrete taken waarop Copilot direct kan helpen. Wat een training niet vanzelf regelt, is blijvend gebruik. Zonder opvolging zakt een deel van het geleerde weg zodra de waan van de dag terugkeert. Wil je dat het team Copilot blijft gebruiken, kijk dan naar het [adoptietraject](/copilot-adoptietraject/). Daar is de training één onderdeel van, naast werkafspraken, ambassadeurs en een meting van het resultaat.
+Na een goede training weet iedereen waar Copilot direct kan helpen. Wat een training niet vanzelf regelt, is blijvend gebruik. Zonder opvolging zakt een deel weg zodra de waan van de dag terugkeert. Wil je dat het team Copilot blijft gebruiken, kijk dan naar het [adoptietraject](/copilot-adoptietraject/).
 
 ## Praktisch
 
