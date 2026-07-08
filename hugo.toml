@@ -92,7 +92,7 @@ disableKinds = ['taxonomy', 'term']
     url = '/copilot-training/'
   [[params.navDropdown.items]]
     label = 'Adoptietraject'
-    description = 'Begeleiding tot gebruik beklijft.'
+    description = 'Begeleiding tot Copilot in gebruik blijft.'
     url = '/copilot-adoptietraject/'
   [[params.navDropdown.items]]
     label = '1-op-1-begeleiding'

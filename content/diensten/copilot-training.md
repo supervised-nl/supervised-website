@@ -56,7 +56,7 @@ Werkgevers moeten passende AI-geletterdheid organiseren voor medewerkers die AI 
 
 ## Wat een training wel en niet doet
 
-Na een goede training weet iedereen hoe Copilot werkt in het eigen werk en heeft iedereen concrete taken waarop Copilot direct kan helpen. Wat een training niet vanzelf regelt, is blijvend gebruik. Zonder opvolging zakt een deel van het geleerde weg zodra de waan van de dag terugkeert. Wil je dat het beklijft, kijk dan naar het [adoptietraject](/copilot-adoptietraject/). Daar is de training één onderdeel van, naast werkafspraken, ambassadeurs en een meting van het resultaat.
+Na een goede training weet iedereen hoe Copilot werkt in het eigen werk en heeft iedereen concrete taken waarop Copilot direct kan helpen. Wat een training niet vanzelf regelt, is blijvend gebruik. Zonder opvolging zakt een deel van het geleerde weg zodra de waan van de dag terugkeert. Wil je dat het team Copilot blijft gebruiken, kijk dan naar het [adoptietraject](/copilot-adoptietraject/). Daar is de training één onderdeel van, naast werkafspraken, ambassadeurs en een meting van het resultaat.
 
 ## Praktisch
 

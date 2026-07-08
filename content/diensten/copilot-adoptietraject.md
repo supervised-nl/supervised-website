@@ -1,5 +1,5 @@
 ---
-title: "Copilot-adoptietraject voor gebruik dat beklijft"
+title: "Copilot-adoptietraject voor blijvend gebruik"
 eyebrow: "Adoptietraject"
 seoTitle: "Copilot-adoptietraject voor het MKB | Supervised"
 description: "Structurele Copilot-adoptie voor het MKB, met 0-meting, use cases per rol, werkafspraken, ambassadeurs en een eindmeting van gebruik en tijdsbesteding."
