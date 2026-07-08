@@ -67,10 +67,37 @@ tweede lettertype · kleurrestyle.
 
 ## Fase 2 — Converteren (grootste rendement, 1–2 dagen)
 
-### 2.1 Planbare actie: formulier of booking-link — beslispunt
+### 2.1 Planbare actie: Microsoft Bookings — GEKOZEN
 Elke CTA zegt "Plan de Readiness-scan" maar eindigt op mailto/tel.
+Besluit: **Microsoft Bookings** ("Bookings with me") voor een kennismaking
+van 30 minuten. Motivatie: merkcongruent (Supervised verkoopt Microsoft
+365-adoptie, dus plannen ín Microsoft 365), zit al in het abonnement (geen
+extra leverancier of verwerkersovereenkomst, data blijft in eigen tenant —
+consistent met het privacy/AI Act-advies), koppelt automatisch aan de
+Outlook-agenda en maakt zelf de Teams-link, bevestiging en herinnering aan.
 
-**Optie A (aanbevolen): minimaal formulier, 3 velden** (naam, e-mail, vraag).
+**Inrichting Bookings-kant (handmatig, eenmalig):**
+- "Bookings with me"-pagina met één afspraaktype: kennismaking, 30 min,
+  online (Teams). Buffer en beschikbaarheid instellen.
+- Custom questions als mini-kwalificatie (2–3): bedrijfsnaam, aantal
+  medewerkers, "al Copilot-licenties?".
+- Branding in Bookings: logo + oranje accentkleur.
+
+**Site-kant:**
+- Redirect in `vercel.json`: `/plan` → Bookings-URL. Schone eigen URL in
+  alle CTA's; later geruisloos van tool te wisselen zonder site-wijziging.
+- **Link, niet embedden.** Een iframe zou de CSP breken (`default-src
+  'none'`) en de Microsoft-huisstijl in de site trekken. Als gewone
+  `<a href>` is het navigatie — geen CSP-impact, budget intact.
+- **Boek de kennismaking, niet de scan.** Een halve dag op locatie plan je
+  niet in een agenda-slot; het "vrijblijvende half uur" uit de bestaande
+  copy is de laagdrempelige actie, de scan volgt uit dat gesprek.
+  CTA-teksten daarop aanpassen ("Plan een kennismaking") of de bestaande
+  CTA laten landen op een korte plan-sectie met de Bookings-link.
+- De vraag-zonder-afspraak blijft via mailto; dat volstaat voorlopig.
+
+**Optioneel later: minimaal formulier, 3 velden** (naam, e-mail, vraag) —
+alleen als na een paar weken blijkt dat er behoefte is naast Bookings.
 - Vercel serverless function `api/contact.js` op eigen domein; de CSP staat
   `form-action 'self'` al toe, dus geen CSP-wijziging in de browser.
 - Mailbezorging server-side via één API (bijv. Resend), secret als
@@ -84,13 +111,9 @@ Elke CTA zegt "Plan de Readiness-scan" maar eindigt op mailto/tel.
 - Verify: e2e submit-test, labels/foutmeldingen (zichtbaar label per veld,
   fout onder het veld), CSP-regressietest.
 
-**Optie B (sneller, minder eigen beheer):** een booking-link (bijv. cal.com)
-als gewone `<a href>` — een link is navigatie, geen request, dus ook geen
-CSP-impact. Kan ook als tussenstap naast optie A.
-
 ### 2.2 CTA's laten kloppen
-Header-CTA en closing-CTA's laten landen op het formulier/de booking
-(anker `#plan`), niet op een kale contactpagina.
+Header-CTA en closing-CTA's laten landen op `/plan` (Bookings) of op een
+plan-sectie met de Bookings-link, niet op een kale contactpagina.
 
 ### 2.3 Bewijs naar voren
 - Logostrook direct onder de hero op home; dekking omhoog
@@ -146,7 +169,8 @@ mobiel; bewijsstrook eronder (uit 2.3) maakt de hero een these.
 
 ## Openstaande beslispunten (gebruiker)
 
-1. Formulier (optie A), booking-link (optie B), of beide? Bij A: welke
-   mailprovider?
+1. ~~Formulier of booking-link?~~ **Besloten: Microsoft Bookings**
+   ("Bookings with me", kennismaking 30 min) — zie 2.1. Formulier is
+   optioneel vervolg als de data daar aanleiding toe geeft.
 2. Praktijk in de hoofdnav (7 items) of alleen prominenter op home?
 3. Eén inline klantquote op home: ja/nee (en van wie)?
