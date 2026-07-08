@@ -163,9 +163,9 @@ disableKinds = ['taxonomy', 'term']
     description = 'Antwoorden over licenties, privacy, training en adoptie.'
     url = '/veelgestelde-vragen/'
   [[params.navDropdown.items]]
-    label = 'Plan de Readiness-scan'
-    description = 'Start met een halve dag op locatie.'
-    url = '/copilot-readiness-scan/'
+    label = 'Plan een kennismaking'
+    description = 'Vrijblijvend half uur om te bepalen wat past.'
+    url = '/plan'
 
 [sitemap]
   changefreq = 'monthly'

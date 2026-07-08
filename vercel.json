@@ -8,6 +8,8 @@
     }
   },
   "redirects": [
+    { "source": "/plan", "destination": "https://outlook.office.com/bookwithme/user/b93d3da4cca2481d99cb11046b2557c2@supervised.nl/meetingtype/IaBcIedRo0uVeWFwuEYLEg2?anonymous&ismsaljsauthenabled&ep=mlink", "permanent": false },
+    { "source": "/plan/", "destination": "https://outlook.office.com/bookwithme/user/b93d3da4cca2481d99cb11046b2557c2@supervised.nl/meetingtype/IaBcIedRo0uVeWFwuEYLEg2?anonymous&ismsaljsauthenabled&ep=mlink", "permanent": false },
     { "source": "/spreker/", "destination": "/copilot-inspiratiesessie/", "permanent": true },
     { "source": "/diensten/ai-workshop/", "destination": "/copilot-training/", "permanent": true },
     { "source": "/diensten/eu-ai-act-training/", "destination": "/ai-geletterdheid-training/", "permanent": true },

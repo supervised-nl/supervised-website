@@ -11,10 +11,10 @@ sitemap:
   priority: 0.7
 closing:
   question: "Plan een eerste sessie"
-  body: "Bevalt de eerste sessie niet, dan stopt het daar. Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we of 1-op-1-begeleiding past. Liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan een sessie"
-    url: "/contact/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Waarom 1-op-1

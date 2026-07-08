@@ -21,7 +21,8 @@
   --accent: #FF6205;                              /* unchanged */
   --accent-soft: rgb(255 98 5 / 0.5);
   --accent-bg: rgb(255 98 5 / 0.08);              /* blockquote bg */
-  --accent-text-em: rgb(255 98 5 / 0.85);         /* current em color */
+  --accent-text: #FF6205;
+  --accent-text-em: var(--accent-text);
 
   /* Rule lines */
   --rule: oklch(0.985 0.005 145 / 0.1);
@@ -66,12 +67,13 @@ html[data-theme="light"] {
   --bg-surface: rgba(250, 250, 248, 0.88);
   --ink-1: rgba(10, 26, 10, 1);
   --ink-2: rgba(10, 26, 10, 0.75);
-  --ink-3: rgba(10, 26, 10, 0.50);
+  --ink-3: rgba(10, 26, 10, 0.62);
   --ink-4: rgba(10, 26, 10, 0.28);
   --accent: #FF6205;
   --accent-soft: rgb(255 98 5 / 0.35);
   --accent-bg: rgb(255 98 5 / 0.06);
-  --accent-text-em: rgb(255 98 5 / 0.9);
+  --accent-text: #C24A00;
+  --accent-text-em: var(--accent-text);
   --rule: rgba(10, 26, 10, 0.08);
   --glow-bg: radial-gradient(circle max(40vw, 45vh) at calc(-10vw) 50%, rgba(255, 98, 5, 0.04) 0%, transparent 70%);
   --glow-filter: blur(40px);
@@ -92,12 +94,13 @@ html[data-theme="light"] {
     --bg-surface: rgba(250, 250, 248, 0.88);
     --ink-1: rgba(10, 26, 10, 1);
     --ink-2: rgba(10, 26, 10, 0.75);
-    --ink-3: rgba(10, 26, 10, 0.50);
+    --ink-3: rgba(10, 26, 10, 0.62);
     --ink-4: rgba(10, 26, 10, 0.28);
     --accent: #FF6205;
     --accent-soft: rgb(255 98 5 / 0.35);
     --accent-bg: rgb(255 98 5 / 0.06);
-    --accent-text-em: rgb(255 98 5 / 0.9);
+    --accent-text: #C24A00;
+    --accent-text-em: var(--accent-text);
     --rule: rgba(10, 26, 10, 0.08);
     --glow-bg: radial-gradient(circle max(40vw, 45vh) at calc(-10vw) 50%, rgba(255, 98, 5, 0.04) 0%, transparent 70%);
     --glow-filter: blur(40px);
@@ -120,7 +123,7 @@ html[data-theme="light"] {
   border: none;
   cursor: pointer;
   padding: 0;
-  color: var(--ink-4);
+  color: var(--ink-3);
   font: inherit;
   font-size: 0.618rem;
   line-height: 1.2;
@@ -213,7 +216,7 @@ html[data-theme="light"] {
   margin-top: 1rem;
   padding-top: 0.764rem;
   border-top: 1px solid var(--rule);
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: 0.764rem;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -454,7 +457,7 @@ body.nav-open #menu .has-panel.is-open .nav-link {
     padding-top: 0.146rem;
 }
 .nav-panel-intro .small {
-    color: var(--accent);
+    color: var(--accent-text);
     padding: 0 0 0.618rem;
 }
 .nav-panel-intro p {
@@ -1131,7 +1134,7 @@ footer {
 
 .home-eyebrow {
   display: block;
-  color: var(--accent);
+  color: var(--accent-text);
   opacity: 0.85;
   padding-bottom: 0;
   margin-bottom: 0.382rem;

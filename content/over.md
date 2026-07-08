@@ -33,7 +33,7 @@ closing:
   body: "Een half uur, vrijblijvend, ook om te sparren over waar jullie staan."
   cta:
     label: "Plan een kennismaking"
-    url: "/contact/"
+    url: "/plan"
 ---
 
 Supervised, dat ben ik. Jeroen Gijselaar, vanuit Enschede. Ik help MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Praktisch voor medewerkers, resultaatgericht voor management.

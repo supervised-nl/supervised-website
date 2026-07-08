@@ -5,8 +5,8 @@ sitemap:
   changefreq: weekly
   priority: 1.0
 ctaPrimary:
-  label: "Plan de Readiness-scan"
-  url: "/copilot-readiness-scan/"
+  label: "Plan een kennismaking"
+  url: "/plan"
 ctaSecondary:
   label: "Bekijk de werkwijze"
   url: "/werkwijze/"
@@ -74,10 +74,10 @@ clients:
     file: "happy_spaces.svg"
 closing:
   question: "Weten waar jullie staan?"
-  body: "De Readiness-scan is het startpunt. Een halve dag op locatie, daarna een rapport met plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Daarna bepalen we of de Readiness-scan de goede volgende stap is. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan de Readiness-scan"
-    url: "/copilot-readiness-scan/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 Veel MKB-bedrijven werken dagelijks met Microsoft 365, maar gebruiken Copilot nog niet structureel in hun werk. Supervised helpt MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot daadwerkelijk en structureel te gebruiken in hun dagelijkse werk. Praktisch, meetbaar en binnen de Microsoft-omgeving die er al staat.

@@ -9,10 +9,10 @@ sitemap:
   priority: 0.7
 closing:
   question: "Weten waar jullie staan?"
-  body: "De Readiness-scan is het startpunt. Een halve dag op locatie in Twente, daarna een rapport met plan van aanpak."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bepalen we of de Readiness-scan de goede volgende stap is."
   cta:
-    label: "Plan de Readiness-scan"
-    url: "/copilot-readiness-scan/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Dichtbij, en dat merk je

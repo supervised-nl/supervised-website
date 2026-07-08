@@ -18,10 +18,10 @@ faq:
     a: "Copilot volgt de rechten en afspraken van jullie eigen Microsoft 365-omgeving. In de training komt aan bod wat er wel en niet in een AI-assistent thuishoort. Of de omgeving zelf goed staat, checkt de Readiness-scan."
 closing:
   question: "Vraag een voorstel aan"
-  body: "Vertel voor welk team of welke rollen het is. Je krijgt een concreet voorstel met één prijs. Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welk team of welke rollen het is en wat een passend voorstel is. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Vraag een voorstel aan"
-    url: "/contact/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Zo ziet de training eruit

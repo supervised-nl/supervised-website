@@ -12,7 +12,7 @@ closing:
   body: "Een kennismaking is vrijblijvend en kost je een half uur. Daarna weet je of dit de goede route is, ook als het antwoord nee is."
   cta:
     label: "Plan een kennismaking"
-    url: "/contact/"
+    url: "/plan"
 ---
 
 ## Eerst kijken

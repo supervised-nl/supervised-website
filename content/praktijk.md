@@ -9,10 +9,10 @@ sitemap:
   priority: 0.7
 closing:
   question: "Benieuwd waar jullie staan?"
-  body: "De Readiness-scan laat het zien. Een halve dag op locatie en een rapport met plan van aanpak, voor € 950 excl. btw."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bepalen we of de Readiness-scan de goede volgende stap is."
   cta:
-    label: "Plan de Readiness-scan"
-    url: "/copilot-readiness-scan/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Eerdere opdrachtgevers

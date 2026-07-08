@@ -18,10 +18,10 @@ faq:
     a: "Niet altijd. Veel organisaties kunnen al starten met Microsoft 365 Copilot Chat binnen hun bestaande Microsoft-omgeving. Het traject laat zien wat in jullie tenant beschikbaar is en voor welke rollen betaalde licenties zinvol zijn."
 closing:
   question: "Begin bij het begin"
-  body: "Elk adoptietraject start met de Readiness-scan. Een halve dag op locatie en een plan van aanpak, voor € 950 excl. btw. Al een scan gedaan of eerst overleggen? Mail [info@supervised.nl](mailto:info@supervised.nl)."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bepalen we of de Readiness-scan of een vervolgstap na een eerdere scan past. Al een scan gedaan of liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl)."
   cta:
-    label: "Plan de Readiness-scan"
-    url: "/copilot-readiness-scan/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Waarom een tweede training niet helpt

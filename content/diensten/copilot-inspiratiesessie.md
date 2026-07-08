@@ -16,10 +16,10 @@ faq:
     a: "Juist dan. De sessie veronderstelt geen voorkennis en begint bij het werk dat er al ligt, niet bij de techniek."
 closing:
   question: "Vraag een inspiratiesessie aan"
-  body: "Laat weten voor welke groep en gelegenheid het is, dan stuur ik snel een voorstel. Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welke groep en gelegenheid het is. Liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Vraag een sessie aan"
-    url: "/contact/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Voor wie

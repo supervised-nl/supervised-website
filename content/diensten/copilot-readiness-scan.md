@@ -17,11 +17,11 @@ faq:
   - q: "Verkopen jullie ook licenties of IT-beheer?"
     a: "Nee. Daardoor is het advies onafhankelijk. Als Copilot Chat voorlopig een passende start is, staat dat in het rapport."
 closing:
-  question: "Plan de Readiness-scan"
-  body: "Vaste prijs € 950 excl. btw, inclusief de halve dag op locatie en het rapport met plan van aanpak. Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656). Je hoort snel van me."
+  question: "Eerst kennismaken over de scan?"
+  body: "Plan een vrijblijvend half uur. Daarna bepalen we samen of de Readiness-scan past. Vaste prijs voor de scan: € 950 excl. btw, inclusief de halve dag op locatie en het rapport met plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan de scan"
-    url: "/contact/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Waarom eerst scannen?

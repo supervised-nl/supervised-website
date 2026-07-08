@@ -223,8 +223,9 @@
         {{ $dropdowns := where $.Site.Params.navDropdown "parent" .Identifier }}
         {{ $hasDropdown := gt (len $dropdowns) 0 }}
         {{ $menuURL := .URL }}
+        {{ $isActive := or (hasPrefix $.RelPermalink .URL) (and (eq .Identifier "diensten") (eq $.Section "diensten")) }}
         <li{{ if $hasDropdown }} class="has-panel"{{ end }}>
-          <a class="nav-link{{ if hasPrefix $.RelPermalink .URL }} active{{ end }}" href="{{ .URL }}"{{ if $hasDropdown }} aria-haspopup="true" aria-expanded="false"{{ end }}>{{ .Name }}</a>
+          <a class="nav-link{{ if $isActive }} active{{ end }}" href="{{ .URL }}"{{ if $hasDropdown }} aria-haspopup="true" aria-expanded="false"{{ end }}>{{ .Name }}</a>
           {{ range first 1 $dropdowns }}
           <div class="nav-panel" aria-label="{{ .eyebrow }}">
             <div class="nav-panel-intro">
@@ -246,7 +247,7 @@
         {{ end }}
       </ul>
     </nav>
-    <a class="header-cta" href="/copilot-readiness-scan/">Plan de Readiness-scan</a>
+    <a class="header-cta" href="/plan">Plan een kennismaking</a>
     <button id="mobile-menu-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false"><span aria-hidden="true"></span></button>
   </header>
   <div id="nav-backdrop" aria-hidden="true"></div>
@@ -267,7 +268,7 @@
       </section>
       {{ end }}
     </nav>
-    <a class="mobile-menu-cta" href="/copilot-readiness-scan/">Plan de Readiness-scan →</a>
+    <a class="mobile-menu-cta" href="/plan">Plan een kennismaking →</a>
   </div>
 
   <div id="glow" aria-hidden="true"></div>

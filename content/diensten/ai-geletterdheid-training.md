@@ -16,10 +16,10 @@ faq:
     a: "Voor veel MKB-teams is één praktische training een goede basis, mits medewerkers daarna volgens de afspraken werken en nieuwe collega's het ook krijgen. Voor juridisch advies of formele compliance-vragen schakel je waar nodig je eigen jurist of privacyadviseur in."
 closing:
   question: "Vraag de teamtraining aan"
-  body: "Laat weten hoe groot het team is, dan hoor je snel wat het kost. Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we hoe groot het team is en wat een passende training kost. Liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Vraag training aan"
-    url: "/contact/"
+    label: "Plan een kennismaking"
+    url: "/plan"
 ---
 
 ## Wat de wet vraagt (en wat niet)
