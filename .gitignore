@@ -13,5 +13,6 @@ resources/_gen/
 # Local agent state (skills worden wél gedeeld via git)
 .claude/*
 !.claude/skills/
+__pycache__/
 motion-audits/
 .vercel
