@@ -55,7 +55,11 @@ sections:
       Dat is allemaal op te lossen, maar niet met nog een presentatie over AI. De [Readiness-scan](/copilot-readiness-scan/) laat zien waar jullie staan en wat er als eerste moet gebeuren.
   - title: "Nuchter, met bewijs"
     body: |
-      Supervised is Jeroen Gijselaar, vanuit Enschede. Drie jaar gespecialiseerd in AI op de werkvloer van het MKB, ruim vijftig adoptietrajecten en veel trainingen en workshops gegeven. Eerder werkte Supervised onder meer voor Ergonad, Makoto, Saxion, Skitt, Statiegeld Nederland en Happy Spaces.
+      Supervised is Jeroen Gijselaar, vanuit Enschede. Ik werk met bedrijven waar Copilot niet in een innovatielab belandt, maar in Outlook, Teams, Word en Excel.
+
+      De aanpak is bewust smal: Microsoft 365 Copilot, echte taken en een omgeving die beheersbaar blijft. Geen brede AI-show en geen beloofde percentages vooraf.
+
+      Eerder werkte Supervised onder meer voor Ergonad, Makoto, Saxion, Skitt, Statiegeld Nederland en Happy Spaces. Meer daarover staat bij [praktijk](/praktijk/).
   - title: "In heel Oost-Nederland"
     body: |
       Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen. Ook bij Nederlandse bedrijven net over de Duitse grens, zoals in Nordhorn en Gildehaus. Trainen gebeurt bij jullie op de zaak, want daar gebeurt het werk.
