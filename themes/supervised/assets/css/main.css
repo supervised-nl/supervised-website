@@ -26,10 +26,6 @@
 
   /* Rule lines */
   --rule: oklch(0.985 0.005 145 / 0.1);
-  --glow-bg: radial-gradient(circle max(32vw, 38vh) at calc(-17vw + var(--glow-x)) calc(52% + var(--glow-y)), rgba(255, 98, 5, 0.55) 0%, rgba(255,98,5,0.18) 45%, transparent 70%);
-  --glow-filter: blur(32px);
-  --glow-opacity: 0.7;
-  --glow-animation: glowIn var(--dur-slow) ease-out forwards;
   --footer-wordmark-color: oklch(0.985 0.005 145 / 0.055);
   --footer-wordmark-mobile-color: rgba(250, 255, 250, 0.09);
   --pre-bg: rgba(0, 0, 0, 0.2);
@@ -63,7 +59,6 @@
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);     /* primary curve everywhere */
   --dur-fast: 180ms;                              /* hover feedback */
   --dur-normal: 350ms;                            /* view transitions, medium */
-  --dur-slow: 600ms;                              /* glowIn */
   --dur-hero: 700ms;                              /* heroIn */
   --divider-space: 2.618rem;
 }
@@ -88,10 +83,6 @@ html[data-theme="light"] {
   --accent-text: #C24A00;
   --accent-text-em: var(--accent-text);
   --rule: rgba(10, 26, 10, 0.08);
-  --glow-bg: radial-gradient(circle max(40vw, 45vh) at calc(-10vw) 50%, rgba(255, 98, 5, 0.04) 0%, transparent 70%);
-  --glow-filter: blur(40px);
-  --glow-opacity: 1;
-  --glow-animation: none;
   --footer-wordmark-color: rgba(10, 26, 10, 0.06);
   --footer-wordmark-mobile-color: rgba(10, 26, 10, 0.085);
   --pre-bg: rgba(10, 26, 10, 0.05);
@@ -115,10 +106,6 @@ html[data-theme="light"] {
     --accent-text: #C24A00;
     --accent-text-em: var(--accent-text);
     --rule: rgba(10, 26, 10, 0.08);
-    --glow-bg: radial-gradient(circle max(40vw, 45vh) at calc(-10vw) 50%, rgba(255, 98, 5, 0.04) 0%, transparent 70%);
-    --glow-filter: blur(40px);
-    --glow-opacity: 1;
-    --glow-animation: none;
     --footer-wordmark-color: rgba(10, 26, 10, 0.06);
     --footer-wordmark-mobile-color: rgba(10, 26, 10, 0.085);
     --pre-bg: rgba(10, 26, 10, 0.05);
@@ -334,26 +321,6 @@ body {
     position: relative;
     background: var(--bg);
 }
-
-/* --------------------------- */
-/* ambient glow
-/* --------------------------- */
-
-#glow {
-    position: fixed;
-    inset: 0;
-    --glow-x: 0px;
-    --glow-y: 0px;
-    background: var(--glow-bg);
-    filter: var(--glow-filter);
-    pointer-events: none;
-    z-index: -1;
-    opacity: var(--glow-opacity);
-    animation: var(--glow-animation);
-    transition: background-position var(--dur-normal) var(--ease-out);
-}
-@keyframes glowIn { from { opacity: 0; } to { opacity: 0.7; } }
-@media (pointer: coarse) { #glow { display: none; } }
 
 /* --------------------------- */
 /* general
@@ -676,7 +643,8 @@ hr {border: none; border-top: 1px solid var(--rule); margin: 1.618em 0;}
   padding-top: 1.236rem;
   padding-bottom: 0;
   margin: 0;
-  max-width: 32ch;
+  max-width: clamp(32ch, 36vw, 44ch);
+  text-wrap: pretty;
 }
 .page-grid-body > *:first-child {
   margin-top: 0;

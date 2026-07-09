@@ -20,31 +20,6 @@
     document.body.append(lenisScript);
   }
 
-  // Pointer-driven ambient glow.
-  if (!reduced && window.matchMedia('(pointer: fine)').matches) {
-    var glow = document.getElementById('glow');
-    var tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
-
-    window.addEventListener('pointermove', function(e){
-      tx = (e.clientX / window.innerWidth - 0.5) * 6;
-      ty = (e.clientY / window.innerHeight - 0.5) * 6;
-      if (!raf) raf = requestAnimationFrame(tick);
-    }, { passive: true });
-
-    function tick(){
-      raf = null;
-      cx += (tx - cx) * 0.08;
-      cy += (ty - cy) * 0.08;
-      if (glow) {
-        glow.style.setProperty('--glow-x', cx.toFixed(2) + 'vw');
-        glow.style.setProperty('--glow-y', cy.toFixed(2) + 'vh');
-      }
-      if (Math.abs(tx - cx) > 0.01 || Math.abs(ty - cy) > 0.01) {
-        raf = requestAnimationFrame(tick);
-      }
-    }
-  }
-
   // Theme switch.
   var themeButtons = Array.prototype.slice.call(document.querySelectorAll('[data-theme-choice]'));
   if (themeButtons.length) {
