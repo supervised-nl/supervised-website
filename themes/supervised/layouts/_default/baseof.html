@@ -286,7 +286,7 @@
       {{ $dropdowns := where $.Site.Params.navDropdown "parent" .Identifier }}
       <section class="mobile-menu-group">
         <a class="mobile-menu-main" href="{{ .URL }}">{{ .Name }}</a>
-        {{ if or (eq .Identifier "diensten") (eq .Identifier "kennisbank") }}{{ range first 1 $dropdowns }}
+        {{ if eq .Identifier "diensten" }}{{ range first 1 $dropdowns }}
         <div class="mobile-menu-links">
           {{ if eq .parent "kennisbank" }}
           <a href="/kennisbank/">Alle artikelen</a>
