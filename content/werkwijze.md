@@ -11,7 +11,7 @@ closing:
   question: "Eens kijken of dit past?"
   body: "Een kennismaking is vrijblijvend en kost je een half uur. Daarna weet je of dit de goede route is, ook als het antwoord nee is."
   cta:
-    label: "Plan een kennismaking"
+    label: "Bespreek jullie aanpak"
     url: "/plan"
 ---
 

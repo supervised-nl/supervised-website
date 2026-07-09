@@ -9,6 +9,9 @@ weight: 6
 sitemap:
   changefreq: monthly
   priority: 0.7
+ctaPrimary:
+  label: "Bespreek AI-geletterdheid"
+  url: "/plan"
 faq:
   - q: "Geldt de EU AI Act ook voor kleine bedrijven?"
     a: "Ja. De AI-geletterdheidsplicht geldt voor elke werkgever waarvan medewerkers met AI werken, ook met tien man. De omvang van wat je regelt mag wel passen bij je bedrijf."
@@ -18,7 +21,7 @@ closing:
   question: "Vraag de teamtraining aan"
   body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we hoe groot het team is en wat een passende training kost. Liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan een kennismaking"
+    label: "Bespreek AI-geletterdheid"
     url: "/plan"
 ---
 

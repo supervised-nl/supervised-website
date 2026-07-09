@@ -2,6 +2,9 @@
 <section class="home-closing">
   <h2>{{ .question }}</h2>
   {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
-  {{ with .cta }}<a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>{{ end }}
+  {{ with .cta }}
+  <a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>
+  {{ if eq .url "/plan" }}<p class="booking-note">Je plant via Microsoft Bookings.</p>{{ end }}
+  {{ end }}
 </section>
 {{ end }}

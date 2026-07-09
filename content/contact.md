@@ -13,6 +13,6 @@ address: "Rigtersbleek-Zandvoort 10, 7521 BE Enschede"
 kvk: "97664472"
 ---
 
-De meeste trajecten beginnen met de [Readiness-scan](/copilot-readiness-scan/), maar een vraag stellen mag altijd. Een kennismaking van een half uur is vrijblijvend en je komt niet op een mailinglijst. Wil je meteen iets plannen, [plan dan een kennismaking](/plan).
+De meeste trajecten beginnen met de [Readiness-scan](/copilot-readiness-scan/), maar een vraag stellen mag altijd. Een kennismaking van een half uur is vrijblijvend en je komt niet op een mailinglijst. Wil je meteen iets plannen, [plan dan een kennismaking via Microsoft Bookings](/plan). Daar kies je zelf een beschikbaar moment.
 
 Ik werk op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem, Nijmegen en bij Nederlandse bedrijven net over de grens, bijvoorbeeld in Nordhorn. Je vindt me ook op [LinkedIn](https://www.linkedin.com/in/jeroengijselaar/).

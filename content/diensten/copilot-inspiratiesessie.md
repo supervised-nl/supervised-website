@@ -9,6 +9,9 @@ weight: 1
 sitemap:
   changefreq: monthly
   priority: 0.8
+ctaPrimary:
+  label: "Bespreek een inspiratiesessie"
+  url: "/plan"
 faq:
   - q: "Is dit een verkooppraatje voor licenties?"
     a: "Nee. Supervised verkoopt geen licenties en geen software. Als Copilot Chat voorlopig een passende start is binnen jullie Microsoft-omgeving, dan hoor je dat."
@@ -18,7 +21,7 @@ closing:
   question: "Vraag een inspiratiesessie aan"
   body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welke groep en gelegenheid het is. Liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan een kennismaking"
+    label: "Bespreek een inspiratiesessie"
     url: "/plan"
 ---
 

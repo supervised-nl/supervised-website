@@ -9,6 +9,9 @@ weight: 4
 sitemap:
   changefreq: monthly
   priority: 0.9
+ctaPrimary:
+  label: "Bespreek een adoptietraject"
+  url: "/plan"
 faq:
   - q: "Hoe meten we of Copilot ons echt iets oplevert?"
     a: "Met de 0-meting vooraf en dezelfde meting achteraf. Wie gebruikt het, voor welke taken, en hoeveel tijd kosten die. We houden die metingen bewust eenvoudig."
@@ -20,7 +23,7 @@ closing:
   question: "Begin bij het begin"
   body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bepalen we of de Readiness-scan of een vervolgstap na een eerdere scan past. Al een scan gedaan of liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl)."
   cta:
-    label: "Plan een kennismaking"
+    label: "Bespreek een adoptietraject"
     url: "/plan"
 ---
 

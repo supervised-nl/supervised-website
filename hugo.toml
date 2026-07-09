@@ -163,7 +163,7 @@ disableKinds = ['taxonomy', 'term']
     description = 'Antwoorden over licenties, privacy, training en adoptie.'
     url = '/veelgestelde-vragen/'
   [[params.navDropdown.items]]
-    label = 'Plan een kennismaking'
+    label = 'Plan via Microsoft Bookings'
     description = 'Vrijblijvend half uur om te bepalen wat past.'
     url = '/plan'
 

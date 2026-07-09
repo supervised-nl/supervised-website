@@ -9,6 +9,9 @@ weight: 2
 sitemap:
   changefreq: monthly
   priority: 0.9
+ctaPrimary:
+  label: "Bespreek de Readiness-scan"
+  url: "/plan"
 faq:
   - q: "Kunnen we al starten zonder betaalde Copilot-licenties?"
     a: "Vaak wel. Veel organisaties kunnen al starten met Microsoft 365 Copilot Chat binnen hun bestaande Microsoft-omgeving. De scan laat zien wat in jullie tenant beschikbaar is en wanneer betaalde licenties zinvol worden."
@@ -20,7 +23,7 @@ closing:
   question: "Eerst kennismaken over de scan?"
   body: "Plan een vrijblijvend half uur. Daarna bepalen we samen of de Readiness-scan past. Vaste prijs voor de scan: € 950 excl. btw, inclusief de halve dag op locatie en het rapport met plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan een kennismaking"
+    label: "Bespreek de Readiness-scan"
     url: "/plan"
 ---
 

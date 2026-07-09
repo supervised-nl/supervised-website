@@ -79,6 +79,8 @@
     var closeTimer = null;
     var mobileToggle = document.getElementById('mobile-menu-toggle');
     var mobileMenu = document.getElementById('mobile-menu');
+    var main = document.getElementById('content');
+    var footer = document.querySelector('footer');
 
     function setOpen(item) {
       clearTimeout(closeTimer);
@@ -102,6 +104,8 @@
     }
 
     function setMobileMenu(open) {
+      var wasOpen = document.body.classList.contains('mobile-nav-open');
+      var focusWasInMenu = mobileMenu && mobileMenu.contains(document.activeElement);
       if (open) closePanels();
       document.body.classList.toggle('mobile-nav-open', open);
       if (mobileToggle) {
@@ -109,6 +113,17 @@
         mobileToggle.setAttribute('aria-label', open ? 'Sluit menu' : 'Open menu');
       }
       if (mobileMenu) mobileMenu.setAttribute('aria-hidden', open ? 'false' : 'true');
+      [main, footer].forEach(function(region) {
+        if (!region) return;
+        if (open) region.setAttribute('inert', '');
+        else region.removeAttribute('inert');
+      });
+      if (open && !wasOpen && mobileMenu) {
+        var firstLink = mobileMenu.querySelector('a');
+        if (firstLink) firstLink.focus();
+      } else if (!open && wasOpen && focusWasInMenu && mobileToggle) {
+        mobileToggle.focus();
+      }
     }
 
     panelItems.forEach(function(item) {

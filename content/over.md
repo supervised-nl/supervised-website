@@ -32,7 +32,7 @@ closing:
   question: "Eens kennismaken?"
   body: "Een half uur, vrijblijvend, ook om te sparren over waar jullie staan."
   cta:
-    label: "Plan een kennismaking"
+    label: "Maak kennis met Jeroen"
     url: "/plan"
 ---
 

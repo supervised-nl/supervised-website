@@ -11,7 +11,7 @@ closing:
   question: "Benieuwd waar jullie staan?"
   body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bepalen we of de Readiness-scan de goede volgende stap is."
   cta:
-    label: "Plan een kennismaking"
+    label: "Bespreek jullie situatie"
     url: "/plan"
 ---
 

@@ -5,7 +5,7 @@ sitemap:
   changefreq: weekly
   priority: 1.0
 ctaPrimary:
-  label: "Plan een kennismaking"
+  label: "Plan via Microsoft Bookings"
   url: "/plan"
 ctaSecondary:
   label: "Bekijk de werkwijze"
@@ -86,7 +86,7 @@ closing:
   question: "Weten waar jullie staan?"
   body: "Plan eerst een vrijblijvende kennismaking van een half uur. Daarna bepalen we of de Readiness-scan de goede volgende stap is. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan een kennismaking"
+    label: "Plan via Microsoft Bookings"
     url: "/plan"
 ---
 

@@ -9,6 +9,9 @@ weight: 3
 sitemap:
   changefreq: monthly
   priority: 0.9
+ctaPrimary:
+  label: "Bespreek een Copilot-training"
+  url: "/plan"
 faq:
   - q: "Wat is het verschil tussen een workshop en een adoptietraject?"
     a: "Een workshop is één training. Een adoptietraject loopt langer en regelt ook werkafspraken, ambassadeurs, opvolging en een eindmeting. De workshop is daar vaak onderdeel van."
@@ -20,7 +23,7 @@ closing:
   question: "Vraag een voorstel aan"
   body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welk team of welke rollen het is en wat een passend voorstel is. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
-    label: "Plan een kennismaking"
+    label: "Bespreek een Copilot-training"
     url: "/plan"
 ---
 
