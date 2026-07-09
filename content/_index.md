@@ -60,7 +60,7 @@ sections:
   - eyebrow: "Aanpak"
     title: "Nuchter, met bewijs"
     body: |
-      Supervised is Jeroen Gijselaar, vanuit Enschede. Ik werk met bedrijven waar Copilot niet in een innovatielab belandt, maar in Outlook, Teams, Word en Excel.
+      Supervised is mijn bedrijf. Ik ben Jeroen Gijselaar en werk vanuit Enschede met bedrijven die Copilot gewoon in Outlook, Teams, Word en Excel willen gebruiken.
 
       De aanpak is bewust smal: Microsoft 365 Copilot, echte taken en een omgeving die beheersbaar blijft. Ik beloof geen percentages vooraf en verkoop geen brede AI-show.
 
@@ -68,7 +68,7 @@ sections:
   - eyebrow: "Werkgebied"
     title: "In heel Oost-Nederland"
     body: |
-      Op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen. Ook bij Nederlandse bedrijven net over de grens, zoals in Nordhorn en Gildehaus. Trainen gebeurt bij jullie op de zaak, want daar gebeurt het werk.
+      Ik werk op locatie in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen. Ook Nederlandse bedrijven net over de grens, zoals in Nordhorn en Gildehaus, passen daarbij. Trainen doe ik bij jullie op de zaak, want daar gebeurt het werk.
 clients:
   - name: "Ergonad"
     file: "ergonad.svg"

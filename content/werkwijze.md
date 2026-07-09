@@ -17,7 +17,7 @@ closing:
 
 ## Eerst kijken
 
-Ik kom langs en zie hoe het werk echt gaat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik licenties, SharePoint en afspraken. Daar zie je waar herhaling zit en wat Copilot wel of niet kan helpen.
+Ik kom langs en zie hoe het werk echt gaat. Bij de [Readiness-scan](/copilot-readiness-scan/) kijk ik mee op de werkvloer, spreek ik medewerkers en beoordeel ik licenties, SharePoint en afspraken. Daar zie je waar het werk zich herhaalt en waar Copilot wel of niet bij helpt.
 
 ## Een plan dat past
 
@@ -25,11 +25,11 @@ Op basis daarvan krijg je een plan van aanpak: wat moet eerst, welke rollen hebb
 
 ## Trainen op echte taken
 
-In de training werkt iedereen in de eigen omgeving aan eigen taken, zoals de offerte in Word of de mailbox in Outlook. Per rol, want een verkoper leert niets van het voorbeeld van de administratie.
+In de training werkt iedereen in de eigen omgeving aan eigen taken, zoals een offerte in Word of een mailbox in Outlook. Dat doen we per rol, want een verkoper leert weinig van een administratievoorbeeld.
 
 ## Borgen en meten
 
-Dit is het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs, korte terugkomsessies en een eenvoudige eindmeting. Aan het eind weet je wat gebruikt wordt en waar minder tijd verloren gaat.
+Daar zit het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs, korte terugkomsessies en een eenvoudige eindmeting. Aan het eind weet je wat gebruikt wordt en waar minder tijd verloren gaat.
 
 ## Waar ik niet van ben
 

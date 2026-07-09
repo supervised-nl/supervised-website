@@ -24,7 +24,7 @@ closing:
 
 Adoptie begint bovenin. Als het MT Copilot zelf niet gebruikt, gelooft de werkvloer het verhaal niet. Een directeur die laat zien hoe hij zijn stukken voorbereidt, doet meer dan een campagne.
 
-Maar juist managers zitten zelden in een groepstraining. Te druk, of niet de plek om te laten zien wat je nog niet kunt. Daarom werkt deze vorm beter. Je oefent in vertrouwen, op je eigen tempo.
+Maar juist managers zitten zelden in een groepstraining. Ze zijn te druk, of een groepstraining voelt niet als de plek om te laten zien wat je nog niet kunt. Daarom werkt deze vorm beter. Je oefent in vertrouwen, op je eigen tempo.
 
 ## Hoe het werkt
 
@@ -34,7 +34,7 @@ Tussen de sessies door pas je het toe. De volgende sessie begint bij wat wel en 
 
 ## Voor wie
 
-Directieleden en managers die het voorbeeld willen geven. Key users en ambassadeurs die tijdens een [adoptietraject](/copilot-adoptietraject/) een stap dieper willen. En wie gewoon sneller wil dan de rest.
+Voor directieleden en managers die het voorbeeld willen geven, key users en ambassadeurs die tijdens een [adoptietraject](/copilot-adoptietraject/) een stap dieper willen, en mensen die gewoon sneller willen dan de rest.
 
 ## Praktisch
 

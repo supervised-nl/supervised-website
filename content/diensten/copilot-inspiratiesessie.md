@@ -33,7 +33,7 @@ Jullie horen overal over AI en Copilot, maar wat is praktisch nuttig? In anderha
 
 ### Het hele team
 
-Als opmaat naar een training of adoptietraject. Iedereen ziet hetzelfde, met voorbeelden uit het eigen soort werk. Dat scheelt later veel discussie.
+Deze sessie werkt ook goed als opmaat naar een training of adoptietraject. Iedereen ziet hetzelfde, met voorbeelden uit het eigen soort werk. Dat scheelt later veel discussie.
 
 ### Events, kickoffs en teamdagen
 

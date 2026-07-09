@@ -17,12 +17,12 @@ closing:
 
 ## Dichtbij, en dat merk je
 
-Voor een training van een dagdeel wil je geen bureau dat drie uur onderweg is en dat doorberekent. Vanuit Enschede is Supervised snel in Almelo, Oldenzaal, Hengelo, Haaksbergen en de rest van Twente. Even terugkomen voor opvolging blijft dan gewoon een afspraak.
+Voor een training van een dagdeel wil je geen bureau dat drie uur reistijd moet doorberekenen. Vanuit Enschede is Supervised snel in Almelo, Oldenzaal, Hengelo, Haaksbergen en de rest van Twente. Even terugkomen voor opvolging blijft dan gewoon een afspraak.
 
 ## Nuchter, zoals het hier werkt
 
-Copilot moet terechtkomen in offertes, verslagen en mailboxen, niet in een abstract innovatiedocument. Eerst de [Readiness-scan](/copilot-readiness-scan/), dan een [training](/copilot-training/) of [adoptietraject](/copilot-adoptietraject/) dat past. Onder de eerdere opdrachtgevers zitten Twentse namen als Saxion. Net over de grens, in Nordhorn of Gildehaus, kan ook.
+Copilot moet terechtkomen in offertes, verslagen en mailboxen, niet in een abstract innovatiedocument. Eerst de [Readiness-scan](/copilot-readiness-scan/), dan een [training](/copilot-training/) of [adoptietraject](/copilot-adoptietraject/) dat past. Onder de eerdere opdrachtgevers zitten ook Twentse namen, zoals Saxion. Net over de grens, bijvoorbeeld in Nordhorn of Gildehaus, kan ook.
 
 ## Ook buiten Twente
 
-Supervised werkt ook in de Achterhoek en in Deventer, Zwolle, Arnhem en Nijmegen. Twente is alleen wel thuis. Meer over de aanpak lees je bij de [werkwijze](/werkwijze/), meer over de persoon erachter bij [over Jeroen](/over/).
+Supervised werkt ook in de Achterhoek en in Deventer, Zwolle, Arnhem en Nijmegen. Twente blijft wel de thuisbasis. Meer over de aanpak lees je bij de [werkwijze](/werkwijze/), meer over de persoon erachter bij [over Jeroen](/over/).

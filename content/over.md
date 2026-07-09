@@ -17,7 +17,7 @@ sections:
       Daarom richt ik me met Supervised op één ding: Microsoft 365 Copilot goed laten landen in het MKB. Andere AI-tools ken ik en volg ik, maar ik verkoop ze niet. Die focus maakt me sneller in de analyse en eerlijker in het advies.
   - title: "Hoe ik werk"
     body: |
-      Ik kom eerst kijken voordat ik iets vind. Wie jarenlang hetzelfde werk doet, ziet de herhaling zelf niet meer. Meekijken op de werkvloer legt dat bloot. Daarna train ik op jullie taken, niet op die van een voorbeeldbedrijf.
+      Ik kom eerst kijken voordat ik advies geef. Wie jarenlang hetzelfde werk doet, ziet de herhaling zelf niet meer. Meekijken op de werkvloer legt dat bloot. Daarna train ik op jullie taken, niet op die van een voorbeeldbedrijf.
 
       Ik heb veel adoptietrajecten, trainingen en workshops gedaan, bij MKB-teams van de werkvloer tot de directiekamer. Daarvan heb ik geleerd dat adoptie zelden op techniek strandt en dat enthousiasme zonder opvolging verdampt. Daar is de hele [werkwijze](/werkwijze/) op gebouwd.
   - title: "Rustig over regels"

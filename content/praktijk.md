@@ -2,8 +2,8 @@
 title: "Copilot-adoptie in de praktijk"
 eyebrow: "Praktijk"
 seoTitle: "Copilot in de praktijk: klanten en resultaten | Supervised"
-description: "Waar Supervised eerder werkte, van Saxion tot Statiegeld Nederland. Zo zien trajecten eruit en zo wordt gemeten wat Copilot-adoptie oplevert."
-lead: "Voor wie Supervised eerder werkte en hoe een Copilot-traject er in de praktijk uitziet. Nuchter, meetbaar en zonder percentages beloven voordat er iets is gemeten."
+description: "Voor welke organisaties Supervised eerder werkte, waaronder Saxion en Statiegeld Nederland. Zo zien trajecten eruit en zo wordt gemeten wat Copilot-adoptie oplevert."
+lead: "Een overzicht van eerdere opdrachtgevers en hoe een Copilot-traject er in de praktijk uitziet. Nuchter, meetbaar en zonder percentages beloven voordat er iets is gemeten."
 sitemap:
   changefreq: monthly
   priority: 0.7
@@ -25,7 +25,7 @@ Wil je weten hoe het er bij een vergelijkbaar bedrijf aan toeging? Vraag ernaar 
 
 Elk bedrijf is anders, maar het ritme is herkenbaar. Het begint met de [Readiness-scan](/copilot-readiness-scan/): een halve dag meekijken, daarna duidelijkheid over SharePoint, licenties en afspraken. Daarna volgt per team een [training](/copilot-training/) op eigen taken.
 
-Daarna begint het echte werk: afspraken op één A4, ambassadeurs, korte terugkomsessies en een eenvoudige eindmeting. Soms blijkt dat minder betaalde licenties nodig zijn dan gedacht, omdat Copilot Chat voor een deel van het team genoeg is. Ook dat is resultaat.
+Daarna begint het echte werk: afspraken op één A4, ambassadeurs, korte terugkomsessies en een eenvoudige eindmeting. Soms blijkt dat minder betaalde licenties nodig zijn dan gedacht, omdat Copilot Chat voor een deel van het team genoeg is. Ook dat kan een goed resultaat zijn.
 
 ## Wat opdrachtgevers terugzien
 

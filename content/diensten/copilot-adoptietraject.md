@@ -29,7 +29,7 @@ closing:
 
 ## Waarom een tweede training niet helpt
 
-Het gaat vaak zo. Er komt een enthousiaste training, twee weken lang probeert iedereen wat, en drie maanden later gebruiken nog twee collega's Copilot. De reflex is dan om nog een training te boeken. Meestal was uitleg niet het probleem.
+Vaak begint het goed: een enthousiaste training, twee weken proberen, en drie maanden later gebruiken nog twee collega's Copilot. De reflex is dan om nog een training te boeken. Meestal was uitleg niet het probleem.
 
 Adoptie strandt zelden op techniek. Meestal ontbreken afspraken, voorbeelden per rol, opvolging en een eenvoudige meting. Dat zijn organisatievragen, en die los je organisatorisch op.
 

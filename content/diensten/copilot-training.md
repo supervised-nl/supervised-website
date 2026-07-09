@@ -33,17 +33,17 @@ Vooraf bepalen we welke rollen meedoen en welke taken centraal staan, liefst op 
 
 Zijn er nog geen betaalde Copilot-licenties? Dan kijken we of Microsoft 365 Copilot Chat in jullie tenant beschikbaar is. Zo ervaart het team wat AI in het werk doet voordat er breed licenties worden gekocht.
 
-## Per rol, want ander werk vraagt andere voorbeelden
+## Per rol, omdat ander werk andere voorbeelden vraagt
 
 Een verkoper heeft weinig aan het voorbeeld van de administratie. Daarom is de training rolgericht. Dit zijn de meest gevraagde varianten.
 
 ### Copilot voor sales
 
-Een eerste offerteversie in Word op basis van eerdere offertes en het gespreksverslag. Een klantgesprek inspreken en er een gestructureerd verslag van laten maken. Opvolgmails in Outlook in je eigen toon. Vergadervoorbereiding met de samenvattingen uit Teams.
+Een eerste offerteversie in Word, op basis van eerdere offertes en een gespreksverslag. Een klantgesprek inspreken en er een gestructureerd verslag van laten maken. Opvolgmails in Outlook in je eigen toon. Vergadervoorbereiding met de samenvattingen uit Teams.
 
 ### Copilot voor HR
 
-Vacatureteksten en personeelscommunicatie in de juiste toon. Onboardingdocumenten en regelingen samenvatten. Conceptantwoorden op HR-vragen in Outlook. En vooraf duidelijke afspraken over wat wel en niet in een AI-assistent gaat.
+Vacatureteksten en personeelscommunicatie in de juiste toon. Onboardingdocumenten en regelingen samenvatten. Conceptantwoorden op HR-vragen in Outlook. Daarbij maken we vooraf duidelijke afspraken over wat wel en niet in een AI-assistent gaat.
 
 ### Copilot voor administratie en office
 
@@ -63,4 +63,4 @@ Na een goede training weet iedereen waar Copilot direct kan helpen. Blijvend geb
 
 ## Praktisch
 
-De training is op locatie, overal in Oost-Nederland en in de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel. De training kan werken met betaalde Copilot-licenties en, waar beschikbaar en passend, met Microsoft 365 Copilot Chat.
+De training is op locatie, overal in Oost-Nederland en in de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel. De training kan met betaalde Copilot-licenties werken en, waar beschikbaar en passend, ook met Microsoft 365 Copilot Chat.

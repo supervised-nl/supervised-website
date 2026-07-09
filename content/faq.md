@@ -28,7 +28,7 @@ faq:
   - q: "Hoeveel tijd kost een traject en voor welke teamgrootte werkt het?"
     a: "Een adoptietraject loopt meestal enkele maanden, met korte sessies die het gewone werk niet stilleggen. Het werkt voor MKB-bedrijven van zo'n 10 tot 100 medewerkers. Bij grotere bedrijven pakken we het per team of afdeling aan. Een losse workshop of inspiratiesessie kost je team een dagdeel."
   - q: "Kom je op locatie? In welke regio werk je?"
-    a: "Ja, vrijwel altijd op locatie. Supervised werkt vanuit Enschede in heel Oost-Nederland, in Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen, en bij Nederlandse bedrijven net over de Duitse grens, zoals in Nordhorn en Gildehaus."
+    a: "Ja, vrijwel altijd op locatie. Supervised werkt vanuit Enschede in heel Oost-Nederland: Twente, de Achterhoek, Deventer, Zwolle, Arnhem en Nijmegen. Nederlandse bedrijven net over de grens, zoals in Nordhorn en Gildehaus, passen daar ook bij."
   - q: "Wat als medewerkers sceptisch zijn of geen tijd hebben?"
     a: "Scepsis is meestal gezond. Mensen hebben vaker een tool voorbij zien komen die vooral tijd kostte. Daarom begint alles bij taken waar mensen zelf last van hebben, in hun eigen omgeving, niet bij een demo van een ander bedrijf. En wie structureel tijd tekortkomt, heeft juist het meest te winnen bij een assistent die het voorwerk doet."
   - q: "Gebruiken jullie ook ChatGPT of andere AI-tools?"

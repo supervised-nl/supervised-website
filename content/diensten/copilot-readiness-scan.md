@@ -37,7 +37,7 @@ Daarom begint elk traject van Supervised met deze scan. Eerst begrijpen hoe jull
 
 ### Licenties en instellingen
 
-Welke Microsoft 365-licenties er zijn, hoe jullie tenant staat en wat daarmee al kan. Je krijgt nuchter advies over of, wanneer en voor wie betaalde Copilot-licenties zinvol zijn.
+Ik kijk welke Microsoft 365-licenties er zijn, hoe jullie tenant is ingericht en wat daarmee al kan. Je krijgt nuchter advies over of, wanneer en voor wie betaalde Copilot-licenties zinvol zijn.
 
 ### Datahygiëne in SharePoint en Teams
 
@@ -45,11 +45,11 @@ Copilot is zo goed als de documenten waar het bij kan. Staat informatie dubbel, 
 
 ### Privacy en governance-basis
 
-Wie kan waarbij, wat mag er wel en niet in een AI-assistent, en welke werkafspraken ontbreken nog. De AI-geletterdheid uit de EU AI Act neem ik praktisch mee. Geen juridisch advies, wel duidelijke afspraken voor verantwoord Copilot-gebruik.
+Wie kan waar bij? Wat mag wel en niet in een AI-assistent? En welke werkafspraken ontbreken nog? De AI-geletterdheid uit de EU AI Act neem ik praktisch mee. Geen juridisch advies, wel duidelijke afspraken voor verantwoord Copilot-gebruik.
 
 ### De meest kansrijke toepassingen per rol
 
-Waar zit het herhalende werk? De offertes van sales in Word, de volle mailbox van de administratie in Outlook, de vergadervoorbereiding van de directie in Teams, de lijstjes in Excel. Per rol benoemt het rapport twee of drie taken waar Copilot direct wat oplevert.
+Waar zit het herhalende werk? Denk aan offertes voor sales in Word, een volle mailbox bij administratie in Outlook, vergadervoorbereiding voor de directie in Teams en terugkerende lijstjes in Excel. Per rol benoemt het rapport twee of drie taken waar Copilot direct wat oplevert.
 
 ## Zo gaat het in zijn werk
 
