@@ -21,7 +21,7 @@ faq:
     a: "Niet altijd. Veel organisaties kunnen al starten met Microsoft 365 Copilot Chat binnen hun bestaande Microsoft-omgeving. Het traject laat zien wat in jullie tenant beschikbaar is en voor welke rollen betaalde licenties zinvol zijn."
 closing:
   question: "Begin bij het begin"
-  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bepalen we of de Readiness-scan of een vervolgstap na een eerdere scan past. Al een scan gedaan of liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl)."
+  body: "Plan een vrijblijvende kennismaking van een half uur. Dan bepalen we of de Readiness-scan nodig is of dat een vervolgstap na een eerdere scan beter past. Al een scan gedaan of liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl)."
   cta:
     label: "Bespreek een adoptietraject"
     url: "/plan"
@@ -29,7 +29,7 @@ closing:
 
 ## Waarom een tweede training niet helpt
 
-Het gaat vaak zo. Er komt een enthousiaste training, twee weken lang probeert iedereen wat, en drie maanden later gebruiken nog twee collega's Copilot. De reflex is dan om nog een training te boeken. Maar het probleem was geen gebrek aan uitleg.
+Het gaat vaak zo. Er komt een enthousiaste training, twee weken lang probeert iedereen wat, en drie maanden later gebruiken nog twee collega's Copilot. De reflex is dan om nog een training te boeken. Meestal was uitleg niet het probleem.
 
 Adoptie strandt zelden op techniek. Meestal ontbreken afspraken, voorbeelden per rol, opvolging en een eenvoudige meting. Dat zijn organisatievragen, en die los je organisatorisch op.
 
@@ -49,11 +49,11 @@ Wat mag wel en niet in Copilot, hoe ga je om met klant- en persoonsgegevens (AVG
 
 ### Ambassadeurs
 
-Per team één collega die er net iets meer van weet. Die vangt vragen op, deelt voorbeelden en signaleert waar het hapert. Adoptie houdt stand als die van binnenuit komt, niet als die van een externe afhangt.
+Per team één collega die er net iets meer van weet. Die vangt vragen op, deelt voorbeelden en signaleert waar het hapert. Adoptie houdt stand als die van binnenuit komt.
 
 ### Training en opvolging
 
-Rolgerichte [workshops](/copilot-training/) op echte taken, gevolgd door korte terugkomsessies. Juist in die opvolging gebeurt het. Daar komen de vragen boven die pas in de praktijk ontstaan.
+Rolgerichte [workshops](/copilot-training/) op echte taken, gevolgd door korte terugkomsessies. In die opvolging komen de vragen boven die pas in de praktijk ontstaan.
 
 ### Eindmeting
 
@@ -61,7 +61,7 @@ Aan het eind meten we wat er veranderd is. Wie gebruikt Copilot structureel, voo
 
 ## Wat het management eruit haalt
 
-Het traject richt zich op minder tijdverlies in herhalend werk, betere voorbereiding en meer waarde uit de Microsoft 365-omgeving. Ik beloof vooraf geen percentages. Aan het eind maken we zichtbaar wat er is veranderd, met de 0-meting als vergelijkingspunt.
+Het traject richt zich op minder tijdverlies in herhalend werk, betere voorbereiding en meer opbrengst uit de Microsoft 365-omgeving. Ik beloof vooraf geen percentages. Aan het eind maken we zichtbaar wat er is veranderd, met de 0-meting als vergelijkingspunt.
 
 ## Voor wie, en hoe lang
 
@@ -69,4 +69,4 @@ Voor MKB-bedrijven met zo'n 10 tot 100 medewerkers die al met Microsoft 365 werk
 
 ## Daarna zelfstandig verder
 
-Aan het einde liggen er werkafspraken, getrainde ambassadeurs en een team dat weet wat het aan Copilot heeft. Voor key users die een stap dieper willen is er [1-op-1-begeleiding](/copilot-begeleiding/). De regie ligt bij jullie. Zonder afhankelijkheid van mij.
+Aan het einde liggen er werkafspraken, getrainde ambassadeurs en een team dat weet wat het aan Copilot heeft. Voor key users die een stap dieper willen is er [1-op-1-begeleiding](/copilot-begeleiding/). De regie ligt bij jullie.

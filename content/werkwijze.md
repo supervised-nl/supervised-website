@@ -21,7 +21,7 @@ Ik kom langs en zie hoe het werk echt gaat. Bij de [Readiness-scan](/copilot-rea
 
 ## Een plan dat past
 
-Op basis daarvan krijg je een plan van aanpak: wat moet eerst, welke rollen hebben het meest te winnen en welke vorm past. Dat kan een [workshop](/copilot-training/), [adoptietraject](/copilot-adoptietraject/) of eerst een [inspiratiesessie](/copilot-inspiratiesessie/) zijn. Geen standaardpakket.
+Op basis daarvan krijg je een plan van aanpak: wat moet eerst, welke rollen hebben het meest te winnen en welke vorm past. Dat kan een [workshop](/copilot-training/), [adoptietraject](/copilot-adoptietraject/) of eerst een [inspiratiesessie](/copilot-inspiratiesessie/) zijn.
 
 ## Trainen op echte taken
 
@@ -33,4 +33,4 @@ Dit is het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op Ã
 
 ## Waar ik niet van ben
 
-Geen hype en geen paniekverhalen, ook niet over de EU AI Act. AI-geletterdheid, privacy en werkafspraken horen bij verantwoorde Copilot-adoptie. Geen licentieverkoop of IT-beheer, dus het advies is onafhankelijk. En geen wildgroei aan losse AI-tools: we brengen het terug naar duidelijke afspraken en een Microsoft-omgeving die beheersbaar blijft.
+Ik houd het nuchter, ook bij onderwerpen als de EU AI Act. AI-geletterdheid, privacy en werkafspraken horen bij verantwoorde Copilot-adoptie. Supervised verkoopt geen licenties en doet geen IT-beheer, dus het advies blijft onafhankelijk. Losse AI-tools brengen we terug naar duidelijke afspraken en een Microsoft-omgeving die beheersbaar blijft.

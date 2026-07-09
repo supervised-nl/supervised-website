@@ -2,7 +2,7 @@
 title: "De Copilot Readiness-scan laat zien waar je staat"
 eyebrow: "Readiness-scan"
 seoTitle: "Copilot Readiness-scan voor het MKB | Supervised"
-description: "De Copilot Readiness-scan is een halve dag op locatie plus een rapport met plan van aanpak. Weet waar je staat vóór je traint. Vaste prijs, geen verrassingen."
+description: "De Copilot Readiness-scan is een halve dag op locatie plus een rapport met plan van aanpak. Weet waar je staat voordat je traint."
 lead: "De Copilot Readiness-scan laat zien of jullie Microsoft 365-omgeving en manier van werken klaar zijn voor Copilot. Een halve dag op locatie, daarna een concreet plan van aanpak voor € 950 exclusief btw."
 url: "/copilot-readiness-scan/"
 weight: 2
@@ -21,7 +21,7 @@ faq:
     a: "Nee. Daardoor is het advies onafhankelijk. Als Copilot Chat voorlopig een passende start is, staat dat in het rapport."
 closing:
   question: "Eerst kennismaken over de scan?"
-  body: "Plan een vrijblijvend half uur. Daarna bepalen we samen of de Readiness-scan past. Vaste prijs voor de scan: € 950 excl. btw, inclusief de halve dag op locatie en het rapport met plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan een vrijblijvend half uur. Dan bepalen we samen of de Readiness-scan past. De scan kost € 950 excl. btw, inclusief de halve dag op locatie en het rapport met plan van aanpak. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Bespreek de Readiness-scan"
     url: "/plan"
@@ -31,7 +31,7 @@ closing:
 
 De meeste teleurstellingen met Copilot beginnen vóór de training. Een rommelige SharePoint, onduidelijke privacy-afspraken of licenties voor de verkeerde rollen: als niemand dat vooraf bekijkt, loopt een pilot snel vast.
 
-Daarom begint elk traject van Supervised met deze scan. Geen standaardpakket, maar eerst begrijpen hoe jullie werken.
+Daarom begint elk traject van Supervised met deze scan. Eerst begrijpen hoe jullie werken, daarna pas bepalen of training, adoptie of opruimwerk nodig is.
 
 ## Wat de scan beoordeelt
 
@@ -41,7 +41,7 @@ Welke Microsoft 365-licenties er zijn, hoe jullie tenant staat en wat daarmee al
 
 ### Datahygiëne in SharePoint en Teams
 
-Copilot is zo goed als de documenten waar het bij kan. Staat informatie dubbel, verouderd of te breed gedeeld, dan krijg je matige antwoorden of verkeerde zichtbaarheid. De scan laat zien wat eerst opgeruimd of afgeschermd moet worden.
+Copilot is zo goed als de documenten waar het bij kan. Staat informatie dubbel, verouderd of te breed gedeeld, dan krijg je matige antwoorden of ongewenste zichtbaarheid. De scan laat zien wat eerst opgeruimd of afgeschermd moet worden.
 
 ### Privacy en governance-basis
 
@@ -73,7 +73,7 @@ Je krijgt advies over rollen, gebruikssituaties, licenties, datahygiëne en werk
 
 ### Wat deze scan niet is
 
-De Readiness-scan is geen technische security-audit, AVG-audit of vervanging van jullie IT-partner. Ook geen licentie- of beheertraject.
+De Readiness-scan is geen technische security-audit, AVG-audit of vervanging van jullie IT-partner. Het is ook geen licentie- of beheertraject.
 
 Dat is bewust. De scan moet helder maken wat er nodig is voor verantwoord en praktisch Copilot-gebruik, zonder dat je meteen aan een groot traject vastzit.
 
@@ -81,7 +81,7 @@ Dat is bewust. De scan moet helder maken wat er nodig is voor verantwoord en pra
 
 De Readiness-scan kost € 950 exclusief btw, inclusief de halve dag op locatie en het rapport met plan van aanpak.
 
-Er bestaan ook gratis Copilot-scans, vaak van partijen die licenties of IT-diensten verkopen. Deze scan hoeft niets te verkopen. Supervised levert geen licenties en geen IT-beheer.
+Er bestaan ook gratis Copilot-scans, vaak van partijen die licenties of IT-diensten verkopen. Deze scan hoeft niets te verkopen. Supervised levert geen licenties en doet geen IT-beheer.
 
 ## Voor wie
 

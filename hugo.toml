@@ -124,15 +124,7 @@ disableKinds = ['taxonomy', 'term']
 [[params.navDropdown]]
   parent = 'kennisbank'
   eyebrow = 'Kennisbank'
-  title = 'Nuchtere artikelen over AI en Copilot.'
-  [[params.navDropdown.items]]
-    label = 'Alle artikelen'
-    description = 'De kennisbank op één plek.'
-    url = '/kennisbank/'
-  [[params.navDropdown.items]]
-    label = 'EU AI Act'
-    description = 'Wat AI-geletterdheid concreet vraagt.'
-    url = '/kennisbank/eu-ai-act-mkb-verplichtingen/'
+  title = 'De nieuwste artikelen over Copilot, training en AI-geletterdheid.'
 
 [[params.navDropdown]]
   parent = 'over'

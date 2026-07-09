@@ -1,58 +1,61 @@
 ---
 title: "De EU AI Act geldt ook voor jouw bedrijf"
 slug: "eu-ai-act-mkb-verplichtingen"
-date: 2026-05-01
-description: "Wat artikel 4 van de EU AI Act voor AI-geletterdheid in het MKB betekent en hoe je daar praktisch mee omgaat."
+date: 2026-03-07
+description: "Wat artikel 4 van de EU AI Act betekent voor MKB-bedrijven die AI gebruiken en hoe je AI-geletterdheid praktisch organiseert."
 ---
 
-De EU AI Act is geen ver-van-mijn-bedshow voor grote techbedrijven. Ook MKB-bedrijven die AI gebruiken moeten nadenken over kennis, risico's en afspraken.
+De EU AI Act raakt ook MKB-bedrijven die AI gebruiken. Zij moeten nadenken over kennis, risico's en afspraken.
 
-En de eerste verplichtingen zijn al ingegaan.
+Sinds 2 februari 2025 vraagt artikel 4 van de EU AI Act om passende AI-geletterdheid. Voor MKB-bedrijven betekent dit vooral dat medewerkers basiskennis nodig hebben over verantwoord AI-gebruik.
 
-## Wat er sinds februari 2025 verplicht is
+## Wat is er sinds februari 2025 veranderd?
 
-Sinds 2 februari 2025 geldt artikel 4 van de EU AI Act. Dat artikel vraagt dat organisaties passende AI-geletterdheid organiseren voor medewerkers die met AI werken.
+Artikel 4 van de EU AI Act is sinds 2 februari 2025 van toepassing. Dat artikel vraagt dat organisaties zorgen voor passende kennis en vaardigheden bij medewerkers die met AI-systemen werken.
 
-Geen certificaat, geen examen. Wel praktische basiskennis over wat AI is, hoe het werkt, wat de risico's zijn en hoe je er zorgvuldig mee omgaat.
+Dat betekent niet automatisch een certificaat, examen of dik compliance-handboek. Het betekent wel dat je als organisatie serieus moet kunnen uitleggen hoe medewerkers leren omgaan met AI, risico's en verantwoordelijkheden.
 
-Ook voor MKB-bedrijven is het verstandig om dit concreet te regelen.
+Supervised geeft geen juridisch advies. Voor de meeste MKB-bedrijven is de praktische vraag: weten medewerkers wat ze wel en niet met AI mogen doen?
 
-## Wat AI-geletterdheid in de praktijk betekent
+## Wat is AI-geletterdheid?
 
-De wet is bewust breed gehouden. Wat genoeg is voor een marketingbureau, is niet genoeg voor een zorginstelling. De norm hangt af van de rol, het risico en de manier waarop AI wordt ingezet.
+AI-geletterdheid is praktische basiskennis over AI. Medewerkers hoeven geen modelarchitectuur te begrijpen, maar ze moeten wel weten hoe AI-output ontstaat en waarom die gecontroleerd moet worden.
 
-In de basis moet een medewerker drie dingen kunnen.
+In de basis moeten medewerkers drie dingen kunnen:
 
-Begrijpen wat een AI-tool wel en niet doet. Niet op technisch niveau, maar genoeg om resultaten kritisch te beoordelen.
+- begrijpen wat een AI-tool wel en niet doet;
+- zorgvuldig omgaan met persoonsgegevens, klantinformatie en vertrouwelijke documenten;
+- herkennen wanneer AI-output onvolledig, onjuist of te stellig is.
 
-Weten welke data je er wel en niet in mag stoppen. Klantgegevens, persoonsdata, vertrouwelijke documenten. De grenzen kennen voorkomt datalekken.
+Dat geldt ook voor tools die al in het werk zitten, zoals Microsoft 365 Copilot en Copilot Chat.
 
-Herkennen wanneer een AI-output verkeerd is. Hallucinaties, bias, fouten. Een medewerker die blind vertrouwt op de tool is een risico.
+## Waarom dit serieuzer is dan een beleidsdocument
 
-## Waarom dit serieuzer is dan het lijkt
+Een beleid op papier voorkomt geen fouten als medewerkers niet begrijpen wat er in de praktijk van hen verwacht wordt.
 
-Veel ondernemers zien dit als papieren verplichting. Tot er iets misgaat.
+Voorbeelden:
 
-Een medewerker die klantgegevens in een gratis tool plakt. Een offerte die op basis van een AI-hallucinatie wordt verstuurd. Een advies dat juridisch niet klopt omdat het uit een chatbot komt. In zulke situaties kunnen privacy, kwaliteit en verantwoordelijkheid snel door elkaar gaan lopen.
+- iemand plakt klantgegevens in een tool zonder duidelijke reden;
+- een offerte bevat een AI-claim die niet klopt;
+- een HR-tekst wordt te letterlijk overgenomen;
+- een medewerker vertrouwt op een samenvatting zonder bronnen te controleren.
 
-De zwaarste sancties in de AI Act gaan over grote overtredingen. Voor de meeste MKB-bedrijven is de praktische vraag eenvoudiger: weten medewerkers wat ze wel en niet met AI mogen doen, en is dat vastgelegd?
+Dit zijn geen theoretische risico's. Het zijn normale werksituaties waarin AI handig kan zijn, maar ook verkeerd gebruikt kan worden.
 
-## Wat er nog aankomt
+## Wat komt er nog aan?
 
-Februari 2025 was de eerste deadline. Augustus 2026 volgt de volgende grote stap, met regels voor AI-systemen met hoog risico en aanvullende eisen aan transparantie en documentatie.
+De EU AI Act wordt stapsgewijs ingevoerd. Na de eerste verplichtingen rond AI-geletterdheid volgen aanvullende regels voor onder meer bepaalde AI-systemen, transparantie en risicobeheersing.
 
-Wie nu de praktische basis op orde brengt, hoeft later minder tegelijk uit te zoeken.
+Wie nu de praktische basis organiseert, hoeft later minder tegelijk te repareren.
 
-## Wat je nu kunt doen
+## Wat kun je nu doen?
 
-Drie dingen, in deze volgorde.
+Begin klein en concreet.
 
-Maak een lijst van AI-tools die in je bedrijf worden gebruikt. Officieel en onofficieel. Die schaduwlijst is vaak langer dan je denkt.
+Maak eerst een overzicht van AI-tools die medewerkers gebruiken. Neem ook informele tools mee die niet officieel zijn ingevoerd.
 
-Bepaal per rol welk niveau aan AI-geletterdheid nodig is. Een tekstschrijver heeft andere kennis nodig dan een controller.
+Bepaal daarna per rol wat medewerkers moeten weten. HR, sales, administratie en directie hebben andere voorbeelden en risico's.
 
-Zorg voor een korte, praktische training. Niet een dag theorie, maar een sessie waarin medewerkers leren wat ze in hun eigen werk wel en niet mogen doen.
+Organiseer vervolgens een korte training met herkenbare situaties. Geen dag theorie, maar oefenen met echte taken, duidelijke do's en don'ts en afspraken over controle.
 
----
-
-Wil je AI-geletterdheid praktisch organiseren voor je team? [Bekijk de AI-geletterdheidstraining →](/ai-geletterdheid-training/)
+Wil je AI-geletterdheid praktisch organiseren voor je team? Bekijk de [AI-geletterdheidstraining](/ai-geletterdheid-training/).

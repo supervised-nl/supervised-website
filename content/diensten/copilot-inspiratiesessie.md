@@ -19,7 +19,7 @@ faq:
     a: "Juist dan. De sessie veronderstelt geen voorkennis en begint bij het werk dat er al ligt, niet bij de techniek."
 closing:
   question: "Vraag een inspiratiesessie aan"
-  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welke groep en gelegenheid het is. Liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welke groep en gelegenheid de sessie bedoeld is. Liever eerst een korte vraag stellen? Mail [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Bespreek een inspiratiesessie"
     url: "/plan"
@@ -37,17 +37,17 @@ Als opmaat naar een training of adoptietraject. Iedereen ziet hetzelfde, met voo
 
 ### Events, kickoffs en teamdagen
 
-Ik kom spreken op je bijeenkomst. Geen algemeen AI-verhaal, maar toegepast op het werk van je publiek. Je zaal loopt weg met iets dat maandag al bruikbaar is.
+Ik kom spreken op je bijeenkomst. De sessie vertrekt vanuit het werk van je publiek, niet vanuit een algemeen AI-verhaal. Mensen lopen weg met voorbeelden die maandag al bruikbaar zijn.
 
 ## Wat er gebeurt in de sessie
 
-Ik laat Copilot live zien in herkenbaar werk: een volle mailbox in Outlook, een gemiste vergadering in Teams, een eerste offerteversie in Word of een vraag aan Excel zonder formules. Waar het kan, gebruik ik vooraf aangeleverde voorbeelden uit jullie praktijk.
+Ik laat Copilot live zien in herkenbaar werk: een volle mailbox in Outlook, een gemiste vergadering in Teams, een eerste offerteversie in Word of een vraag aan Excel zonder formules. Als het kan, gebruik ik vooraf aangeleverde voorbeelden uit jullie praktijk.
 
 Ook wat Copilot niet kan komt aan bod. Het neemt geen processen van je over, het maakt fouten die je moet leren zien, en het is zo goed als de documenten waar het bij kan. Dat hoort bij een eerlijk beeld.
 
 ## Wat het je oplevert
 
-Een gedeeld, realistisch beeld van Copilot en meestal een lijstje taken waar mensen morgen mee willen beginnen. Vaak volgt daarna de [Readiness-scan](/copilot-readiness-scan/) om te bepalen wat nodig is voor echte adoptie.
+Een gedeeld, realistisch beeld van Copilot en meestal een lijstje taken waar mensen mee willen beginnen. Vaak volgt daarna de [Readiness-scan](/copilot-readiness-scan/) om te bepalen wat nodig is voor adoptie.
 
 ## Praktisch
 

@@ -3,7 +3,7 @@ title: "Microsoft 365 Copilot-training op jullie eigen werk"
 eyebrow: "Copilot-training"
 seoTitle: "Microsoft 365 Copilot-training voor teams | Supervised"
 description: "Copilot-training op locatie voor MKB-teams in Oost-Nederland. Rolgericht voor sales, HR, administratie en management, met taken uit jullie eigen werk."
-lead: "Copilot-training op locatie voor MKB-teams in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Geen productdemo, maar oefenen op echte taken die vandaag al op tafel liggen."
+lead: "Copilot-training op locatie voor MKB-teams in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Je oefent op taken die vandaag al op tafel liggen."
 url: "/copilot-training/"
 weight: 3
 sitemap:
@@ -21,7 +21,7 @@ faq:
     a: "Copilot volgt de rechten en afspraken van jullie eigen Microsoft 365-omgeving. In de training komt aan bod wat er wel en niet in een AI-assistent thuishoort. Of de omgeving zelf goed staat, checkt de Readiness-scan."
 closing:
   question: "Vraag een voorstel aan"
-  body: "Plan eerst een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welk team of welke rollen het is en wat een passend voorstel is. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
+  body: "Plan een vrijblijvende kennismaking van een half uur. Dan bespreken we voor welk team of welke rollen de training bedoeld is en wat een passend voorstel is. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."
   cta:
     label: "Bespreek een Copilot-training"
     url: "/plan"
@@ -29,13 +29,13 @@ closing:
 
 ## Zo ziet de training eruit
 
-Vooraf bepalen we welke rollen meedoen en welke taken centraal staan, liefst op basis van de [Readiness-scan](/copilot-readiness-scan/). Daarna is het vooral zelf doen: op eigen laptop, in jullie Microsoft-omgeving, met eigen documenten en mail.
+Vooraf bepalen we welke rollen meedoen en welke taken centraal staan, liefst op basis van de [Readiness-scan](/copilot-readiness-scan/). Daarna gaat het team zelf aan de slag: op eigen laptop, in jullie Microsoft-omgeving, met eigen documenten en mail.
 
 Zijn er nog geen betaalde Copilot-licenties? Dan kijken we of Microsoft 365 Copilot Chat in jullie tenant beschikbaar is. Zo ervaart het team wat AI in het werk doet voordat er breed licenties worden gekocht.
 
 ## Per rol, want ander werk vraagt andere voorbeelden
 
-Een verkoper heeft niets aan het voorbeeld van de administratie. Daarom is de training rolgericht. Dit zijn de meest gevraagde varianten.
+Een verkoper heeft weinig aan het voorbeeld van de administratie. Daarom is de training rolgericht. Dit zijn de meest gevraagde varianten.
 
 ### Copilot voor sales
 
@@ -59,7 +59,7 @@ Werkgevers moeten passende AI-geletterdheid organiseren voor medewerkers die AI 
 
 ## Wat een training wel en niet doet
 
-Na een goede training weet iedereen waar Copilot direct kan helpen. Wat een training niet vanzelf regelt, is blijvend gebruik. Zonder opvolging zakt een deel weg zodra de waan van de dag terugkeert. Wil je dat het team Copilot blijft gebruiken, kijk dan naar het [adoptietraject](/copilot-adoptietraject/).
+Na een goede training weet iedereen waar Copilot direct kan helpen. Blijvend gebruik vraagt meestal meer: opvolging, werkafspraken en iemand die het intern blijft trekken. Wil je dat het team Copilot blijft gebruiken, kijk dan naar het [adoptietraject](/copilot-adoptietraject/).
 
 ## Praktisch
 

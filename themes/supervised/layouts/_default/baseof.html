@@ -128,7 +128,7 @@
     "url": "{{ .Permalink }}",
     "sameAs": "{{ .Params.linkedin }}",
     "jobTitle": "Eigenaar",
-    "image": "{{ .Site.BaseURL }}img/profile_picture.jpg",
+    "image": "{{ with $ogImg }}{{ .Permalink }}{{ end }}",
     "knowsAbout": [
       "Microsoft 365 Copilot",
       "Copilot-adoptie",
@@ -226,6 +226,19 @@
         {{ $menuURL := .URL }}
         {{ $isActive := or (hasPrefix $.RelPermalink .URL) (and (eq .Identifier "diensten") (eq $.Section "diensten")) }}
         {{ $isCurrent := eq $.RelPermalink .URL }}
+        {{ $kennisbankNavDescriptions := dict
+          "copilot-training-mkb" "Waarom taakgerichte training beter werkt."
+          "ai-geletterdheid-mkb-eu-ai-act" "Basiskennis voor verantwoord AI-gebruik."
+          "copilot-training-enschede" "Lokale training voor teams in Enschede."
+          "microsoft-365-copilot-chat-mkb" "Wanneer Copilot Chat een goede start is."
+          "copilot-licenties-wie-heeft-ze-nodig" "Licenties kiezen op rol en gebruik."
+          "copilot-adoptie-mislukt" "Waarom pilots stilvallen en hoe je herstart."
+          "copilot-use-cases-sales-hr-administratie" "Voorbeelden voor sales, HR en administratie."
+          "sharepoint-rechten-copilot" "Rechten en documenthygiëne vooraf checken."
+          "copilot-training-twente" "Praktisch starten met Copilot in Twente."
+          "copilot-readiness-checklist" "Check of je klaar bent voor uitrol."
+          "eu-ai-act-mkb-verplichtingen" "Wat artikel 4 vraagt van MKB-bedrijven."
+        }}
         <li{{ if $hasDropdown }} class="has-panel"{{ end }}>
           <a class="nav-link{{ if $isActive }} active{{ end }}" href="{{ .URL }}"{{ if $isCurrent }} aria-current="page"{{ end }}{{ if $hasDropdown }} aria-haspopup="true" aria-expanded="false"{{ end }}>{{ .Name }}</a>
           {{ range first 1 $dropdowns }}
@@ -236,11 +249,24 @@
               <a class="nav-panel-overview" href="{{ $menuURL }}">Bekijk overzicht →</a>
             </div>
             <div class="nav-panel-links">
+              {{ if eq .parent "kennisbank" }}
+              <a class="nav-panel-link" href="/kennisbank/">
+                <span>Alle artikelen</span>
+                <small>De volledige kennisbank op één plek.</small>
+              </a>
+              {{ range first 5 ((where $.Site.RegularPages "Section" "blog").ByDate.Reverse) }}
+              <a class="nav-panel-link" href="{{ .RelPermalink }}">
+                <span>{{ .Title }}</span>
+                {{ with index $kennisbankNavDescriptions .Params.slug }}<small>{{ . }}</small>{{ end }}
+              </a>
+              {{ end }}
+              {{ else }}
               {{ range .items }}
               <a class="nav-panel-link" href="{{ .url }}">
                 <span>{{ .label }}</span>
                 <small>{{ .description }}</small>
               </a>
+              {{ end }}
               {{ end }}
             </div>
           </div>
@@ -260,10 +286,17 @@
       {{ $dropdowns := where $.Site.Params.navDropdown "parent" .Identifier }}
       <section class="mobile-menu-group">
         <a class="mobile-menu-main" href="{{ .URL }}">{{ .Name }}</a>
-        {{ if eq .Identifier "diensten" }}{{ range first 1 $dropdowns }}
+        {{ if or (eq .Identifier "diensten") (eq .Identifier "kennisbank") }}{{ range first 1 $dropdowns }}
         <div class="mobile-menu-links">
+          {{ if eq .parent "kennisbank" }}
+          <a href="/kennisbank/">Alle artikelen</a>
+          {{ range first 5 ((where $.Site.RegularPages "Section" "blog").ByDate.Reverse) }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ end }}
+          {{ else }}
           {{ range .items }}
           <a href="{{ .url }}">{{ .label }}</a>
+          {{ end }}
           {{ end }}
         </div>
         {{ end }}{{ end }}
