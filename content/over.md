@@ -12,7 +12,7 @@ linkedin: "https://www.linkedin.com/in/jeroengijselaar/"
 sections:
   - title: "Waarom alleen nog Copilot"
     body: |
-      Ik ben begonnen als brede AI-consultant. Workshops, automatiseringen, van alles gebouwd. Leerzaam, maar ik zag steeds hetzelfde patroon. De bedrijven waar AI echt ging leven, waren de bedrijven die het inzetten in de omgeving waar ze al in werkten, Microsoft 365. Geen nieuwe tool en geen nieuw wachtwoord, maar hulp in de Outlook en Teams die er al staan.
+      Ik ben begonnen als brede AI-consultant. Ik gaf workshops, bouwde automatiseringen en hielp bedrijven met hun eerste AI-toepassingen. Leerzaam, maar ik zag steeds hetzelfde patroon: AI ging pas echt leven wanneer teams het gebruikten in de omgeving waar ze toch al werkten, Microsoft 365. Geen nieuwe tool en geen nieuw wachtwoord, maar hulp in de Outlook en Teams die er al staan.
 
       Daarom richt ik me met Supervised op één ding: Microsoft 365 Copilot goed laten landen in het MKB. Andere AI-tools ken ik en volg ik, maar ik verkoop ze niet. Die focus maakt me sneller in de analyse en eerlijker in het advies.
   - title: "Hoe ik werk"
