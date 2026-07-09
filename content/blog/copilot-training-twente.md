@@ -1,5 +1,6 @@
 ---
 title: "Copilot-training in Twente: praktisch starten met AI op de werkvloer"
+seoTitle: "Copilot-training in Twente | Supervised"
 slug: "copilot-training-twente"
 date: 2026-03-29
 description: "Voor MKB-bedrijven in Twente die Microsoft 365 Copilot willen invoeren met praktische training, duidelijke use cases en aandacht voor adoptie."
@@ -55,3 +56,5 @@ Dat maakt training onderdeel van adoptie.
 Supervised helpt MKB-bedrijven in Twente met [Copilot-training](/copilot-training/), [inspiratiesessies](/copilot-inspiratiesessie/) en [adoptietrajecten](/copilot-adoptietraject/). De aanpak is onafhankelijk: geen licentieverkoop en geen IT-beheer.
 
 Werk je in Enschede, Hengelo, Almelo, Oldenzaal of omgeving? Bekijk ook [Copilot-specialist in Twente](/copilot-specialist-twente/).
+
+Bron: [Microsoft Learn over data, privacy en security voor Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy).

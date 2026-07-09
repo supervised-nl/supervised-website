@@ -58,3 +58,5 @@ Daarna kun je veel gerichter trainen.
 Supervised is gevestigd in Enschede en helpt MKB-bedrijven in Oost-Nederland met Copilot-adoptie. Geen licentieverkoop, geen IT-beheer en geen generieke AI-show, maar praktische begeleiding op gebruik.
 
 Bekijk [Copilot-training en workshops](/copilot-training/) of neem [contact](/contact/) op als je een training in Enschede wilt plannen.
+
+Bron: [Microsoft Learn over data, privacy en security voor Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy).

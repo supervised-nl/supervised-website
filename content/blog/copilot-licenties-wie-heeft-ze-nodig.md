@@ -1,5 +1,6 @@
 ---
 title: "Copilot-licenties: wie heeft Microsoft 365 Copilot echt nodig?"
+seoTitle: "Copilot-licenties kiezen voor het MKB | Supervised"
 slug: "copilot-licenties-wie-heeft-ze-nodig"
 date: 2026-05-09
 description: "Een praktische manier voor MKB-bedrijven om te bepalen welke medewerkers Microsoft 365 Copilot-licenties nodig hebben en wie beter later instapt."

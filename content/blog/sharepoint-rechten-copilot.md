@@ -1,5 +1,6 @@
 ---
 title: "SharePoint-rechten en Copilot: voorkom verrassingen bij de uitrol"
+seoTitle: "SharePoint-rechten en Copilot | Supervised"
 slug: "sharepoint-rechten-copilot"
 date: 2026-04-06
 description: "Waarom SharePoint-rechten, Teams-structuur en documenthygiëne belangrijk zijn voordat MKB-bedrijven Microsoft 365 Copilot breder inzetten."

@@ -64,3 +64,5 @@ Geef vervolgens training op herkenbare voorbeelden: e-mails, vergaderingen, klan
 Supervised biedt een [AI-geletterdheidstraining](/ai-geletterdheid-training/) voor MKB-teams. AI-geletterdheid wordt ook meegenomen in de [Copilot Readiness-scan](/copilot-readiness-scan/) en in [Copilot-adoptietrajecten](/copilot-adoptietraject/).
 
 Lees ook: [De EU AI Act geldt ook voor jouw bedrijf](/kennisbank/eu-ai-act-mkb-verplichtingen/).
+
+Bron: [EUR-Lex, Verordening (EU) 2024/1689, artikel 4 over AI-geletterdheid](https://data.europa.eu/eli/reg/2024/1689/oj).

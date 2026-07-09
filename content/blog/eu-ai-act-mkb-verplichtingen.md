@@ -59,3 +59,5 @@ Bepaal daarna per rol wat medewerkers moeten weten. HR, sales, administratie en 
 Organiseer vervolgens een korte training met herkenbare situaties. Geen dag theorie, maar oefenen met echte taken, duidelijke do's en don'ts en afspraken over controle.
 
 Wil je AI-geletterdheid praktisch organiseren voor je team? Bekijk de [AI-geletterdheidstraining](/ai-geletterdheid-training/).
+
+Bron: [EUR-Lex, Verordening (EU) 2024/1689, artikel 4 over AI-geletterdheid en artikel 113 over toepassing](https://data.europa.eu/eli/reg/2024/1689/oj).

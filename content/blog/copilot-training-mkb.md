@@ -1,5 +1,6 @@
 ---
 title: "Copilot-training voor het MKB: zo levert het wel iets op"
+seoTitle: "Copilot-training voor het MKB | Supervised"
 slug: "copilot-training-mkb"
 date: 2026-07-04
 description: "Een praktische gids voor MKB-bedrijven die Microsoft 365 Copilot-training willen organiseren zonder dat het bij een demo of losse prompttips blijft."

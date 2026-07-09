@@ -1,5 +1,6 @@
 ---
 title: "Microsoft 365 Copilot Chat voor het MKB: goede eerste stap of niet?"
+seoTitle: "Microsoft 365 Copilot Chat voor het MKB | Supervised"
 slug: "microsoft-365-copilot-chat-mkb"
 date: 2026-05-22
 description: "Wanneer Microsoft 365 Copilot Chat een goede eerste stap is voor MKB-bedrijven, wat het verschil is met Microsoft 365 Copilot en hoe je ermee start."

@@ -71,3 +71,5 @@ Je bent klaar om te starten als je deze vragen redelijk kunt beantwoorden:
 - Hoe meten we of gebruik blijft hangen?
 
 Kun je meerdere vragen nog niet beantwoorden, begin dan met een [Copilot Readiness-scan](/copilot-readiness-scan/). Die brengt de basis in kaart en levert een concreet plan van aanpak op.
+
+Bron: [Microsoft Learn over vereisten voor Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-requirements).
