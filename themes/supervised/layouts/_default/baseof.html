@@ -280,17 +280,28 @@
   </main>
 
   <footer>
-    <div class="footer-top">
-      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+    <div class="footer-main">
+      <div class="footer-identity">
+        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+        <p>Microsoft 365 Copilot-adoptie voor MKB in Oost-Nederland.</p>
+        <p class="footer-meta">{{ .Site.Params.city }}{{ with .Site.Params.kvk }} · KVK {{ . }}{{ end }}</p>
+      </div>
       <nav class="footer-nav" aria-label="Footer navigatie">
         {{ range .Site.Menus.main }}
         <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
       </nav>
-      <div class="footer-right">
+    </div>
+    <div class="footer-bottom">
+      <nav class="footer-legal" aria-label="Juridische links">
         <a href="/privacy/">Privacyverklaring</a>
         <a href="/algemene-voorwaarden/">Algemene voorwaarden</a>
-        <button id="theme-toggle" aria-label="Schakel thema" type="button">Thema</button>
+      </nav>
+      <div class="footer-utility">
+        <div class="theme-switch" role="group" aria-label="Thema">
+          <button type="button" data-theme-choice="light" aria-pressed="false">Licht</button>
+          <button type="button" data-theme-choice="dark" aria-pressed="false">Donker</button>
+        </div>
         <span>{{ now.Format "2006" }}</span>
       </div>
     </div>

@@ -45,22 +45,16 @@
     }
   }
 
-  // Theme toggle.
-  var themeBtn = document.getElementById('theme-toggle');
-  if (themeBtn) {
+  // Theme switch.
+  var themeButtons = Array.prototype.slice.call(document.querySelectorAll('[data-theme-choice]'));
+  if (themeButtons.length) {
     function isDarkActive() {
       var t = document.documentElement.getAttribute('data-theme');
       if (t) return t === 'dark';
       return window.matchMedia('(prefers-color-scheme: dark)').matches;
     }
-    function syncToggle() {
-      var dark = isDarkActive();
-      themeBtn.setAttribute('data-active', dark ? 'dark' : 'light');
-      themeBtn.setAttribute('aria-label', dark ? 'Schakel naar licht' : 'Schakel naar donker');
-      themeBtn.textContent = dark ? 'licht' : 'donker';
-    }
-    themeBtn.addEventListener('click', function() {
-      var next = isDarkActive() ? 'light' : 'dark';
+    function setTheme(next) {
+      if (next !== 'light' && next !== 'dark') return;
       if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         document.documentElement.classList.add('theme-transitioning');
         setTimeout(function() { document.documentElement.classList.remove('theme-transitioning'); }, 400);
@@ -68,6 +62,17 @@
       document.documentElement.setAttribute('data-theme', next);
       localStorage.setItem('theme', next);
       syncToggle();
+    }
+    function syncToggle() {
+      var active = isDarkActive() ? 'dark' : 'light';
+      themeButtons.forEach(function(button) {
+        button.setAttribute('aria-pressed', button.dataset.themeChoice === active ? 'true' : 'false');
+      });
+    }
+    themeButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        setTheme(button.dataset.themeChoice);
+      });
     });
     syncToggle();
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', syncToggle);

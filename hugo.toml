@@ -18,6 +18,7 @@ disableKinds = ['taxonomy', 'term']
   description = 'Supervised helpt MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Van Readiness-scan tot adoptietraject, veilig en meetbaar.'
   email = 'info@supervised.nl'
   phone = '+31644835656'
+  kvk = '97664472'
   # Single source of truth voor het bedrijfsadres (JSON-LD in baseof.html).
   # Moet gelijk zijn aan contact.md en llms.txt.
   streetAddress = 'Rigtersbleek-Zandvoort 10'
