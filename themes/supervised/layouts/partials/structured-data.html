@@ -1,0 +1,164 @@
+{{- $page := .page -}}
+{{- $desc := .desc -}}
+{{- $ogImg := .ogImg -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": {{ $page.Site.Title | jsonify | safeJS }},
+  "url": {{ $page.Site.BaseURL | jsonify | safeJS }},
+  "description": {{ $page.Site.Params.description | jsonify | safeJS }},
+  "email": {{ $page.Site.Params.email | jsonify | safeJS }},
+  "telephone": {{ $page.Site.Params.phone | jsonify | safeJS }},
+  "vatID": "NL005280988B17",
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ printf "%sfavicon.svg" $page.Site.BaseURL | jsonify | safeJS }}
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ with $ogImg }}{{ .Permalink | jsonify | safeJS }}{{ else }}""{{ end }}
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ $page.Site.Params.streetAddress | jsonify | safeJS }},
+    "addressLocality": {{ $page.Site.Params.city | jsonify | safeJS }},
+    "postalCode": {{ $page.Site.Params.postalCode | jsonify | safeJS }},
+    "addressCountry": "NL"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.222753,
+    "longitude": 6.871844
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "priceRange": "€€",
+  "areaServed": [
+    { "@type": "Country", "name": "Nederland" },
+    { "@type": "AdministrativeArea", "name": "Overijssel" },
+    { "@type": "AdministrativeArea", "name": "Gelderland" },
+    { "@type": "AdministrativeArea", "name": "Twente" },
+    { "@type": "AdministrativeArea", "name": "Achterhoek" },
+    { "@type": "City", "name": "Enschede" },
+    { "@type": "City", "name": "Deventer" },
+    { "@type": "City", "name": "Zwolle" },
+    { "@type": "City", "name": "Arnhem" },
+    { "@type": "City", "name": "Nijmegen" }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Jeroen Gijselaar",
+    "url": {{ printf "%sover/" $page.Site.BaseURL | jsonify | safeJS }},
+    "sameAs": "https://www.linkedin.com/in/jeroengijselaar/"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/supervised-nl/",
+    "https://www.linkedin.com/in/jeroengijselaar/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{{ if and (eq $page.Section "blog") $page.IsPage -}}
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ $page.Title | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
+  "datePublished": {{ $page.Date.Format "2006-01-02" | jsonify | safeJS }},
+  "dateModified": {{ $page.Lastmod.Format "2006-01-02" | jsonify | safeJS }},
+  "image": { "@type": "ImageObject", "url": {{ with $ogImg }}{{ .Permalink | jsonify | safeJS }}{{ else }}""{{ end }} },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ $page.Permalink | jsonify | safeJS }} },
+  "author": { "@type": "Person", "name": "Jeroen Gijselaar", "url": {{ printf "%sover/" $page.Site.BaseURL | jsonify | safeJS }}, "sameAs": "https://www.linkedin.com/in/jeroengijselaar/" },
+  "publisher": { "@type": "Organization", "name": {{ $page.Site.Title | jsonify | safeJS }}, "url": {{ $page.Site.BaseURL | jsonify | safeJS }} }
+}
+{{- else if eq $page.Params.schema "person" -}}
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ $page.Title | jsonify | safeJS }},
+  "url": {{ $page.Permalink | jsonify | safeJS }},
+  "sameAs": {{ $page.Params.linkedin | jsonify | safeJS }},
+  "jobTitle": "Eigenaar",
+  "image": {{ with $ogImg }}{{ .Permalink | jsonify | safeJS }}{{ else }}""{{ end }},
+  "knowsAbout": [
+    "Microsoft 365 Copilot",
+    "Copilot-adoptie",
+    "Copilot Chat",
+    "AI-geletterdheid (EU AI Act)",
+    "Copilot-training voor het MKB"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": {{ $page.Site.Title | jsonify | safeJS }},
+    "url": {{ $page.Site.BaseURL | jsonify | safeJS }}
+  }
+}
+{{- else if and (eq $page.Section "diensten") $page.IsPage -}}
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ $page.Title | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
+  "url": {{ $page.Permalink | jsonify | safeJS }},
+  "provider": {
+    "@type": "Organization",
+    "name": {{ $page.Site.Title | jsonify | safeJS }},
+    "url": {{ $page.Site.BaseURL | jsonify | safeJS }}
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Nederland"
+  }
+}
+{{- else -}}
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ $page.Title | jsonify | safeJS }},
+  "description": {{ $desc | jsonify | safeJS }},
+  "url": {{ $page.Permalink | jsonify | safeJS }}
+}
+{{- end }}
+</script>
+{{ with $page.Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $item := . }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.q | jsonify | safeJS }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $item.a | jsonify | safeJS }} }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}
+{{ if not $page.IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ $page.Site.BaseURL | jsonify | safeJS }} }
+    {{- if and (eq $page.Section "blog") $page.IsPage }},
+    { "@type": "ListItem", "position": 2, "name": "Kennisbank", "item": {{ printf "%skennisbank/" $page.Site.BaseURL | jsonify | safeJS }} },
+    { "@type": "ListItem", "position": 3, "name": {{ $page.Title | jsonify | safeJS }}, "item": {{ $page.Permalink | jsonify | safeJS }} }
+    {{- else if and $page.IsPage (ne $page.Section "") (ne $page.Section "blog") }},
+    { "@type": "ListItem", "position": 2, "name": {{ $page.Parent.Title | jsonify | safeJS }}, "item": {{ $page.Parent.Permalink | jsonify | safeJS }} },
+    { "@type": "ListItem", "position": 3, "name": {{ $page.Title | jsonify | safeJS }}, "item": {{ $page.Permalink | jsonify | safeJS }} }
+    {{- else }},
+    { "@type": "ListItem", "position": 2, "name": {{ $page.Title | jsonify | safeJS }}, "item": {{ $page.Permalink | jsonify | safeJS }} }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}

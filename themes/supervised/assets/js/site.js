@@ -61,6 +61,7 @@
     var mobileMenu = document.getElementById('mobile-menu');
     var main = document.getElementById('content');
     var footer = document.querySelector('footer');
+    var headerRegions = Array.prototype.slice.call(document.querySelectorAll('header > :not(#mobile-menu-toggle)'));
 
     function setOpen(item) {
       clearTimeout(closeTimer);
@@ -95,6 +96,10 @@
       if (mobileMenu) mobileMenu.setAttribute('aria-hidden', open ? 'false' : 'true');
       [main, footer].forEach(function(region) {
         if (!region) return;
+        if (open) region.setAttribute('inert', '');
+        else region.removeAttribute('inert');
+      });
+      headerRegions.forEach(function(region) {
         if (open) region.setAttribute('inert', '');
         else region.removeAttribute('inert');
       });

@@ -22,6 +22,14 @@ hugo --minify --gc
 
 Output komt in `public/`. Vercel draait dezelfde build command uit `vercel.json`.
 
+## Technische controle
+
+```bash
+bash scripts/audit.sh
+```
+
+Deze schone productiebuild controleert interne verwijzingen, JSON-LD, de CSP-hash en de afgesproken HTML-, CSS-, JavaScript- en first-load-budgetten.
+
 ## Nieuwe pagina
 
 1. Maak een Markdown-bestand in `content/`, bijvoorbeeld `content/nieuw.md`.

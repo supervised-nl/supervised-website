@@ -77,6 +77,7 @@ disableKinds = ['taxonomy', 'term']
 
 [[params.navDropdown]]
   parent = 'diensten'
+  mobile = true
   eyebrow = 'Diensten'
   title = 'Van eerste kennismaking tot dagelijks gebruik.'
   [[params.navDropdown.items]]

@@ -7,8 +7,9 @@
 ## Commands
 
 ```bash
-hugo server        # Local development with live reload at http://localhost:1313
-hugo --minify --gc # Production build
+hugo server          # Local development with live reload at http://localhost:1313
+hugo --minify --gc   # Production build
+bash scripts/audit.sh # Schone build + links, JSON-LD, CSP en performancebudgetten
 ```
 
 Hugo extended edition v0.147.0 of later is required (gepind in `vercel.json`).
@@ -18,14 +19,17 @@ Hugo extended edition v0.147.0 of later is required (gepind in `vercel.json`).
 Custom Hugo theme: `themes/supervised/`.
 
 - `content/` — Markdown pages with front matter. All copy is Dutch. **Elke publieke pagina is een `.md`-bestand**; layouts bevatten geen paginaspecifieke content. Enige uitzondering: de 404-pagina (alleen template, standaard Hugo).
-- `themes/supervised/layouts/_default/baseof.html` — base template with header, nav, footer, inline theme script, and JSON-LD.
+- `themes/supervised/layouts/_default/baseof.html` — slanke document-shell met metadata, het inline themescript, Hugo Pipes-assets en aanroepen naar sitebrede partials. Header, navigatie, footer en structured data staan hier niet inline.
+- `themes/supervised/layouts/partials/site-header.html` en `site-footer.html` — sitebrede header/navigatie en footer.
+- `themes/supervised/layouts/partials/structured-data.html` — alle Schema.org JSON-LD. Dynamische waarden worden met `jsonify | safeJS` contextveilig als JSON geserialiseerd.
 - `themes/supervised/layouts/404.html` — 404 page (Vercel serves `public/404.html` automatically).
-- `themes/supervised/layouts/_default/faq.html` — FAQ layout with Schema.org FAQPage structured data.
+- `themes/supervised/layouts/_default/faq.html` — FAQ-layout; de bijbehorende FAQPage structured data komt centraal uit `structured-data.html`.
 - `themes/supervised/layouts/blog/list.html` and `themes/supervised/layouts/blog/single.html` — kennisbank overrides. De sectie heet intern `blog` (templates keyen op `.Section "blog"`), maar publiceert als `/kennisbank/` via een url-override in `content/blog/_index.md` en de permalink-config.
 - `themes/supervised/layouts/contact/single.html` — contact page override.
 - `themes/supervised/assets/css/main.css` — single CSS file, via Hugo Pipes geminified en gefingerprint.
 - `themes/supervised/assets/js/` — `site.js` en vendored `lenis.min.js`; beide via Hugo Pipes gefingerprint.
 - `themes/supervised/static/fonts/` — één variable font (woff2).
+- `data/navigation.toml` — korte kennisbankomschrijvingen voor de desktopnavigatie. Houd navigatiedata uit templates; voeg uitzonderingen hier toe.
 - `assets/img/` — bronafbeeldingen (hero, profielfoto); Hugo verkleint ze, de originelen worden nooit gepubliceerd.
 - `static/` — root static assets zoals favicon, `llms.txt` en client-logo's (`static/img/clients/`).
 - `static/favicon.svg` — één zelf-aanpassend icoon: de licht/donker-wissel zit als `prefers-color-scheme` media query **in de SVG**. Gebruik nooit `media=`-attributen op `<link rel="icon">` — dat werkt alleen in Firefox. `favicon.ico` is de fallback voor Safari/legacy.
@@ -48,6 +52,9 @@ opgebouwd; layouts assembleren alleen, alle herbruikbare markup leeft in
 
 Gedeelde partials en hun rol:
 
+- `site-header.html` — desktop- en mobiele navigatie; dropdowns komen uit `params.navDropdown` in `hugo.toml`. `mobile = true` bepaalt expliciet welke groep mobiele sublinks toont.
+- `site-footer.html` — footer, juridische links en themakeuze.
+- `structured-data.html` — ProfessionalService plus het paginaspecifieke schema, optionele FAQPage en breadcrumbs.
 - `page-header.html` — kopblok (eyebrow, h1/h2, lead) van elke page-grid kolom.
 - `page-section.html` — volledige verhaal-sectie (kop links, body rechts).
 - `hero.html` + `hero-image.html` — hero met profielfoto.
@@ -85,17 +92,17 @@ Deze site is bewust supersnel en clean. Elke wijziging moet binnen deze grenzen 
 1. **Geen externe dependencies.** Geen npm, geen framework, geen CDN's, geen third-party requests (de CSP staat ze ook niet toe). Vendored JS (zoals Lenis) is de enige uitzondering en leeft in `assets/js/`.
 2. **Alle CSS en JS door Hugo Pipes: `minify | fingerprint`.** Nooit een mutable bestand op een vast pad onder `/css/`, `/js/` of `/fonts/` zetten — die paden krijgen in `vercel.json` een jaar `immutable`-cache. Een gewijzigd bestand moet altijd een nieuwe URL krijgen. (Deze fout is twee keer bijna gemaakt; zie git-historie van `site.js`.)
 3. **Afbeeldingen altijd via Hugo image processing.** Responsive `srcset` + WebP voor content, en og:images door `.Fit` naar jpg (social crawlers zoals WhatsApp weigeren afbeeldingen van ~1 MB). Publiceer nooit een origineel uit `assets/img/`. Geef `<img>` altijd `width`/`height` mee (geen layout shift).
-4. **Paginagewicht bewaken.** Richtlijn: HTML < 20 KB, CSS < 30 KB geminified, eigen JS < 5 KB geminified, first load (HTML+CSS+JS+font) ruim onder 150 KB. Lenis wordt lazy geladen en telt niet mee bij first load.
+4. **Paginagewicht bewaken.** Richtlijn: HTML < 30 KB geminified (32 KB is de harde regressiegrens), CSS < 30 KB geminified, eigen runtime-JS < 5 KB geminified en geschatte first load (gzip HTML+CSS+JS, font en eager hero/LCP-afbeelding) < 150 KB. Lenis wordt lazy geladen en telt niet mee bij first load. `scripts/audit.mjs` bewaakt deze grenzen.
 5. **Progressive enhancement.** Alles werkt zonder JavaScript. Animaties en smooth-scroll respecteren `prefers-reduced-motion`; pointer-effecten alleen bij `pointer: fine`.
-6. **Alle JS-gedrag blijft in `site.js`** (of een paginagebonden, gefingerprint bestand). Inline scripts alleen in `baseof.html` als het echt vóór de eerste paint moet (theme), en dan met CSP-hash (zie onder).
-7. **Structured data uit één bron.** Bedrijfsgegevens (adres e.d.) staan in `[params]` in `hugo.toml` en moeten gelijk zijn aan `content/contact.md` en `static/llms.txt`. Wijzig je er één, wijzig dan alle drie.
-8. **Productiebuild moet schoon zijn**: `hugo --minify --gc` zonder errors of warnings, vóór elke push.
+6. **Alle publieke runtime-JS blijft in `site.js`** (of een paginagebonden, gefingerprint bestand). Build/audit-tooling onder `scripts/` is hiervan uitgezonderd en wordt nooit gepubliceerd. Inline executable scripts alleen in `baseof.html` als het echt vóór de eerste paint moet (theme), en dan met CSP-hash (zie onder).
+7. **Structured data uit één bron.** Schema-markup leeft uitsluitend in `partials/structured-data.html`. Bedrijfsgegevens (adres e.d.) staan in `[params]` in `hugo.toml` en moeten gelijk zijn aan `content/contact.md` en `static/llms.txt`. Wijzig je er één, wijzig dan alle drie.
+8. **Technische controle moet schoon zijn**: draai `bash scripts/audit.sh` vóór elke push. Dit voert een schone productiebuild uit en controleert interne verwijzingen, JSON-LD, CSP-hash en performancebudgetten. Draai daarnaast `hugo --minify --gc` wanneer de gewone `public/`-output lokaal nodig is.
 
 ## CSP and Inline Scripts
 
-`vercel.json` contains a strict Content-Security-Policy with explicit `sha256-` hashes for every inline `<script>` in `baseof.html`.
+`vercel.json` bevat een strikte Content-Security-Policy met een expliciete `sha256-`-hash voor het executable inline themescript in `baseof.html`. JSON-LD-scripts zijn data en hebben geen CSP-hash nodig.
 
-If you modify any inline script in `baseof.html`, recalculate and update the corresponding hash in `vercel.json`; otherwise the script will be blocked in production.
+Wijzig je het inline themescript in `baseof.html`, herbereken dan de hash in `vercel.json`; anders wordt het script in productie geblokkeerd. `bash scripts/audit.sh` faalt automatisch wanneer deze hash verouderd is.
 
 Let op: Hugo minifiet inline scripts, dus bereken de hash over de **gebouwde** output, niet over de template:
 

@@ -1,0 +1,80 @@
+<header>
+  <a id="logo" href="/" aria-label="{{ .Site.Title }} logo">
+    {{ partial "logo.html" . }}
+    <span>{{ .Site.Title }}</span>
+  </a>
+
+  <nav aria-label="Hoofdnavigatie">
+    <ul id="menu">
+      {{ range .Site.Menus.main }}
+      {{ $dropdowns := where $.Site.Params.navDropdown "parent" .Identifier }}
+      {{ $hasDropdown := gt (len $dropdowns) 0 }}
+      {{ $menuURL := .URL }}
+      {{ $isActive := or (hasPrefix $.RelPermalink .URL) (and (eq .Identifier "diensten") (eq $.Section "diensten")) }}
+      {{ $isCurrent := eq $.RelPermalink .URL }}
+      <li{{ if $hasDropdown }} class="has-panel"{{ end }}>
+        <a class="nav-link{{ if $isActive }} active{{ end }}" href="{{ .URL }}"{{ if $isCurrent }} aria-current="page"{{ end }}{{ if $hasDropdown }} aria-haspopup="true" aria-expanded="false"{{ end }}>{{ .Name }}</a>
+        {{ range first 1 $dropdowns }}
+        <div class="nav-panel" aria-label="{{ .eyebrow }}">
+          <div class="nav-panel-intro">
+            <span class="small">{{ .eyebrow }}</span>
+            <p>{{ .title }}</p>
+            <a class="nav-panel-overview" href="{{ $menuURL }}">Bekijk overzicht →</a>
+          </div>
+          <div class="nav-panel-links">
+            {{ if eq .parent "kennisbank" }}
+            <a class="nav-panel-link" href="/kennisbank/">
+              <span>Alle artikelen</span>
+              <small>De volledige kennisbank op één plek.</small>
+            </a>
+            {{ range first 5 ((where $.Site.RegularPages "Section" "blog").ByDate.Reverse) }}
+            <a class="nav-panel-link" href="{{ .RelPermalink }}">
+              <span>{{ .Title }}</span>
+              {{ with index $.Site.Data.navigation.kennisbankDescriptions .Params.slug }}<small>{{ . }}</small>{{ end }}
+            </a>
+            {{ end }}
+            {{ else }}
+            {{ range .items }}
+            <a class="nav-panel-link" href="{{ .url }}">
+              <span>{{ .label }}</span>
+              <small>{{ .description }}</small>
+            </a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+  <a class="header-cta" href="/plan" aria-label="Plan een kennismaking via Microsoft Bookings">Plan via Bookings</a>
+  <button id="mobile-menu-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false"><span aria-hidden="true"></span></button>
+</header>
+<div id="nav-backdrop" aria-hidden="true"></div>
+
+<div id="mobile-menu" aria-hidden="true">
+  <nav aria-label="Mobiele navigatie">
+    {{ range .Site.Menus.main }}
+    {{ $dropdowns := where $.Site.Params.navDropdown "parent" .Identifier }}
+    <section class="mobile-menu-group">
+      <a class="mobile-menu-main" href="{{ .URL }}">{{ .Name }}</a>
+      {{ range first 1 $dropdowns }}{{ if .mobile }}
+      <div class="mobile-menu-links">
+        {{ if eq .parent "kennisbank" }}
+        <a href="/kennisbank/">Alle artikelen</a>
+        {{ range first 5 ((where $.Site.RegularPages "Section" "blog").ByDate.Reverse) }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+        {{ else }}
+        {{ range .items }}
+        <a href="{{ .url }}">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}{{ end }}
+    </section>
+    {{ end }}
+  </nav>
+  <a class="mobile-menu-cta" href="/plan">Plan via Microsoft Bookings →</a>
+</div>
