@@ -2,8 +2,8 @@
 title: "Microsoft 365 Copilot-training op jullie eigen werk"
 eyebrow: "Copilot-training"
 seoTitle: "Microsoft 365 Copilot-training voor teams | Supervised"
-description: "Copilot-training op locatie voor MKB-teams in Oost-Nederland. Rolgericht voor sales, HR, administratie en management, met taken uit jullie eigen werk."
-lead: "Copilot-training op locatie voor MKB-teams in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Je oefent op taken die vandaag al op tafel liggen."
+description: "Copilot-training op locatie voor mkb-teams in Oost-Nederland. Rolgericht voor sales, HR, administratie en management, met taken uit jullie eigen werk."
+lead: "Copilot-training op locatie voor mkb-teams in Oost-Nederland, in jullie eigen Microsoft 365-omgeving. Je oefent op taken die vandaag al op tafel liggen."
 url: "/copilot-training/"
 weight: 3
 sitemap:
@@ -55,12 +55,12 @@ Lange rapporten en stukken samenvatten vóór de vergadering in plaats van erna.
 
 ## AI-geletterdheid en de EU AI Act
 
-Werkgevers moeten passende AI-geletterdheid organiseren voor medewerkers die AI gebruiken (EU AI Act, artikel 4). Daarom zit verantwoord gebruik standaard in elke Copilot-training: wat deel je wel en niet, hoe controleer je uitkomsten, waar liggen de grenzen. Voor een losse aanpak is er de [AI-geletterdheidstraining](/ai-geletterdheid-training/).
+Artikel 4 van de EU AI Act vraagt organisaties die AI-systemen gebruiken om naar beste vermogen te zorgen voor voldoende AI-geletterdheid bij betrokken medewerkers. Daarom behandelt elke Copilot-training wat je wel en niet deelt, hoe je uitkomsten controleert en wanneer menselijke beoordeling nodig blijft. Voor een losse aanpak is er de [AI-geletterdheidstraining](/ai-geletterdheid-training/).
 
-## Wat een training wel en niet doet
+## Wat je na de training kunt
 
-Na een goede training weet iedereen waar Copilot direct kan helpen. Blijvend gebruik vraagt meestal meer: opvolging, werkafspraken en iemand die het intern blijft trekken. Wil je dat het team Copilot blijft gebruiken, kijk dan naar het [adoptietraject](/copilot-adoptietraject/).
+Na de training weten deelnemers voor welke taken zij Copilot kunnen gebruiken, hoe zij een goede opdracht geven en hoe zij de uitkomst controleren. Ze kennen ook de afspraken over gevoelige informatie. Om het gebruik daarna vast te houden zijn vaak terugkomsessies en een interne kartrekker nodig. Die onderdelen zitten in het [adoptietraject](/copilot-adoptietraject/).
 
 ## Praktisch
 
-De training is op locatie, overal in Oost-Nederland en in de grensstreek. Groepsgrootte en duur stemmen we af op jullie team en taken. Je krijgt vooraf een helder voorstel. De training kan met betaalde Copilot-licenties werken en, waar beschikbaar en passend, ook met Microsoft 365 Copilot Chat.
+De training vindt plaats op jullie locatie in Oost-Nederland of in de grensstreek. Een sessie duurt meestal een dagdeel. Groepsgrootte en programma hangen af van de functies en taken die meedoen; die spreken we vooraf af in het voorstel. De training kan werken met betaalde Copilot-licenties en, als jullie omgeving dat ondersteunt, met Microsoft 365 Copilot Chat.

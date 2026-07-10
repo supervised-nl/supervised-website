@@ -1,9 +1,9 @@
 ---
 title: "De Copilot Readiness-scan laat zien waar je staat"
 eyebrow: "Readiness-scan"
-seoTitle: "Copilot Readiness-scan voor het MKB | Supervised"
+seoTitle: "Copilot Readiness-scan voor het mkb | Supervised"
 description: "De Copilot Readiness-scan is een halve dag op locatie plus een rapport met plan van aanpak. Weet waar je staat voordat je traint."
-lead: "De Copilot Readiness-scan laat zien of jullie Microsoft 365-omgeving en manier van werken klaar zijn voor Copilot. Een halve dag op locatie, daarna een concreet plan van aanpak voor € 950 exclusief btw."
+lead: "De Copilot Readiness-scan is een startscan voor jullie Microsoft 365-omgeving, werkzaamheden en afspraken. Na een halve dag op locatie krijg je een plan van aanpak. De vaste prijs is € 950 exclusief btw."
 url: "/copilot-readiness-scan/"
 weight: 2
 sitemap:
@@ -39,17 +39,17 @@ Daarom begint elk traject van Supervised met deze scan. Eerst begrijpen hoe jull
 
 Ik kijk welke Microsoft 365-licenties er zijn, hoe jullie tenant is ingericht en wat daarmee al kan. Je krijgt nuchter advies over of, wanneer en voor wie betaalde Copilot-licenties zinvol zijn.
 
-### Datahygiëne in SharePoint en Teams
+### Documenten in SharePoint en Teams
 
-Copilot is zo goed als de documenten waar het bij kan. Staat informatie dubbel, verouderd of te breed gedeeld, dan krijg je matige antwoorden of ongewenste zichtbaarheid. De scan laat zien wat eerst opgeruimd of afgeschermd moet worden.
+Copilot gebruikt documenten waar een medewerker toegang toe heeft. Dubbele, verouderde of te breed gedeelde informatie kan tot onbruikbare antwoorden of ongewenste zichtbaarheid leiden. De scan laat zien welke documenten en rechten eerst aandacht nodig hebben.
 
-### Privacy en governance-basis
+### Privacy en werkafspraken
 
-Wie kan waar bij? Wat mag wel en niet in een AI-assistent? En welke werkafspraken ontbreken nog? De AI-geletterdheid uit de EU AI Act neem ik praktisch mee. Geen juridisch advies, wel duidelijke afspraken voor verantwoord Copilot-gebruik.
+Wie heeft toegang tot welke informatie? Wat mogen medewerkers wel en niet delen met een AI-assistent? En wie controleert de uitkomst? Ik neem ook de AI-geletterdheid uit artikel 4 van de EU AI Act mee. Dit onderdeel levert praktische werkafspraken op, geen juridisch advies.
 
 ### De meest kansrijke toepassingen per rol
 
-Waar zit het herhalende werk? Denk aan offertes voor sales in Word, een volle mailbox bij administratie in Outlook, vergadervoorbereiding voor de directie in Teams en terugkerende lijstjes in Excel. Per rol benoemt het rapport twee of drie taken waar Copilot direct wat oplevert.
+Waar zit het herhalende werk? Denk aan offertes voor sales in Word, een volle mailbox bij administratie in Outlook, vergadervoorbereiding voor de directie in Teams en terugkerende lijsten in Excel. Per functie benoemt het rapport twee of drie taken die geschikt zijn om met Copilot te testen.
 
 ## Zo gaat het in zijn werk
 
@@ -57,7 +57,7 @@ Ik kom een halve dag naar jullie locatie, kijk mee met het werk, spreek een paar
 
 ## Wat je krijgt
 
-- Een helder beeld van je licenties, instellingen, datahygiëne en afspraken.
+- Een helder beeld van je licenties, instellingen, documenten en afspraken.
 - De punten die eerst geregeld moeten worden, met prioriteit.
 - Een onderbouwd licentie-advies. Bijvoorbeeld starten met Copilot Chat waar dat past, of betaalde licenties voor specifieke rollen.
 - De meest kansrijke toepassingen per rol.
@@ -85,4 +85,4 @@ Er bestaan ook gratis Copilot-scans, vaak van partijen die licenties of IT-diens
 
 ## Voor wie
 
-MKB-bedrijven in Oost-Nederland met zo'n 10 tot 100 medewerkers die al met Microsoft 365 werken. Ik kom op locatie, van Enschede tot Arnhem en net over de grens in bijvoorbeeld Nordhorn.
+mkb-bedrijven in Oost-Nederland met zo'n 10 tot 100 medewerkers die al met Microsoft 365 werken. Ik kom op locatie, van Enschede tot Arnhem en net over de grens in bijvoorbeeld Nordhorn.

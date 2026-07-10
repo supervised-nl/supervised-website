@@ -14,8 +14,8 @@ disableKinds = ['taxonomy', 'term']
   home = ['html']
 
 [params]
-  headline = 'Zorg dat je team Microsoft 365 Copilot echt gebruikt'
-  description = 'Supervised helpt MKB-bedrijven in Oost-Nederland om Microsoft 365 Copilot echt in gebruik te krijgen. Van Readiness-scan tot adoptietraject, veilig en meetbaar.'
+  headline = 'Laat Microsoft 365 Copilot werken voor je team'
+  description = 'Supervised helpt mkb-bedrijven in Oost-Nederland om Microsoft 365 Copilot dagelijks te gebruiken. Met een startscan, training en begeleiding op locatie.'
   email = 'info@supervised.nl'
   phone = '+31644835656'
   kvk = '97664472'
@@ -61,14 +61,14 @@ disableKinds = ['taxonomy', 'term']
 [[params.navDropdown]]
   parent = 'readiness'
   eyebrow = 'Readiness-scan'
-  title = 'Weet waar je staat voordat je Copilot uitrolt.'
+  title = 'Weet wat er nodig is voordat je Copilot invoert.'
   [[params.navDropdown.items]]
     label = 'Wat je krijgt'
     description = 'Halve dag op locatie en een concreet plan van aanpak.'
     url = '/copilot-readiness-scan/#wat-je-krijgt'
   [[params.navDropdown.items]]
     label = 'Voor wie'
-    description = 'MKB-teams die willen starten of een vastgelopen pilot willen vlottrekken.'
+    description = 'Voor teams die willen starten of een vastgelopen proef willen hervatten.'
     url = '/copilot-readiness-scan/#voor-wie'
   [[params.navDropdown.items]]
     label = 'Prijs'
@@ -86,7 +86,7 @@ disableKinds = ['taxonomy', 'term']
     url = '/copilot-inspiratiesessie/'
   [[params.navDropdown.items]]
     label = 'Readiness-scan'
-    description = 'Het startpunt voor een onderbouwde aanpak.'
+    description = 'Een startscan voor je omgeving, mensen en werkafspraken.'
     url = '/copilot-readiness-scan/'
   [[params.navDropdown.items]]
     label = 'Copilot-training'
@@ -94,15 +94,15 @@ disableKinds = ['taxonomy', 'term']
     url = '/copilot-training/'
   [[params.navDropdown.items]]
     label = 'Adoptietraject'
-    description = 'Begeleiding tot Copilot in gebruik blijft.'
+    description = 'Training en opvolging voor dagelijks gebruik.'
     url = '/copilot-adoptietraject/'
   [[params.navDropdown.items]]
     label = '1-op-1-begeleiding'
-    description = 'Persoonlijke begeleiding voor directie, managers en key users.'
+    description = 'Persoonlijke begeleiding voor directie, managers en kartrekkers.'
     url = '/copilot-begeleiding/'
   [[params.navDropdown.items]]
     label = 'AI-geletterdheid'
-    description = 'Praktische training voor EU AI Act artikel 4.'
+    description = 'Training over verantwoord AI-gebruik en werkafspraken.'
     url = '/ai-geletterdheid-training/'
 
 [[params.navDropdown]]

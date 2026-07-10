@@ -1,13 +1,13 @@
 ---
-title: "Copilot-readiness checklist voor het MKB"
+title: "Copilot-readiness checklist voor het mkb"
 slug: "copilot-readiness-checklist"
 date: 2026-03-18
-description: "Een praktische checklist voor MKB-bedrijven die willen weten of ze klaar zijn voor Microsoft 365 Copilot-training, een pilot of bredere uitrol."
+description: "Een praktische checklist voor mkb-bedrijven die willen weten of ze klaar zijn voor Microsoft 365 Copilot-training, een pilot of bredere uitrol."
 ---
 
 Voordat je Microsoft 365 Copilot uitrolt, wil je weten of de basis klopt. Niet alles hoeft perfect te zijn, maar de grootste risico's en blokkades moeten zichtbaar zijn.
 
-Je bent klaar voor Copilot als doel, licenties, data, rechten, AI-geletterdheid, use cases en opvolging voldoende duidelijk zijn.
+Je hebt een werkbare basis als doel, licenties, gegevens, toegangsrechten, AI-geletterdheid en opvolging voldoende duidelijk zijn.
 
 ## 1. Doel en eigenaarschap
 
@@ -47,9 +47,9 @@ Maak korte werkafspraken voordat je opschaalt:
 - waar stellen medewerkers vragen;
 - wanneer gebruik je Copilot juist niet?
 
-## 5. Use cases per team
+## 5. Toepassingen per team
 
-Heeft elk team concrete use cases?
+Heeft elk team concrete toepassingen?
 
 Begin niet met twintig ideeën. Kies vijf werkzaamheden per team die vaak terugkomen en meetbaar verbeterd kunnen worden. Bijvoorbeeld vergaderingen samenvatten, klantmails voorbereiden, documenten herschrijven of Excel-overzichten verklaren.
 
@@ -59,15 +59,15 @@ Een losse demonstratie is niet genoeg. Medewerkers moeten oefenen met herkenbare
 
 Plan daarom meteen een opvolgmoment. Anders blijft de training een eenmalige gebeurtenis.
 
-## Wanneer kun je starten?
+## Wanneer is de basis goed genoeg?
 
-Je bent klaar om te starten als je deze vragen redelijk kunt beantwoorden:
+Je kunt verantwoord beginnen als je deze vragen voldoende kunt beantwoorden:
 
 - Waarom gebruiken we Copilot?
 - Wie start en waarom juist deze groep?
 - Welke data en rechten vragen aandacht?
 - Welke werkafspraken gelden?
-- Welke use cases testen we?
+- Welke toepassingen testen we?
 - Hoe meten we of gebruik blijft hangen?
 
 Kun je meerdere vragen nog niet beantwoorden, begin dan met een [Copilot Readiness-scan](/copilot-readiness-scan/). Die brengt de basis in kaart en levert een concreet plan van aanpak op.

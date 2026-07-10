@@ -2,8 +2,8 @@
 title: "Copilot-specialist in Twente"
 eyebrow: "Werkgebied"
 seoTitle: "Copilot-specialist in Twente en Enschede | Supervised"
-description: "Op zoek naar een Microsoft 365 Copilot-specialist in Twente? Supervised werkt vanuit Enschede, op locatie bij MKB-bedrijven in de hele regio."
-lead: "Microsoft 365 Copilot-specialist uit Enschede voor MKB-bedrijven in Twente. Training, Readiness-scan en adoptietraject, altijd op locatie."
+description: "Op zoek naar een Microsoft 365 Copilot-specialist in Twente? Supervised werkt vanuit Enschede, op locatie bij mkb-bedrijven in de hele regio."
+lead: "Microsoft 365 Copilot-begeleiding vanuit Enschede voor mkb-bedrijven in Twente. Voor een Readiness-scan, training of adoptietraject op locatie."
 sitemap:
   changefreq: monthly
   priority: 0.7
@@ -15,13 +15,13 @@ closing:
     url: "/plan"
 ---
 
-## Dichtbij, en dat merk je
+## Vanuit Enschede naar je bedrijf
 
-Voor een training van een dagdeel wil je geen bureau dat drie uur reistijd moet doorberekenen. Vanuit Enschede is Supervised snel in Almelo, Oldenzaal, Hengelo, Haaksbergen en de rest van Twente. Even terugkomen voor opvolging blijft dan gewoon een afspraak.
+Supervised is gevestigd in Enschede. Daardoor kan ik gemakkelijk op locatie werken in Almelo, Oldenzaal, Hengelo, Haaksbergen en de rest van Twente. Ook een korte terugkomsessie kan daardoor bij jullie op het bedrijf plaatsvinden.
 
-## Nuchter, zoals het hier werkt
+## Training op jullie eigen werk
 
-Copilot moet terechtkomen in offertes, verslagen en mailboxen, niet in een abstract innovatiedocument. Eerst de [Readiness-scan](/copilot-readiness-scan/), dan een [training](/copilot-training/) of [adoptietraject](/copilot-adoptietraject/) dat past. Onder de eerdere opdrachtgevers zitten ook Twentse namen, zoals Saxion. Net over de grens, bijvoorbeeld in Nordhorn of Gildehaus, kan ook.
+Tijdens een training werkt het team met herkenbare taken, zoals offertes, verslagen en een volle mailbox. De [Readiness-scan](/copilot-readiness-scan/) laat vooraf zien welke licenties, documenten en afspraken aandacht vragen. Daarna volgt een [training](/copilot-training/) of [adoptietraject](/copilot-adoptietraject/) dat bij het team past. Onder de eerdere opdrachtgevers staat ook Saxion. Ik werk daarnaast bij Nederlandse bedrijven net over de grens, bijvoorbeeld in Nordhorn of Gildehaus.
 
 ## Ook buiten Twente
 

@@ -4,7 +4,7 @@
   {{ with .body }}<p>{{ . | markdownify }}</p>{{ end }}
   {{ with .cta }}
   <a href="{{ .url }}" class="cta cta-primary">{{ .label }} →</a>
-  {{ if eq .url "/plan" }}<p class="booking-note">Je plant via Microsoft Bookings.</p>{{ end }}
+  {{ if eq .url "/plan" }}<p class="booking-note">Je kiest zelf een beschikbaar moment in Microsoft Bookings.</p>{{ end }}
   {{ end }}
 </section>
 {{ end }}

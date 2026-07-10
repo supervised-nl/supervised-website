@@ -1,19 +1,19 @@
 ---
-title: "Copilot-training in Enschede voor MKB-teams"
+title: "Copilot-training in Enschede voor mkb-teams"
 slug: "copilot-training-enschede"
 date: 2026-06-03
-description: "Copilot-training in Enschede voor MKB-bedrijven die Microsoft 365 Copilot praktisch, veilig en rolgericht willen leren gebruiken."
+description: "Copilot-training in Enschede voor mkb-bedrijven die Microsoft 365 Copilot praktisch, veilig en rolgericht willen leren gebruiken."
 ---
 
-Zoek je Copilot-training in Enschede, kijk dan verder dan de demo. De vraag is vooral of je team na de training beter werkt met Microsoft 365 Copilot.
+Zoek je een Copilot-training in Enschede? Kijk dan niet alleen naar de demonstratie. Een training is pas bruikbaar als medewerkers daarna weten welke taken zij met Copilot kunnen uitvoeren en hoe zij de uitkomst controleren.
 
-Voor MKB-teams werkt training het best als die lokaal, praktisch en taakgericht is. Medewerkers oefenen met hun eigen werk in Teams, Outlook, Word, Excel, PowerPoint en SharePoint, inclusief afspraken over data en controle.
+Voor mkb-teams werkt training het best als die lokaal, praktisch en taakgericht is. Medewerkers oefenen met hun eigen werk in Teams, Outlook, Word, Excel, PowerPoint en SharePoint, inclusief afspraken over data en controle.
 
 ## Voor wie is Copilot-training in Enschede geschikt?
 
-Training is zinvol voor MKB-bedrijven die al met Microsoft 365 werken en Copilot serieuzer willen inzetten. Denk aan directie, MT, sales, HR, administratie, projectteams of key users.
+Training is zinvol voor mkb-bedrijven die al met Microsoft 365 werken en Copilot serieuzer willen inzetten. Denk aan directie, MT, sales, HR, administratie, projectteams of interne kartrekkers.
 
-Een lokale training werkt goed als je samen wilt oefenen. Op locatie zie je sneller waar medewerkers vastlopen. Iemand durft eerder te vragen waarom Copilot een document niet vindt, waarom een antwoord te algemeen is of welke informatie wel gebruikt mag worden.
+Supervised is gevestigd in Enschede en werkt op locatie. Daardoor kan ik tijdens de voorbereiding meekijken met jullie Microsoft 365-omgeving en na de training terugkomen voor een korte opvolgsessie. Vragen over ontbrekende documenten, algemene antwoorden of gevoelige informatie kunnen we direct aan de eigen werksituatie koppelen.
 
 Dat soort vragen bepaalt of Copilot echt gebruikt gaat worden.
 
@@ -49,13 +49,13 @@ Die helderheid verlaagt de drempel. Mensen gebruiken AI sneller als ze weten wat
 
 Als licenties, rechten of SharePoint-structuur nog onduidelijk zijn, is direct trainen vaak te vroeg. Dan krijg je vragen die eigenlijk eerst organisatorisch of technisch moeten worden opgelost.
 
-De [Copilot Readiness-scan](/copilot-readiness-scan/) brengt in een halve dag op locatie in kaart waar je staat: licenties, data, rechten, AI-geletterdheid en kansrijke use cases per rol.
+De [Copilot Readiness-scan](/copilot-readiness-scan/) brengt in een halve dag op locatie in kaart waar je staat: licenties, data, rechten, AI-geletterdheid en kansrijke toepassingen per rol.
 
 Daarna kun je veel gerichter trainen.
 
 ## Supervised in Enschede
 
-Supervised is gevestigd in Enschede en helpt MKB-bedrijven in Oost-Nederland met Copilot-adoptie. Geen licentieverkoop, geen IT-beheer en geen generieke AI-show, maar praktische begeleiding op gebruik.
+Supervised helpt vanuit Enschede mkb-bedrijven met de invoering van Microsoft 365 Copilot. Ik verzorg de training en begeleiding; jullie IT-partner blijft verantwoordelijk voor technisch beheer. Omdat Supervised geen licenties verkoopt, is het advies niet gekoppeld aan het aantal licenties dat je koopt.
 
 Bekijk [Copilot-training en workshops](/copilot-training/) of neem [contact](/contact/) op als je een training in Enschede wilt plannen.
 

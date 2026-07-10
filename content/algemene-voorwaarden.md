@@ -72,4 +72,4 @@ Op deze voorwaarden is Nederlands recht van toepassing. Geschillen worden voorge
 
 ## Wijzigingen
 
-Deze voorwaarden kunnen worden bijgewerkt. De meest recente versie staat altijd op deze pagina. Laatste update: april 2026.
+Supervised kan deze voorwaarden wijzigen voor nieuwe opdrachten. Voor een bestaande opdracht blijft de versie gelden die bij het sluiten van de overeenkomst is verstrekt, tenzij beide partijen schriftelijk iets anders afspreken. Laatste update: juli 2026.

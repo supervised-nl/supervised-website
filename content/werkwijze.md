@@ -2,8 +2,8 @@
 title: "Zo pakt Supervised Copilot-adoptie aan"
 eyebrow: "Werkwijze"
 seoTitle: "Zo pakt Supervised Copilot-adoptie aan | Werkwijze"
-description: "Eerst kijken hoe het werk echt gaat, dan een aanpak die past. Zo helpt Supervised MKB-bedrijven om Copilot veilig en blijvend in gebruik te krijgen."
-lead: "Copilot-adoptie werkt pas als je begint bij het werk. Eerst zien hoe jullie werken, dan bepalen wat Copilot daarin moet doen."
+description: "Eerst kijken hoe het werk echt gaat, dan een aanpak die past. Zo helpt Supervised mkb-bedrijven om Copilot veilig en blijvend in gebruik te krijgen."
+lead: "Ik begin bij het werk dat er al ligt. Daarna bepalen we waar Copilot kan helpen en wat daarvoor eerst geregeld moet worden."
 sitemap:
   changefreq: monthly
   priority: 0.8
@@ -27,10 +27,10 @@ Op basis daarvan krijg je een plan van aanpak: wat moet eerst, welke rollen hebb
 
 In de training werkt iedereen in de eigen omgeving aan eigen taken, zoals een offerte in Word of een mailbox in Outlook. Dat doen we per rol, want een verkoper leert weinig van een administratievoorbeeld.
 
-## Borgen en meten
+## Zorgen dat het gebruikt blijft worden
 
-Daar zit het verschil tussen adoptie en een leuke trainingsdag. Werkafspraken op één A4, ambassadeurs, korte terugkomsessies en een eenvoudige eindmeting. Aan het eind weet je wat gebruikt wordt en waar minder tijd verloren gaat.
+Na de training gaat het team zelf aan de slag. Een paar interne kartrekkers vangen vragen op en delen goede voorbeelden. In korte terugkomsessies bespreken we wat werkt en wat nog vastloopt. Aan het eind herhalen we de nulmeting, zodat je ziet wat mensen gebruiken en bij welke taken tijd wordt gewonnen.
 
-## Waar ik niet van ben
+## Onafhankelijk advies
 
-Ik houd het nuchter, ook bij onderwerpen als de EU AI Act. AI-geletterdheid, privacy en werkafspraken horen bij verantwoorde Copilot-adoptie. Supervised verkoopt geen licenties en doet geen IT-beheer, dus het advies blijft onafhankelijk. Losse AI-tools brengen we terug naar duidelijke afspraken en een Microsoft-omgeving die beheersbaar blijft.
+AI-geletterdheid, privacy en werkafspraken horen bij verantwoord gebruik van Copilot. Ik geef daar training over, maar geen juridisch advies. Supervised verkoopt ook geen licenties en doet geen IT-beheer. Als technische of juridische controle nodig is, sluit jullie IT-partner, jurist of privacyadviseur aan.

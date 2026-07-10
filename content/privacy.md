@@ -1,7 +1,7 @@
 ---
 title: "Privacyverklaring"
 eyebrow: "Privacy"
-description: "Supervised verwerkt jouw persoonsgegevens zorgvuldig en conform de AVG. Lees hier welke gegevens we verzamelen, waarom en wat jouw rechten zijn."
+description: "Lees welke persoonsgegevens Supervised verwerkt, waarom dat gebeurt, hoe lang gegevens worden bewaard en welke rechten je hebt."
 sitemap:
   changefreq: yearly
   priority: 0.3
@@ -50,7 +50,7 @@ Onze website wordt gehost via Vercel, een Amerikaanse dienstverlener. Vercel kan
 
 ## Analytics
 
-Onze website gebruikt Vercel Analytics voor anonieme bezoekersstatistieken. Er worden geen persoonsgegevens opgeslagen of gedeeld met derden, en er worden geen tracking- of marketingcookies geplaatst.
+Onze website gebruikt Vercel Web Analytics en Vercel Speed Insights. Daarmee meten we onder meer bezochte pagina's, verwijzende websites, land of regio, apparaat, browser en laadtijden. Vercel Web Analytics gebruikt geen tracking- of marketingcookies en koppelt de metingen niet aan een direct herkenbare bezoeker. Vercel verwerkt deze meetgegevens voor Supervised. Meer informatie staat in de [privacydocumentatie van Vercel](https://vercel.com/docs/analytics/privacy-policy).
 
 
 ## Gebruik van AI

@@ -1,6 +1,6 @@
 ---
 title: "Kennisbank"
-description: "Praktische artikelen over Microsoft 365 Copilot, Copilot-training, licenties, SharePoint-rechten, AI-geletterdheid en adoptie in het MKB."
+description: "Praktische artikelen over Microsoft 365 Copilot, Copilot-training, licenties, SharePoint-rechten, AI-geletterdheid en adoptie in het mkb."
 url: "/kennisbank/"
 sitemap:
   changefreq: monthly

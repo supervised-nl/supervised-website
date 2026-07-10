@@ -3,20 +3,20 @@ title: "Copilot-training in Twente: praktisch starten met AI op de werkvloer"
 seoTitle: "Copilot-training in Twente | Supervised"
 slug: "copilot-training-twente"
 date: 2026-03-29
-description: "Voor MKB-bedrijven in Twente die Microsoft 365 Copilot willen invoeren met praktische training, duidelijke use cases en aandacht voor adoptie."
+description: "Voor mkb-bedrijven in Twente die Microsoft 365 Copilot willen invoeren met praktische training, duidelijke toepassingen en aandacht voor adoptie."
 ---
 
-Copilot-training in Twente moet passen bij hoe MKB-bedrijven hier werken: korte lijnen, praktische mensen en weinig geduld voor abstracte AI-verhalen.
+Een Copilot-training in Twente werkt het best op locatie, met documenten en taken uit het eigen bedrijf. Supervised werkt vanuit Enschede in onder meer Hengelo, Almelo, Oldenzaal en Haaksbergen.
 
 Daarom moet een training Microsoft 365 Copilot vertalen naar concrete werkzaamheden per team. Denk aan sales, HR, administratie, management en projectwerk, met duidelijke afspraken over data, bronnen en controle.
 
 ## Waarom regionale training vaak beter werkt
 
-Copilot-adoptie is geen puur technisch project. Het raakt hoe mensen vergaderen, schrijven, zoeken, plannen en beslissen. Juist bij MKB-bedrijven werkt het goed om dat dicht op het team te organiseren.
+Copilot-adoptie is geen puur technisch project. Het raakt hoe mensen vergaderen, schrijven, zoeken, plannen en beslissen. Juist bij mkb-bedrijven werkt het goed om dat dicht op het team te organiseren.
 
 Op locatie kun je voorbeelden gebruiken die herkenbaar zijn. Een klantvraag. Een intern overleg. Een SharePoint-map waar iedereen mee worstelt. Een Excel-bestand dat elke maand terugkomt.
 
-Die context maakt het verschil tussen "interessant" en "dit ga ik morgen gebruiken".
+Door die context kunnen medewerkers tijdens de sessie al beoordelen welke voorbeelden zij later opnieuw kunnen gebruiken.
 
 ## Van inspiratie naar dagelijks gebruik
 
@@ -39,11 +39,11 @@ Als Teams en SharePoint rommelig zijn ingericht, kan Copilot verkeerde of veroud
 
 Een goede training benoemt dat open. Niet om angst te creëren, maar om verantwoord te starten.
 
-## Wat een Twentse MKB-training moet opleveren
+## Wat er na de training moet liggen
 
 Na de training moet er iets concreets liggen:
 
-- een korte lijst met use cases per rol;
+- een korte lijst met toepassingen per rol;
 - afspraken over data, privacy en broncontrole;
 - voorbeelden van bruikbare prompts;
 - duidelijkheid over Copilot Chat en Microsoft 365 Copilot;
@@ -53,7 +53,7 @@ Dat maakt training onderdeel van adoptie.
 
 ## Training door Supervised
 
-Supervised helpt MKB-bedrijven in Twente met [Copilot-training](/copilot-training/), [inspiratiesessies](/copilot-inspiratiesessie/) en [adoptietrajecten](/copilot-adoptietraject/). De aanpak is onafhankelijk: geen licentieverkoop en geen IT-beheer.
+Supervised helpt mkb-bedrijven in Twente met [Copilot-training](/copilot-training/), [inspiratiesessies](/copilot-inspiratiesessie/) en [adoptietrajecten](/copilot-adoptietraject/). De aanpak is onafhankelijk: geen licentieverkoop en geen IT-beheer.
 
 Werk je in Enschede, Hengelo, Almelo, Oldenzaal of omgeving? Bekijk ook [Copilot-specialist in Twente](/copilot-specialist-twente/).
 

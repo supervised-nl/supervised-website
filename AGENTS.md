@@ -126,6 +126,103 @@ printf '%s' '<script content>' | openssl dgst -sha256 -binary | base64
 - Add pages to navigation via `[[menu.main]]` in `hugo.toml`.
 - Tags en categorieën zijn uitgeschakeld (`disableKinds` in `hugo.toml`); voeg geen taxonomieën aan front matter toe.
 
+## Copy, SEO en GEO
+
+Alle nieuwe en gewijzigde websitecopy volgt dezelfde schrijfwijze als de
+bestaande content. Gebruik bij copywerk de beschikbare `humanizer`-skill als
+redactionele controle, maar behoud de eigen stem van Supervised: persoonlijk,
+rustig, concreet en zonder opgeblazen verkooptaal.
+
+### Schrijfstijl
+
+- Schrijf helder Nederlands op ongeveer B1-niveau, zonder kinderachtig of
+  schools te klinken. Gebruik gewone woorden, actieve zinnen en afwisselende
+  zinslengtes.
+- Schrijf vanuit Jeroen wanneer persoonlijke ervaring of de werkwijze centraal
+  staat. Gebruik `je` voor de lezer en `jullie` alleen wanneer het team of de
+  organisatie wordt bedoeld.
+- Begin bij herkenbaar werk: documenten, mail, vergaderingen, medewerkers,
+  licenties en afspraken. Leg een vakterm bij het eerste gebruik uit of vervang
+  hem door een begrijpelijk Nederlands woord.
+- Gebruik vaste termen: `mkb`, `nulmeting`, `toepassingen` of `taken`, `interne
+  kartrekker`, `Microsoft 365-omgeving` en `Readiness-scan`. Gebruik geen
+  `MKB`, `0-meting`, `use cases`, `key users` of losse varianten van de
+  productnaam in publieke copy.
+- Gebruik geen em dash of en dash als stijlmiddel. Splits de zin of gebruik een
+  komma, dubbele punt of haakjes.
+- Vermijd geforceerde drietallen, rijtjes met synoniemen, staccato slogans,
+  retorische openers en terugkerende woorden als `praktisch`, `nuchter`,
+  `veilig`, `meetbaar`, `blijvend` en `echt`. Gebruik zulke woorden alleen als
+  de tekst daarna concreet maakt wat ermee wordt bedoeld.
+- Vermijd negatieve verkoopformules zoals `geen X, wel Y` wanneer een directe
+  positieve formulering duidelijker is.
+- Claims als `altijd`, `meestal`, `de belangrijkste`, `de meest voorkomende`
+  en `levert op` vereisen bewijs of een duidelijke inkadering als ervaring uit
+  de eigen praktijk.
+- Verzin nooit klantresultaten, aantallen, certificeringen, prijzen, duur,
+  cases of citaten. Als bewijs ontbreekt, formuleer dan eerlijk wat wordt
+  gemeten, verwacht of in de praktijk wordt onderzocht.
+
+### Inhoud en conversie
+
+Elke commerciële pagina maakt zelfstandig duidelijk:
+
+1. voor wie de dienst bedoeld is;
+2. welk probleem of startpunt wordt herkend;
+3. wat Supervised concreet doet;
+4. wat de klant ontvangt of na afloop kan;
+5. wat buiten de dienst valt;
+6. wat de logische vervolgstap is.
+
+Geef waar de feiten beschikbaar zijn ook duur, locatie, groepsgrootte,
+vereisten en prijs of prijsopbouw. Zet beperkingen niet weg als kleine
+lettertjes: duidelijke afbakening vergroot het vertrouwen. Laat een CTA passen
+bij de zoekintentie. Gebruik als algemene primaire CTA `Plan een kennismaking`;
+noem Microsoft Bookings alleen als het planningsmiddel.
+
+De pagina `content/praktijk.md` bevat alleen aantoonbare opdrachtgevers en
+resultaten. Als een case niet openbaar mag, zeg dat dan expliciet en maak geen
+resultaatclaim. Klantnamen alleen noemen wanneer dit is toegestaan.
+
+### SEO en GEO
+
+- Bepaal voor elke pagina één hoofdzoekintentie. Maak geen lokale of
+  thematische variant die grotendeels dezelfde vraag beantwoordt; voorkom
+  interne zoekwoordconcurrentie.
+- Zet onderwerp, doelgroep en waar relevant regio vroeg in de title, H1, lead
+  en description, maar herhaal zoekwoorden niet onnatuurlijk.
+- Schrijf koppen en alinea's die ook buiten de pagina zelfstandig begrijpelijk
+  en citeerbaar zijn. Noem entiteiten voluit, bijvoorbeeld `Microsoft 365
+  Copilot`, `Supervised`, `Jeroen Gijselaar`, `Enschede` en `Oost-Nederland`,
+  waar de context dat vraagt.
+- Geef FAQ-antwoorden direct antwoord in de eerste zin. Voeg daarna context,
+  beperking en een relevante vervolgstap toe.
+- Onderbouw veranderlijke technische, juridische en prijsclaims met een
+  primaire bron dicht bij de bewering. Geef aan wanneer product, abonnement,
+  instelling of situatie verschil kan maken.
+- Presenteer een praktische interpretatie van wetgeving nooit als de letterlijke
+  wet. Supervised geeft geen juridisch advies; verwijs bij formele toetsing naar
+  een jurist of privacyadviseur.
+- Houd title tags bij voorkeur rond 50–60 tekens en descriptions rond 120–155
+  tekens. `seoTitle` mag de H1 inkorten zonder de zoekintentie te veranderen.
+- Controleer na een wijziging ook navigatiecopy, CTA's, FAQ's, structured data,
+  `static/llms.txt` en `static/llms-full.txt` wanneer dezelfde feiten daar
+  voorkomen.
+
+### Redactionele werkwijze
+
+1. Lees de hele pagina en de direct verwante pagina's voordat je schrijft.
+2. Bepaal doelgroep, zoekintentie, bewijs, onderscheid en vervolgstap.
+3. Herschrijf volledig genoeg om herhaling en losse lapmiddelen te voorkomen,
+   maar behoud sterke, specifieke zinnen die al menselijk klinken.
+4. Controleer hardop op ritme, B1-woorden, aanspreekvorm en onnatuurlijke
+   AI-patronen met de `humanizer`-skill.
+5. Controleer feitelijke, juridische, technische en prijsclaims aan primaire
+   bronnen wanneer ze veranderd kunnen zijn.
+6. Controleer sitebreed op terminologie, metadata, interne links en overlap met
+   bestaande pagina's.
+7. Draai `hugo --minify --gc` en `bash scripts/audit.sh`.
+
 ## Adding Content
 
 - New page: create `content/<slug>.md` with `title` and `description` front matter. Optioneel: `eyebrow`, `lead` (introtekst onder de titel) en `closing` (afsluitende CTA-sectie: `question`, `body`, `cta.label`, `cta.url`). Add it to `[[menu.main]]` in `hugo.toml` if it should appear in nav.

@@ -2,8 +2,8 @@
 title: "1-op-1 Copilot-begeleiding voor wie het voorbeeld geeft"
 eyebrow: "1-op-1-begeleiding"
 seoTitle: "1-op-1 Copilot-begeleiding voor management | Supervised"
-description: "Persoonlijke Copilot-begeleiding voor directieleden, managers en key users. Snel zelf vaardig worden, met je eigen agenda, mail en stukken als oefenmateriaal."
-lead: "Persoonlijke Copilot-begeleiding voor directieleden, managers en key users. Korte sessies met jouw mail, stukken en vergaderingen als oefenmateriaal."
+description: "Persoonlijke Copilot-begeleiding voor directie, managers en kartrekkers. Oefen met je eigen mail, documenten en vergaderingen."
+lead: "Persoonlijke Copilot-begeleiding voor directieleden, managers en interne kartrekkers. Korte sessies met jouw mail, stukken en vergaderingen als oefenmateriaal."
 url: "/copilot-begeleiding/"
 weight: 5
 sitemap:
@@ -20,9 +20,9 @@ closing:
     url: "/plan"
 ---
 
-## Waarom 1-op-1
+## Waarom persoonlijke begeleiding
 
-Adoptie begint bovenin. Als het MT Copilot zelf niet gebruikt, gelooft de werkvloer het verhaal niet. Een directeur die laat zien hoe hij zijn stukken voorbereidt, doet meer dan een campagne.
+Het helpt als directie en managers zelf weten wat Copilot in hun werk kan doen. Ze kunnen dan betere keuzes maken over licenties, training en werkafspraken. Ook kunnen ze met eigen voorbeelden laten zien waar de tool wel en niet bruikbaar is.
 
 Maar juist managers zitten zelden in een groepstraining. Ze zijn te druk, of een groepstraining voelt niet als de plek om te laten zien wat je nog niet kunt. Daarom werkt deze vorm beter. Je oefent in vertrouwen, op je eigen tempo.
 
@@ -34,8 +34,8 @@ Tussen de sessies door pas je het toe. De volgende sessie begint bij wat wel en 
 
 ## Voor wie
 
-Voor directieleden en managers die het voorbeeld willen geven, key users en ambassadeurs die tijdens een [adoptietraject](/copilot-adoptietraject/) een stap dieper willen, en mensen die gewoon sneller willen dan de rest.
+Voor directieleden en managers die het voorbeeld willen geven, interne kartrekkers en ambassadeurs die tijdens een [adoptietraject](/copilot-adoptietraject/) een stap dieper willen, en mensen die gewoon sneller willen dan de rest.
 
-## Praktisch
+## Praktische afspraken
 
-Op locatie in Oost-Nederland of online, wat past bij je agenda. Vertrouwelijk, met het aantal sessies in overleg. Wil je het hele team trainen, kijk dan naar de [Copilot-training](/copilot-training/).
+De sessies zijn online of op locatie in Oost-Nederland en duren meestal een uur. Het aantal sessies hangt af van je leerdoel en spreken we vooraf af. We behandelen je eigen werk vertrouwelijk en leggen vast welke informatie geschikt is om mee te oefenen. Wil je het hele team trainen, kijk dan naar de [Copilot-training](/copilot-training/).

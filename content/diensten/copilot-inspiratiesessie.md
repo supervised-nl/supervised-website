@@ -2,7 +2,7 @@
 title: "Een Copilot-inspiratiesessie over jullie eigen werk"
 eyebrow: "Inspiratiesessie"
 seoTitle: "Copilot-inspiratiesessie voor MT, team of event | Supervised"
-description: "Een Copilot-inspiratiesessie die over jullie werk gaat. Praktisch, nuchter en direct toepasbaar. Voor directie, MT, teams en events in Oost-Nederland."
+description: "Copilot-inspiratiesessie met voorbeelden uit jullie werk. Voor directie, managementteams, medewerkers en bijeenkomsten in Oost-Nederland."
 lead: "Een Copilot-inspiratiesessie laat directie, MT of team zien wat Microsoft 365 Copilot betekent in dagelijks werk. Live, nuchter en met voorbeelden uit Outlook, Teams, Word en Excel."
 url: "/copilot-inspiratiesessie/"
 weight: 1
@@ -37,7 +37,7 @@ Deze sessie werkt ook goed als opmaat naar een training of adoptietraject. Ieder
 
 ### Events, kickoffs en teamdagen
 
-Ik kom spreken op je bijeenkomst. De sessie vertrekt vanuit het werk van je publiek, niet vanuit een algemeen AI-verhaal. Mensen lopen weg met voorbeelden die maandag al bruikbaar zijn.
+Ik kom spreken op je bijeenkomst. De voorbeelden sluiten aan op het werk van je publiek. Deelnemers krijgen taken mee die ze in hun volgende werkweek met Copilot kunnen proberen.
 
 ## Wat er gebeurt in de sessie
 
@@ -47,8 +47,8 @@ Ook wat Copilot niet kan komt aan bod. Het neemt geen processen van je over, het
 
 ## Wat het je oplevert
 
-Een gedeeld, realistisch beeld van Copilot en meestal een lijstje taken waar mensen mee willen beginnen. Vaak volgt daarna de [Readiness-scan](/copilot-readiness-scan/) om te bepalen wat nodig is voor adoptie.
+Na de sessie heeft de groep een gedeeld beeld van wat Copilot wel en niet kan. We leggen ook vast welke taken het team als eerste wil testen. Vaak volgt daarna de [Readiness-scan](/copilot-readiness-scan/) om te bepalen wat voor dagelijks gebruik nodig is.
 
 ## Praktisch
 
-Ik kom naar jullie locatie of je event, overal in Oost-Nederland. Duur en vorm bepalen we in overleg, van een uur op een personeelsbijeenkomst tot een dagdeel met het MT. Je krijgt vooraf één duidelijke prijs.
+Ik kom naar jullie bedrijf of bijeenkomst in Oost-Nederland. Een korte presentatie duurt ongeveer een uur; een interactieve sessie kan een dagdeel duren. Groepsgrootte, voorbereiding en prijs staan vooraf in het voorstel.

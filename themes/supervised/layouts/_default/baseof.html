@@ -9,7 +9,7 @@
   <title>{{ if eq .Kind "404" }}Pagina niet gevonden | {{ .Site.Title }}{{ else if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   {{/* Voor de eerste paint, anders flitst het OS-thema even door de handmatige keuze heen. Hash in vercel.json (CSP) bijwerken als dit script wijzigt. */}}
   <script>(function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}());</script>
-  {{ $desc := .Description | default .Site.Params.description }}
+  {{ $desc := cond (eq .Kind "404") "De opgevraagde pagina bestaat niet. Ga terug naar de homepage of kies een pagina uit het menu." (.Description | default .Site.Params.description) }}
   <meta name="description" content="{{ $desc }}">
   <meta name="author" content="{{ if eq .Section "blog" }}Jeroen Gijselaar{{ else }}{{ .Site.Title }}{{ end }}">
   {{/* Eén SVG met interne prefers-color-scheme query: media-attributen op

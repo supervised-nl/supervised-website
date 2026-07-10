@@ -1,19 +1,20 @@
 ---
-title: "AI-geletterdheid voor het MKB onder de EU AI Act"
+title: "AI-geletterdheid voor het mkb onder de EU AI Act"
+seoTitle: "AI-geletterdheid voor het mkb | Supervised"
 slug: "ai-geletterdheid-mkb-eu-ai-act"
 date: 2026-06-18
-description: "Wat AI-geletterdheid onder de EU AI Act praktisch betekent voor MKB-bedrijven en hoe je medewerkers zonder juridisch jargon voorbereidt."
+description: "Wat AI-geletterdheid onder de EU AI Act praktisch betekent voor mkb-bedrijven en hoe je medewerkers zonder juridisch jargon voorbereidt."
 ---
 
-AI-geletterdheid klinkt juridisch en groot, maar voor MKB-bedrijven gaat het vooral om praktische basiskennis. Medewerkers moeten weten wat AI kan, waar de risico's zitten en hoe ze zorgvuldig omgaan met data en output.
+AI-geletterdheid klinkt juridisch en groot, maar voor mkb-bedrijven gaat het vooral om praktische basiskennis. Medewerkers moeten weten wat AI kan, waar de risico's zitten en hoe ze zorgvuldig omgaan met data en output.
 
-Het doel is simpel: medewerkers moeten AI bewust, kritisch en verantwoord kunnen gebruiken in hun eigen werk. Niet iedereen hoeft expert te worden, maar iedereen die AI gebruikt moet de basis begrijpen.
+Medewerkers hoeven geen AI-expert te worden. Ze moeten wel begrijpen wat de gebruikte tool doet, welke informatie zij mogen invoeren en wanneer zij een uitkomst extra moeten controleren.
 
 ## Wat vraagt de EU AI Act?
 
-Artikel 4 van de EU AI Act vraagt dat organisaties passende AI-geletterdheid organiseren voor mensen die met AI-systemen werken.
+Artikel 4 van de EU AI Act vraagt aanbieders en gebruiksverantwoordelijken van AI-systemen om naar beste vermogen te zorgen voor voldoende AI-geletterdheid bij betrokken medewerkers en andere personen.
 
-Supervised geeft geen juridisch advies. De praktische vertaling voor MKB-bedrijven is: zorg dat medewerkers begrijpen welke AI-tools ze gebruiken, welke informatie ze mogen invoeren, hoe ze output controleren en welke afspraken binnen het bedrijf gelden.
+Supervised geeft geen juridisch advies. De praktische vertaling voor mkb-bedrijven is: zorg dat medewerkers begrijpen welke AI-tools ze gebruiken, welke informatie ze mogen invoeren, hoe ze output controleren en welke afspraken binnen het bedrijf gelden.
 
 ## Wat betekent "passend"?
 
@@ -25,7 +26,7 @@ Daarom is een standaardpresentatie over AI meestal te dun. De training moet gaan
 
 ## Wat medewerkers minimaal moeten leren
 
-Een praktische AI-geletterdheidstraining behandelt vijf onderwerpen.
+Een bruikbare AI-geletterdheidstraining behandelt in ieder geval de volgende onderwerpen.
 
 Wat AI wel en niet doet. AI kan helpen met taal, structuur, samenvatting en ideeën, maar produceert niet automatisch waarheid.
 
@@ -61,7 +62,7 @@ Geef vervolgens training op herkenbare voorbeelden: e-mails, vergaderingen, klan
 
 ## Hulp nodig?
 
-Supervised biedt een [AI-geletterdheidstraining](/ai-geletterdheid-training/) voor MKB-teams. AI-geletterdheid wordt ook meegenomen in de [Copilot Readiness-scan](/copilot-readiness-scan/) en in [Copilot-adoptietrajecten](/copilot-adoptietraject/).
+Supervised biedt een [AI-geletterdheidstraining](/ai-geletterdheid-training/) voor mkb-teams. AI-geletterdheid wordt ook meegenomen in de [Copilot Readiness-scan](/copilot-readiness-scan/) en in [Copilot-adoptietrajecten](/copilot-adoptietraject/).
 
 Lees ook: [De EU AI Act geldt ook voor jouw bedrijf](/kennisbank/eu-ai-act-mkb-verplichtingen/).
 

@@ -1,14 +1,14 @@
 ---
-title: "Copilot-training voor het MKB: zo levert het wel iets op"
-seoTitle: "Copilot-training voor het MKB | Supervised"
+title: "Copilot-training voor het mkb: zo levert het wel iets op"
+seoTitle: "Copilot-training voor het mkb | Supervised"
 slug: "copilot-training-mkb"
 date: 2026-07-04
-description: "Een praktische gids voor MKB-bedrijven die Microsoft 365 Copilot-training willen organiseren zonder dat het bij een demo of losse prompttips blijft."
+description: "Een praktische gids voor mkb-bedrijven die Microsoft 365 Copilot-training willen organiseren zonder dat het bij een demo of losse prompttips blijft."
 ---
 
-Een goede Copilot-training voor het MKB begint niet met functies. Die begint met werk dat medewerkers herkennen: klantmails, vergaderingen, offertes, HR-documenten, Excel-overzichten en informatie uit Teams of SharePoint.
+Een goede Copilot-training voor het mkb begint bij werk dat medewerkers herkennen. Denk aan klantmails, vergaderingen, offertes, HR-documenten en terugkerende Excel-overzichten.
 
-De training werkt pas als medewerkers oefenen op echte taken, duidelijke afspraken krijgen over data en output, en na de sessie weten welke use cases ze direct gaan proberen.
+De training werkt pas als medewerkers oefenen op echte taken, duidelijke afspraken krijgen over data en output, en na de sessie weten welke toepassingen ze direct gaan proberen.
 
 ## Waarom veel Copilot-trainingen tegenvallen
 
@@ -18,9 +18,9 @@ Dat is nuttig als introductie, maar het verandert weinig aan de werkdag. Medewer
 
 Een administratief medewerker heeft andere voorbeelden nodig dan een salesmedewerker. HR heeft andere risico's dan directie. En een team dat net begint met Copilot Chat heeft een andere training nodig dan een organisatie die al betaalde Microsoft 365 Copilot-licenties heeft.
 
-## Wat een MKB-training concreet moet opleveren
+## Wat een mkb-training concreet moet opleveren
 
-Na een goede training kan een team drie dingen.
+Na een goede training weet het team wanneer Copilot bruikbaar is en wanneer niet.
 
 Medewerkers weten wanneer Copilot wel en niet geschikt is. Ze gebruiken Copilot bijvoorbeeld voor eerste versies, samenvattingen, structuur en voorbereiding, maar niet als automatische waarheid.
 
@@ -50,15 +50,15 @@ In dat geval is een [Copilot Readiness-scan](/copilot-readiness-scan/) vaak vers
 
 ## Hoe training blijft hangen
 
-Maak het klein genoeg om te gebruiken. Kies per team vijf tot tien use cases. Denk aan vergaderingen voorbereiden, klantmails herschrijven, notulen omzetten naar acties, beleidsdocumenten vereenvoudigen of Excel-overzichten laten uitleggen.
+Maak het klein genoeg om te gebruiken. Kies per team vijf tot tien toepassingen. Denk aan vergaderingen voorbereiden, klantmails herschrijven, notulen omzetten naar acties, beleidsdocumenten vereenvoudigen of Excel-overzichten laten uitleggen.
 
 Spreek daarna af wat iedereen gaat testen. Plan na twee tot vier weken een kort opvolgmoment: wat wordt gebruikt, wat werkt niet, welke prompts of afspraken moeten scherper?
 
-Zo wordt Copilot geen losse workshop, maar een nieuwe werkwijze.
+Zo krijgt het team tijd om nieuw gedrag te oefenen en bij te sturen.
 
 ## Training door Supervised
 
-Supervised geeft [Copilot-trainingen en workshops](/copilot-training/) voor MKB-teams die al met Microsoft 365 werken. De training sluit aan op jullie rollen, documenten, vergaderingen en dagelijkse processen.
+Supervised geeft [Copilot-trainingen en workshops](/copilot-training/) voor mkb-teams die al met Microsoft 365 werken. De training sluit aan op jullie rollen, documenten, vergaderingen en dagelijkse processen.
 
 Werk je nog zonder betaalde Copilot-licenties? Dan kan een eerste training ook starten met Microsoft 365 Copilot Chat en AI-geletterdheid, afhankelijk van jullie omgeving. Werk je al met licenties, dan trainen we gericht op toepassing in Teams, Outlook, Word, Excel, PowerPoint en SharePoint.
 

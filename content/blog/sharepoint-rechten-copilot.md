@@ -3,7 +3,7 @@ title: "SharePoint-rechten en Copilot: voorkom verrassingen bij de uitrol"
 seoTitle: "SharePoint-rechten en Copilot | Supervised"
 slug: "sharepoint-rechten-copilot"
 date: 2026-04-06
-description: "Waarom SharePoint-rechten, Teams-structuur en documenthygiëne belangrijk zijn voordat MKB-bedrijven Microsoft 365 Copilot breder inzetten."
+description: "Waarom SharePoint-rechten, Teams-structuur en documenthygiëne belangrijk zijn voordat mkb-bedrijven Microsoft 365 Copilot breder inzetten."
 ---
 
 Microsoft 365 Copilot maakt informatie makkelijker vindbaar. Dat is precies de waarde, maar ook de reden om vooraf naar SharePoint-rechten en Teams-structuur te kijken.
@@ -14,7 +14,7 @@ Copilot geeft gebruikers geen nieuwe rechten. Het gebruikt informatie waar ieman
 
 Als Copilot gevoelige documenten vindt, is dat meestal geen nieuw Copilot-probleem. Het is een bestaand rechtenprobleem dat door Copilot zichtbaarder wordt.
 
-Veel MKB-bedrijven hebben jarenlang Teams, kanalen, mappen en SharePoint-sites opgebouwd zonder strak eigenaarschap. Projecten stoppen, medewerkers wisselen van rol, externe gasten blijven staan en documenten belanden op plekken waar "iedereen" bij kan.
+Veel mkb-bedrijven hebben jarenlang Teams, kanalen, mappen en SharePoint-sites opgebouwd zonder strak eigenaarschap. Projecten stoppen, medewerkers wisselen van rol, externe gasten blijven staan en documenten belanden op plekken waar "iedereen" bij kan.
 
 Zonder Copilot valt dat minder snel op. Met Copilot wordt zoeken slimmer en sneller. Daardoor komen zwakke plekken eerder aan het licht.
 
@@ -39,7 +39,7 @@ Rechten gaan over veiligheid. Documenthygiëne gaat ook over bruikbaarheid.
 
 Copilot werkt beter als informatie actueel, logisch opgeslagen en duidelijk benoemd is. Als medewerkers zelf al niet weten welk document leidend is, kan Copilot dat ook niet betrouwbaar oplossen.
 
-Goede bestandsnamen, heldere sitestructuur en eigenaarschap zijn dus geen administratieve luxe. Ze bepalen mede of Copilot bruikbaar voelt.
+Goede bestandsnamen, een begrijpelijke sitestructuur en een aangewezen eigenaar helpen medewerkers en Copilot om de juiste versie te vinden.
 
 ## Wat medewerkers moeten leren
 
@@ -57,6 +57,6 @@ Dit hoort bij [AI-geletterdheid](/ai-geletterdheid-training/) en verantwoord wer
 
 ## Praktische eerste stap
 
-Supervised voert geen technisch IT-beheer uit, maar helpt tijdens een [Copilot Readiness-scan](/copilot-readiness-scan/) wel zichtbaar maken waar adoptie- en governance-risico's zitten. De technische opvolging kan daarna met jullie IT-partner worden opgepakt.
+Supervised voert geen technisch IT-beheer uit. Tijdens een [Copilot Readiness-scan](/copilot-readiness-scan/) breng ik wel in kaart welke rechten, documenten en werkafspraken de invoering van Copilot kunnen blokkeren. Jullie IT-partner kan de technische aanpassingen daarna uitvoeren.
 
 Bron: [Microsoft Learn over data, privacy en security voor Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy).

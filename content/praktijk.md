@@ -1,9 +1,9 @@
 ---
 title: "Copilot-adoptie in de praktijk"
 eyebrow: "Praktijk"
-seoTitle: "Copilot in de praktijk: klanten en resultaten | Supervised"
-description: "Voor welke organisaties Supervised eerder werkte, waaronder Saxion en Statiegeld Nederland. Zo zien trajecten eruit en zo wordt gemeten wat Copilot-adoptie oplevert."
-lead: "Een overzicht van eerdere opdrachtgevers en hoe een Copilot-traject er in de praktijk uitziet. Nuchter, meetbaar en zonder percentages beloven voordat er iets is gemeten."
+seoTitle: "Copilot in de praktijk: aanpak en klanten | Supervised"
+description: "Bekijk voor welke organisaties Supervised werkte en hoe een Copilot-traject wordt opgebouwd en gemeten."
+lead: "Een overzicht van eerdere opdrachtgevers en de opbouw van een Copilot-traject. Resultaten verschillen per team, daarom meet ik eerst de startsituatie."
 sitemap:
   changefreq: monthly
   priority: 0.7
@@ -19,7 +19,7 @@ closing:
 
 Supervised werkte onder meer voor Ergonad, Makoto, Saxion, Skitt, Statiegeld Nederland en Happy Spaces.
 
-Wil je weten hoe het er bij een vergelijkbaar bedrijf aan toeging? Vraag ernaar in een [kennismaking](/contact/).
+Niet iedere opdracht mag openbaar als case worden beschreven. Wil je weten welke ervaring past bij jouw sector of team? Vraag ernaar tijdens een [kennismaking](/contact/).
 
 ## Zo ziet een traject er in de praktijk uit
 
@@ -27,6 +27,6 @@ Elk bedrijf is anders, maar het ritme is herkenbaar. Het begint met de [Readines
 
 Daarna begint het echte werk: afspraken op één A4, ambassadeurs, korte terugkomsessies en een eenvoudige eindmeting. Soms blijkt dat minder betaalde licenties nodig zijn dan gedacht, omdat Copilot Chat voor een deel van het team genoeg is. Ook dat kan een goed resultaat zijn.
 
-## Wat opdrachtgevers terugzien
+## Wat we meten
 
-Ik beloof geen percentages vooraf. Achteraf wil je wel verschil kunnen zien: beter voorwerk, beter voorbereide vergaderingen, minder documenten vanaf nul en een onderbouwd licentiebesluit. De 0-meting en eindmeting van het [adoptietraject](/copilot-adoptietraject/) maken dat concreet voor jullie situatie.
+Voor de start spreken we af welke veranderingen tellen. Denk aan het aantal medewerkers dat Copilot wekelijks gebruikt, de tijd voor een terugkerende taak en het aantal functies waarvoor een betaalde licentie echt nodig blijkt. Aan het eind meten we dezelfde punten opnieuw. Zo ontstaat een resultaat dat bij jullie situatie hoort, zonder vooraf een besparingspercentage te beloven.
