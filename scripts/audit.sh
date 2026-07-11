@@ -6,4 +6,5 @@ destination=$(mktemp -d)
 trap 'rm -rf "$destination"' EXIT
 
 hugo --minify --gc --destination "$destination"
+node "$repo_root/scripts/site.test.mjs" "$repo_root"
 node "$repo_root/scripts/audit.mjs" "$destination" "$repo_root"

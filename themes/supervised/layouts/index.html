@@ -30,7 +30,7 @@
   <div class="clients-track" aria-label="Logo's van klanten">
     <div class="clients-logos">
       {{ range . }}
-      <img src="/img/clients/{{ .file }}" alt="{{ .name }}" loading="lazy">
+      <img src="/img/clients/{{ .file }}" alt="{{ .name }}" width="{{ .width }}" height="{{ .height }}" loading="lazy">
       {{ end }}
     </div>
   </div>

@@ -53,6 +53,19 @@ for (const file of htmlFiles) {
     internalTargets += 1;
     if (!publicTargetExists(url)) fail(`${file.slice(root.length + 1)} references missing target ${url}`);
   }
+
+  for (const match of html.matchAll(/<img\b[^>]*>/g)) {
+    if (!/\bwidth=/.test(match[0]) || !/\bheight=/.test(match[0])) {
+      fail(`${file.slice(root.length + 1)} contains an image without width and height`);
+    }
+  }
+}
+
+for (const name of ['llms.txt', 'llms-full.txt']) {
+  const content = readFileSync(join(root, name), 'utf8');
+  for (const term of [/\bMKB\b/, /\b0-meting\b/i, /\buse cases\b/i, /\bkey users\b/i]) {
+    if (term.test(content)) fail(`${name} contains forbidden public term ${term}`);
+  }
 }
 
 const homepage = readFileSync(join(root, 'index.html'), 'utf8');

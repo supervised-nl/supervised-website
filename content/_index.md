@@ -72,16 +72,28 @@ sections:
 clients:
   - name: "Ergonad"
     file: "ergonad.svg"
+    width: 244
+    height: 99
   - name: "Makoto"
     file: "makoto.svg"
+    width: 557
+    height: 99
   - name: "Saxion"
     file: "saxion.svg"
+    width: 213
+    height: 101
   - name: "Skitt"
     file: "skitt.svg"
+    width: 213
+    height: 102
   - name: "Statiegeld Nederland"
     file: "statiegeld_nederland.svg"
+    width: 584
+    height: 100
   - name: "Happy Spaces"
     file: "happy_spaces.svg"
+    width: 523
+    height: 99
 closing:
   question: "Weten waar jullie staan?"
   body: "Plan een vrijblijvende kennismaking van een half uur. Dan kijken we of de Readiness-scan de goede volgende stap is. Liever eerst een korte vraag stellen? Mail naar [info@supervised.nl](mailto:info@supervised.nl) of bel [+31 6 44 83 56 56](tel:+31644835656)."

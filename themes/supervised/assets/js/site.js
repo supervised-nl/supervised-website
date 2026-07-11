@@ -50,7 +50,9 @@
       });
     });
     syncToggle();
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', syncToggle);
+    var colorScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (colorScheme.addEventListener) colorScheme.addEventListener('change', syncToggle);
+    else if (colorScheme.addListener) colorScheme.addListener(syncToggle);
   }
 
   // Navigation overlays.
