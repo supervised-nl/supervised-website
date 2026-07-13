@@ -14,6 +14,8 @@ De map bevat twee handtekeningen:
 5. Kies `volledig` als standaard voor nieuwe berichten en `kort` voor antwoorden en doorgestuurde berichten.
 6. Sla de instellingen op en stuur een testmail naar een ander e-mailadres.
 
+De gewone tekst staat op 12 pt, gelijk aan een gangbare standaardgrootte voor Outlook-berichten.
+
 ## Installeren in klassiek Outlook voor Windows
 
 1. Open het gewenste HTML-bestand in een browser en kopieer de volledige handtekening.
